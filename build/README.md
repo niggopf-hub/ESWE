@@ -20,6 +20,7 @@ DECK_QA=1 python3 build/build_deck.py  # Vorschau-Variante (■ statt Wingdings-
 | `replay.py` | Generischer Nachbau unveränderter evm-Seiten aus `evm_layout.json` |
 | `front.py` | Titelseite, Agenda, Kapiteltrenner |
 | `s12.py` … `s20.py` | Die neu befüllten Inhaltsfolien |
+| `s14.py` | Beteiligungsstruktur im Format der Duisburg-Unterlage (Organigramm mit Ergebnisbeiträgen) |
 | `evm_layout.json` | Aus dem evm-PDF extrahierte Geometrie (Textzeilen, Vektoren, Bilder) |
 | `assets/` | Freigestellte Icons, ESWE-Logo, Metzler-Logo, Titelbild |
 | `make_assets.py` | Erzeugt die Icons/Logos neu aus den Quell-PDFs |
@@ -31,7 +32,8 @@ DECK_QA=1 python3 build/build_deck.py  # Vorschau-Variante (■ statt Wingdings-
 | 1, 2, 3, 11, 18 | Nachgebaut, Text auf ESWE angepasst (Ort/Datum, Agendapunkt 2, Kapiteltrenner 2) |
 | 4, 5, 6, 21, 22 | Metzler-Standardseiten, 1:1 nachgebaut (Text bleibt editierbar) |
 | 7, 8, 9, 10 | Metzler-Standardseiten als Bild übernommen (transparente Überlagerungen der Vorlage) |
-| 12–17, 19, 20 | Neu gebaut nach Drehbuch, Layout 1:1 aus dem evm-Deck |
+| 12, 13, 15–17, 19, 20 | Neu gebaut nach Drehbuch, Layout 1:1 aus dem evm-Deck |
+| 14 | Beteiligungsstruktur nach `20240305_Stadtwerke Duisburg_v4`, Folie 11 — Konzernbaum mit Quoten an den Verbindungslinien und je Gesellschaft Tätigkeit, Kapital-/Umsatzgröße und Ergebnisbeitrag (grün = Zufluss, rot = Verlust) |
 
 ## Schriften
 
@@ -49,3 +51,5 @@ sie; die Zeilenumbrüche sind fest gesetzt und mit Arial-/Liberation-Metrik
 - Net-Debt-Reihe 2021–2025 aus den HRB-Jahresabschlüssen (dann Folie 15/16 auf
   die evm-Optik Verschuldung/Net Debt umstellen)
 - Wind-/PV-Bestand ~42 MW anteilig
+- Folie 14: Die Duisburg-Vorlage nutzt in den Kacheln Firmenlogos; hier stehen die
+  Firmierungen als Text, da keine Logos der Beteiligungen vorliegen
