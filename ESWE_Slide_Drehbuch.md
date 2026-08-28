@@ -301,31 +301,33 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 **Kopfzeile:** „3. Diskussion möglicher Handlungsoptionen"
 
 **Layout & Befüllung (2×2-Quadranten):**
-- *Oben links — Titelbalken „Joint Venture Wärme/Erneuerbare Energien¹⁾", Strukturchart:* links **ESWE-Logo**, rechts **orange Box „Investor"** (Orange = das Externe, wie im evm-Deck); beide mit „X%"-Labels auf zentrale Kachel **„Wärme/EE SPV** / *post Carve-Out*" mit 2 Icon+Label-Zeilen: „Fernwärme" (Icon Geschäftsfeld 4) und „EE-Erzeugung" (Icon Geschäftsfeld 3); Badge **„Minderheit"** am Investor-Pfeil; flankierend 2 gestrichelte Kommentar-Boxen: links blau kursiv „*Einbringung Fernwärmenetz/ EE-Projekte*", rechts orange kursiv „*Einbringung EK für Capex und Kaufpreis*".
-- *Oben rechts — Titelbalken „(private) Beteiligung an Unternehmen/Assets", ◼-Bulletliste (evm: 3 Bullets, Slot erweiterbar; Empfehlung: 4–5 kurze Bullets, Rest der Fläche bewusst leer = Verhandlungsmasse):*
-  - „ESWE Versorgungs AG"
+- *Oben links — Titelbalken „Joint Venture Wärme/Erneuerbare Energien¹⁾", Strukturchart:* links **ESWE-Logo**, rechts **orange Box „Investor"** (Orange = das Externe, wie im evm-Deck); beide mit „X%"-Labels auf zentrale Kachel **„Wärme/EE SPV** / *post Carve-Out*" mit 2 Icon+Label-Zeilen: „Fernwärme" (Icon Geschäftsfeld 4) und „EE-Erzeugung" (Icon Geschäftsfeld 3); Badge **„Minderheit"** am Investor-Pfeil; flankierend 2 gestrichelte Kommentar-Boxen: links blau kursiv „*Einbringung Fernwärmenetz/ EE-Projekte*", rechts orange kursiv „*Einbringung EK für Capex und Kaufpreis*". Unter dem Strukturchart als kursive Zusatzzeile die dilutionsfreie Alternative: „*Alternativ eigenkapitalähnliches Nachrangkapital, etwa über den Hessischen EnergieFonds*" — für ein Unternehmen mit dem erklärten Ziel einer EK-Quote über 25 % ist Quasi-Eigenkapital ohne Anteilsverwässerung womöglich die attraktivste Option und gehört daher auf die Slide statt ins Backup.
+- *Oben rechts — Titelbalken „(private) Beteiligung an Unternehmen/Assets", ◼-Bulletliste (evm: 3 Bullets; hier 6, nach Attraktivität sortiert):*
+  - „Fernwärme-Geschäft nach Carve-out"
   - „Stadtwerke Wiesbaden Netz GmbH"
   - „WiTCOM GmbH"
-  - „Fernwärme-Geschäft (post Carve-out)"
-  - „Windportfolio inkl. Projekt Hohe Wurzel" *(bei Platzsorge zuerst streichen)*
-  *(Caveats — Zustimmungserfordernisse Stadt/Thüga, RAMEN/NEST-Regulierungsrisiko auf das Netzergebnis, BEW-Förderkulisse, Ladeinfrastruktur-Konzession bis 2033 — NICHT auf die Slide, sondern Moderation/Backup)*
+  - „Windportfolio inklusive Projekt Hohe Wurzel"
+  - „Projektebene der KMW gemeinsam mit den Mainzer Stadtwerken"
+  - „ESWE Versorgungs AG²⁾" *(bewusst zuletzt und mit Fußnote, siehe Platz-Check)*
+  *(Caveats gehören nicht auf die Slide, sondern in Moderation und Backup: RAMEN/NEST-Regulierungsrisiko auf das Netzergebnis der sw netz, BEW-Förderkulisse für die Wärme, Konzessionslaufzeiten. Gegenrichtung MHKW: Die 24,5-%-Beteiligung ist defizitär und fordert weiteres Eigenkapital, sie ist damit ein Kandidat für Exposure-Reduktion und nicht für eine Investorenansprache.)*
 - *Unten links — Überschrift „Wesentliche Aspekte bei der Gestaltung einer Partnerschaft", 5 ◼-Bullets:*
-  - „Ausgewogene Governance mit definierten Reserved Matters, Dividendenpolitik und Exit-Mechanismen" *(2-zeilig wie im Original)*
-  - „Investorengerechte Schaffung einer Plattform/eines abgegrenzten Vehikels"
-  - „Rendite- und Rückzahlungsmechanismen"
-  - „Festlegung Budget und Investitionsplan"
-  - „Frühzeitige Einbindung beider Ankergesellschafter (Stadt und Thüga)" *(ESWE-spezifisch; ersetzt evm-Bullet „Gemeinsames Rollenverständnis", um im 5-Bullet-Raster zu bleiben)*
-- *Unten rechts — Überschrift „Vorteile für die ESWE Versorgungs AG", 5 ◼-Bullets (evm 1:1):*
-  - „Teilung von Risiken und Investitionsbedarf"
-  - „Zufluss des Kaufpreises"
-  - „Schnellere Umsetzung von Investitionen möglich"
-  - „Zusätzlicher strategischer Input"
-  - „Governance flexibel strukturierbar"
+  - „Ausgewogene Governance mit definierten Reserved Matters, Dividendenpolitik und Exit-Mechanismen" *(evm 1:1, passt unverändert)*
+  - „Investorengerechte Schaffung einer Plattform oder eines abgegrenzten Vehikels" *(evm 1:1)*
+  - „Vereinbarkeit mit dem Ergebnisabführungsvertrag und der Ausgleichszahlung an die Thüga" *(**ESWE-spezifisch**, ersetzt evm-Bullet „Gemeinsames Rollenverständnis")*
+  - „Rendite- und Rückzahlungsmechanismen sowie Festlegung von Budget und Investitionsplan" *(zwei evm-Bullets zusammengezogen, um im 5er-Raster Platz zu schaffen)*
+  - „Frühzeitige Einbindung beider Ankergesellschafter" *(**ESWE-spezifisch**)*
+- *Unten rechts — Überschrift „Vorteile für die ESWE Versorgungs AG", 5 ◼-Bullets:*
+  - „Teilung von Kapitalbedarf und Projektrisiken" *(evm-Bullet, leicht geschärft)*
+  - „Entlastung der Gesellschafter von weiteren Eigenkapitalzuführungen" *(**ESWE-spezifisch und belegt**: 10 Mio. EUR in 2025 eingezahlt, weitere Zuführung für 2026 beschlossen; die Stadt steht zugleich unter Haushaltsauflagen)*
+  - „Zufluss von Kaufpreis und frischem Eigenkapital in die Projekte" *(evm-Bullet „Zufluss des Kaufpreises", präzisiert)*
+  - „Schnellere Umsetzung der Wärmewende-Investitionen" *(evm-Bullet, auf den ESWE-Fall bezogen)*
+  - „Governance flexibel strukturierbar bei Erhalt der kommunalen Steuerung" *(evm-Bullet, ergänzt um die DVV-Formulierung „Erhalt des kommunalen Einflusses")*
+  *(**Gestrichen gegenüber evm: „Zusätzlicher strategischer Input".** Diesen Nutzen liefert bei der ESWE bereits die Thüga als strategischer Partner über H2-Plattform, IT-Plattform TAP, Einkauf und gemeinsame EE-Beteiligungen; das Argument würde vor diesem Publikum verpuffen.)*
 - *Backup/Moderation (nicht auf die Slide):* Hessischer EnergieFonds (WIBank, 1 Mrd. EUR, eigenkapitalähnliches Nachrangkapital), BEW/KfW/kommunal verbürgte Tranchen, Thüga „Horizonte+2030" (2025: 139,4 Mio. EUR Kapitalmaßnahmen), „Position der Stärke"-Argument (EK-Quote 28,5 %, Planübererfüllung 2025, beschlossene KWP).
 
-**Fußnoten & Quellenzeile:** Fußnote: „1) Ähnlich übertragbar auf weitere Geschäftsfelder, z. B. Wind-/Solarbeteiligungen oder Ladeinfrastruktur" · **Keine Quellenzeile** (Konzept-Slide, wie evm).
+**Fußnoten & Quellenzeile:** Fußnoten: „1) Ähnlich übertragbar auf weitere Geschäftsfelder, z. B. Wind-/Solarbeteiligungen oder Ladeinfrastruktur; 2) Eine Beteiligung auf Ebene der ESWE Versorgungs AG setzt die Zustimmung beider Aktionäre voraus und muss mit dem bestehenden Ergebnisabführungsvertrag vereinbar sein" · **Keine Quellenzeile** (Konzept-Slide, wie evm).
 
-**Platz-Check:** Struktur 1:1 übernehmbar; einzige inhaltliche Abweichung: SPV heißt „Wärme/EE" statt „Wärme/Netze" (das ESWE-Stromnetz liegt bereits in der sw netz — ein Netz-Carve-out wäre möglich, aber die Briefing-Empfehlung ist Wärme/EE; sw netz erscheint stattdessen in der Beteiligungsliste oben rechts). Asset-Liste mit 4–5 statt 3 Bullets bleibt im Slot (laut Layout-Analyse auf ~6 erweiterbar) — Zusatz-Caveats zwingend weglassen, evm-Bullets sind nur 2–4 Wörter lang.
+**Platz-Check:** Das Layout ist 1:1 übernehmbar, die Inhalte sind es nicht. Der SPV heißt „Wärme/EE" statt „Wärme/Netze", weil das Stromnetz bereits in der sw netz liegt; diese erscheint stattdessen in der Beteiligungsliste. Die Asset-Liste nutzt mit 6 Bullets den Slot voll aus (laut Layout-Analyse auf etwa 6 erweiterbar), die Bullets bleiben wie bei evm kurz. Die ESWE Versorgungs AG steht bewusst zuletzt und mit Fußnote, weil sie sich vom evm-Fall grundlegend unterscheidet: Dort war die Aktionärsbasis kommunal zersplittert, hier hält die Thüga bereits 49,38 % als strategischer Partner, und ein Ergebnisabführungsvertrag mit der WVV samt Ausgleichszahlung an die Thüga bindet die Ergebnisverwendung. Eine private Minderheit auf AG-Ebene ist damit die unwahrscheinlichste aller Varianten; die realistischen Einstiegspunkte liegen unterhalb der AG.
 
 **Offene Punkte dieser Slide:** Status Stromkonzession Wiesbaden (Sonderkündigungsrecht der Stadt ab 2025) vor etwaiger Erwähnung bestätigen (Offener Punkt 7) — im Drehbuch bewusst nicht auf der Slide.
 
