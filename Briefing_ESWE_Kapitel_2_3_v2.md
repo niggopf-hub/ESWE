@@ -46,7 +46,7 @@ Kapitel 1 (Metzler-Vorstellung) und die letzte Seite (Disclaimer/Kontakt) sind f
 2. Das Geschäftsmodell verbindet Vertrieb, Netzinfrastruktur, Erzeugung und Dienstleistungen: Das Stromnetz ist in der 100%igen Tochter Stadtwerke Wiesbaden Netz GmbH (sw netz) gebündelt, Gas-, Wasser- und Wärmenetz betreibt die AG selbst; dazu kommen Telekommunikation (WiTCOM) und ein regionales Erzeugungsportfolio (Biomasse, Wind, 50 % KMW)
 3. Mit einem Umsatz von 474 Mio. EUR und einem Jahresüberschuss von 49 Mio. EUR übertraf die ESWE 2025 ihr Planergebnis (33 Mio. EUR) deutlich — nach zwei sondereffektgetriebenen Rekordjahren 2023/2024
 4. Duale Aktionärsstruktur seit 2001: 50,62 % Landeshauptstadt Wiesbaden (über die WVV Wiesbaden Holding), 49,38 % Thüga AG als strategischer Partner; Gewinnabführung an die WVV, vertragliche Ausgleichszahlung an die Thüga
-5. ESWE ist zentraler Umsetzungspartner der im Juni 2026 beschlossenen Kommunalen Wärmeplanung mit dem Ziel der Klimaneutralität Wiesbadens bis 2045; das Fernwärmenetz soll bis 2035 klimaneutral sein
+5. ESWE ist zentraler Umsetzungspartner der im Juni 2026 beschlossenen Kommunalen Wärmeplanung mit dem Ziel der Klimaneutralität Wiesbadens bis 2045; für das Fernwärmenetz läuft ein Transformationsplan zur Klimaneutralität (Zieljahr 2035 lt. Presse zum Transformationsplan, GB 2025 nennt 2045 — vor Verwendung klären)
 6. Das Investitionsvolumen wird sich laut Lagebericht „in den nächsten Jahren nochmals erheblich steigern" — massiver Ausbau von Strom- und Wärmenetzen, MHKW-Anbindung, Windpark Hohe Wurzel und Ladeinfrastruktur
 7. Zur Sicherung der Ziel-Eigenkapitalquote von dauerhaft über 25 % sind bereits heute Kapitaleinlagen der Aktionäre erforderlich (2025: 10 Mio. EUR in die Kapitalrücklage; weitere Zuführung für 2026 beschlossen)
 
@@ -56,7 +56,7 @@ Kapitel 1 (Metzler-Vorstellung) und die letzte Seite (Disclaimer/Kontakt) sind f
 
 ## 2. Kapitel 2, Slide 2 — One Pager / KPI-Übersicht
 
-**Headline-Vorschlag:** „Die ESWE erwirtschaftet ~73 % ihres Umsatzes mit Strom- und Gasverkäufen und verfügt über die zentrale Energie- und Wasserinfrastruktur Wiesbadens"
+**Headline-Vorschlag:** „Die ESWE erwirtschaftet ~73 % ihres Umsatzes mit Strom- und Gasverkäufen und betreibt die zentrale Energie- und Wasserinfrastruktur Wiesbadens"
 
 **KPI-Kacheln (Wert 2025 fett, Vorjahr kursiv):**
 | Kachel | 2025 | (2024) |
@@ -66,14 +66,16 @@ Kapitel 1 (Metzler-Vorstellung) und die letzte Seite (Disclaimer/Kontakt) sind f
 | EBT²⁾ | **53 Mio. EUR** | *84 Mio. EUR* |
 | EAT (Jahresüberschuss) | **49 Mio. EUR** | *78 Mio. EUR* |
 | CapEx (inkl. Finanzanlagen) | **37 Mio. EUR** | *27 Mio. EUR* |
-| Mitarbeiter | **607** (+ 56 Azubis) | *608 Ø 2024* |
+| Mitarbeiter (Ø inkl. Azubis)⁴⁾ | **644** | *608 Ø 2024* |
 | Stromkunden (Verbrauchsstellen) | **207.431** | |
 | Gaskunden (Verbrauchsstellen) | **53.323** | |
 | Fernwärmenetz | **132,9 km** (1.979 Anschlüsse) | *+1,9 %* |
 | Stromnetz (sw netz) | **~2.820 km**³⁾ | |
 | Gasnetz (ESWE direkt) | **~823 km**³⁾ | |
 
-Fußnoten-Vorschlag: 1) EBITDA = Betriebliches Ergebnis zzgl. Abschreibungen; das Beteiligungsergebnis (2025: 25 Mio. EUR) ist darin nicht enthalten; 2) EBT = zentrale Steuerungskennzahl der ESWE, inkl. Beteiligungs- und Zinsergebnis; 3) Stromnetz der sw netz in Wiesbaden: 79 km 110-kV + 586 km Mittelspannung + 2.156 km Niederspannung (inkl. Taunusstein ~3.139 km Kabel); Gasnetz wird von der ESWE Versorgungs AG selbst betrieben (Wiesbaden, Taunusstein, Schlangenbad, Walluf) — Jahresstand der Netzlängen vor Verwendung verifizieren (`research/eswe_gap_research.md`).
+Fußnoten-Vorschlag: 1) EBITDA = Betriebliches Ergebnis zzgl. Abschreibungen; das Beteiligungsergebnis (2025: 25 Mio. EUR) ist darin nicht enthalten; 2) EBT = zentrale Steuerungskennzahl der ESWE, inkl. Beteiligungs- und Zinsergebnis; 3) Stromnetz der sw netz in Wiesbaden: 79 km 110-kV + 586 km Mittelspannung + 2.156 km Niederspannung (inkl. Taunusstein ~3.139 km Kabel); Gasnetz wird von der ESWE Versorgungs AG selbst betrieben (Wiesbaden, Taunusstein, Schlangenbad, Walluf) — Jahresstand der Netzlängen vor Verwendung verifizieren (`research/eswe_gap_research.md`); 4) Jahresdurchschnitt inkl. 47 Azubis; Stichtag 31.12.2025: 607 Mitarbeiter ohne Azubis (+ 56 Azubis) — Personalaufbau läuft (Personalaufwand +10 %).
+
+**Hinweis Kachel-Anzahl:** Die evm-Vorlage nutzt exakt 10 KPI-Kacheln — die Tabelle oben enthält 11; empfohlen: Fernwärmenetz-Kachel als elfte streichen oder gegen die Gasnetz-Kachel tauschen (Fernwärme-km alternativ im Wärme-Callout des Donuts unterbringen).
 
 **Empfehlung zur Kachel-Auswahl:** Statt „EBIT" (wie im evm-Deck) besser **EBT** zeigen — es ist die publizierte Steuerungskennzahl der ESWE und fängt das wesentliche Beteiligungsergebnis (KMW, sw netz, WiTCOM) ein, das im Betriebsergebnis fehlt.
 
@@ -86,6 +88,8 @@ Fußnoten-Vorschlag: 1) EBITDA = Betriebliches Ergebnis zzgl. Abschreibungen; da
 | Wasser | 49,5 | **10 %** | Betriebsführung des Wassernetzes für den städtischen Eigenbetrieb WLW (32,6) und Wasserverkauf an WLW (16,9) |
 | Konzerninterne Dienstleistungen | 20,2 | **4 %** | Dienstleistungen für verbundene Unternehmen (u. a. sw netz, WiTCOM) |
 | Übrige | 14,7 | **3 %** | Verschiedene kleinere operative Erlösquellen (u. a. E-Mobilität, Dienstleistungen) |
+
+*Hinweis: Gerundete Anteile summieren auf 99 % (exakt: 40,1 / 32,9 / 9,2 / 10,4 / 4,3 / 3,1) — im Deck Fußnote „Rundungsdifferenzen" setzen oder mit einer Nachkommastelle arbeiten.*
 
 **Icon-Leiste der 6 Geschäftsfelder:** Energievertrieb & -beschaffung | Netzgeschäft | Energieerzeugung | Energiedienstleistungen, Wärme & E-Mobilität | Telekommunikation | Wasser
 
@@ -114,7 +118,7 @@ Fußnoten-Vorschlag: 1) EBITDA = Betriebliches Ergebnis zzgl. Abschreibungen; da
 | Windkraft Kahlenberg GmbH & Co. KG | 50 % | 2.609 | (186) | Erzeugung |
 | Windpark Bad Camberg GmbH & Co. KG | 33,33 % | 3.070 | (253) | Erzeugung |
 | THEE ESWE Windparkbeteiligungs GmbH & Co. KG | 33,33 % | 11.311 | (1.114) | Erzeugung |
-| WRT Infrastrukturbau GmbH (neu 2024) | 49 % | 25 | (4) | Dienstleistung (Tief-/Rohrleitungsbau) |
+| WRT Infrastrukturbau GmbH (neu 2024) | 49 % | 25\* | (4)\* | Dienstleistung (Tief-/Rohrleitungsbau) — \*Werte aus JA 2024, 2025 lag noch nicht vor |
 
 Fußnoten-Vorschlag: 1) Mitgesellschafter der ESWE BioEnergie: je 5 % MBA Wiesbaden GmbH und Knettenbrech + Gurdulic; 2) übrige 50 % der KMW: Mainzer Stadtwerke AG; 3) Mitgesellschafter der MHKW Wiesbaden GmbH: Knettenbrech + Gurdulic 51 %, ENTEGA 24,5 %.
 
@@ -129,9 +133,9 @@ Fußnoten-Vorschlag: 1) Mitgesellschafter der ESWE BioEnergie: je 5 % MBA Wiesba
 **Investitionsmatrix — 3 Schwerpunkte (Zeilen: Schwerpunkt / CapEx / Geplante Projekte):**
 
 *Schwerpunkt 1 — Wärmenetze & Wärmewende:*
-- Konsequenter Fernwärmeausbau mit Schwerpunkt Innenstadt (BEW-gefördert, kundengetrieben); neue Pumpstation Deponiestraße (~8 Mio. EUR) als „Herz" des Verbundnetzes
-- Anbindung des neuen Müllheizkraftwerks (MHKW; ~40 MW thermisch, ~100 GWh Wärme p. a.; Funktionstests seit Mai 2026, Probebetrieb angelaufen) an das Fernwärmenetz und sukzessive Ablösung der erdgasbefeuerten Heizwerke
-- Transformationsplan für ein klimaneutrales Fernwärmenetz bis 2035; Prüfung von Großwärmepumpen, Flusswärme und Geothermie aus der Kommunalen Wärmeplanung
+- Konsequenter Fernwärmeausbau mit Schwerpunkt Innenstadt (BEW-gefördert, kundengetrieben); neue Pumpstation Deponiestraße (~8 Mio. EUR, in Betrieb seit 04/2024) als realisierter Anker des Verbundnetzes
+- Anbindung des neuen Müllheizkraftwerks (MHKW; ~40 MW thermisch, ~100 GWh Wärme p. a.; Funktionstests seit Mai 2026, Inbetriebnahmephase läuft) an das Fernwärmenetz und sukzessive Ablösung der erdgasbefeuerten Heizwerke
+- Transformationsplan für ein klimaneutrales Fernwärmenetz (Zieljahr 2035/2045, s. offene Punkte); Prüfung von Großwärmepumpen, Flusswärme und Geothermie aus der Kommunalen Wärmeplanung
 
 *Schwerpunkt 2 — Strom- und Gasnetze & Digitalisierung:*
 - Massiver Stromnetzausbau durch die sw netz: Der Energieentwicklungsplan erwartet die künftige Wärmeversorgung großteils über Wärmepumpen — mit entsprechendem Netzverstärkungsbedarf
@@ -140,7 +144,7 @@ Fußnoten-Vorschlag: 1) Mitgesellschafter der ESWE BioEnergie: je 5 % MBA Wiesba
 
 *Schwerpunkt 3 — Erneuerbare Erzeugung & E-Mobilität:*
 - Windpark Hohe Wurzel (10 Anlagen, ~30 MW, ~85 GWh p. a.) nach erneut positivem VGH-Entscheid (02/2026) juristisch weit fortgeschritten — Berufung des Landes aber noch anhängig, noch kein Baubeginn
-- Ausbau des regionalen Wind-/PV-Portfolios mit Thüga Erneuerbare Energien und KMW (Bestand ~42 MW anteilig)
+- Ausbau des regionalen Wind-/PV-Portfolios mit Thüga Erneuerbare Energien und KMW (Bestand ~42 MW anteilig — Zahl aus Sekundärquelle, vor Verwendung verifizieren)
 - Ladeinfrastruktur-Konzession: 800 öffentliche Ladepunkte bis 2030, davon bereits 446 errichtet (Stand 07/2026)
 
 **CapEx-Klammer über der Matrix:** Eine offizielle kumulierte Programmzahl existiert nicht (Lagebericht nur qualitativ: „nochmals erheblich steigern"). Belegt ist die Aussage: **Anstieg von Ø ~22 Mio. EUR p. a. (letzte 20 Jahre) auf bis zu 80 Mio. EUR p. a.; bis zu 2 Mrd. EUR bis 2060** (zfk-Interview Schodlok). Empfehlung: Klammer „Anstieg auf bis zu 80 Mio. EUR p. a." mit Fußnote zur Quelle; die 2-Mrd.-Zahl nur mit Quellenfußnote verwenden. Kontext-Zahl für die Ausgangslage: Der städtische KLIMA_PLAN beziffert die gesamtstädtische Transformation bis 2045 auf ~10,6 Mrd. EUR.
@@ -175,6 +179,8 @@ CAGR Umsatz 2021→2025: **+2,7 % p. a.** (oranger Pfeil). 1) Rohertrag = Umsatz
 | Financing CF | (29) | (17) | (42) | (87) | (53) |
 | ∑ Total CF | 1 | 27 | 14 | (24) | (19) |
 
+*Hinweis: Gerundete Säulen summieren nicht exakt auf die ∑-Werte (z. B. 2021: 49−20−29 = 0 vs. ∑ 0,6≈1) — im Deck Rundungsfußnote setzen oder Labels konsistent runden; die ∑-Werte sind aus den Ist-Zahlen korrekt.*
+
 **Chart 3 — Bilanz (Mio. EUR):**
 | | 2021 | 2022 | 2023 | 2024 | 2025 |
 |---|---:|---:|---:|---:|---:|
@@ -186,7 +192,7 @@ CAGR Umsatz 2021→2025: **+2,7 % p. a.** (oranger Pfeil). 1) Rohertrag = Umsatz
 **„Kommentar:"-Block — 4 Bullets:**
 1. Umsatzrückgang 2025 (−11 %) preisbedingt nach der Energiekrisen-Normalisierung; die Rohertragsmarge stieg dank günstigerer Beschaffung auf 27,9 %
 2. Die Rekordergebnisse 2023/2024 waren sondereffektgetrieben (2024: Rückstellungsauflösungen von 20,6 Mio. EUR, u. a. Vergleich im Wasserkartellverfahren) — 2025 markiert die Normalisierung auf weiterhin robustem Niveau (EBT 53 Mio. EUR, deutlich über Plan)
-3. Der operative Cashflow (Ø ~57 Mio. EUR p. a.) wird nahezu vollständig durch die Ergebnisabführung an die Gesellschafter (2025: 78 Mio. EUR Abfluss aus dem Vorjahresergebnis) und den Investitionshochlauf absorbiert — die liquiden Mittel sanken Ende 2025 auf 2,5 Mio. EUR
+3. Der operative Cashflow (Ø ~57 Mio. EUR p. a.) wird nahezu vollständig durch die Ergebnisabführung an die Gesellschafter (abgeführtes Vorjahresergebnis 2024: 78 Mio. EUR; Teile stehen zum 31.12.2025 noch als Verbindlichkeit) und den Investitionshochlauf absorbiert — die liquiden Mittel sanken Ende 2025 auf 2,5 Mio. EUR
 4. Der geplante Investitionsanstieg auf bis zu 80 Mio. EUR p. a. scheint bei unveränderter Ausschüttungspolitik nicht aus dem operativen Cash Flow finanzierbar zu sein — bereits 2025 waren Kapitaleinlagen der Aktionäre (10 Mio. EUR) zur Sicherung der Ziel-EK-Quote von über 25 % erforderlich
 
 **Wichtige Zusatzzahlen (Backup):** EBT-Reihe 44,1 / 51,8 / 74,7 / 84,3 / 52,7 · Beteiligungsergebnis 24,5 / 17,6 / 30,5 / 17,8 / 25,1 · EBITDA 34,6 / 50,8 / 57,5 / 88,9 / 45,2 · Bilanzsumme 2025: 479,6 · EK 2025: 136,6 (inkl. 10 Mio. Kapitalrücklagen-Einzahlung) · Prognose 2026: Ergebnis vor Abführung ~37,2 Mio. EUR, EK-Quote →29 %; Mittelfristplanung bis 2030: „stabile Ergebnisse".
@@ -195,17 +201,17 @@ CAGR Umsatz 2021→2025: **+2,7 % p. a.** (oranger Pfeil). 1) Rohertrag = Umsatz
 
 ## 6. Kapitel 2, Slide 6 — Strategie / Summary & Überleitung
 
-**Headline-Vorschlag:** „Die ESWE fokussiert sich auf die Wärmewende, resiliente Netze, regionale Erzeugung und profitable Wachstumsfelder — die Finanzierungsfrage ist offen"
+**Headline-Vorschlag:** „Die ESWE fokussiert sich auf die Wärmewende, resiliente Netze, regionale Erzeugung und profitable Wachstumsfelder − die Finanzierungsfrage ist offen"
 
 **6 Icon-Balkenkacheln (je 1 Satz, evm-Stil):**
 1. *(Energievertrieb)* Stabilisierung der Kundenbasis im intensiven Wettbewerb durch geschäftsfeldübergreifende Angebote, dynamische Tarife sowie Ausbau von Photovoltaik-, Wärmepumpen- und Energiemanagementlösungen bei gleichzeitiger Forcierung des überregionalen Vertriebs
 2. *(Netzgeschäft)* Massiver Ausbau und Digitalisierung des Stromnetzes zur Integration von Wärmepumpen, Photovoltaik und Ladeinfrastruktur sowie zurückhaltende Gasnetz-Investitionen mit Prüfung einer künftigen Wasserstoffversorgung
 3. *(Erzeugung)* Dekarbonisierung der Erzeugung über Biomasse und MHKW-Abwärme sowie Realisierung des Windparks Hohe Wurzel und Ausbau des regionalen EE-Portfolios gemeinsam mit Thüga und KMW
-4. *(Wärme/Dienstleistungen)* Umsetzung der Kommunalen Wärmeplanung als zentraler Partner der Stadt: Fernwärmeausbau in der Kernstadt, Transformationsplan für ein klimaneutrales Netz bis 2035 sowie Quartierslösungen und Contracting
+4. *(Energiedienstleistungen, Wärme & E-Mobilität)* Umsetzung der Kommunalen Wärmeplanung als zentraler Partner der Stadt — Fernwärmeausbau in der Kernstadt, Quartierslösungen und Contracting — sowie zügiger Ausbau der Ladeinfrastruktur (800 öffentliche Ladepunkte bis 2030, Ausbauplan zur Hälfte übererfüllt)
 5. *(Telekommunikation)* Ausbau des Glasfaser- und Rechenzentrumsgeschäfts über die WiTCOM als stabil profitables Wachstumsfeld (Ergebnisabführung 2025: 3,4 Mio. EUR)
-6. *(E-Mobilität/Wasser)* Zügiger Ausbau der Ladeinfrastruktur (800 öffentliche Ladepunkte bis 2030, Ausbauplan zur Hälfte übererfüllt) und langfristige Sicherung der Trinkwasser-Betriebsführung für die Stadt
+6. *(Wasser)* Langfristige Sicherung der Trinkwasser-Betriebsführung für den städtischen Eigenbetrieb WLW und Modernisierung der Wasserinfrastruktur (Investitionsschwerpunkt 2025: 14,0 Mio. EUR)
 
-**Überleitungs-Kernbotschaft zu Kapitel 3 (als Schlusssatz/Moderation):** ESWE ist wirtschaftlich kerngesund, kommunal verankert und strategisch klar aufgestellt — aber die Gleichzeitigkeit von Investitionshochlauf (Wärmewende, Netze, EE), hoher Ausschüttungserwartung beider Gesellschafter und Ziel-EK-Quote von über 25 % begrenzt die Innenfinanzierungskraft. Daraus folgt die Leitfrage: **Wie finanziert und organisiert die ESWE ein sich vervielfachendes Investitionsprogramm, ohne finanzielle und strategische Flexibilität zu verlieren?**
+**Überleitungs-Kernbotschaft zu Kapitel 3 (als Schlusssatz/Moderation):** ESWE ist wirtschaftlich kerngesund, kommunal verankert und strategisch klar aufgestellt — aber die Gleichzeitigkeit von Investitionshochlauf (Wärmewende, Netze, EE), hoher Ausschüttungserwartung beider Gesellschafter und Ziel-EK-Quote von über 25 % begrenzt die Innenfinanzierungskraft. Verschärfend wirken zwei im Lagebericht benannte Engpässe: das **Regulierungsrisiko im Netz** (RAMEN-Festlegungen der BNetzA vom 10.12.2025, NEST-Reform, WACC-Festlegung Gas 2026 — befürchtet werden „erhebliche Einbußen im Netzergebnis", das über den sw-netz-EAV ein wesentlicher Ergebnistreiber ist) sowie der **Fachkräftemangel** (Babyboomer-Abgänge als Engpass der Wärmewende; Personalaufwand bereits +10 %; Baukapazitäten über das JV WRT Infrastruktur gesichert). Daraus folgt die Leitfrage: **Wie finanziert und organisiert die ESWE ein sich vervielfachendes Investitionsprogramm, ohne finanzielle und strategische Flexibilität zu verlieren?**
 
 ---
 
@@ -231,7 +237,7 @@ CAGR Umsatz 2021→2025: **+2,7 % p. a.** (oranger Pfeil). 1) Rohertrag = Umsatz
 
 **Quadrant 2 — (private) Beteiligung an Unternehmen/Assets (Bulletliste):**
 - ESWE Versorgungs AG (Ebene Gesamtunternehmen — Hinweis: Zustimmungserfordernisse Stadt/Thüga)
-- Stadtwerke Wiesbaden Netz GmbH (Stromnetz; reguliertes, investorenaffines Asset)
+- Stadtwerke Wiesbaden Netz GmbH (Stromnetz; reguliertes, investorenaffines Asset — Caveat: RAMEN/NEST-Regulierungsrisiko auf das Netzergebnis in der Bewertung berücksichtigen)
 - WiTCOM GmbH (Glasfaser/Rechenzentren; klassisches Infrastruktur-Investorenthema)
 - Fernwärme-Geschäft (post Carve-out; BEW-Förderkulisse plus Anschlussdynamik aus der KWP)
 - Windportfolio inkl. Projekt Hohe Wurzel (Co-Invest-Blaupause mit Thüga EE/KMW existiert bereits)
@@ -264,6 +270,7 @@ Die 6 Credential-Kacheln des evm-Decks sind unternehmensneutral formuliert und k
 5. EBT 2025: GuV weist **52,65 Mio. EUR** aus (Lageberichtstext nennt gerundet 52,4; Vorjahrestext 83,8 vs. GuV 84,3) — im Deck die GuV-Werte verwenden
 6. Kopfzeilen-Check nach Deck-Bau (evm-Vorlage enthält den „Stadtwerke Krefeld"-Copy-Paste-Fehler auf der Ausgangslage-Slide)
 7. Status Stromkonzession Wiesbaden: Sonderkündigungsrecht der Stadt nach 10 Jahren (ab 2025) — keine Belege für eine Ausübung gefunden, vor Verwendung im Deck bestätigen
+8. **Zieljahr klimaneutrales Fernwärmenetz:** Presse zum Transformationsplan nennt 2035, der GB 2025 für die Transformation des Fernwärmenetzes 2045 — vor Deck-Verwendung klären, welches Zieljahr offiziell gilt
 
 ## 11. Zahlenanhang — Kernzeitreihe (Mio. EUR, HGB-Einzelabschluss)
 
