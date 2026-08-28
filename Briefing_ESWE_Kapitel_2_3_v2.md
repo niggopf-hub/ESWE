@@ -130,7 +130,25 @@ Fußnoten-Vorschlag: 1) Mitgesellschafter der ESWE BioEnergie: je 5 % MBA Wiesba
 
 **Headline-Vorschlag:** „Die ESWE ist finanziell solide aufgestellt − der Investitionshochlauf für die Wärme- und Energiewende übersteigt die historische Größenordnung deutlich"
 
-**Investitionsmatrix — 3 Schwerpunkte (Zeilen: Schwerpunkt / CapEx / Geplante Projekte):**
+**Investitionen nach Unternehmensbereichen (Mio. EUR, aus den Jahresabschlüssen 2021–2024 und GB 2025):**
+
+| Bereich | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---:|---:|---:|---:|---:|---:|
+| Wasserversorgung | 4,5 | 7,5 | 11,7 | 5,9 | 7,9 | **14,0** |
+| Wärmeversorgung | 4,3 | 7,5 | 8,6 | 10,0 | 8,6 | 6,5 |
+| Beteiligungen (Finanzanlagen) | 1,7 | 14,2 | 24,0 | 1,9 | 2,2 | 5,2 |
+| Gasversorgung | 14,2 | 9,4 | 4,2 | 2,1 | 2,4 | 3,0 |
+| Stromversorgung | 2,9 | 2,9 | 2,2 | 1,0 | 0,6 | 1,0 |
+| Gemeinsame/sonstige Bereiche | 1,2 | 1,7 | 2,9 | 6,4 | 5,9 | 7,3 |
+| **Summe** | **28,7** | **43,2** | **53,7** | **27,3** | **27,5** | **37,0** |
+| *nachrichtlich: Abschreibungen* | *13,3* | *14,2* | *14,5* | *14,6* | *15,7* | *16,4* |
+| *CapEx / Abschreibungen* | *2,2x* | *3,0x* | *3,7x* | *1,9x* | *1,8x* | *2,3x* |
+
+Drei Befunde für die Storyline: (a) **Wasser ist mit 14,0 Mio. EUR der größte Block 2025** (38 % des CapEx, nahezu verdoppelt) — der Schwerpunkt liegt bis heute im Bestand; (b) **die Wärme-Investitionen sind seit 2023 rückläufig** (10,0 → 8,6 → 6,5) — der Wärmewende-Hochlauf steht noch vollständig bevor; (c) **Strom erscheint bei der AG nur mit ~1 Mio. EUR**, weil das Verteilnetz in der sw netz liegt — Stromnetz-Aussagen müssen dieser Gesellschaft zugeordnet werden. Achtung Zeilenschnitt: Im GB 2025 taucht der Telekommunikations-Betrag 2024 (1.259 T€) in der Strom-Zeile auf, Strom (568 T€) in „Sonstige"; Summen stimmen, je Reihe nur eine Quelle verwenden.
+
+**→ Empfehlung: Die Investitionsmatrix auf 4 Spalten entlang dieser Bereichssystematik umstellen (Wärme / Wasser / Strom & Gas / Beteiligungen & Erzeugung) mit echten CapEx-Beträgen je Spalte — ausformuliert im Slide-Drehbuch, Slide 15. Die folgende 3-Schwerpunkte-Fassung ist der überholte Erstentwurf und dient nur noch als Textreservoir.**
+
+**Investitionsmatrix — 3 Schwerpunkte (überholt, Textreservoir):**
 
 *Schwerpunkt 1 — Wärmenetze & Wärmewende:*
 - Konsequenter Fernwärmeausbau mit Schwerpunkt Innenstadt (BEW-gefördert, kundengetrieben); neue Pumpstation Deponiestraße (~8 Mio. EUR, in Betrieb seit 04/2024) als realisierter Anker des Verbundnetzes
