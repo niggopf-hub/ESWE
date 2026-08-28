@@ -333,21 +333,62 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 
 ---
 
-## Slide 21 — Why Metzler (evm-Pendant S. 21)
+## Slide 21 — Why Metzler, inhaltlich neu (evm-Pendant S. 21)
 
-**Message (1 Satz):** Für genau diesen Weg ist Metzler der richtige Begleiter — Sektor-Know-how, Investorenzugang, Erfahrung mit der öffentlichen Hand, unabhängig und ohne Interessenkonflikte (formale Spiegelung von Slide 17: Kundenstrategie ↔ Beraterstärken).
+**Befund zur bisherigen Fassung:** Die 1:1-Übernahme war zu bequem. Die sechs evm-Credentials sind unternehmensneutral formuliert und damit austauschbar; sie beantworten nicht, warum Metzler für die konkrete ESWE-Situation (Wärme/EE-Carve-out, Windportfolio, Stadt/Thüga-Doppelstruktur, EK-Quoten-Ziel) der richtige Partner ist. Dabei liefert Kapitel 1 desselben Decks die Belege frei Haus: die Case Study EWE/WCG (vorgelagerter Carve-out und Verkauf an Pioneer Point Partners) ist exakt die Struktur, die Slide 20 für die ESWE vorschlägt; die Case Study WIND-projekt (Verkauf eines 381-MW-Onshore-Windportfolios an Blue Elephant Energy) spiegelt das ESWE-Windthema; die aktuellen Mandate (DEW21, Mainova Webhouse, PV-/BESS-Plattform) belegen Stadtwerke- und Thüga-Umfeld-Erfahrung — Mainova ist einer der drei großen Thüga-Aktionäre. Außerdem endet das Deck bislang ohne jeden nächsten Schritt; ein Pitch ohne Call-to-action verschenkt den Abschluss.
 
-**Headline (evm 1:1):** „Metzler verbindet tiefes Branchen-Know-how, exzellenten Investorenzugang und unabhängige Transaktionsexpertise" **(~111 Zeichen, 2 Zeilen — passt)**
+**Message (1 Satz):** Metzler hat die Strukturen, die Kapitel 3 vorschlägt, nachweislich bereits umgesetzt und schlägt einen konkreten gemeinsamen Einstieg vor, wodurch das Deck mit einem Handlungsangebot statt mit einer Selbstbeschreibung endet.
 
 **Kopfzeile:** „3. Diskussion möglicher Handlungsoptionen"
 
-**Layout & Befüllung:** **Vollständige 1:1-Übernahme aus dem evm-Deck** — 6 Credential-Balken (Icon links, 1 fetter Satz 11 pt, gestrichelte Trennlinien): Energiesektor-/öffentliche-Hand-Know-how · Reputation und Investorenzugang · qualifiziertes Team mit Senior-Commitment · Sparringspartner Transaktionsprozess/-taktik/-struktur und Entscheidungsprozesse der öffentlichen Hand · unabhängige Beratung „➔ keine Interessenkonflikte" · unternehmerisches Denken und Handeln. Die Texte sind unternehmensneutral formuliert; die „öffentliche Hand"-Bezüge passen auf die kommunal verankerte ESWE unverändert. Keine inhaltliche Anpassung nötig.
+### Variante A — Konservativ: 6 Credentials, ESWE-spezifisch belegt (Layout unverändert)
 
-**Fußnoten & Quellenzeile:** Keine (wie Vorlage — nur Seitenzahl).
+**Headline (evm 1:1 übernehmbar):** „Metzler verbindet tiefes Branchen-Know-how, exzellenten Investorenzugang und unabhängige Transaktionsexpertise" *(111 Zeichen)*
 
-**Platz-Check:** Keiner nötig — identischer Inhalt, identisches Layout.
+6 Balkenkacheln, je ein voller Satz (Bezüge zu Kapitel 1 sind deck-intern konsistent):
+1. „Metzler verbindet tiefes Branchenwissen im Energie- und Infrastruktursektor mit langjähriger Erfahrung bei Transaktionen mit öffentlich-rechtlichem Hintergrund" *(159 Z.)*
+2. „Mit dem vorgelagerten Carve-out und anschließenden Verkauf der WCG für die EWE hat Metzler jüngst genau die Vehikelstruktur umgesetzt, die für ein Wärme/EE-SPV der ESWE zur Diskussion steht" *(188 Z.)*
+3. „Der Verkauf eines 381-MW-Onshore-Windportfolios der WIND-projekt belegt den Zugang zu internationalen Investoren für erneuerbare Erzeugung, der auch für das ESWE-Windportfolio relevant ist" *(186 Z.)*
+4. „Aktuelle Mandate für kommunale Versorger und deren Infrastrukturtöchter, darunter DEW21 und Mainova Webhouse, halten das Verständnis für Entscheidungswege im Stadtwerke- und Thüga-Umfeld aktuell" *(193 Z.)*
+5. „Metzler berät unabhängig und ohne eigene Finanzierungs- oder Beteiligungsinteressen, sodass Interessenkonflikte ausgeschlossen sind" *(130 Z.)*
+6. „Ein qualifiziertes Team mit hohem Senior-Commitment begleitet Transaktionsprozess, -taktik und -struktur von der ersten Analyse bis zum Abschluss" *(144 Z.)*
 
-**Offene Punkte dieser Slide:** keine.
+*Platz-Check A: Sätze liegen bei 130–193 Zeichen und damit im Budget der S.-17-Zwillingsslide (bis ~200); Layout, Icons und gestrichelte Trennlinien bleiben unverändert.*
+
+### Variante B — Empfehlung: Credentials links, „Mögliche nächste Schritte" rechts
+
+**Headline:** „Metzler hat die diskutierten Strukturen bereits umgesetzt und schlägt einen konkreten gemeinsamen Einstieg vor" *(110 Zeichen, 2 Zeilen)*
+
+*Layout: links ~55 % Breite mit 4 kompakten Credential-Balken (Formensprache wie S. 17/21); rechts ~40 % ein hellblauer Kasten „Mögliche nächste Schritte" mit 3 nummerierten Schritten und Pfeilverlauf nach unten — die Nummern-Optik kann die Agenda-Ziffern des Decks wiederverwenden.*
+
+Links, 4 Credentials (gekürzte Fassungen von A1, A2, A4, A5):
+1. „Tiefes Branchenwissen im Energiesektor und langjährige Erfahrung mit Transaktionen der öffentlichen Hand" *(104 Z.)*
+2. „Carve-out- und Verkaufserfahrung aus jüngsten Mandaten, unter anderem WCG/EWE und ein 381-MW-Windportfolio" *(106 Z.)*
+3. „Aktuelle Stadtwerke-Mandate wie DEW21 und Mainova Webhouse belegen die Nähe zum kommunalen und zum Thüga-Umfeld" *(111 Z.)*
+4. „Unabhängige Beratung ohne eigene Finanzierungs- oder Beteiligungsinteressen, sodass Interessenkonflikte ausgeschlossen sind" *(122 Z.)*
+
+Rechts, „Mögliche nächste Schritte" (3 nummerierte Kacheln, bewusst unverbindliche Beratersprache):
+1. „Gemeinsame Schärfung der strategischen Ziele mit Vorstand und Gesellschaftern auf Basis der Mittelfristplanung bis 2030" *(118 Z.)*
+2. „Strukturierung des präferierten Modells einschließlich vertraulicher Sondierung geeigneter Investoren und Förderinstrumente" *(123 Z.)*
+3. „Umsetzung in einem strukturierten Prozess, dessen Zeitplan sich am Investitionshochlauf und an der Kommunalen Wärmeplanung orientiert" *(132 Z.)*
+
+*Platz-Check B: 4 statt 6 Balken links schafft die Breite für den Schritte-Kasten; alle Texte bleiben ein- bis zweizeilig. Strukturell ist das die einzige Layout-Abweichung vom evm-Deck in Kapitel 3 — dafür endet der Pitch mit einem Angebot statt mit einer Selbstbeschreibung.*
+
+### Variante C — Maximal: eigenständige „Vorgehensvorschlag"-Slide
+
+Die Credentials wandern komplett in die Moderation, die Slide zeigt einen Prozess-Zeitstrahl in drei Phasen (Analyse und Zielbild, Strukturierung und Sondierung, Umsetzung) mit Meilenstein-Markern an KWP-Umsetzung und Wirtschaftsplan 2027. Das ist der stärkste Call-to-action, entfernt sich aber am weitesten von der Vorlage und nimmt dem Deck die formale S.-17/21-Spiegelung (Kundenstrategie ↔ Beraterstärken).
+
+**Empfehlung:** Variante B. Sie behält die Formensprache und die Credential-Botschaft, macht sie ESWE-spezifisch und gibt dem Deck den bislang fehlenden Abschluss in Richtung Mandat. Variante A ist die richtige Wahl, wenn die Vorlagentreue absoluten Vorrang hat; C nur, falls das Gespräch bereits konkret Richtung Prozessvereinbarung geht.
+
+**Fußnoten & Quellenzeile:** Keine Quellenzeile (Konzept-Slide, wie evm). Bei A2–A4 bzw. B2–B3 sicherstellen, dass die genannten Mandate mit dem finalen Stand von Kapitel 1 übereinstimmen — die Referenzen stammen aus dem evm-Deck vom 13.08.2026 und sind damit zwei Wochen alt; ob einzelne Mandate inzwischen abgeschlossen oder vertraulich sind, muss Metzler-intern bestätigt werden [verifizieren].
+
+**Offene Punkte dieser Slide:** Abgleich der Referenzen mit Kapitel 1 (siehe oben); Entscheidung A/B/C.
+
+---
+
+## Slide 22 — Disclaimer und Kontakt (evm-Pendant S. 22)
+
+Die Seite ist laut Vorgabe „wie immer" fertig und bleibt unangetastet. Geprüft wurde nur, ob etwas veraltet ist: Der Kontaktblock des evm-Decks (Metzler Corporate Finance, B. Metzler GmbH, Untermainanlage 1, 60329 Frankfurt, Phone (+49 69) 21 04 - 44 44, Corporate_Finance@metzler.com) entspricht dem aktuellen Stand, und der Disclaimer-Text ist datumsneutral formuliert. Einziger Konsistenz-Check beim Bau: Die Ansprechpartner auf der Kapitel-1-Slide (Wolf, Stäcker) müssen zur finalen Mandatssituation passen, und die Datumszeile der Titelseite muss auf „Wiesbaden / Frankfurt am Main" samt aktuellem Datum stehen.
 
 ---
 
