@@ -152,24 +152,24 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 | *Icon* | Geschäftsfeld 4 | Geschäftsfeld 6 | Geschäftsfeld 2 | Geschäftsfeld 3 |
 | **CapEx 2025** | **6,5 Mio. EUR** | **14,0 Mio. EUR** | **4,0 Mio. EUR** | **5,2 Mio. EUR** |
 
-*Projekt-Bullets (9 pt, je Spalte 3 Bullets):*
+*Projekt-Bullets (9 pt, je Spalte 3 Bullets à 83–106 Zeichen ≈ 3 Zeilen):*
 
 - **Wärme**
-  - „Fernwärmeausbau mit Schwerpunkt Innenstadt, BEW-gefördert" *(57 Z.)*
-  - „Anbindung des Müllheizkraftwerks (~40 MW thermisch, ~100 GWh p. a.)" *(67 Z.)*
-  - „Transformationsplan für ein klimaneutrales Fernwärmenetz" *(56 Z.)*
+  - „Konsequenter Fernwärmeausbau mit Schwerpunkt Innenstadt, BEW-gefördert und wirtschaftlichkeitsgeprüft" *(101 Z.)*
+  - „Anbindung des neuen Müllheizkraftwerks mit rund 40 MW thermischer Leistung und ~100 GWh Wärme pro Jahr" *(102 Z.)*
+  - „Transformationsplan für ein klimaneutrales Fernwärmenetz sowie Prüfung von Großwärmepumpen und Flusswärme" *(105 Z.)*
 - **Wasser**
-  - „Erweiterung und Erneuerung des Wassernetzes als aktueller Schwerpunkt" *(69 Z.)*
-  - „Betriebsführung und Verpachtung für den städtischen Eigenbetrieb WLW" *(69 Z.)*
-  - „Investitionen 2025 nahezu verdoppelt (Vorjahr 7,9 Mio. EUR)" *(59 Z.)*
+  - „Erweiterung und Erneuerung des Wassernetzes als derzeit größter Investitionsblock der Gesellschaft" *(98 Z.)*
+  - „Betriebsführung und Verpachtung des Wassernetzes für den städtischen Eigenbetrieb WLW" *(85 Z.)*
+  - „Investitionen 2025 nahezu verdoppelt auf 14,0 Mio. EUR nach 7,9 Mio. EUR im Vorjahr" *(83 Z.)*
 - **Strom & Gas**
-  - „Stromnetzausbau überwiegend in der Tochter sw netz¹⁾" *(52 Z.)*
-  - „Hochlauf der Wärmepumpen erfordert massive Netzverstärkung" *(58 Z.)*
-  - „Gasnetz zurückhaltend: H2-Prüfung, erstmals Rückbaurückstellung" *(63 Z.)*
+  - „Stromnetzausbau überwiegend in der Netztochter sw netz, deren Investitionen hier nicht enthalten sind" *(101 Z.)*
+  - „Der erwartete Hochlauf von Wärmepumpen erfordert erhebliche Netzverstärkung und Digitalisierung" *(95 Z.)*
+  - „Zurückhaltende Gasnetzstrategie: Erneuerung nur bei technischer Notwendigkeit, Prüfung der H2-Tauglichkeit" *(106 Z.)*
 - **Beteiligungen & Erzeugung**
-  - „Erhöhte Ausleihungen an die MHKW Wiesbaden GmbH" *(47 Z.)*
-  - „Windpark Hohe Wurzel (10 Anlagen, ~85 GWh p. a.) vor Realisierung" *(65 Z.)*
-  - „KMW-Energiehub: Rechenzentrum, Großwärmepumpe, Batteriespeicher" *(63 Z.)*
+  - „Erhöhung der Ausleihungen an die MHKW Wiesbaden GmbH als wesentlicher Teil der Finanzanlagen 2025" *(97 Z.)*
+  - „Windpark Hohe Wurzel mit 10 Anlagen und rund 85 GWh pro Jahr nach positivem VGH-Entscheid" *(89 Z.)*
+  - „KMW-Energiehub mit Rechenzentrum, Großwärmepumpe, Motorenkraftwerk und Batteriespeicher" *(87 Z.)*
 
 *Statt der evm-Klammer „Fast 600 Mio. EUR": echte Beträge je Spalte (siehe CapEx-Zeile) plus rechts außen die Summenkachel* **„37,0 Mio. EUR / Gesamtinvestitionen 2025²⁾"** *(Vorjahr kursiv: 27,5 Mio. EUR) — inhaltlich stärker als die Vorlage, die in Fußnote 1 einräumen musste, dass keine öffentliche Aufteilung verfügbar ist.*
 
@@ -193,7 +193,7 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 
 **Fußnoten & Quellenzeile:** „1) Das Stromverteilnetz wird von der 100%igen Tochter Stadtwerke Wiesbaden Netz GmbH betrieben; deren Investitionen sind in den Beträgen nicht enthalten; 2) Investitionen in immaterielle Vermögensgegenstände, Sachanlagen und Finanzanlagen; 3) Gemeinsame und sonstige Bereiche; die Errichtungskosten der Ladesäuleninfrastruktur sind laut Lagebericht in den Sachanlageinvestitionen enthalten; Abweichungen der Summen rundungsbedingt" · Quellenzeile: „Quellen: Metzler-Recherche, Jahresabschlüsse ESWE Versorgungs AG 2021–2024, Geschäftsbericht 2025"
 
-**Platz-Check:** 4 Spalten à ~23 % Breite sind machbar; die Bullets liegen bei 47–69 Zeichen (vorher 90–170) und damit bei 2–3 Zeilen — Spalten laufen auf ~8 Zeilen, unter dem evm-Maximum von ~11. Die CapEx-Zeile trägt jetzt vier echte Beträge statt einer Klammer; die Summenkachel rechts hält die Gesamtaussage zusammen. Der Chart-Slot ist gegenüber der Vorlage aufgewertet (gestapelte Segmente + Abschreibungslinie + Multiple-Badges) und ersetzt die fehlende Net-Debt-Reihe vollständig — ein späterer HRB-Nachtrag ist damit **nicht mehr zwingend**, die Net-Debt-Optik kann alternativ auf Slide 16 wandern.
+**Platz-Check:** 4 Spalten à ~23 % Breite sind machbar; die Bullets liegen bei 83–106 Zeichen (evm-Original: 90–170 bei nur 3 Spalten) und damit bei ~3 Zeilen — Spalten laufen auf ~9–10 Zeilen, knapp unter dem evm-Maximum von ~11. Die CapEx-Zeile trägt jetzt vier echte Beträge statt einer Klammer; die Summenkachel rechts hält die Gesamtaussage zusammen. Der Chart-Slot ist gegenüber der Vorlage aufgewertet (gestapelte Segmente + Abschreibungslinie + Multiple-Badges) und ersetzt die fehlende Net-Debt-Reihe vollständig — ein späterer HRB-Nachtrag ist damit **nicht mehr zwingend**, die Net-Debt-Optik kann alternativ auf Slide 16 wandern.
 
 **Offene Punkte dieser Slide:** Zeilenschnitt-Inkonsistenz zwischen GB 2025 und JA 2024 (Telekommunikation 1.259 T€ erscheint im GB 2025 in der Strom-Zeile, Strom 568 T€ in „Sonstige"; Summen stimmen) — je Reihe nur eine Quelle verwenden, Fußnote setzen. Zieljahr klimaneutrales Fernwärmenetz 2035/2045 klären (Offener Punkt 8). Bestand Wind-/PV-Portfolio ~42 MW verifizieren.
 
