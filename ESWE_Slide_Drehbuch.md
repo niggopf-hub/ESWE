@@ -1,7 +1,14 @@
 # Slide-Drehbuch: Metzler-Pitch ESWE Versorgungs AG (Wiesbaden)
 **Basis:** evm-Deck 13.08.2026 (Layout/Storyline 1:1), Briefing ESWE Kapitel 2/3 v2 (28.08.2026). Es wird hier NICHT gebaut — nur inhaltlich slide-für-slide vorbereitet.
 
-**Leitmotiv des ESWE-Decks** (Ersatz für evm-„fast 600 Mio. EUR", das dort 6× auftritt): **der Investitionshochlauf „von Ø ~22 auf bis zu 80 Mio. EUR p. a."** plus das **EK-Quoten-Ziel von dauerhaft über 25 %**. Platzierung an den analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner (2×), Slide 15 Headline + CapEx-Klammer + Chart-Zielmarke (2–3×), Slide 16 Kommentar-Bullet 4 (1×), EK-Quoten-Ziel zusätzlich in Slide 12 Bullet 7, Slide 16 Bullet 4 und Slide 19 Ziel 2. [Achtung: „bis zu 80 Mio. EUR p. a." stammt aus zfk-Interview Ex-CEO Schodlok — Datierung vor Verwendung verifizieren, Offener Punkt 3.]
+**Leitmotiv des ESWE-Decks** (Ersatz für evm-„fast 600 Mio. EUR", das dort 6× auftritt) — **Stand nach Quellenprüfung 28.08.2026:** Die Zahl „bis zu 80 Mio. EUR p. a." (zfk-Interview Ex-CEO Schodlok) ist **nicht datierbar und wurde nie erreicht** (Ist 2021–2025: 43 / 54 / 27 / 27 / 37 Mio. EUR); eine offizielle Investitionsprogramm-Zahl existiert in keinem der fünf Abschlüsse. Empfohlenes Leitmotiv daher **nicht eine Zahl, sondern die Beweiskette aus dem testierten Abschluss**:
+1. Wörtliches Zitat, vier Jahre in Folge (Lagebericht 2022–2025): „Das Investitionsvolumen wird sich in den nächsten Jahren nochmals erheblich steigern" — ohne je beziffert zu werden
+2. Investitionen dauerhaft über den Abschreibungen: 3,0x / 3,7x / 1,9x / 1,8x / **2,3x** (2021–2025)
+3. Eigenkapitalquote nur noch mit Gesellschaftergeld haltbar: 10 Mio. EUR Kapitalrücklage 2025 eingezahlt, weitere Zuführung für 2026 beschlossen, Ziel „dauerhaft über 25 %"
+4. Liquidität faktisch aufgebraucht: 21,5 → **2,5 Mio. EUR**, freie Kreditlinien 37,1 Mio. EUR
+5. Lagebericht benennt die Folge selbst: „durch die geplanten Investitionen … entsprechender Finanzierungsbedarf …, der den Zinsaufwand entsprechend erhöhen wird"
+
+Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Slide 15 Headline + Multiple-Badges im Chart + Takeaway, Slide 16 Kommentar-Bullet 4; EK-Quoten-Ziel flankierend in Slide 12 Bullet 7, Slide 16 Bullet 4 und Slide 19 Ziel 2. *Falls die 80-Mio.-Zahl trotzdem gewünscht ist: nur mit Quellenfußnote und nicht in einer Headline — Varianten sind bei den betroffenen Slides hinterlegt.*
 
 **Die 6 ESWE-Geschäftsfelder (Rückgrat, identisch auf Slides 13/14/17 zu verwenden):**
 1. Energievertrieb & -beschaffung · 2. Netzgeschäft · 3. Energieerzeugung · 4. Energiedienstleistungen, Wärme & E-Mobilität · 5. Telekommunikation · 6. Wasser
@@ -22,7 +29,7 @@
 
 ## Slide 12 — Ausgangslage (evm-Pendant S. 12)
 
-**Message (1 Satz):** ESWE ist kerngesund und kommunal-strategisch doppelt verankert — aber der Investitionshochlauf von Ø ~22 auf bis zu 80 Mio. EUR p. a. bei EK-Quoten-Ziel >25 % ist die zentrale Herausforderung; die 7 Bullets sind zugleich die Gliederung der Folgeslides 13–17.
+**Message (1 Satz):** ESWE ist kerngesund und kommunal-strategisch doppelt verankert — aber die Finanzierung eines erheblich wachsenden, bislang unbezifferten Investitionsprogramms bei EK-Quoten-Ziel >25 % ist die zentrale Herausforderung; die 7 Bullets sind zugleich die Gliederung der Folgeslides 13–17.
 
 **Headline:** „Kerngesunder kommunaler Versorger mit starker Ergebnishistorie − am Beginn der investitionsintensivsten Phase seiner Geschichte" **(127 Zeichen, 2 Zeilen — passt ins Budget 68–138)**
 
@@ -37,16 +44,16 @@
   3. „Mit einem Umsatz von 474 Mio. EUR und einem Jahresüberschuss von 49 Mio. EUR übertraf die ESWE 2025 ihr Planergebnis (33 Mio. EUR) deutlich — nach zwei sondereffektgetriebenen Rekordjahren 2023/2024" *(2 Zeilen)*
   4. „Duale Aktionärsstruktur seit 2001: 50,62 % Landeshauptstadt Wiesbaden (über die WVV Wiesbaden Holding), 49,38 % Thüga AG als strategischer Partner; Gewinnabführung an die WVV, vertragliche Ausgleichszahlung an die Thüga" *(2 Zeilen)*
   5. „ESWE ist zentraler Umsetzungspartner der im Juni 2026 beschlossenen Kommunalen Wärmeplanung mit dem Ziel der Klimaneutralität Wiesbadens bis 2045; für das Fernwärmenetz läuft ein Transformationsplan zur Klimaneutralität [Zieljahr 2035 vs. 2045 — verifizieren]" *(3 Zeilen)*
-  6. **(Leitmotiv, 1. Auftritt)** „Das Investitionsvolumen wird sich laut Lagebericht ‚in den nächsten Jahren nochmals erheblich steigern' — von Ø ~22 Mio. EUR p. a. in den letzten 20 Jahren auf bis zu 80 Mio. EUR p. a. für Strom- und Wärmenetze, MHKW-Anbindung, Windpark Hohe Wurzel und Ladeinfrastruktur" *(3 Zeilen)*
+  6. **(Leitmotiv, 1. Auftritt)** „Das Investitionsvolumen wird sich laut Lagebericht ‚in den nächsten Jahren nochmals erheblich steigern' — massiver Ausbau von Strom- und Wärmenetzen, MHKW-Anbindung, Windpark Hohe Wurzel und Ladeinfrastruktur; eine Programmsumme ist bislang nicht beziffert" *(3 Zeilen)*
   7. „Zur Sicherung der Ziel-Eigenkapitalquote von dauerhaft über 25 % sind bereits heute Kapitaleinlagen der Aktionäre erforderlich (2025: 10 Mio. EUR in die Kapitalrücklage; weitere Zuführung für 2026 beschlossen)" *(2 Zeilen — bleibt wie evm-Bullet 7 der offene Haken für die Investorendiskussion)*
 - *Takeaway-Banner (Chevron links, fett dunkelblau, 2 Zeilen, ~8 % Höhe) — Leitmotiv 2. Auftritt:*
-  „Die Finanzierung des von Ø ~22 auf bis zu 80 Mio. EUR p. a. wachsenden Investitionsprogramms bei zeitgleicher Wahrung finanzieller und strategischer Flexibilität ist die zentrale Herausforderung der ESWE Versorgungs AG" *(217 Zeichen — knapp; Kurzvariante falls nötig: „Die Finanzierung des auf bis zu 80 Mio. EUR p. a. wachsenden Investitionsprogramms bei zeitgleicher Wahrung finanzieller und strategischer Flexibilität ist die zentrale Herausforderung der ESWE" = 193 Zeichen)*
+  „Die Finanzierung des erheblich wachsenden Investitionsprogramms bei zeitgleicher Wahrung finanzieller und strategischer Flexibilität ist die zentrale Herausforderung der ESWE Versorgungs AG" *(186 Zeichen — nah am evm-Budget von ~170)*
 
 **Fußnoten & Quellenzeile:** Keine Fußnoten (wie Vorlage). Quellenzeile: „Quellen: Metzler-Recherche, Geschäftsbericht ESWE Versorgungs AG 2025, Unternehmenswebsite"
 
 **Platz-Check:** Bullet-Summe wie skizziert = 19 Zeilen vs. 18 bei evm — eine Zeile einsparen: in Bullet 2 den Klammerzusatz „(Biomasse, Wind, 50 % KMW)" oder in Bullet 5 den Transformationsplan-Halbsatz streichen (Inhalt kehrt ohnehin auf Slide 15 wieder). Takeaway ist mit 217 Zeichen über dem evm-Budget (~170) — Kurzvariante bereithalten. Sonst strukturidentisch, keine Layout-Abweichung.
 
-**Offene Punkte dieser Slide:** Zieljahr klimaneutrales Fernwärmenetz 2035 (Presse) vs. 2045 (GB 2025) klären (Offener Punkt 8); „Ø ~22 / bis zu 80 Mio. EUR p. a." aus zfk-Interview datieren (Offener Punkt 3); Kopfzeile prüfen (Offener Punkt 6).
+**Offene Punkte dieser Slide:** Zieljahr klimaneutrales Fernwärmenetz 2035 (Presse) vs. 2045 (GB 2025) klären (Offener Punkt 8); Programmsumme bewusst nicht genannt — die zfk-Zahl „bis zu 80 Mio. EUR p. a." ist nicht datierbar und wurde nie erreicht (Offener Punkt 3); Kopfzeile prüfen (Offener Punkt 6).
 
 ---
 
@@ -127,50 +134,74 @@
 
 ---
 
-## Slide 15 — Investitionsmatrix + Verschuldungs-/CapEx-Chart (evm-Pendant S. 15)
+## Slide 15 — Investitionsmatrix + CapEx-Chart (evm-Pendant S. 15) — **4-Spalten-Version**
 
-**Message (1 Satz):** Der Investitionshochlauf ist real und projektkonkret (3 Schwerpunkte) und sprengt die historische Größenordnung — die Finanzierung trägt schon heute nur mit Bürgschaften und Kapitaleinlagen; damit ist die Bilanzseite der Beweiskette gelegt, Slide 16 liefert die Cashflow-Seite.
+**Message (1 Satz):** Der Investitionsschwerpunkt der ESWE liegt bis heute im Bestand — Wasser und Bestandsnetze binden das Kapital, während der eigentliche Wärmewende-Hochlauf noch bevorsteht; damit ist die Bilanzseite der Beweiskette gelegt, Slide 16 liefert die Cashflow-Seite.
 
-**Headline (Leitmotiv, 3. Auftritt):** „Die ESWE ist finanziell solide aufgestellt − der Investitionshochlauf auf bis zu 80 Mio. EUR p. a. übersteigt die bisherige Größenordnung" **(137 Zeichen, 2 Zeilen — passt; Muster „These − Einschränkung" mit „−" wie evm)**
+**Headline:** „Die ESWE investiert bislang vor allem in den Bestand − der Investitionshochlauf für die Wärmewende steht noch bevor" **(114 Zeichen, 2 Zeilen — passt ins Budget 68–138)**
+*(Variante, falls die 80-Mio.-Aussage als Leitmotiv beibehalten wird: „Die ESWE ist finanziell solide aufgestellt − der Investitionshochlauf auf bis zu 80 Mio. EUR p. a. steht noch bevor" (115 Zeichen) — dann zwingend mit Quellenfußnote.)*
 
 **Kopfzeile:** „2. ESWE Versorgungs AG – Übersicht und Herausforderungen"
 
 **Layout & Befüllung:**
-- *Oben: Matrix „Investitionsbedarf" (~45 % Fläche), Zeilen-Label links: „Investitionsschwerpunkt" / „CapEx" / „Geplante Projekte"; 3 Spalten mit Kreis-Icon + Titel:*
-  - Spalte 1: **„Wärmenetze & Wärmewende"** (Icon Geschäftsfeld 4)
-  - Spalte 2: **„Strom- & Gasnetze & Digitalisierung"** (Icon Geschäftsfeld 2)
-  - Spalte 3: **„Erneuerbare Erzeugung & E-Mobilität"** (Icon Geschäftsfeld 3)
-- *CapEx-Zeile: spaltenübergreifende Klammer (Leitmotiv, 4. Auftritt):* zentriert fett **„Anstieg auf bis zu 80 Mio. EUR p. a.¹⁾"** + Unterzeile (9 pt blau) „von Ø ~22 Mio. EUR p. a. in den letzten 20 Jahren" *(Hinweis: eine offizielle kumulierte Programmzahl à la „fast 600 Mio. EUR" existiert bei ESWE nicht — Lagebericht nur qualitativ „nochmals erheblich steigern"; die 2-Mrd.-bis-2060-Zahl nur mit Quellenfußnote, Empfehlung: weglassen)*
-- *Projekt-Bullets (9 pt, ~45–50 Zeichen/Zeile, max. ~11 Zeilen je Spalte):*
-  - **Spalte 1 (3 Bullets, ~10 Zeilen):**
-    - „Konsequenter Fernwärmeausbau mit Schwerpunkt Innenstadt (BEW-gefördert); neue Pumpstation Deponiestraße (~8 Mio. EUR, seit 04/2024) als realisierter Anker des Verbundnetzes"
-    - „Anbindung des neuen Müllheizkraftwerks (~40 MW thermisch, ~100 GWh Wärme p. a.; Inbetriebnahmephase läuft) und sukzessive Ablösung der erdgasbefeuerten Heizwerke"
-    - „Transformationsplan für ein klimaneutrales Fernwärmenetz [Zieljahr 2035/2045 — klären]; Prüfung von Großwärmepumpen, Flusswärme und Geothermie"
-  - **Spalte 2 (3 Bullets, ~8 Zeilen):**
-    - „Massiver Stromnetzausbau durch die sw netz — der Energieentwicklungsplan erwartet die künftige Wärmeversorgung großteils über Wärmepumpen"
-    - „Smart-Meter-Rollout und IT-Transformation (Thüga-Abrechnungsplattform TAP als SAP-Ablösung)"
-    - „Zurückhaltende Gasnetz-Investitionen: Erneuerung nur bei technischer Notwendigkeit, Prüfung der H2-Tauglichkeit (‚Rh2ein-Main Connect' ab 2028)"
-  - **Spalte 3 (3 Bullets, ~8 Zeilen):**
-    - „Windpark Hohe Wurzel (10 Anlagen, ~30 MW, ~85 GWh p. a.) nach erneut positivem VGH-Entscheid (02/2026) juristisch weit fortgeschritten — Berufung noch anhängig"
-    - „Ausbau des regionalen Wind-/PV-Portfolios mit Thüga Erneuerbare Energien und KMW [Bestand ~42 MW anteilig — verifizieren]"
-    - „Ladeinfrastruktur-Konzession: 800 öffentliche Ladepunkte bis 2030, davon bereits 446 errichtet"
-- *Unten links: Chart-Slot (5-Balken, ~13 % Fläche) — **strukturelle Abweichung zu evm:** die Net-Debt-Reihe 2021–2025 nach evm-Definition liegt noch nicht vor (nur 2024/2025 vereinfacht). Lösung im gleichen Slot:*
-  - **Empfohlene Variante (sofort baubar):** Charttitel „Entwicklung der Investitionen (Mio. EUR)" — 5 CapEx-Balken 2021–2025: **43 / 54 / 27 / 27 / 37** (inkl. Finanzanlagen), plus gestrichelte horizontale Zielmarke/Pfeil **„bis zu 80 Mio. EUR p. a."** über den Balken (Leitmotiv, visueller 5. Auftritt; ersetzt die Multiple-Ovale der Vorlage). Legende: „CapEx inkl. Finanzanlagen" / „Zielniveau lt. Unternehmensangaben¹⁾".
-  - **Alternative [nach HRB-Nachtrag]:** wie evm „Entwicklung der Verschuldung (Mio. EUR)" mit Net-Debt-Balken 2021–2025 + Net-Debt/EBITDA-Ovalen — Datenpunkte heute nur vereinfacht (Bankverbindlichkeiten − liquide Mittel): 2024: **98** / 2025: **122 Mio. EUR**; Net Debt (vereinfacht)/EBITDA 2025 ≈ **2,7x**. Vollreihe aus den Verbindlichkeitenspiegeln der HRB-Jahresabschlüsse nachziehen (Offener Punkt 1).
-- *Rechts daneben: Blockpfeil-Takeaway (3 Zeilen, ~145 Zeichen, fett blau):*
-  „Bankdarlehen allein werden künftig nicht ausreichen − schon heute sichern Bürgschaften der Stadt und Kapitaleinlagen die Finanzierung" *(133 Zeichen; Basis: Ausfallbürgschaften der Stadt 15,7 Mio. EUR, liquide Mittel nur noch 2,5 Mio. EUR, freie Kreditlinien 37,1 Mio. EUR — Detailzahlen ins Backup)*
 
-**Fußnoten & Quellenzeile:** „1) Anstieg von Ø ~22 Mio. EUR p. a. (letzte 20 Jahre) auf bis zu 80 Mio. EUR p. a. gemäß Interview des früheren Vorstandsvorsitzenden (zfk) [Datierung verifizieren]; keine öffentliche quantitative Aufteilung nach Investitionsschwerpunkten verfügbar; 2) [bei Net-Debt-Variante:] Net Debt = Bankverbindlichkeiten + Pensionsrückstellungen + Verbindlichkeiten gegen verbundene/Beteiligungsunternehmen − liquide Mittel − Forderungen gegen verbundene/Beteiligungsunternehmen" · Quellenzeile: „Quellen: Metzler-Recherche, Jahresabschlüsse ESWE Versorgungs AG 2021–2025, Unternehmenswebsite"
+*Oben: Matrix „Investitionsschwerpunkte" (~45 % Fläche), Zeilen-Label links: „Investitionsschwerpunkt" / „CapEx 2025" / „Geplante Projekte"; **4 statt 3 Spalten** (je ~23 % statt ~30 % Breite → Bullets kürzer, max. ~35 Zeichen/Zeile, 2–3 Bullets à 2–3 Zeilen je Spalte):*
 
-**Platz-Check:** Matrix passt (3×3 Bullets, alle Spalten ≤11 Zeilen; evm hatte 3/4/4). Die Klammer trägt statt einer Programmsumme eine p.-a.-Bandbreite — funktioniert im selben Slot, Unterzeile ersetzt „Geplante Investitionen 2025-2029". Im Chart-Slot ersetzt die CapEx-Variante die fehlende Net-Debt-Reihe strukturgleich (5 Balken + 1 Overlay-Element statt 5 Ovale); bei späterem HRB-Nachtrag 1:1 auf die evm-Optik zurückschwenkbar. Takeaway auf 3 Zeilen gekürzt (Briefing-Langfassung ~250 Zeichen passt nicht).
+| | **Wärme** | **Wasser** | **Strom & Gas** | **Beteiligungen & Erzeugung** |
+|---|---|---|---|---|
+| *Icon* | Geschäftsfeld 4 | Geschäftsfeld 6 | Geschäftsfeld 2 | Geschäftsfeld 3 |
+| **CapEx 2025** | **6,5 Mio. EUR** | **14,0 Mio. EUR** | **4,0 Mio. EUR** | **5,2 Mio. EUR** |
 
-**Offene Punkte dieser Slide:** Net-Debt-Reihe 2021–2025 aus HRB-PDFs (Offener Punkt 1); zfk-Interview datieren, Lead „155 Millionen Euro für ein besseres Klima" prüfen (Offener Punkt 3); Wind-/PV-Bestand ~42 MW verifizieren; Zieljahr Fernwärme (Offener Punkt 8).
+*Projekt-Bullets (9 pt, je Spalte 3 Bullets):*
+
+- **Wärme**
+  - „Fernwärmeausbau mit Schwerpunkt Innenstadt, BEW-gefördert" *(57 Z.)*
+  - „Anbindung des Müllheizkraftwerks (~40 MW thermisch, ~100 GWh p. a.)" *(67 Z.)*
+  - „Transformationsplan für ein klimaneutrales Fernwärmenetz" *(56 Z.)*
+- **Wasser**
+  - „Erweiterung und Erneuerung des Wassernetzes als aktueller Schwerpunkt" *(69 Z.)*
+  - „Betriebsführung und Verpachtung für den städtischen Eigenbetrieb WLW" *(69 Z.)*
+  - „Investitionen 2025 nahezu verdoppelt (Vorjahr 7,9 Mio. EUR)" *(59 Z.)*
+- **Strom & Gas**
+  - „Stromnetzausbau überwiegend in der Tochter sw netz¹⁾" *(52 Z.)*
+  - „Hochlauf der Wärmepumpen erfordert massive Netzverstärkung" *(58 Z.)*
+  - „Gasnetz zurückhaltend: H2-Prüfung, erstmals Rückbaurückstellung" *(63 Z.)*
+- **Beteiligungen & Erzeugung**
+  - „Erhöhte Ausleihungen an die MHKW Wiesbaden GmbH" *(47 Z.)*
+  - „Windpark Hohe Wurzel (10 Anlagen, ~85 GWh p. a.) vor Realisierung" *(65 Z.)*
+  - „KMW-Energiehub: Rechenzentrum, Großwärmepumpe, Batteriespeicher" *(63 Z.)*
+
+*Statt der evm-Klammer „Fast 600 Mio. EUR": echte Beträge je Spalte (siehe CapEx-Zeile) plus rechts außen die Summenkachel* **„37,0 Mio. EUR / Gesamtinvestitionen 2025²⁾"** *(Vorjahr kursiv: 27,5 Mio. EUR) — inhaltlich stärker als die Vorlage, die in Fußnote 1 einräumen musste, dass keine öffentliche Aufteilung verfügbar ist.*
+
+*Unten links: Chart-Slot — gestapelte Säulen „Entwicklung der Investitionen nach Bereichen (Mio. EUR)", 2021–2025, plus Linie „Abschreibungen":*
+
+| Serie | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---:|---:|---:|---:|---:|
+| Wasser | 7,5 | 11,7 | 5,9 | 7,9 | **14,0** |
+| Wärme | 7,5 | 8,6 | 10,0 | 8,6 | 6,5 |
+| Strom & Gas | 12,3 | 6,4 | 3,1 | 3,0 | 4,0 |
+| Beteiligungen | 14,2 | 24,0 | 1,9 | 2,2 | 5,2 |
+| Übrige³⁾ | 1,7 | 2,9 | 6,4 | 5,9 | 7,3 |
+| **∑ CapEx** | **43,2** | **53,7** | **27,3** | **27,5** | **37,0** |
+| *Linie: Abschreibungen* | *14,2* | *14,5* | *14,6* | *15,7* | *16,4* |
+| *Badge: CapEx / Abschreibungen* | *3,0x* | *3,7x* | *1,9x* | *1,8x* | *2,3x* |
+
+*(Die Multiple-Badges übernehmen exakt die Rolle der Net-Debt/EBITDA-Ovale der Vorlage.)*
+
+*Rechts daneben: Blockpfeil-Takeaway (3 Zeilen, fett blau):*
+„Die Investitionen liegen seit Jahren beim 1,8- bis 3,7-fachen der Abschreibungen − der Hochlauf für die Wärmewende ist darin noch nicht enthalten" *(146 Zeichen; ggf. „seit Jahren" streichen → 135)*
+
+**Fußnoten & Quellenzeile:** „1) Das Stromverteilnetz wird von der 100%igen Tochter Stadtwerke Wiesbaden Netz GmbH betrieben; deren Investitionen sind in den Beträgen nicht enthalten; 2) Investitionen in immaterielle Vermögensgegenstände, Sachanlagen und Finanzanlagen; 3) Gemeinsame und sonstige Bereiche; die Errichtungskosten der Ladesäuleninfrastruktur sind laut Lagebericht in den Sachanlageinvestitionen enthalten; Abweichungen der Summen rundungsbedingt" · Quellenzeile: „Quellen: Metzler-Recherche, Jahresabschlüsse ESWE Versorgungs AG 2021–2024, Geschäftsbericht 2025"
+
+**Platz-Check:** 4 Spalten à ~23 % Breite sind machbar; die Bullets liegen bei 47–69 Zeichen (vorher 90–170) und damit bei 2–3 Zeilen — Spalten laufen auf ~8 Zeilen, unter dem evm-Maximum von ~11. Die CapEx-Zeile trägt jetzt vier echte Beträge statt einer Klammer; die Summenkachel rechts hält die Gesamtaussage zusammen. Der Chart-Slot ist gegenüber der Vorlage aufgewertet (gestapelte Segmente + Abschreibungslinie + Multiple-Badges) und ersetzt die fehlende Net-Debt-Reihe vollständig — ein späterer HRB-Nachtrag ist damit **nicht mehr zwingend**, die Net-Debt-Optik kann alternativ auf Slide 16 wandern.
+
+**Offene Punkte dieser Slide:** Zeilenschnitt-Inkonsistenz zwischen GB 2025 und JA 2024 (Telekommunikation 1.259 T€ erscheint im GB 2025 in der Strom-Zeile, Strom 568 T€ in „Sonstige"; Summen stimmen) — je Reihe nur eine Quelle verwenden, Fußnote setzen. Zieljahr klimaneutrales Fernwärmenetz 2035/2045 klären (Offener Punkt 8). Bestand Wind-/PV-Portfolio ~42 MW verifizieren.
 
 ---
 
 ## Slide 16 — Financials-Tripel: GuV / Cashflow / Bilanz (evm-Pendant S. 16)
 
-**Message (1 Satz):** Die operative Ertragskraft ist robust, aber Ausschüttungen und Investitionshochlauf absorbieren die Liquidität fast vollständig (Kasse Ende 2025: 2,5 Mio. EUR) — der geplante Hochlauf auf bis zu 80 Mio. EUR p. a. ist aus dem operativen Cashflow nicht finanzierbar; ohne diese Slide hätte Kapitel 3 keine Existenzberechtigung.
+**Message (1 Satz):** Die operative Ertragskraft ist robust, aber Ausschüttungen und Investitionshochlauf absorbieren die Liquidität fast vollständig (Kasse Ende 2025: 2,5 Mio. EUR) — der angekündigte erhebliche Investitionsanstieg ist aus dem operativen Cashflow nicht finanzierbar; ohne diese Slide hätte Kapitel 3 keine Existenzberechtigung.
 
 **Headline:** „Robuste Ertragskraft nach zwei Sonderjahren − jedoch absorbieren Ausschüttungen und Investitionshochlauf die Liquidität weitgehend" **(130 Zeichen, 2 Zeilen — passt; „These − jedoch"-Muster wie evm)**
 
@@ -196,7 +227,7 @@
   1. „Umsatz 2025 preisbedingt rückläufig (−11 %), Rohertragsmarge auf 27,9 % gestiegen" *(1 Zeile — Kurzbullet wie evm „Umsatz 2025 stabil")*
   2. „Rekordergebnisse 2023/2024 sondereffektgetrieben (2024: Rückstellungsauflösungen von 20,6 Mio. EUR, u. a. Vergleich im Wasserkartellverfahren) − 2025 markiert die Normalisierung auf robustem Niveau (EBT 53 Mio. EUR, deutlich über Plan)" *(2 Zeilen)*
   3. „Der operative Cashflow (Ø ~57 Mio. EUR p. a.) wird nahezu vollständig durch die Ergebnisabführung an die Gesellschafter und den Investitionshochlauf absorbiert − die liquiden Mittel sanken Ende 2025 auf 2,5 Mio. EUR" *(2 Zeilen)*
-  4. **(Leitmotiv, 6. Auftritt — analytischer Kern wie evm-Schlussbullet)** „Der geplante Investitionsanstieg auf bis zu 80 Mio. EUR p. a. scheint bei unveränderter Ausschüttungspolitik nicht aus dem operativen Cash Flow finanzierbar zu sein − bereits 2025 waren Kapitaleinlagen der Aktionäre (10 Mio. EUR) zur Sicherung der Ziel-EK-Quote von über 25 % erforderlich" *(2 Zeilen)*
+  4. **(Leitmotiv, 6. Auftritt — analytischer Kern wie evm-Schlussbullet)** „Der angekündigte erhebliche Investitionsanstieg scheint bei unveränderter Ausschüttungspolitik nicht aus dem operativen Cash Flow finanzierbar zu sein − bereits 2025 waren Kapitaleinlagen der Aktionäre (10 Mio. EUR) zur Sicherung der Ziel-EK-Quote von über 25 % erforderlich" *(2 Zeilen)*
 
 **Fußnoten & Quellenzeile:** „1) Rohertrag = Umsatzerlöse ./. Materialaufwand; 2) Abweichungen der Säulensummen von den ∑-Werten rundungsbedingt" · Quellenzeile: „Quellen: Metzler-Recherche, Jahresabschlüsse ESWE Versorgungs AG 2021–2025, Unternehmenswebsite"
 
@@ -316,11 +347,12 @@
 
 ---
 
-## Leitmotiv-Bilanz (Kontrolle der 6 Auftritte, analog evm „fast 600 Mio. EUR")
-1. Slide 12, Bullet 6: „von Ø ~22 Mio. EUR p. a. … auf bis zu 80 Mio. EUR p. a."
-2. Slide 12, Takeaway-Banner: „des von Ø ~22 auf bis zu 80 Mio. EUR p. a. wachsenden Investitionsprogramms"
-3. Slide 15, Headline: „Investitionshochlauf auf bis zu 80 Mio. EUR p. a."
-4. Slide 15, CapEx-Klammer: „Anstieg auf bis zu 80 Mio. EUR p. a." (+ Unterzeile Ø ~22)
-5. Slide 15, Chart-Zielmarke: „bis zu 80 Mio. EUR p. a." (visuell)
-6. Slide 16, Kommentar-Bullet 4: „Investitionsanstieg auf bis zu 80 Mio. EUR p. a. … nicht aus dem operativen Cash Flow finanzierbar"
+## Leitmotiv-Bilanz (Kontrolle der Auftritte, analog evm „fast 600 Mio. EUR")
+Leitmotiv = **„erheblich steigendes, aber unquantifiziertes Investitionsvolumen bei erschöpfter Innenfinanzierung"** (siehe Kopf des Drehbuchs).
+1. Slide 12, Bullet 6: wörtliches Lagebericht-Zitat „…wird sich in den nächsten Jahren nochmals erheblich steigern"
+2. Slide 12, Takeaway-Banner: Finanzierung des wachsenden Investitionsprogramms bei Wahrung finanzieller und strategischer Flexibilität
+3. Slide 15, Headline: „…der Investitionshochlauf für die Wärmewende steht noch bevor"
+4. Slide 15, Chart-Badges: CapEx / Abschreibungen 3,0x → 2,3x (Investitionen dauerhaft über Abschreibungen)
+5. Slide 15, Takeaway: „…beim 1,8- bis 3,7-fachen der Abschreibungen − der Hochlauf ist darin noch nicht enthalten"
+6. Slide 16, Kommentar-Bullet 4: nicht aus dem operativen Cash Flow finanzierbar; Kapitaleinlagen bereits 2025 erforderlich
 Flankierend das EK-Quoten-Ziel „dauerhaft über 25 %": Slide 12 Bullet 7 · Slide 16 Bullet 4 · Slide 19 Ziel 2 (+ EK-Ovale Slide 16 Panel 3).
