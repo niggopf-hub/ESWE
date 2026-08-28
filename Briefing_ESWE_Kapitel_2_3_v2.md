@@ -71,8 +71,9 @@ Kapitel 1 (Metzler-Vorstellung) und die letzte Seite (Disclaimer/Kontakt) sind f
 | Gaskunden (Verbrauchsstellen) | **53.323** | |
 | Fernwärmenetz | **132,9 km** (1.979 Anschlüsse) | *+1,9 %* |
 | Stromnetz (sw netz) | **~2.820 km**³⁾ | |
+| Gasnetz (ESWE direkt) | **~823 km**³⁾ | |
 
-Fußnoten-Vorschlag: 1) EBITDA = Betriebliches Ergebnis zzgl. Abschreibungen; das Beteiligungsergebnis (2025: 25 Mio. EUR) ist darin nicht enthalten; 2) EBT = zentrale Steuerungskennzahl der ESWE, inkl. Beteiligungs- und Zinsergebnis; 3) Strom- und Gasnetzlängen siehe `research/eswe_gap_research.md` — Jahresstand vor Verwendung verifizieren.
+Fußnoten-Vorschlag: 1) EBITDA = Betriebliches Ergebnis zzgl. Abschreibungen; das Beteiligungsergebnis (2025: 25 Mio. EUR) ist darin nicht enthalten; 2) EBT = zentrale Steuerungskennzahl der ESWE, inkl. Beteiligungs- und Zinsergebnis; 3) Stromnetz der sw netz in Wiesbaden: 79 km 110-kV + 586 km Mittelspannung + 2.156 km Niederspannung (inkl. Taunusstein ~3.139 km Kabel); Gasnetz wird von der ESWE Versorgungs AG selbst betrieben (Wiesbaden, Taunusstein, Schlangenbad, Walluf) — Jahresstand der Netzlängen vor Verwendung verifizieren (`research/eswe_gap_research.md`).
 
 **Empfehlung zur Kachel-Auswahl:** Statt „EBIT" (wie im evm-Deck) besser **EBT** zeigen — es ist die publizierte Steuerungskennzahl der ESWE und fängt das wesentliche Beteiligungsergebnis (KMW, sw netz, WiTCOM) ein, das im Betriebsergebnis fehlt.
 
@@ -104,18 +105,20 @@ Fußnoten-Vorschlag: 1) EBITDA = Betriebliches Ergebnis zzgl. Abschreibungen; da
 |---|---:|---:|---:|---|
 | Stadtwerke Wiesbaden Netz GmbH (EAV) | 100 % | 69.631 | 0 (Abführung 5.392) | Netz |
 | WiTCOM GmbH (EAV) | 100 % | 8.710 | 0 (Abführung 3.359) | Telekommunikation |
-| ESWE BioEnergie GmbH | 90 % | 18.788 | 1.320 | Erzeugung |
+| ESWE BioEnergie GmbH¹⁾ | 90 % | 18.788 | 1.320 | Erzeugung |
 | ESWE Taunuswind GmbH | 100 % | 79 | 0 | Erzeugung (Projekt Hohe Wurzel) |
 | ESWE Windpark GmbH | 100 % | 25 | 0 | Erzeugung |
 | ESWE Windpark Uettingen GmbH & Co. KG | 100 % | 3.615 | (81) | Erzeugung |
-| Kraftwerke Mainz-Wiesbaden AG (KMW) | 50 % | 396.026 | 38.800 | Erzeugung (Dividende 14,0 Mio. EUR) |
-| MHKW Wiesbaden GmbH | 24,5 % | 27.391 | (3.457) | Erzeugung (im Bau) |
+| Kraftwerke Mainz-Wiesbaden AG (KMW)²⁾ | 50 % | 396.026 | 38.800 | Erzeugung (Dividende 14,0 Mio. EUR) |
+| MHKW Wiesbaden GmbH³⁾ | 24,5 % | 27.391 | (3.457) | Erzeugung (im Bau) |
 | Windkraft Kahlenberg GmbH & Co. KG | 50 % | 2.609 | (186) | Erzeugung |
 | Windpark Bad Camberg GmbH & Co. KG | 33,33 % | 3.070 | (253) | Erzeugung |
 | THEE ESWE Windparkbeteiligungs GmbH & Co. KG | 33,33 % | 11.311 | (1.114) | Erzeugung |
 | WRT Infrastrukturbau GmbH (neu 2024) | 49 % | 25 | (4) | Dienstleistung (Tief-/Rohrleitungsbau) |
 
-**Kernbotschaften der Slide:** (a) klare kommunal-strategische Doppelverankerung Stadt/Thüga; (b) KMW (50 %) ist der wertvollste Beteiligungsposten (EK-Anteil ~198 Mio. EUR, verlässliche 14-Mio.-Dividende, Transformation zum „Energiehub" mit Rechenzentrum Green Rocks, Großwärmepumpe, 54-MW-Motorenkraftwerk, Batteriespeicher); (c) MHKW und Windportfolio binden Kapital und Ergebnis (MHKW: nachrangige Ausleihungen der ESWE, weitere EK-Erfordernisse laut AR-Bericht; Windparks 2025 durchweg negativ).
+Fußnoten-Vorschlag: 1) Mitgesellschafter der ESWE BioEnergie: je 5 % MBA Wiesbaden GmbH und Knettenbrech + Gurdulic; 2) übrige 50 % der KMW: Mainzer Stadtwerke AG; 3) Mitgesellschafter der MHKW Wiesbaden GmbH: Knettenbrech + Gurdulic 51 %, ENTEGA 24,5 %.
+
+**Kernbotschaften der Slide:** (a) klare kommunal-strategische Doppelverankerung Stadt/Thüga; (b) KMW (50 %) ist der wertvollste Beteiligungsposten (EK-Anteil ~198 Mio. EUR, verlässliche 14-Mio.-Dividende, Transformation zum „Energiehub" mit Rechenzentrum Green Rocks, Großwärmepumpe, 54-MW-Motorenkraftwerk, Batteriespeicher); (c) MHKW und Windportfolio binden Kapital und Ergebnis (MHKW: Gesamtinvestition ~120–150 Mio. EUR, nachrangige Ausleihungen der ESWE, weitere EK-Erfordernisse laut AR-Bericht; Windparks 2025 durchweg negativ).
 
 ---
 
@@ -127,7 +130,7 @@ Fußnoten-Vorschlag: 1) EBITDA = Betriebliches Ergebnis zzgl. Abschreibungen; da
 
 *Schwerpunkt 1 — Wärmenetze & Wärmewende:*
 - Konsequenter Fernwärmeausbau mit Schwerpunkt Innenstadt (BEW-gefördert, kundengetrieben); neue Pumpstation Deponiestraße (~8 Mio. EUR) als „Herz" des Verbundnetzes
-- Anbindung des neuen Müllheizkraftwerks (MHKW) an das Fernwärmenetz und sukzessive Ablösung der erdgasbefeuerten Heizwerke
+- Anbindung des neuen Müllheizkraftwerks (MHKW; ~40 MW thermisch, ~100 GWh Wärme p. a.; Funktionstests seit Mai 2026, Probebetrieb angelaufen) an das Fernwärmenetz und sukzessive Ablösung der erdgasbefeuerten Heizwerke
 - Transformationsplan für ein klimaneutrales Fernwärmenetz bis 2035; Prüfung von Großwärmepumpen, Flusswärme und Geothermie aus der Kommunalen Wärmeplanung
 
 *Schwerpunkt 2 — Strom- und Gasnetze & Digitalisierung:*
@@ -136,7 +139,7 @@ Fußnoten-Vorschlag: 1) EBITDA = Betriebliches Ergebnis zzgl. Abschreibungen; da
 - Zurückhaltende Gasnetz-Investitionen: Erneuerung nur bei technischer Notwendigkeit, Prüfung der H2-Tauglichkeit („Rh2ein-Main Connect" ab 2028), erstmals Rückbau-Rückstellung gebildet
 
 *Schwerpunkt 3 — Erneuerbare Erzeugung & E-Mobilität:*
-- Windpark Hohe Wurzel (10 Anlagen, ~30 MW, ~85 GWh p. a.) nach erneut bestätigtem VGH-Entscheid (02/2026) vor der Realisierung
+- Windpark Hohe Wurzel (10 Anlagen, ~30 MW, ~85 GWh p. a.) nach erneut positivem VGH-Entscheid (02/2026) juristisch weit fortgeschritten — Berufung des Landes aber noch anhängig, noch kein Baubeginn
 - Ausbau des regionalen Wind-/PV-Portfolios mit Thüga Erneuerbare Energien und KMW (Bestand ~42 MW anteilig)
 - Ladeinfrastruktur-Konzession: 800 öffentliche Ladepunkte bis 2030, davon bereits 446 errichtet (Stand 07/2026)
 
@@ -239,8 +242,8 @@ CAGR Umsatz 2021→2025: **+2,7 % p. a.** (oranger Pfeil). 1) Rohertrag = Umsatz
 **Quadrant 4 — Vorteile für die ESWE Versorgungs AG:** Teilung von Risiken und Investitionsbedarf · Zufluss des Kaufpreises · Schnellere Umsetzung von Investitionen möglich · Zusätzlicher strategischer Input · Governance flexibel strukturierbar
 
 **Weitere direkte Ansatzpunkte (Backup/Moderation, aus JA und Research belegt):**
-- Strukturierte Langfristfinanzierung des Wärme-/Netzausbaus: BEW-Bundesförderung, KfW, kommunal verbürgte Tranchen (bereits 15,7 Mio. EUR verbürgt), aktives Zinsmanagement (im Lagebericht als Handlungsfeld benannt)
-- EK-Strukturierung: Thesaurierungspfad vs. Ausschüttung (Spannungsfeld: Stadt in Haushaltskonsolidierung, ESWE-Verkehr-Defizit im Querverbund), hybride Instrumente, EK-Ausstattung der sw netz für Stromnetzinvestitionen
+- Strukturierte Langfristfinanzierung des Wärme-/Netzausbaus: BEW-Bundesförderung, KfW, kommunal verbürgte Tranchen (bereits 15,7 Mio. EUR verbürgt), aktives Zinsmanagement (im Lagebericht als Handlungsfeld benannt); **neu: Hessischer EnergieFonds (WIBank, 1 Mrd. EUR, seit 11/2025) mit eigenkapitalähnlichem Nachrangkapital speziell für Stadtwerke** — passgenauer Hebel für die EK-Quoten-Problematik
+- EK-Strukturierung: Thesaurierungspfad vs. Ausschüttung (Spannungsfeld: Wiesbadener Haushalt 2026 nur mit Auflagen der Kommunalaufsicht genehmigt, ESWE-Verkehr-Zuschussbedarf 2025 auf 64 Mio. EUR erhöht), hybride Instrumente, EK-Ausstattung der sw netz für Stromnetzinvestitionen; Anker auf Gesellschafterseite: Thüga investiert im Programm „Horizonte+2030" gezielt in Kapitalmaßnahmen bei Partnerunternehmen (2025: 139,4 Mio. EUR)
 - Portfolio: Weiterentwicklung/Bewertung von BioEnergie (nach Wertberichtigung 2024), MHKW (nach Inbetriebnahme; weitere EK-Erfordernisse), Windportfolio-Rotation; Monetarisierung der KMW-Optionalitäten (Rechenzentrum, Großwärmepumpe, Batteriespeicher)
 - Warum jetzt: starke Bilanz (EK-Quote 28,5 %), Planübererfüllung 2025 und beschlossene KWP schaffen die beste Verhandlungsposition — Partnerstrukturen aus einer Position der Stärke statt der Not (Argumentationsfigur analog DVV-Unterlage)
 
@@ -255,10 +258,12 @@ Die 6 Credential-Kacheln des evm-Decks sind unternehmensneutral formuliert und k
 ## 10. Offene Punkte vor Finalisierung
 
 1. **Net-Debt-Reihe 2021–2025** nach evm-Definition aus den Anhängen der Jahresabschlüsse (HRB-PDFs, Verbindlichkeitenspiegel) nachziehen — einziges fehlendes Zahlenwerk für Slide 4/5. Bis dahin: vereinfachtes Net Debt (Bank − Kasse) nur mit Fußnote verwenden
-2. **Strom-/Gasnetz-km der sw netz** mit Jahresstand verifizieren (siehe `research/eswe_gap_research.md`)
-3. **Programmzahl Investitionen:** „bis zu 80 Mio. EUR p. a. / 2 Mrd. EUR bis 2060" stammt aus einem Interview des Ex-CEO — Quellenjahr prüfen und ggf. mit aktueller Aussage von Höhler/Malerius ersetzen
-4. EBT 2025: GuV weist **52,65 Mio. EUR** aus (Lageberichtstext nennt gerundet 52,4; Vorjahrestext 83,8 vs. GuV 84,3) — im Deck die GuV-Werte verwenden
-5. Kopfzeilen-Check nach Deck-Bau (evm-Vorlage enthält den „Stadtwerke Krefeld"-Copy-Paste-Fehler auf der Ausgangslage-Slide)
+2. **Strom-/Gasnetz-km** mit Jahresstand verifizieren (siehe `research/eswe_gap_research.md`; Jahresstand der wer-zu-wem-Angaben unklar)
+3. **Programmzahl Investitionen:** „bis zu 80 Mio. EUR p. a. / 2 Mrd. EUR bis 2060" stammt aus einem zfk-Interview des Ex-CEO Schodlok (Datierung hinter Paywall, vermutlich 2024/H1 2025) — vor Verwendung datieren; neuere bezifferte Aussagen von Höhler/Malerius existieren nicht. Lead prüfen: ESWE-Pressemitteilung „155 Millionen Euro für ein besseres Klima"
+4. **ESWE-Verkehr-/WVV-Querverbundszahlen** (Defizit 39,6 Mio. EUR, WVV-Deckelung 30,3 Mio. EUR, WVV-Überschuss 14,8 Mio. EUR) stammen aus GJ 2021 — nur mit Jahresangabe verwenden; aktueller: Zuschussbedarf ESWE Verkehr 2025 von 58 auf 64 Mio. EUR erhöht (Beschluss 12/2024)
+5. EBT 2025: GuV weist **52,65 Mio. EUR** aus (Lageberichtstext nennt gerundet 52,4; Vorjahrestext 83,8 vs. GuV 84,3) — im Deck die GuV-Werte verwenden
+6. Kopfzeilen-Check nach Deck-Bau (evm-Vorlage enthält den „Stadtwerke Krefeld"-Copy-Paste-Fehler auf der Ausgangslage-Slide)
+7. Status Stromkonzession Wiesbaden: Sonderkündigungsrecht der Stadt nach 10 Jahren (ab 2025) — keine Belege für eine Ausübung gefunden, vor Verwendung im Deck bestätigen
 
 ## 11. Zahlenanhang — Kernzeitreihe (Mio. EUR, HGB-Einzelabschluss)
 
