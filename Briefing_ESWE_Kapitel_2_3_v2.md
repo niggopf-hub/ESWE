@@ -22,7 +22,7 @@ Kapitel 1 (Metzler-Vorstellung) und die letzte Seite (Disclaimer/Kontakt) sind f
 **Die 3 Kapitel-3-Slides:** (1) „Mögliche strategische Ziele" — Kreis-Zentrum mit Firmenlogo + 6 Ziele im Nominalstil mit Icons (2×3) → (2) JV/SPV-Slide — Strukturchart mit X%-Platzhaltern (Carve-out), Liste beteiligungsfähiger Gesellschaften, „Wesentliche Aspekte bei der Gestaltung einer Partnerschaft" (5 Bullets), „Vorteile für die [Firma]" (5 Bullets) → (3) Why Metzler — 6 Credential-Kacheln, **unternehmensneutral formuliert, 1:1 übernehmbar**.
 
 **Stilregeln:**
-- Headlines = vollständige Aussagesätze ohne Schlusspunkt, gern Muster „These − Einschränkung" mit Gedankenstrich („…finanziell solide aufgestellt − signifikanter Investitionsbedarf…")
+- Headlines = vollständige Aussagesätze ohne Schlusspunkt. **Verbindlich für dieses Deck: ausformulierte Sätze statt Gedankenstrich-Konstruktionen.** Das evm-/DVV-Original reiht in den Headlines zwei Halbsätze per Gedankenstrich aneinander („…finanziell solide aufgestellt − signifikanter Investitionsbedarf…"); hier wird stattdessen mit echten Konjunktionen und Nebensätzen verbunden („während", „obwohl", „sodass", „denn", „wodurch") oder mit Semikolon bzw. zwei Sätzen, wie es die Originale in ihren Bullet-Texten selbst vormachen
 - Kap.-2-Bullets: Aussagesätze ohne Schlusspunkt (◼ Ebene 1, „–" Ebene 2); Kap.-3-Kacheln: Nominalstil („Stärkung der…", „Teilung von…")
 - Vorsichtige Beratersprache: „scheint nicht … finanzierbar", „Bei Bedarf", „ausgewählte Impulse", „Mögliche strategische Ziele", „Unser Verständnis der Ausgangslage"
 - Zahlen: „474 Mio. EUR" (nie €-Zeichen), Tausenderpunkt, Dezimalkomma, Multiples „2,6x", Negative in Klammern „(53)", Vorjahr kursiv „*535 Mio. EUR (2024)*"
@@ -39,7 +39,7 @@ Kapitel 1 (Metzler-Vorstellung) und die letzte Seite (Disclaimer/Kontakt) sind f
 
 ## 1. Kapitel 2, Slide 1 — Ausgangslage
 
-**Headline-Vorschlag:** „Kerngesunder kommunaler Versorger mit starker Ergebnishistorie − am Beginn der investitionsintensivsten Phase seiner Geschichte"
+**Headline-Vorschlag:** „Die ESWE ist kerngesund und ergebnisstark und steht zugleich am Beginn der investitionsintensivsten Phase ihrer Geschichte"
 
 **„Unser Verständnis der Ausgangslage" — 7 Bullets (im evm-Stil formuliert):**
 1. ESWE ist der zentrale Energieversorger und Energiedienstleister der hessischen Landeshauptstadt Wiesbaden und versorgt rund 200.000 Kunden mit Strom, Erdgas, Wärme sowie energienahen Dienstleistungen
@@ -128,7 +128,7 @@ Fußnoten-Vorschlag: 1) Mitgesellschafter der ESWE BioEnergie: je 5 % MBA Wiesba
 
 ## 4. Kapitel 2, Slide 4 — Investitionshorizont
 
-**Headline-Vorschlag:** „Die ESWE ist finanziell solide aufgestellt − der Investitionshochlauf für die Wärme- und Energiewende übersteigt die historische Größenordnung deutlich"
+**Headline-Vorschlag:** „Die ESWE investiert bislang vor allem in den Bestand, während der Investitionshochlauf für die Wärmewende noch bevorsteht"
 
 **Investitionen nach Unternehmensbereichen (Mio. EUR, aus den Jahresabschlüssen 2021–2024 und GB 2025):**
 
@@ -178,7 +178,7 @@ Drei Befunde für die Storyline: (a) **Wasser ist mit 14,0 Mio. EUR der größte
 
 ## 5. Kapitel 2, Slide 5 — Financials
 
-**Headline-Vorschlag:** „Robuste operative Ertragskraft nach zwei Sonderjahren − aber die Liquidität ist durch Ausschüttungen und Investitionshochlauf weitgehend absorbiert"
+**Headline-Vorschlag:** „Die Ertragskraft bleibt nach zwei Sonderjahren robust, während Ausschüttungen und Investitionshochlauf die Liquidität weitgehend absorbieren"
 
 **Chart 1 — GuV (Mio. EUR, 2021–2025):**
 | | 2021 | 2022 | 2023 | 2024 | 2025 |
@@ -208,7 +208,7 @@ CAGR Umsatz 2021→2025: **+2,7 % p. a.** (oranger Pfeil). 1) Rohertrag = Umsatz
 (Zweite Säulenreihe „Net Debt" nach Vervollständigung der Reihe ergänzen, s. Slide 4.)
 
 **„Kommentar:"-Block — 4 Bullets:**
-1. Umsatzrückgang 2025 (−11 %) preisbedingt nach der Energiekrisen-Normalisierung; die Rohertragsmarge stieg dank günstigerer Beschaffung auf 27,9 %
+1. Der Umsatz ging 2025 preisbedingt um 11 % zurück, während die Rohertragsmarge dank günstigerer Beschaffung auf 27,9 % gestiegen ist
 2. Die Rekordergebnisse 2023/2024 waren sondereffektgetrieben (2024: Rückstellungsauflösungen von 20,6 Mio. EUR, u. a. Vergleich im Wasserkartellverfahren) — 2025 markiert die Normalisierung auf weiterhin robustem Niveau (EBT 53 Mio. EUR, deutlich über Plan)
 3. Der operative Cashflow (Ø ~57 Mio. EUR p. a.) wird nahezu vollständig durch die Ergebnisabführung an die Gesellschafter (abgeführtes Vorjahresergebnis 2024: 78 Mio. EUR; Teile stehen zum 31.12.2025 noch als Verbindlichkeit) und den Investitionshochlauf absorbiert — die liquiden Mittel sanken Ende 2025 auf 2,5 Mio. EUR
 4. Der geplante Investitionsanstieg auf bis zu 80 Mio. EUR p. a. scheint bei unveränderter Ausschüttungspolitik nicht aus dem operativen Cash Flow finanzierbar zu sein — bereits 2025 waren Kapitaleinlagen der Aktionäre (10 Mio. EUR) zur Sicherung der Ziel-EK-Quote von über 25 % erforderlich
@@ -219,7 +219,7 @@ CAGR Umsatz 2021→2025: **+2,7 % p. a.** (oranger Pfeil). 1) Rohertrag = Umsatz
 
 ## 6. Kapitel 2, Slide 6 — Strategie / Summary & Überleitung
 
-**Headline-Vorschlag:** „Die ESWE fokussiert sich auf die Wärmewende, resiliente Netze, regionale Erzeugung und profitable Wachstumsfelder − die Finanzierungsfrage ist offen"
+**Headline-Vorschlag:** „Die ESWE fokussiert sich auf die Wärmewende, resiliente Netze, regionale Erzeugung und profitable Wachstumsfelder"
 
 **6 Icon-Balkenkacheln (je 1 Satz, evm-Stil):**
 1. *(Energievertrieb)* Stabilisierung der Kundenbasis im intensiven Wettbewerb durch geschäftsfeldübergreifende Angebote, dynamische Tarife sowie Ausbau von Photovoltaik-, Wärmepumpen- und Energiemanagementlösungen bei gleichzeitiger Forcierung des überregionalen Vertriebs
@@ -249,7 +249,7 @@ CAGR Umsatz 2021→2025: **+2,7 % p. a.** (oranger Pfeil). 1) Rohertrag = Umsatz
 
 ## 8. Kapitel 3, Slide 2 — Direkte Möglichkeiten / JV-Strukturen
 
-**Headline (evm-Wortlaut adaptiert):** „Bei Bedarf können private Investoren in unterschiedlichen Modellen und bei unterschiedlichen Assets beteiligt werden − ausgewählte Impulse"
+**Headline (evm-Wortlaut adaptiert):** „Bei Bedarf können private Investoren in unterschiedlichen Modellen und bei unterschiedlichen Assets beteiligt werden" (graue Zwischenüberschrift darunter: „Ausgewählte Impulse")
 
 **Quadrant 1 — JV/SPV-Strukturchart:** ESWE Versorgungs AG (X %) + Investor (X %) an „Wärme/EE SPV *post Carve-Out*"; Einbringung ESWE: Fernwärmenetz/-erzeugung bzw. EE-Projekte; Einbringung Investor: Eigenkapital für CapEx und Kaufpreis. Fußnote: „Ähnlich übertragbar auf weitere Geschäftsfelder, z. B. Wind-/Solarbeteiligungen oder Ladeinfrastruktur"
 

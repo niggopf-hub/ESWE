@@ -10,6 +10,8 @@
 
 Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Slide 15 Headline + Multiple-Badges im Chart + Takeaway, Slide 16 Kommentar-Bullet 4; EK-Quoten-Ziel flankierend in Slide 12 Bullet 7, Slide 16 Bullet 4 und Slide 19 Ziel 2. *Falls die 80-Mio.-Zahl trotzdem gewünscht ist: nur mit Quellenfußnote und nicht in einer Headline — Varianten sind bei den betroffenen Slides hinterlegt.*
 
+**Schreibstil (verbindlich für alle Slide-Texte):** Headlines, Bullets und Takeaways werden als **vollständige, ausformulierte Sätze** geschrieben. Keine Gedankenstrich-Konstruktionen, die zwei Halbsätze aneinanderreihen — die Verbindung erfolgt über echte Konjunktionen und Nebensätze („während", „obwohl", „sodass", „denn", „wodurch") oder über Semikolon bzw. zwei getrennte Sätze, wie es die evm- und DVV-Unterlagen in den Bullet-Texten vormachen. (Hinweis: Die evm-/DVV-**Headlines** nutzen im Original den Gedankenstrich als Kontrastzeichen; hier bewusst durch Satzkonstruktionen ersetzt.)
+
 **Die 6 ESWE-Geschäftsfelder (Rückgrat, identisch auf Slides 13/14/17 zu verwenden):**
 1. Energievertrieb & -beschaffung · 2. Netzgeschäft · 3. Energieerzeugung · 4. Energiedienstleistungen, Wärme & E-Mobilität · 5. Telekommunikation · 6. Wasser
 (Abweichung zu evm: Feld 4 heißt bei evm „…, Heizung & Klima", Feld 6 „Wasser & Abwasser" — ESWE betreibt kein Abwasser; E-Mobilität ist bei ESWE prominent → Umbenennung wie oben. Icons aus der evm-Vorlage wiederverwendbar.)
@@ -31,7 +33,7 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 
 **Message (1 Satz):** ESWE ist kerngesund und kommunal-strategisch doppelt verankert — aber die Finanzierung eines erheblich wachsenden, bislang unbezifferten Investitionsprogramms bei EK-Quoten-Ziel >25 % ist die zentrale Herausforderung; die 7 Bullets sind zugleich die Gliederung der Folgeslides 13–17.
 
-**Headline:** „Kerngesunder kommunaler Versorger mit starker Ergebnishistorie − am Beginn der investitionsintensivsten Phase seiner Geschichte" **(127 Zeichen, 2 Zeilen — passt ins Budget 68–138)**
+**Headline:** „Die ESWE ist kerngesund und ergebnisstark und steht zugleich am Beginn der investitionsintensivsten Phase ihrer Geschichte" **(122 Zeichen, 2 Zeilen — passt ins Budget 68–138)**
 
 **Kopfzeile:** „2. ESWE Versorgungs AG – Übersicht und Herausforderungen"
 
@@ -138,8 +140,8 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 
 **Message (1 Satz):** Der Investitionsschwerpunkt der ESWE liegt bis heute im Bestand — Wasser und Bestandsnetze binden das Kapital, während der eigentliche Wärmewende-Hochlauf noch bevorsteht; damit ist die Bilanzseite der Beweiskette gelegt, Slide 16 liefert die Cashflow-Seite.
 
-**Headline:** „Die ESWE investiert bislang vor allem in den Bestand − der Investitionshochlauf für die Wärmewende steht noch bevor" **(114 Zeichen, 2 Zeilen — passt ins Budget 68–138)**
-*(Variante, falls die 80-Mio.-Aussage als Leitmotiv beibehalten wird: „Die ESWE ist finanziell solide aufgestellt − der Investitionshochlauf auf bis zu 80 Mio. EUR p. a. steht noch bevor" (115 Zeichen) — dann zwingend mit Quellenfußnote.)*
+**Headline:** „Die ESWE investiert bislang vor allem in den Bestand, während der Investitionshochlauf für die Wärmewende noch bevorsteht" **(121 Zeichen, 2 Zeilen — passt ins Budget 68–138)**
+*(Variante, falls die 80-Mio.-Aussage als Leitmotiv beibehalten wird: „Die ESWE ist finanziell solide aufgestellt, doch der Investitionshochlauf auf bis zu 80 Mio. EUR p. a. steht noch bevor" (119 Zeichen) — dann zwingend mit Quellenfußnote.)*
 
 **Kopfzeile:** „2. ESWE Versorgungs AG – Übersicht und Herausforderungen"
 
@@ -189,7 +191,7 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 *(Die Multiple-Badges übernehmen exakt die Rolle der Net-Debt/EBITDA-Ovale der Vorlage.)*
 
 *Rechts daneben: Blockpfeil-Takeaway (3 Zeilen, fett blau):*
-„Die Investitionen liegen seit Jahren beim 1,8- bis 3,7-fachen der Abschreibungen − der Hochlauf für die Wärmewende ist darin noch nicht enthalten" *(146 Zeichen; ggf. „seit Jahren" streichen → 135)*
+„Die Investitionen liegen seit Jahren beim 1,8- bis 3,7-fachen der Abschreibungen, obwohl der Wärmewende-Hochlauf darin noch nicht enthalten ist" *(144 Zeichen)*
 
 **Fußnoten & Quellenzeile:** „1) Das Stromverteilnetz wird von der 100%igen Tochter Stadtwerke Wiesbaden Netz GmbH betrieben; deren Investitionen sind in den Beträgen nicht enthalten; 2) Investitionen in immaterielle Vermögensgegenstände, Sachanlagen und Finanzanlagen; 3) Gemeinsame und sonstige Bereiche; die Errichtungskosten der Ladesäuleninfrastruktur sind laut Lagebericht in den Sachanlageinvestitionen enthalten; Abweichungen der Summen rundungsbedingt" · Quellenzeile: „Quellen: Metzler-Recherche, Jahresabschlüsse ESWE Versorgungs AG 2021–2024, Geschäftsbericht 2025"
 
@@ -203,7 +205,7 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 
 **Message (1 Satz):** Die operative Ertragskraft ist robust, aber Ausschüttungen und Investitionshochlauf absorbieren die Liquidität fast vollständig (Kasse Ende 2025: 2,5 Mio. EUR) — der angekündigte erhebliche Investitionsanstieg ist aus dem operativen Cashflow nicht finanzierbar; ohne diese Slide hätte Kapitel 3 keine Existenzberechtigung.
 
-**Headline:** „Robuste Ertragskraft nach zwei Sonderjahren − jedoch absorbieren Ausschüttungen und Investitionshochlauf die Liquidität weitgehend" **(130 Zeichen, 2 Zeilen — passt; „These − jedoch"-Muster wie evm)**
+**Headline:** „Die Ertragskraft bleibt nach zwei Sonderjahren robust, während Ausschüttungen und Investitionshochlauf die Liquidität weitgehend absorbieren" **(139 Zeichen, 2 Zeilen)**
 
 **Kopfzeile:** „2. ESWE Versorgungs AG – Übersicht und Herausforderungen"
 
@@ -224,10 +226,10 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
   - **Baubare Variante (Briefing-Alternative):** Einzelsäulen „Kassenbestand": **4 / 31 / 45 / 22 / 3** + Ovale „Eigenkapital-Quote": **30,3 % / 27,8 % / 26,3 % / 27,6 % / 28,5 %**; Legende: „Kassenbestand / Eigenkapital-Quote". Die EK-Ovale erzählen das Leitmotiv Teil 2 (Ziel >25 %, 2023 nur noch 26,3 % → Kapitaleinlagen).
   - **[nach HRB-Nachtrag]:** zweite Säulenreihe „Net Debt" ergänzen (dann 1:1 evm-Optik Kasse/Net Debt + EK-Ovale); bis dahin allenfalls vereinfachtes Net Debt 2024/2025 (98 / 122) mit Definitions-Fußnote — Empfehlung: im Chart weglassen, nicht mischen.
 - *Kommentarband („Kommentar:", 4 ◼-Bullets, Ziel ≤5 Textzeilen):*
-  1. „Umsatz 2025 preisbedingt rückläufig (−11 %), Rohertragsmarge auf 27,9 % gestiegen" *(1 Zeile — Kurzbullet wie evm „Umsatz 2025 stabil")*
-  2. „Rekordergebnisse 2023/2024 sondereffektgetrieben (2024: Rückstellungsauflösungen von 20,6 Mio. EUR, u. a. Vergleich im Wasserkartellverfahren) − 2025 markiert die Normalisierung auf robustem Niveau (EBT 53 Mio. EUR, deutlich über Plan)" *(2 Zeilen)*
-  3. „Der operative Cashflow (Ø ~57 Mio. EUR p. a.) wird nahezu vollständig durch die Ergebnisabführung an die Gesellschafter und den Investitionshochlauf absorbiert − die liquiden Mittel sanken Ende 2025 auf 2,5 Mio. EUR" *(2 Zeilen)*
-  4. **(Leitmotiv, 6. Auftritt — analytischer Kern wie evm-Schlussbullet)** „Der angekündigte erhebliche Investitionsanstieg scheint bei unveränderter Ausschüttungspolitik nicht aus dem operativen Cash Flow finanzierbar zu sein − bereits 2025 waren Kapitaleinlagen der Aktionäre (10 Mio. EUR) zur Sicherung der Ziel-EK-Quote von über 25 % erforderlich" *(2 Zeilen)*
+  1. „Der Umsatz ging 2025 preisbedingt um 11 % zurück, während die Rohertragsmarge auf 27,9 % gestiegen ist" *(1–2 Zeilen)*
+  2. „Die Rekordergebnisse der Jahre 2023 und 2024 waren sondereffektgetrieben, unter anderem durch Rückstellungsauflösungen von 20,6 Mio. EUR im Jahr 2024; mit einem EBT von 53 Mio. EUR deutlich über Plan markiert 2025 die Normalisierung auf robustem Niveau" *(2 Zeilen)*
+  3. „Der operative Cashflow von durchschnittlich rund 57 Mio. EUR pro Jahr wird nahezu vollständig durch die Ergebnisabführung an die Gesellschafter und den Investitionshochlauf absorbiert, sodass die liquiden Mittel Ende 2025 auf 2,5 Mio. EUR gesunken sind" *(2 Zeilen)*
+  4. **(Leitmotiv, 6. Auftritt — analytischer Kern wie evm-Schlussbullet)** „Der angekündigte erhebliche Investitionsanstieg scheint bei unveränderter Ausschüttungspolitik nicht aus dem operativen Cash Flow finanzierbar zu sein, denn bereits 2025 waren Kapitaleinlagen der Aktionäre von 10 Mio. EUR erforderlich, um die Ziel-Eigenkapitalquote von über 25 % zu sichern" *(2 Zeilen)*
 
 **Fußnoten & Quellenzeile:** „1) Rohertrag = Umsatzerlöse ./. Materialaufwand; 2) Abweichungen der Säulensummen von den ∑-Werten rundungsbedingt" · Quellenzeile: „Quellen: Metzler-Recherche, Jahresabschlüsse ESWE Versorgungs AG 2021–2025, Unternehmenswebsite"
 
@@ -290,11 +292,11 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 
 ---
 
-## Slide 20 — Beteiligungsmodelle − ausgewählte Impulse (evm-Pendant S. 20)
+## Slide 20 — Beteiligungsmodelle und ausgewählte Impulse (evm-Pendant S. 20)
 
 **Message (1 Satz):** Konkret könnte es z. B. ein JV/SPV für Wärme/EE nach Carve-out mit einem Minderheitsinvestor sein — oder direkte Beteiligungen an den auf Slide 14 gezeigten Gesellschaften; Governance bleibt gestaltbar und die Vorteile adressieren exakt den Takeaway von Slide 12.
 
-**Headline (evm-Wortlaut 1:1):** „Bei Bedarf können private Investoren in unterschiedlichen Modellen und bei unterschiedlichen Assets beteiligt werden − ausgewählte Impulse" **(138 Zeichen, 2 Zeilen — exakt an der Budgetgrenze wie im Original)**
+**Headline:** „Bei Bedarf können private Investoren in unterschiedlichen Modellen und bei unterschiedlichen Assets beteiligt werden" **(117 Zeichen, 2 Zeilen)**; darunter als graue Zwischenüberschrift wie auf der Ausgangslage-Slide: „Ausgewählte Impulse" *(im evm-Original hängt „− ausgewählte Impulse" per Gedankenstrich an der Headline; hier bewusst getrennt)*
 
 **Kopfzeile:** „3. Diskussion möglicher Handlungsoptionen"
 
@@ -351,8 +353,8 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 Leitmotiv = **„erheblich steigendes, aber unquantifiziertes Investitionsvolumen bei erschöpfter Innenfinanzierung"** (siehe Kopf des Drehbuchs).
 1. Slide 12, Bullet 6: wörtliches Lagebericht-Zitat „…wird sich in den nächsten Jahren nochmals erheblich steigern"
 2. Slide 12, Takeaway-Banner: Finanzierung des wachsenden Investitionsprogramms bei Wahrung finanzieller und strategischer Flexibilität
-3. Slide 15, Headline: „…der Investitionshochlauf für die Wärmewende steht noch bevor"
+3. Slide 15, Headline: „…während der Investitionshochlauf für die Wärmewende noch bevorsteht"
 4. Slide 15, Chart-Badges: CapEx / Abschreibungen 3,0x → 2,3x (Investitionen dauerhaft über Abschreibungen)
-5. Slide 15, Takeaway: „…beim 1,8- bis 3,7-fachen der Abschreibungen − der Hochlauf ist darin noch nicht enthalten"
+5. Slide 15, Takeaway: „…beim 1,8- bis 3,7-fachen der Abschreibungen, obwohl der Wärmewende-Hochlauf darin noch nicht enthalten ist"
 6. Slide 16, Kommentar-Bullet 4: nicht aus dem operativen Cash Flow finanzierbar; Kapitaleinlagen bereits 2025 erforderlich
 Flankierend das EK-Quoten-Ziel „dauerhaft über 25 %": Slide 12 Bullet 7 · Slide 16 Bullet 4 · Slide 19 Ziel 2 (+ EK-Ovale Slide 16 Panel 3).
