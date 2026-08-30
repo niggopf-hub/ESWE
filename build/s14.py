@@ -41,10 +41,7 @@ BAND_BOT = BAND_Y + BAND_H
 
 R1_TILE_Y, R1_BOX_Y, R1_BOX_H = 254.0, 280.0, 92.0
 R2_TILE_Y, R2_BOX_Y, R2_BOX_H = 396.0, 422.0, 86.0
-BUS1_Y, BUS2_Y = 238.0, 380.0             # Hoehe der Verteilerlinien
-
-ADJ1 = (BUS1_Y - BAND_BOT) / (R1_TILE_Y - BAND_BOT)
-ADJ2 = (BUS2_Y - BAND_BOT) / (R2_TILE_Y - BAND_BOT)
+BUS2_Y = 380.0                            # Verteilerlinie der zweiten Reihe
 
 # (Name, Quote, Tätigkeit, Kennzahl, Ergebniszeile, Ergebnisfarbe, Logo-Datei)
 ROW1 = [
@@ -160,11 +157,15 @@ def build(prs):
                    logo='logo_thuega.png')
     eswe = _tile(s, 29.8, ESWE_Y, 782.4, 'ESWE Versorgungs AG', size=10.0)
 
-    connect(s, stadt, 2, wvv, 0)
+    connect(s, 421.0, STADT_Y + TILE_H, 421.0, WVV_Y,
+            begin=(stadt, 2), end=(wvv, 0))
     _quote(s, 421.0, STADT_Y + TILE_H + 1.0, '100 %')
-    connect(s, wvv, 2, eswe, 0, adj=0.62)
+    connect(s, 421.0, WVV_Y + TILE_H, 421.0, ESWE_Y,
+            begin=(wvv, 2), end=(eswe, 0))
     _quote(s, 421.0, WVV_Y + TILE_H + 3.0, '50,62 %')
-    connect(s, thuega, 2, eswe, 0, adj=0.62)
+    # Thuega haengt wie die RheinEnergie in der Vorlage senkrecht an der
+    # durchgehenden ESWE-Kachel
+    connect(s, 772.5, WVV_Y + TILE_H, 772.5, ESWE_Y, begin=(thuega, 2))
     textbox(s, 700.0, WVV_Y + TILE_H + 3.0, 68, 12.0,
             [[Run('49,38 %', F_LIGHT, 9.0, BLACK)]], anchor='m',
             align=PP_ALIGN.RIGHT, wrap=False)
@@ -177,14 +178,21 @@ def build(prs):
                  [Run(label, F_LIGHT, 9.0, BLACK), Run(val, F_LIGHT, 9.0, col)])
 
     # ---------------- Reihe 1 und 2 ----------------
-    for row, tile_y, box_y, box_h, bus_y, adj in (
-            (ROW1, R1_TILE_Y, R1_BOX_Y, R1_BOX_H, BUS1_Y, ADJ1),
-            (ROW2, R2_TILE_Y, R2_BOX_Y, R2_BOX_H, BUS2_Y, ADJ2)):
+    # Reihe 2 wird ueber eine Klammer versorgt: senkrecht in der Gasse zwischen
+    # Spalte 3 und 4 (genau unter der Mitte der ESWE-Kachel), dann waagerecht
+    connect(s, 421.0, BAND_BOT, 421.0, BUS2_Y, begin=(band, 2))
+    connect(s, COLX[0] + CW / 2.0, BUS2_Y, COLX[5] + CW / 2.0, BUS2_Y)
+
+    for row, tile_y, box_y, box_h, drop_y in (
+            (ROW1, R1_TILE_Y, R1_BOX_Y, R1_BOX_H, BAND_BOT),
+            (ROW2, R2_TILE_Y, R2_BOX_Y, R2_BOX_H, BUS2_Y)):
         for i, (name, q, akt, kpi, erg, col, logo) in enumerate(row):
             x = COLX[i]
+            cx = x + CW / 2.0
             tile = _tile(s, x, tile_y, CW, name, logo=logo)
-            connect(s, band, 2, tile, 0, adj=adj)
-            _quote(s, x + CW / 2.0, bus_y + 3.0, q)
+            # senkrechter Abgang, oben mittig an die Kachel geklebt
+            connect(s, cx, drop_y, cx, tile_y, end=(tile, 0))
+            _quote(s, cx, drop_y + 3.0, q)
             rect(s, x, box_y, CW, box_h, fill=BOX)
             bullet_box(s, x + 5.0, box_y + 5.0, CW - 9.0, box_h - 8.0,
                        [_sup_runs(akt, F_LIGHT, 9.0, BLACK),

@@ -37,12 +37,22 @@ DECK_QA=1 python3 build/build_deck.py  # Vorschau-Variante (■ statt Wingdings-
 
 ## Folie 14 — Verbindungslinien und Logos
 
-Alle Äste sind **Konnektoren, die an den Verbindungspunkten der Kacheln kleben**
-(`connect(...)` in `deck.py`, Punkt 0 = oben, 1 = links, 2 = unten, 3 = rechts).
-Verschiebt man eine Kachel in PowerPoint, läuft die Linie mit. Die Knicke einer
-Reihe liegen über eine gemeinsame Adjustierung (`ADJ1`, `ADJ2` in `s14.py`) exakt
-auf einer Höhe, sodass eine durchgehende Verteilerlinie entsteht. Der Abgang zur
-zweiten Reihe fällt genau in die Gasse zwischen Spalte 3 und 4.
+Alle Äste sind **Winkelverbinder** (PowerPoint: *Verbinder – Winkel*), die an den
+Verbindungspunkten der Kacheln kleben (`connect(...)` in `deck.py`; Punkt 0 = oben
+mittig, 1 = links, 2 = unten mittig, 3 = rechts). Jeder Abgang hängt oben mittig
+an seiner Kachel — verschiebt man sie in PowerPoint, läuft die Linie mit.
+
+Wie in der Vorlage hängt Reihe 1 mit kurzen senkrechten Abgängen direkt am
+Kennzahlenband; Reihe 2 wird über eine Klammer versorgt: senkrecht in der Gasse
+zwischen Spalte 3 und 4 (die genau unter der Mitte der ESWE-Kachel liegt), dann
+waagerecht über die Reihe.
+
+**Wichtig für Änderungen:** Die Konnektoren werden bewusst immer exakt senkrecht
+oder waagerecht gesetzt (Breite oder Höhe = 0) und ohne `adj1`. Ein erzwungener
+Knick wäre eine Falle: bei `bentConnector3` verschiebt `adj1` die *senkrechte*
+Teilstrecke, nicht die waagerechte. LibreOffice routet Konnektoren neu und
+kaschiert das, PowerPoint zeichnet die Datei wie gespeichert — die Linien liefen
+dann quer durch die Kästen.
 
 Jeder Infokasten ist **genau ein Textfeld** mit echten Aufzählungszeichen
 (`bullet_box`, Wingdings-Quadrat als `buChar`) — kein separates Feld je Bullet.

@@ -478,31 +478,31 @@ def strip_style(shape):
     return shape
 
 
-def connect(slide, a, a_idx, b, b_idx, color=None, width=0.9, adj=None, dash=None):
-    """Verbindungslinie, die an den Verbindungspunkten der Formen klebt.
+def connect(slide, x0, y0, x1, y1, begin=None, end=None, color=None,
+            width=0.9, dash=None):
+    """Winkelverbinder (PowerPoint: Verbinder – Winkel), an Formen geklebt.
 
-    a_idx/b_idx: 0 = oben, 1 = links, 2 = unten, 3 = rechts (Rechteck).
-    adj: Lage des Knicks als Anteil der Strecke (0..1) – gleiche Werte in einer
-    Reihe ergeben eine durchgehende Verteilerlinie auf einheitlicher Hoehe.
+    begin/end: (Form, idx) zum Ankleben – idx 0 = oben mittig, 1 = links,
+    2 = unten mittig, 3 = rechts. Ohne Angabe bleibt das Ende frei.
+
+    Die Geometrie wird bewusst immer waagerecht oder senkrecht gesetzt: ein
+    Winkelverbinder ohne Versatz zeichnet eine gerade Strecke, und zwar in jedem
+    Renderer gleich. Ein erzwungener Knick (adj1) wuerde in PowerPoint die
+    senkrechte Teilstrecke verschieben und quer durch die Kaesten laufen.
     """
     from pptx.enum.shapes import MSO_CONNECTOR
     from pptx.enum.dml import MSO_LINE_DASH_STYLE
-    from pptx.oxml import parse_xml
-    c = slide.shapes.add_connector(MSO_CONNECTOR.ELBOW, Pt(0), Pt(0), Pt(10), Pt(10))
-    c.begin_connect(a, a_idx)
-    c.end_connect(b, b_idx)
+    c = slide.shapes.add_connector(MSO_CONNECTOR.ELBOW,
+                                   Pt(x0), Pt(y0), Pt(x1), Pt(y1))
+    if begin is not None:
+        c.begin_connect(begin[0], begin[1])
+    if end is not None:
+        c.end_connect(end[0], end[1])
     c.line.color.rgb = color or DARK
     c.line.width = Pt(width)
     if dash:
         c.line.dash_style = MSO_LINE_DASH_STYLE.DASH
     strip_style(c)
-    if adj is not None:
-        av = c._element.spPr.find(qn('a:prstGeom')).find(qn('a:avLst'))
-        for e in list(av):
-            av.remove(e)
-        av.append(parse_xml('<a:gd xmlns:a="http://schemas.openxmlformats.org/drawingml'
-                            '/2006/main" name="adj1" fmla="val %d"/>'
-                            % int(round(adj * 100000))))
     return c
 
 
