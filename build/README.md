@@ -16,7 +16,7 @@ DECK_QA=1 python3 build/build_deck.py  # Vorschau-Variante (■ statt Wingdings-
 
 | Datei | Inhalt |
 |---|---|
-| `deck.py` | Grundgerüst: Seitenmaß A4 quer (842 × 595,32 pt), Farben, Schriften, Textmaß und Umbruch, Kacheln, Donut-Segmente, Schatten |
+| `deck.py` | Grundgerüst: Seitenmaß A4 quer (842 × 595,32 pt), Farben, Schriften, Textmaß und Umbruch, Kacheln, Donut-Segmente, Schatten, geklebte Verbindungslinien (`connect`) und Textfelder mit echten Aufzählungszeichen (`bullet_box`) |
 | `replay.py` | Generischer Nachbau unveränderter evm-Seiten aus `evm_layout.json` |
 | `front.py` | Titelseite, Agenda, Kapiteltrenner |
 | `s12.py` … `s20.py` | Die neu befüllten Inhaltsfolien |
@@ -34,6 +34,29 @@ DECK_QA=1 python3 build/build_deck.py  # Vorschau-Variante (■ statt Wingdings-
 | 7, 8, 9, 10 | Metzler-Standardseiten als Bild übernommen (transparente Überlagerungen der Vorlage) |
 | 12, 13, 15–17, 19, 20 | Neu gebaut nach Drehbuch, Layout 1:1 aus dem evm-Deck |
 | 14 | Beteiligungsstruktur nach `20240305_Stadtwerke Duisburg_v4`, Folie 11 — Konzernbaum mit Quoten an den Verbindungslinien und je Gesellschaft Tätigkeit, Kapital-/Umsatzgröße und Ergebnisbeitrag (grün = Zufluss, rot = Verlust) |
+
+## Folie 14 — Verbindungslinien und Logos
+
+Alle Äste sind **Konnektoren, die an den Verbindungspunkten der Kacheln kleben**
+(`connect(...)` in `deck.py`, Punkt 0 = oben, 1 = links, 2 = unten, 3 = rechts).
+Verschiebt man eine Kachel in PowerPoint, läuft die Linie mit. Die Knicke einer
+Reihe liegen über eine gemeinsame Adjustierung (`ADJ1`, `ADJ2` in `s14.py`) exakt
+auf einer Höhe, sodass eine durchgehende Verteilerlinie entsteht. Der Abgang zur
+zweiten Reihe fällt genau in die Gasse zwischen Spalte 3 und 4.
+
+Jeder Infokasten ist **genau ein Textfeld** mit echten Aufzählungszeichen
+(`bullet_box`, Wingdings-Quadrat als `buChar`) — kein separates Feld je Bullet.
+
+**Logos:** Liegt in `assets/` eine Datei mit dem passenden Namen, setzt der Build
+sie automatisch statt des Firmennamens in die Kachel:
+
+`logo_wvv.png` · `logo_thuega.png` · `logo_swnetz.png` · `logo_witcom.png` ·
+`logo_bioenergie.png` · `logo_kmw.png` · `logo_mhkw.png` · `logo_wrt.png` ·
+`logo_taunuswind.png` · `logo_eswewindpark.png` · `logo_uettingen.png` ·
+`logo_kahlenberg.png` · `logo_badcamberg.png` · `logo_thee.png`
+
+Am besten als PNG mit transparentem Hintergrund; die Höhe wird auf die Kachel
+skaliert.
 
 ## Schriften
 

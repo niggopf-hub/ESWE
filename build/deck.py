@@ -193,6 +193,7 @@ def rect(slide, x, y, w, h, fill=None, linecolor=None, linew=0.75, shape=MSO_SHA
         s.line.color.rgb = linecolor
         s.line.width = Pt(linew)
     no_shadow(s)
+    strip_style(s)
     if adj is not None:
         try:
             s.adjustments[0] = adj
@@ -466,3 +467,99 @@ def vlabel(slide, x, y, w, h, paras, size=9.0, color=DARK, font=None, line=11.0,
                   anchor='m', align=PP_ALIGN.CENTER, line=line, wrap=False)
     box.rotation = rot
     return box
+
+
+# ---------------------------------------------------------------- Konnektoren
+def strip_style(shape):
+    """Theme-Style entfernen, damit Fuellung/Linie/Effekt nur aus spPr kommen."""
+    st = shape._element.find(qn('p:style'))
+    if st is not None:
+        shape._element.remove(st)
+    return shape
+
+
+def connect(slide, a, a_idx, b, b_idx, color=None, width=0.9, adj=None, dash=None):
+    """Verbindungslinie, die an den Verbindungspunkten der Formen klebt.
+
+    a_idx/b_idx: 0 = oben, 1 = links, 2 = unten, 3 = rechts (Rechteck).
+    adj: Lage des Knicks als Anteil der Strecke (0..1) – gleiche Werte in einer
+    Reihe ergeben eine durchgehende Verteilerlinie auf einheitlicher Hoehe.
+    """
+    from pptx.enum.shapes import MSO_CONNECTOR
+    from pptx.enum.dml import MSO_LINE_DASH_STYLE
+    from pptx.oxml import parse_xml
+    c = slide.shapes.add_connector(MSO_CONNECTOR.ELBOW, Pt(0), Pt(0), Pt(10), Pt(10))
+    c.begin_connect(a, a_idx)
+    c.end_connect(b, b_idx)
+    c.line.color.rgb = color or DARK
+    c.line.width = Pt(width)
+    if dash:
+        c.line.dash_style = MSO_LINE_DASH_STYLE.DASH
+    strip_style(c)
+    if adj is not None:
+        av = c._element.spPr.find(qn('a:prstGeom')).find(qn('a:avLst'))
+        for e in list(av):
+            av.remove(e)
+        av.append(parse_xml('<a:gd xmlns:a="http://schemas.openxmlformats.org/drawingml'
+                            '/2006/main" name="adj1" fmla="val %d"/>'
+                            % int(round(adj * 100000))))
+    return c
+
+
+# ---------------------------------------------------------------- Aufzählungen
+def _bullet_pPr(p, color, size, indent=11.0, before=None, line=None):
+    """Echte PowerPoint-Aufzählung (Wingdings-Quadrat) am Absatz setzen."""
+    from pptx.oxml import parse_xml
+    A = 'xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"'
+    pPr = p._p.get_or_add_pPr()
+    pPr.set('marL', str(int(round(indent * 12700))))
+    pPr.set('indent', str(int(round(-indent * 12700))))
+    _set_spacing(p, line, before, None)
+    for xml in ('<a:buClr %s><a:srgbClr val="%02X%02X%02X"/></a:buClr>'
+                % (A, color[0], color[1], color[2]),
+                '<a:buSzPct %s val="75000"/>' % A,
+                '<a:buFont %s typeface="%s"/>' % (A, 'Arial' if QA else F_WING),
+                '<a:buChar %s char="%s"/>' % (A, '&#9642;' if QA else 'n')):
+        pPr.append(parse_xml(xml))
+    return p
+
+
+def bullet_box(slide, x, y, w, h, items, size=9.0, line=10.4, before=3.0,
+               bullet_color=None, font=None, indent=11.0, anchor='t'):
+    """Ein Textfeld mit echten Aufzaehlungszeichen – kein separates Bullet-Feld.
+
+    items: je Eintrag ein String, ein (Text, Farbe)-Tupel oder eine Run-Liste.
+    """
+    font = font or F_LIGHT
+    bullet_color = bullet_color or DARK
+    box = slide.shapes.add_textbox(Pt(x), Pt(y), Pt(w), Pt(h))
+    tf = box.text_frame
+    tf.word_wrap = True
+    tf.auto_size = MSO_AUTO_SIZE.NONE
+    tf.margin_left = tf.margin_right = tf.margin_top = tf.margin_bottom = 0
+    tf.vertical_anchor = {'t': MSO_ANCHOR.TOP, 'm': MSO_ANCHOR.MIDDLE}[anchor]
+    box.fill.background()
+    box.line.fill.background()
+    strip_style(box)
+    first = True
+    for it in items:
+        if isinstance(it, list):
+            runs = it
+        elif isinstance(it, tuple):
+            runs = [Run(it[0], font, size, it[1])]
+        else:
+            runs = [Run(it, font, size, BLACK)]
+        p = tf.paragraphs[0] if first else tf.add_paragraph()
+        _bullet_pPr(p, bullet_color, size, indent,
+                    before=(0 if first else before), line=line)
+        for r in runs:
+            _apply(p.add_run(), r)
+        first = False
+    return box
+
+
+def add_runs(paragraph, runs):
+    """Weitere Textlaeufe an einen bestehenden Absatz anhaengen."""
+    for r in runs:
+        _apply(paragraph.add_run(), r)
+    return paragraph
