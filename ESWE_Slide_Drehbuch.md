@@ -292,46 +292,46 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 
 ---
 
-## Slide 20 — Beteiligungskonzept Wärme: Status Quo, Option 1, Option 2 (nach der Metzler-Vorlage „Beteiligungskonzept zur Kapitalflexibilisierung")
+## Slide 20 — Beteiligungskonzept Wärme: Bestand einbeziehen oder nur das Wachstum öffnen (Layout nach Metzler-Vorlage, Optionen ESWE-hergeleitet)
 
-**Einordnung:** Die zuvor erarbeitete „Vier-Stellhebel"-Fassung war High-Level und doppelte den Zielraum von Slide 19; sie wandert als Sprech-/Backup-Ebene zu Slide 19 (siehe dort). Diese Slide folgt stattdessen der bewährten Metzler-Vorlage mit drei Strukturbildern nebeneinander (Status Quo, Option 1, Option 2), Kommentar-Kästen darunter und Banner-Zeile unten — und füllt sie mit den echten ESWE-Gesellschaften. Damit bekommt Kapitel 3 die Konkretisierungsstufe, die bei evm und DVV der eigentliche Mehrwert der Unterlage war.
+**Herleitung statt Übernahme:** Die Metzler-Vorlage liefert das Layout (Status Quo | Option 1 | Option 2, Kommentar-Kästen, Banner), aber ihr Optionspaar — eine Wärmegesellschaft oder die Trennung in Nahwärme und Fernwärme — beantwortet die Frage eines anonymen Stadtwerks mit gewachsenem Nahwärmegeschäft. Die ESWE-Situation stellt eine andere Frage: Das Fernwärme-Bestandsnetz (132,9 km) ist ein politisch sensibles Monopol-Asset in einer Stadt, die nur 50,62 % hält und unter Haushaltsauflagen steht, während der eigentliche Kapitalbedarf im **Ausbau** liegt (KWP-Erweiterungsgebiete, Quartierslösungen, MHKW-Anbindung — der Wärmewende-Hochlauf, der laut Slide 15 noch bevorsteht). Die Entscheidungsachse, über die ein Aufsichtsrat aus Stadt und Thüga tatsächlich debattieren wird, ist daher: Wird das Bestandsnetz in eine Beteiligung einbezogen (maximaler Kapitalzufluss, maximale politische Eingriffstiefe), oder finanziert ein Partner ausschließlich das Neugeschäft (Bestand bleibt vollständig kommunal, dafür geringerer Mittelzufluss)? Genau dieses Paar zeigt die Slide. Warum Wärme als Beispiel-Perimeter bleibt: Die Storyline des Decks läuft auf die Wärmewende zu, dort sitzt die Wachstumsstory aus der beschlossenen KWP; das Stromnetz wäre der größere Hebel, liegt aber in der sw netz und trägt mit RAMEN/NEST einen aktuellen Regulierungsüberhang — es wandert mit WiTCOM und Windportfolio in die Banner-Zeile.
 
-**Message (1 Satz):** Für den Wärmebereich der ESWE lassen sich heute schon zwei konkrete Beteiligungsstrukturen zeichnen, die sich an Strategie und Investitionsbedarf anpassen lassen, sodass die Diskussion nicht bei der Grundsatzfrage, sondern bei der Strukturwahl beginnt.
+**Message (1 Satz):** Für den Wärmebereich existieren zwei konkrete Strukturwege, deren Abwägung zwischen Kapitalzufluss und politischer Umsetzbarkeit die eigentliche Gremiendiskussion ist, sodass das Gespräch nicht bei der Grundsatzfrage, sondern bei der Strukturwahl beginnt.
 
-**Headline (Vorlage, angepasst):** „Ein Beteiligungskonzept zur Kapitalflexibilisierung kann individuell an die Strategie und die Investitionsbedürfnisse der ESWE angepasst werden" *(141 Zeichen, 2 Zeilen — minimal über dem Budget von 138; Kurzvariante: „Ein Beteiligungskonzept zur Kapitalflexibilisierung lässt sich individuell an Strategie und Investitionsbedarf der ESWE anpassen" = 128 Zeichen)*
+**Headline:** „Im Wärmebereich stehen zwei Beteiligungswege offen, die sich in Kapitalzufluss und politischer Eingriffstiefe deutlich unterscheiden" *(131 Zeichen, 2 Zeilen)*
 
 **Kopfzeile:** „3. Diskussion möglicher Handlungsoptionen" · **Diagonal-Badge oben links (grün, wie Vorlage):** „Illustrativ – Beteiligung am Wärmebereich"
 
-**Layout:** Drei Spalten mit blauen Titelbalken „Status Quo" (schmal, links) | „Option 1" | „Option 2" (breiter); darunter zwei „Kommentar"-Kästen (einer für den Status Quo, einer gemeinsam für die Optionen); unten Banner mit Pfeilmarker. Orange Investor-Boxen, kursives „Minderheit" an den Beteiligungspfeilen, Kachel-Untertitel kursiv „post Carve-Out" — alles 1:1 aus der Vorlage.
+**Layout:** Drei Spalten mit blauen Titelbalken „Status Quo" (schmal) | „Option 1 – Bestand und Ausbau" | „Option 2 – Nur Wachstum"; darunter zwei Kommentar-Kästen; unten Banner mit Pfeilmarker. Orange Investor-Boxen, kursives „Minderheit", Kachel-Untertitel „post Carve-Out" aus der Vorlage übernommen.
 
-**Status Quo (Strukturbild):** Kachel „ESWE Versorgungs AG" mit zwei Icon-Zeilen „Wärmeerzeugung" und „(Fern-)Wärmenetz".
+**Status Quo (Strukturbild):** Kachel „ESWE Versorgungs AG" mit Icon-Zeilen „Wärmeerzeugung" und „(Fern-)Wärmenetz"; darunter klein die Gesellschafter-Kacheln „WVV 50,62 %" und „Thüga 49,38 %" mit Doppelpfeil „Gewinnabführung / Kapitaleinlagen".
 *Kommentar Status Quo (2 ◼-Bullets):*
-- „Das Fernwärmenetz und der Wärmevertrieb liegen direkt in der ESWE Versorgungs AG, während die Erzeugung über die ESWE BioEnergie (90 %) und den Abwärmebezug aus dem MHKW erfolgt"
-- „Erhaltungs- und Erweiterungsinvestitionen trägt vollständig die ESWE, obwohl der Ausbau laut Kommunaler Wärmeplanung deutlich beschleunigt werden soll"
+- „Fernwärmenetz und Wärmevertrieb liegen direkt in der ESWE, während die Erzeugung über die ESWE BioEnergie und den Abwärmebezug aus dem MHKW erfolgt"
+- „Sämtliche Erhaltungs- und Erweiterungsinvestitionen trägt die ESWE allein, während die Gesellschafter zugleich Kapital einlegen, um die Eigenkapitalquote zu halten"
 
-**Option 1 (Strukturbild):** ESWE Versorgungs AG hält „>50%" an „‚Wärme Wiesbaden Gesellschaft' *post Carve-Out*" (Icon-Zeilen: „Wärmeerzeugung" / „(Fern-)Wärmenetze"); orange Box „Investor" mit Pfeil und kursivem „Minderheit".
+**Option 1 — „Wärme Wiesbaden Gesellschaft" (Bestand und Ausbau):** ESWE hält „≥50,1%" an der Gesellschaft *post Carve-Out* (Icon-Zeilen: „(Fern-)Wärmenetz und -erzeugung" / „Ausbauprojekte aus der KWP"); orange Box „Investor" mit Pfeil und „Minderheit".
 
-**Option 2 (Strukturbild):** ESWE Versorgungs AG hält je „100%" an zwei Gesellschaften, zwischen denen ein „und/oder"-Kästchen sitzt: „‚Fernwärme Gesellschaft' *post Carve-Out*" (Icon-Zeilen: „(Fern-)Wärmenetz und -erzeugung", also Verbundnetz Kernstadt samt BMHKW-/MHKW-Wärmebezug) und „‚Quartierswärme Gesellschaft' *post Carve-Out*" (Icon-Zeilen: „Nahwärmenetze und Contracting", also die dezentralen Quartiers- und Wärmepumpenlösungen aus der KWP); orange Boxen „Investor 1" und „Investor 2" mit Pfeilen und kursivem „Minderheit". *Die Zweiteilung bildet exakt die Logik der Wiesbadener Wärmeplanung ab: Fernwärme in der dicht bebauten Kernstadt, dezentrale Lösungen in den Ortsteilen — zwei unterschiedliche Rendite-Risiko-Profile für unterschiedliche Investorentypen.*
+**Option 2 — „Wärmewende-Wachstumsgesellschaft" (nur Neubau):** Das Bestandsnetz verbleibt zu 100 % in der ESWE (kleine graue Kachel „Bestandsnetz verbleibt bei ESWE"); die neue Gesellschaft bündelt ausschließlich die Neubauprojekte (Icon-Zeilen: „Erweiterungsgebiete Fernwärme" / „Quartierswärme und Contracting"); ESWE Mehrheit, orange Box „Investor" mit „Minderheit"; Investor bringt Eigenkapital ausschließlich für den Ausbau.
 
 *Kommentar Optionen (1 ◼-Bullet Strukturierung + „Ausgewählte Themen und Herausforderungen:" mit –-Bullets):*
-- „Strukturierung: Das (Fern-)Wärmegeschäft wird in eine oder zwei Gesellschaften ausgegliedert, an denen Investoren minderheitlich beteiligt werden können"
+- „Strukturierung: Entweder wird das gesamte Wärmegeschäft einschließlich Bestandsnetz ausgegliedert, oder eine Wachstumsgesellschaft bündelt ausschließlich die Neubauprojekte aus der Kommunalen Wärmeplanung"
 - „Ausgewählte Themen und Herausforderungen:"
-  – „Erarbeitung eines Stand-alone-Business-Plans je Gesellschaft inklusive Bilanz, GuV, Investitions- und Cashflow-Planung, der den Transformationsplan des Fernwärmenetzes und die BEW-Förderkulisse abbildet"
-  – „Mittelfristig muss aus Sicht der Investoren ein attraktives Rendite-Risiko-Profil darstellbar sein, wofür die Anschlussdynamik aus der beschlossenen Kommunalen Wärmeplanung die Wachstumsstory liefert"
-  – „Dienstleistungen in den Gesellschaften werden über eigenes Personal oder über Dienstleistungsverträge mit der ESWE erbracht"
-  – „Gemeinsam genutzte Infrastruktur und Bezugsverhältnisse, etwa die Wärmelieferung der ESWE BioEnergie, der Abwärmebezug aus dem MHKW und die zentrale Pumpstation, müssen abgegrenzt und geregelt werden"
-  – „Die Zusammenarbeit zwischen Investor und ESWE ist in einer Gesellschaftervereinbarung festzulegen, die auch die Vereinbarkeit mit dem Ergebnisabführungsvertrag sowie die Zustimmung von Stadt und Thüga sichert"
-  – „Rechtliche, steuerliche und regulatorische Aspekte sind zu prüfen, insbesondere der steuerliche Querverbund, die BEW-Förderfähigkeit nach Ausgliederung und die Preisstellung nach AVBFernwärmeV"
+  – „Option 1 maximiert den Kapitalzufluss aus Kaufpreis und Investoren-Eigenkapital, erfordert jedoch die politisch sensibelste Entscheidung, weil das Bestandsnetz teilprivatisiert wird"
+  – „Option 2 hält das Bestandsnetz vollständig kommunal und ist dadurch deutlich leichter vermittelbar, während der Investor ausschließlich das Wachstum finanziert und ein stärker projektbezogenes Risikoprofil trägt"
+  – „Für beide Wege muss ein Stand-alone-Business-Plan die Anschlussdynamik aus der beschlossenen Wärmeplanung und die BEW-Förderkulisse belastbar abbilden"
+  – „Bezugs- und Dienstleistungsverhältnisse mit der ESWE, etwa die Wärmelieferung der BioEnergie, der MHKW-Abwärmebezug und der Netzbetrieb, sind vertraglich abzugrenzen"
+  – „Eine Gesellschaftervereinbarung muss Governance, Ausschüttungspolitik und Exit regeln und zugleich die Vereinbarkeit mit dem Ergebnisabführungsvertrag sowie die Zustimmung von Stadt und Thüga sichern"
+  – „Steuerliche und regulatorische Aspekte sind früh zu prüfen, insbesondere der steuerliche Querverbund der WVV und die Förderfähigkeit nach einer Ausgliederung"
 
-**Banner unten (Pfeilmarker, fett):** „Die Strukturierung ähnlicher Beteiligungsoptionen ist auch für andere Assets vorstellbar, zum Beispiel für das Windportfolio, die WiTCOM oder die Ladeinfrastruktur"
+**Banner unten (Pfeilmarker, fett):** „Ähnliche Strukturen sind auch für andere Assets denkbar, etwa eine Minderheitsbeteiligung an der sw netz, der WiTCOM oder dem Windportfolio"
 
 **Fußnoten & Quellenzeile:** Fußnote „1) Vereinfachte, illustrative Darstellung; Beteiligungshöhen und Perimeter sind Gegenstand der Strukturierung" · Keine Quellenzeile (Konzept-Slide).
 
-**Platz-Check:** Die Vorlage trägt im Options-Kommentar sechs –-Bullets zu je ein bis zwei Zeilen; die ESWE-Bullets oben sind mit 120–200 Zeichen etwas länger und laufen auf je 2 Zeilen — das passt, wenn der Kommentar-Kasten wie im Original die volle Breite unter Option 1 und 2 nutzt. Notfalls zuerst beim AVBFernwärmeV-Bullet den zweiten Halbsatz kürzen. Die Strukturbilder übernehmen Kacheln, Icons und Beschriftungslogik unverändert; nur die Gesellschaftsnamen sind ESWE-spezifisch.
+**Platz-Check:** Spalten- und Kommentaraufbau entsprechen der Vorlage (dort 6 –-Bullets zu je 1–2 Zeilen; hier 6 Bullets zu je 2 Zeilen — passt bei voller Kommentarbreite unter den Optionen). Neu gegenüber der Vorlage sind nur die graue Bestandsnetz-Kachel in Option 2 und der kleine Gesellschafter-Doppelpfeil im Status Quo; beide nutzen vorhandene Formensprache. Bei Platznot zuerst im Status Quo die Gesellschafter-Kacheln streichen (Inhalt steht auf Slide 14).
 
-**Konsequenz für die Nachbar-Slides:** Slide 19 behält die sechs Ziele; die „vier Stellhebel" (Förder-/Nachrangkapital, Gesellschafterlösung, Projektpartnerschaften, Portfolio) werden dort zur Sprechlogik der Moderation beziehungsweise zur Backup-Slide — als gedankliche Brücke: „Aus den Zielen folgen vier Stellhebel, und für den größten Hebel im Wärmebereich zeigt die nächste Seite zwei konkrete Strukturen." Die frühere JV-Quadranten-Fassung (Asset-Liste, Governance-Aspekte, Vorteile) bleibt im Git-Verlauf und liefert Material für eine zweite Backup-Slide, falls im Termin nach anderen Assets als Wärme gefragt wird.
+**Konsequenz für die Nachbar-Slides:** Slide 19 behält die sechs Ziele samt Stellhebel-Moderation; die Überleitung lautet: „Der größte strukturelle Hebel liegt im Wärmebereich, und dort gibt es zwei Wege." Die frühere Fassung mit Nahwärme/Fernwärme-Trennung sowie die Vier-Stellhebel- und JV-Quadranten-Fassungen bleiben im Git-Verlauf als Backup-Material.
 
-**Offene Punkte dieser Slide:** BEW-Förderfähigkeit nach Carve-out prüfen (Fördermittelübergang); Vereinbarkeit mit dem steuerlichen Querverbund der WVV früh klären, denn sie kann die Strukturwahl zwischen Option 1 und 2 entscheiden; Status Stromkonzession (Offener Punkt 7) bleibt für die Banner-Assets relevant.
+**Offene Punkte dieser Slide:** BEW-Förderfähigkeit nach Carve-out beziehungsweise in der Wachstumsgesellschaft prüfen; Vereinbarkeit mit dem steuerlichen Querverbund der WVV früh klären, denn sie kann zwischen Option 1 und 2 entscheiden; Bankfähigkeit einer reinen Greenfield-Gesellschaft (Option 2) hängt an belastbaren Anschlussquoten aus der KWP — gegebenenfalls Mischform mit einzelnen Bestands-Clustern als dritte Variante in der Moderation vorhalten.
 
 ---
 
