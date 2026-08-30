@@ -269,7 +269,7 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 
 **Warum neu:** Die bisherigen sechs Ziele waren evm-Adaptionen. Zwei davon passen nicht zur ESWE-Storyline: „Ausbau der regionalen Marktposition durch gezielte Akquisitionen" hat in keiner Quelle einen Beleg (weder Lagebericht noch Presse deuten M&A-Ambitionen an), und „Erweiterung bestehender Plattformen um Kompetenzen und Kunden" ist generisches Wachstumsvokabular, das am bewiesenen Problem des Decks vorbeigeht. Das ESWE-spezifische Kernproblem, das bisher fehlte, ist das **Ausschüttungs-Paradox**: Über den Ergebnisabführungsvertrag fließt der komplette Jahresüberschuss ab (2025: 48,9 Mio. EUR an WVV und Thüga), während dieselben Gesellschafter gleichzeitig Kapital einlegen müssen, um die EK-Quote zu halten (10 Mio. EUR 2025, weitere Zuführung 2026 beschlossen). Die Ziele müssen dieses Spannungsfeld benennen, denn genau daraus entsteht der Beratungsbedarf.
 
-**Message (1 Satz):** Die sechs Ziele übersetzen die in Kapitel 2 bewiesene Finanzierungslücke in einen Zielrahmen, der vom Bilanzschutz über das Ausschüttungs-Paradox bis zur Kapitalfreisetzung reicht und damit die vier Stellhebel der Folgeslide vorbereitet.
+**Message (1 Satz):** Die sechs Ziele übersetzen die in Kapitel 2 bewiesene Finanzierungslücke in einen Zielrahmen, der vom Bilanzschutz über das Ausschüttungs-Paradox bis zur Kapitalfreisetzung reicht und damit das konkrete Beteiligungskonzept der Folgeslide vorbereitet.
 
 **Headline (unverändert):** „Verschiedene Handlungsoptionen für die zukünftige Positionierung der ESWE" *(73 Zeichen, 1 Zeile)*
 
@@ -282,7 +282,7 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
   4. *(Mitte rechts)* „Teilung von Kapitalbedarf und Projektrisiken bei den Großvorhaben der Wärmewende" *(80 Z.)*
   5. *(unten links)* „Freisetzung gebundenen Kapitals aus Beteiligungen ohne strategische Kernfunktion" *(80 Z.)*
   6. *(unten rechts)* „Ausschöpfung der Förder- und Nachrangkapitalprogramme von Bund und Land Hessen" *(78 Z.; neu, weil mit BEW und Hessischem EnergieFonds konkret verfügbar)*
-- *Moderation (nicht auf die Slide):* Zu Ziel 2/3 das Zahlenpaar 48,9 Mio. EUR Abführung gegen 10 Mio. EUR Einlage 2025; zu Ziel 4 Fernwärme-Transformation, Windpark Hohe Wurzel und die KMW-Großprojekte; zu Ziel 5 WiTCOM, Windportfolio-Rotation und MHKW-Exposure; zu Ziel 6 BEW, KfW und der EnergieFonds Hessen (WIBank, 1 Mrd. EUR, eigenkapitalähnliches Nachrangkapital für Stadtwerke, aufgelegt 11/2025).
+- *Moderation (nicht auf die Slide):* Als Sprechlogik zur Überleitung die vier Stellhebel (Förder- und Nachrangkapital, Gesellschafterlösung, Partnerschaften auf Projektebene, Portfolio-Maßnahmen), aus denen die Folgeslide den größten Hebel im Wärmebereich konkretisiert; zu Ziel 2/3 das Zahlenpaar 48,9 Mio. EUR Abführung gegen 10 Mio. EUR Einlage 2025; zu Ziel 4 Fernwärme-Transformation, Windpark Hohe Wurzel und die KMW-Großprojekte; zu Ziel 5 WiTCOM, Windportfolio-Rotation und MHKW-Exposure; zu Ziel 6 BEW, KfW und der EnergieFonds Hessen (WIBank, 1 Mrd. EUR, eigenkapitalähnliches Nachrangkapital für Stadtwerke, aufgelegt 11/2025).
 
 **Fußnoten & Quellenzeile:** Keine Fußnoten. Quellenzeile: „Quellen: Metzler-Recherche, Jahresabschlüsse ESWE Versorgungs AG 2024–2025, Unternehmenswebsite"
 
@@ -292,53 +292,46 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 
 ---
 
-## Slide 20 — Handlungsoptionen, neu gedacht: vier Stellhebel statt JV-Fokus (evm-Pendant S. 20)
+## Slide 20 — Beteiligungskonzept Wärme: Status Quo, Option 1, Option 2 (nach der Metzler-Vorlage „Beteiligungskonzept zur Kapitalflexibilisierung")
 
-**Warum neu:** Die evm-Slide beantwortet die Frage „Wie können private Investoren beteiligt werden?" und setzt damit die Lösung bereits voraus. Bei evm passte das, denn dort fehlte ein strategischer Partner. Die ESWE hat mit der Thüga aber bereits einen 49,38-%-Partner, einen Ergebnisabführungsvertrag, der die Ergebnisverwendung bindet, und mit dem neuen Hessischen EnergieFonds ein Instrument, das Quasi-Eigenkapital ganz ohne Anteilsverwässerung bietet. Die ehrliche Frage aus der Storyline (Slide 16: nicht aus dem operativen Cashflow finanzierbar) lautet daher „Wie wird der Hochlauf finanziert?", und darauf gibt es vier Antworten, von denen die private Beteiligung nur eine ist. Ein Deck, das einem stadtgeprägten Aufsichtsrat als einzige Idee den Investoreneinstieg zeigt, wirkt interessengetrieben; ein Baukasten mit vier Stellhebeln positioniert Metzler als Strukturierer des Gesamtpakets und ist zugleich die glaubwürdigere Beratung.
+**Einordnung:** Die zuvor erarbeitete „Vier-Stellhebel"-Fassung war High-Level und doppelte den Zielraum von Slide 19; sie wandert als Sprech-/Backup-Ebene zu Slide 19 (siehe dort). Diese Slide folgt stattdessen der bewährten Metzler-Vorlage mit drei Strukturbildern nebeneinander (Status Quo, Option 1, Option 2), Kommentar-Kästen darunter und Banner-Zeile unten — und füllt sie mit den echten ESWE-Gesellschaften. Damit bekommt Kapitel 3 die Konkretisierungsstufe, die bei evm und DVV der eigentliche Mehrwert der Unterlage war.
 
-**Message (1 Satz):** Für die Finanzierung des Hochlaufs existiert ein abgestufter Baukasten aus vier kombinierbaren Stellhebeln, dessen Reihenfolge sich nach Eingriffstiefe und politischer Umsetzbarkeit richtet, und in dem private Partner auf Projektebene ihren natürlichen Platz haben.
+**Message (1 Satz):** Für den Wärmebereich der ESWE lassen sich heute schon zwei konkrete Beteiligungsstrukturen zeichnen, die sich an Strategie und Investitionsbedarf anpassen lassen, sodass die Diskussion nicht bei der Grundsatzfrage, sondern bei der Strukturwahl beginnt.
 
-### Empfohlene Fassung (Variante A): 2×2-Matrix „Vier Stellhebel", nach Eingriffstiefe gestaffelt
+**Headline (Vorlage, angepasst):** „Ein Beteiligungskonzept zur Kapitalflexibilisierung kann individuell an die Strategie und die Investitionsbedürfnisse der ESWE angepasst werden" *(141 Zeichen, 2 Zeilen — minimal über dem Budget von 138; Kurzvariante: „Ein Beteiligungskonzept zur Kapitalflexibilisierung lässt sich individuell an Strategie und Investitionsbedarf der ESWE anpassen" = 128 Zeichen)*
 
-**Headline:** „Der ESWE steht ein abgestufter Finanzierungsbaukasten zur Verfügung, in dem private Beteiligungen nur einer von vier Stellhebeln sind" *(132 Zeichen, 2 Zeilen)*; graue Zwischenüberschrift darunter: „Ausgewählte Impulse"
+**Kopfzeile:** „3. Diskussion möglicher Handlungsoptionen" · **Diagonal-Badge oben links (grün, wie Vorlage):** „Illustrativ – Beteiligung am Wärmebereich"
 
-**Kopfzeile:** „3. Diskussion möglicher Handlungsoptionen"
+**Layout:** Drei Spalten mit blauen Titelbalken „Status Quo" (schmal, links) | „Option 1" | „Option 2" (breiter); darunter zwei „Kommentar"-Kästen (einer für den Status Quo, einer gemeinsam für die Optionen); unten Banner mit Pfeilmarker. Orange Investor-Boxen, kursives „Minderheit" an den Beteiligungspfeilen, Kachel-Untertitel kursiv „post Carve-Out" — alles 1:1 aus der Vorlage.
 
-**Layout:** Das 2×2-Quadranten-Raster der Vorlage bleibt erhalten; jeder Quadrant erhält einen blauen Titelbalken und 3 ◼-Bullets. Am linken Rand ein vertikaler Pfeil „Zunehmende Eingriffstiefe" von oben links nach unten rechts (Formensprache des Takeaway-Pfeils von Slide 15). Der Quadrant 3 trägt zusätzlich ein Mini-Strukturchart (ESWE-Logo + orange Partner-Box mit „X %" auf eine Kachel „Wärme-/EE-Projektgesellschaft"), womit die JV-Grafik der Vorlage in verkleinerter Form erhalten bleibt.
+**Status Quo (Strukturbild):** Kachel „ESWE Versorgungs AG" mit zwei Icon-Zeilen „Wärmeerzeugung" und „(Fern-)Wärmenetz".
+*Kommentar Status Quo (2 ◼-Bullets):*
+- „Das Fernwärmenetz und der Wärmevertrieb liegen direkt in der ESWE Versorgungs AG, während die Erzeugung über die ESWE BioEnergie (90 %) und den Abwärmebezug aus dem MHKW erfolgt"
+- „Erhaltungs- und Erweiterungsinvestitionen trägt vollständig die ESWE, obwohl der Ausbau laut Kommunaler Wärmeplanung deutlich beschleunigt werden soll"
 
-**Quadrant 1 — „Förder- und Nachrangkapital" (ohne Struktureingriff):**
-- „Ausschöpfung der BEW-Bundesförderung für die Fernwärme-Transformation sowie zinsgünstiger KfW-Programme" *(103 Z.)*
-- „Eigenkapitalähnliches Nachrangkapital aus dem Hessischen EnergieFonds stärkt die EK-Quote ohne Anteilsverwässerung" *(114 Z.)*
-- „Erweiterung kommunal verbürgter Kreditlinien nach dem Vorbild der bestehenden Bürgschaften" *(90 Z.)*
+**Option 1 (Strukturbild):** ESWE Versorgungs AG hält „>50%" an „‚Wärme Wiesbaden Gesellschaft' *post Carve-Out*" (Icon-Zeilen: „Wärmeerzeugung" / „(Fern-)Wärmenetze"); orange Box „Investor" mit Pfeil und kursivem „Minderheit".
 
-**Quadrant 2 — „Gesellschafterlösung":**
-- „Abgestimmter Thesaurierungspfad, der die jährliche Abführung zugunsten der Investitionsfinanzierung reduziert" *(109 Z.)*
-- „Pro-rata-Kapitalerhöhungen von Stadt und Thüga nach dem Muster der Einlagen 2025 und 2026" *(89 Z.)*
-- „Die Thüga adressiert mit ihrem Programm Horizonte+2030 gezielt Kapitalmaßnahmen bei Partnerunternehmen" *(102 Z.)*
+**Option 2 (Strukturbild):** ESWE Versorgungs AG hält je „100%" an zwei Gesellschaften, zwischen denen ein „und/oder"-Kästchen sitzt: „‚Fernwärme Gesellschaft' *post Carve-Out*" (Icon-Zeilen: „(Fern-)Wärmenetz und -erzeugung", also Verbundnetz Kernstadt samt BMHKW-/MHKW-Wärmebezug) und „‚Quartierswärme Gesellschaft' *post Carve-Out*" (Icon-Zeilen: „Nahwärmenetze und Contracting", also die dezentralen Quartiers- und Wärmepumpenlösungen aus der KWP); orange Boxen „Investor 1" und „Investor 2" mit Pfeilen und kursivem „Minderheit". *Die Zweiteilung bildet exakt die Logik der Wiesbadener Wärmeplanung ab: Fernwärme in der dicht bebauten Kernstadt, dezentrale Lösungen in den Ortsteilen — zwei unterschiedliche Rendite-Risiko-Profile für unterschiedliche Investorentypen.*
 
-**Quadrant 3 — „Partnerschaften auf Projektebene" (mit Mini-SPV-Chart):**
-- „Gemeinsame Projektgesellschaften für Fernwärmeausbau und erneuerbare Erzeugung mit Infrastrukturinvestoren" *(105 Z.)*
-- „Das Modell ist bei der ESWE bewährt, denn Windbeteiligungen mit Thüga Erneuerbare Energien und KMW bestehen bereits" *(115 Z.)*
-- „Auf KMW-Ebene zeigt die Rechenzentrumspartnerschaft mit Green Mountain, dass Projektpartner Kapital und Tempo bringen" *(117 Z.)*
+*Kommentar Optionen (1 ◼-Bullet Strukturierung + „Ausgewählte Themen und Herausforderungen:" mit –-Bullets):*
+- „Strukturierung: Das (Fern-)Wärmegeschäft wird in eine oder zwei Gesellschaften ausgegliedert, an denen Investoren minderheitlich beteiligt werden können"
+- „Ausgewählte Themen und Herausforderungen:"
+  – „Erarbeitung eines Stand-alone-Business-Plans je Gesellschaft inklusive Bilanz, GuV, Investitions- und Cashflow-Planung, der den Transformationsplan des Fernwärmenetzes und die BEW-Förderkulisse abbildet"
+  – „Mittelfristig muss aus Sicht der Investoren ein attraktives Rendite-Risiko-Profil darstellbar sein, wofür die Anschlussdynamik aus der beschlossenen Kommunalen Wärmeplanung die Wachstumsstory liefert"
+  – „Dienstleistungen in den Gesellschaften werden über eigenes Personal oder über Dienstleistungsverträge mit der ESWE erbracht"
+  – „Gemeinsam genutzte Infrastruktur und Bezugsverhältnisse, etwa die Wärmelieferung der ESWE BioEnergie, der Abwärmebezug aus dem MHKW und die zentrale Pumpstation, müssen abgegrenzt und geregelt werden"
+  – „Die Zusammenarbeit zwischen Investor und ESWE ist in einer Gesellschaftervereinbarung festzulegen, die auch die Vereinbarkeit mit dem Ergebnisabführungsvertrag sowie die Zustimmung von Stadt und Thüga sichert"
+  – „Rechtliche, steuerliche und regulatorische Aspekte sind zu prüfen, insbesondere der steuerliche Querverbund, die BEW-Förderfähigkeit nach Ausgliederung und die Preisstellung nach AVBFernwärmeV"
 
-**Quadrant 4 — „Portfolio-Maßnahmen":**
-- „Wertrealisierung bei der WiTCOM, deren Glasfaser- und Rechenzentrumsgeschäft eine gesuchte Anlageklasse ist" *(107 Z.)*
-- „Rotation im Windportfolio, sobald der Windpark Hohe Wurzel realisiert ist" *(73 Z.)*
-- „Begrenzung des MHKW-Engagements, das weiteres Eigenkapital fordert, ohne strategisch steuerbar zu sein" *(102 Z.)*
+**Banner unten (Pfeilmarker, fett):** „Die Strukturierung ähnlicher Beteiligungsoptionen ist auch für andere Assets vorstellbar, zum Beispiel für das Windportfolio, die WiTCOM oder die Ladeinfrastruktur"
 
-**Takeaway-Banner unten:** „Die vier Stellhebel schließen sich nicht aus, sondern lassen sich zu einem Finanzierungspfad kombinieren, dessen Reihenfolge die politische Umsetzbarkeit bestimmt" *(163 Zeichen, 2 Zeilen)*
+**Fußnoten & Quellenzeile:** Fußnote „1) Vereinfachte, illustrative Darstellung; Beteiligungshöhen und Perimeter sind Gegenstand der Strukturierung" · Keine Quellenzeile (Konzept-Slide).
 
-**Fußnoten & Quellenzeile:** Fußnote: „1) Hessischer EnergieFonds der WIBank mit einem Volumen von 1 Mrd. EUR, aufgelegt im November 2025" · Keine Quellenzeile (Konzept-Slide, wie evm).
+**Platz-Check:** Die Vorlage trägt im Options-Kommentar sechs –-Bullets zu je ein bis zwei Zeilen; die ESWE-Bullets oben sind mit 120–200 Zeichen etwas länger und laufen auf je 2 Zeilen — das passt, wenn der Kommentar-Kasten wie im Original die volle Breite unter Option 1 und 2 nutzt. Notfalls zuerst beim AVBFernwärmeV-Bullet den zweiten Halbsatz kürzen. Die Strukturbilder übernehmen Kacheln, Icons und Beschriftungslogik unverändert; nur die Gesellschaftsnamen sind ESWE-spezifisch.
 
-**Platz-Check A:** Das 2×2-Raster und die Bullet-Dichte entsprechen der Vorlage (dort 3 bis 5 Bullets je Quadrant); die Bullets liegen bei 73–117 Zeichen ≈ 2 Zeilen. Das Mini-SPV-Chart in Quadrant 3 ist kleiner als das Original-Strukturchart, nutzt aber dieselben Elemente (Logo, orange Investor-Box, X %). Der Eingriffstiefe-Pfeil ist neu, verwendet aber die vorhandene Pfeil-Formensprache.
+**Konsequenz für die Nachbar-Slides:** Slide 19 behält die sechs Ziele; die „vier Stellhebel" (Förder-/Nachrangkapital, Gesellschafterlösung, Projektpartnerschaften, Portfolio) werden dort zur Sprechlogik der Moderation beziehungsweise zur Backup-Slide — als gedankliche Brücke: „Aus den Zielen folgen vier Stellhebel, und für den größten Hebel im Wärmebereich zeigt die nächste Seite zwei konkrete Strukturen." Die frühere JV-Quadranten-Fassung (Asset-Liste, Governance-Aspekte, Vorteile) bleibt im Git-Verlauf und liefert Material für eine zweite Backup-Slide, falls im Termin nach anderen Assets als Wärme gefragt wird.
 
-### Konservative Fassung (Variante B): evm-Layout beibehalten
-
-Die zuletzt erarbeitete Fassung (JV-Strukturchart Wärme/EE-SPV, Asset-Liste, Gestaltungsaspekte, Vorteile inklusive EnergieFonds-Zusatzzeile) bleibt als Variante B im Git-Verlauf erhalten und wird zur Detail-/Backup-Slide, falls Variante A gewählt wird: Sie vertieft dann Stellhebel 3 und 4, sobald das Gespräch konkret wird. Die Asset-Liste, die Governance-Aspekte (EAV-Vereinbarkeit, Einbindung beider Ankergesellschafter) und die Vorteile sind dort bereits ESWE-spezifisch ausgearbeitet.
-
-**Empfehlung:** Variante A als Slide 20 im Deck, Variante B als Backup-Slide dahinter. So bleibt die Dramaturgie ehrlich (erst der Lösungsraum, dann auf Nachfrage die Struktur), und Metzler kann im Termin je nach Reaktion des Gremiums in den JV-Deep-Dive springen.
-
-**Offene Punkte dieser Slide:** Status Stromkonzession Wiesbaden vor etwaiger Erwähnung bestätigen (Offener Punkt 7); Konditionen und Verfügbarkeit des Hessischen EnergieFonds für die ESWE prüfen, bevor er prominent gezeigt wird.
+**Offene Punkte dieser Slide:** BEW-Förderfähigkeit nach Carve-out prüfen (Fördermittelübergang); Vereinbarkeit mit dem steuerlichen Querverbund der WVV früh klären, denn sie kann die Strukturwahl zwischen Option 1 und 2 entscheiden; Status Stromkonzession (Offener Punkt 7) bleibt für die Banner-Assets relevant.
 
 ---
 
