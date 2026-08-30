@@ -292,46 +292,54 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 
 ---
 
-## Slide 20 — Beteiligungskonzept Wärme: Bestand einbeziehen oder nur das Wachstum öffnen (Layout nach Metzler-Vorlage, Optionen ESWE-hergeleitet)
+## Slide 20 — Zwei konkrete Vorschläge (Slide zwischen Zielen und Why Metzler; Layout-Formensprache der Metzler-Beteiligungskonzept-Vorlage, ohne Status-Quo-Spalte)
 
-**Herleitung statt Übernahme:** Die Metzler-Vorlage liefert das Layout (Status Quo | Option 1 | Option 2, Kommentar-Kästen, Banner), aber ihr Optionspaar — eine Wärmegesellschaft oder die Trennung in Nahwärme und Fernwärme — beantwortet die Frage eines anonymen Stadtwerks mit gewachsenem Nahwärmegeschäft. Die ESWE-Situation stellt eine andere Frage: Das Fernwärme-Bestandsnetz (132,9 km) ist ein politisch sensibles Monopol-Asset in einer Stadt, die nur 50,62 % hält und unter Haushaltsauflagen steht, während der eigentliche Kapitalbedarf im **Ausbau** liegt (KWP-Erweiterungsgebiete, Quartierslösungen, MHKW-Anbindung — der Wärmewende-Hochlauf, der laut Slide 15 noch bevorsteht). Die Entscheidungsachse, über die ein Aufsichtsrat aus Stadt und Thüga tatsächlich debattieren wird, ist daher: Wird das Bestandsnetz in eine Beteiligung einbezogen (maximaler Kapitalzufluss, maximale politische Eingriffstiefe), oder finanziert ein Partner ausschließlich das Neugeschäft (Bestand bleibt vollständig kommunal, dafür geringerer Mittelzufluss)? Genau dieses Paar zeigt die Slide. Warum Wärme als Beispiel-Perimeter bleibt: Die Storyline des Decks läuft auf die Wärmewende zu, dort sitzt die Wachstumsstory aus der beschlossenen KWP; das Stromnetz wäre der größere Hebel, liegt aber in der sw netz und trägt mit RAMEN/NEST einen aktuellen Regulierungsüberhang — es wandert mit WiTCOM und Windportfolio in die Banner-Zeile.
+**Konzept:** Kein Status Quo und kein abstrakter Optionsraum mehr, sondern zwei ausgearbeitete, kurzfristig umsetzbare Vorschläge nebeneinander — ein struktureller (Joint Venture) und ein finanzieller (Kapitalpaket). Beide sind aus der ESWE-Lage hergeleitet: Der Wärmewende-Hochlauf steht noch bevor (Slide 15), die Innenfinanzierung ist erschöpft (Slide 16), und das Ausschüttungs-Paradox verlangt eine Antwort, die nicht zwingend über Anteilsverkauf läuft. Die Dramaturgie in Kapitel 3 lautet damit: Slide 19 spannt mit den sechs Zielen den Überblick der Handlungsoptionen auf, diese Slide macht daraus ein bis zwei entscheidungsreife Vorschläge, Slide 21 begründet das Mandat.
 
-**Message (1 Satz):** Für den Wärmebereich existieren zwei konkrete Strukturwege, deren Abwägung zwischen Kapitalzufluss und politischer Umsetzbarkeit die eigentliche Gremiendiskussion ist, sodass das Gespräch nicht bei der Grundsatzfrage, sondern bei der Strukturwahl beginnt.
+**Message (1 Satz):** Metzler kommt nicht mit einem Denkraum, sondern mit zwei konkreten, kombinierbaren Vorschlägen, von denen einer die Bilanz sofort stabilisiert und der andere den Wärmewende-Hochlauf dauerhaft finanziert.
 
-**Headline:** „Im Wärmebereich stehen zwei Beteiligungswege offen, die sich in Kapitalzufluss und politischer Eingriffstiefe deutlich unterscheiden" *(131 Zeichen, 2 Zeilen)*
+**Headline:** „Zwei Wege sind konkret umsetzbar: eine Wachstumsgesellschaft für die Wärmewende und ein Kapitalpaket ohne Anteilsverwässerung" *(126 Zeichen, 2 Zeilen)*
 
-**Kopfzeile:** „3. Diskussion möglicher Handlungsoptionen" · **Diagonal-Badge oben links (grün, wie Vorlage):** „Illustrativ – Beteiligung am Wärmebereich"
+**Kopfzeile:** „3. Diskussion möglicher Handlungsoptionen" · **Diagonal-Badge (grün):** „Ausgewählte Vorschläge – illustrativ"
 
-**Layout:** Drei Spalten mit blauen Titelbalken „Status Quo" (schmal) | „Option 1 – Bestand und Ausbau" | „Option 2 – Nur Wachstum"; darunter zwei Kommentar-Kästen; unten Banner mit Pfeilmarker. Orange Investor-Boxen, kursives „Minderheit", Kachel-Untertitel „post Carve-Out" aus der Vorlage übernommen.
+**Layout:** Zwei gleich breite Spalten mit blauen Titelbalken; je Spalte oben eine Struktur-/Schema-Grafik (~40 % der Spaltenhöhe), darunter 4 ◼-Eckpunkte, darunter ein schmales „Wirkung"-Band (fett, hellblau hinterlegt). Unten über die volle Breite ein Takeaway-Banner mit Pfeilmarker. Formensprache aus der Vorlage: orange Investor-Box, kursives „Minderheit", „post Carve-Out" kursiv, gestrichelte Kommentar-Boxen.
 
-**Status Quo (Strukturbild):** Kachel „ESWE Versorgungs AG" mit Icon-Zeilen „Wärmeerzeugung" und „(Fern-)Wärmenetz"; darunter klein die Gesellschafter-Kacheln „WVV 50,62 %" und „Thüga 49,38 %" mit Doppelpfeil „Gewinnabführung / Kapitaleinlagen".
-*Kommentar Status Quo (2 ◼-Bullets):*
-- „Fernwärmenetz und Wärmevertrieb liegen direkt in der ESWE, während die Erzeugung über die ESWE BioEnergie und den Abwärmebezug aus dem MHKW erfolgt"
-- „Sämtliche Erhaltungs- und Erweiterungsinvestitionen trägt die ESWE allein, während die Gesellschafter zugleich Kapital einlegen, um die Eigenkapitalquote zu halten"
+### Vorschlag 1 — „Wärmewende Wiesbaden GmbH" (Joint Venture mit einem Infrastrukturinvestor)
 
-**Option 1 — „Wärme Wiesbaden Gesellschaft" (Bestand und Ausbau):** ESWE hält „≥50,1%" an der Gesellschaft *post Carve-Out* (Icon-Zeilen: „(Fern-)Wärmenetz und -erzeugung" / „Ausbauprojekte aus der KWP"); orange Box „Investor" mit Pfeil und „Minderheit".
+*Strukturchart:* ESWE Versorgungs AG „74,9 %"¹⁾ und orange Box „Investor" „25,1 %"¹⁾ (kursiv: „Minderheit") auf die zentrale Kachel „‚Wärmewende Wiesbaden GmbH' *post Carve-Out*" mit zwei Icon-Zeilen „Erweiterungsgebiete Fernwärme" und „Quartierswärme und Contracting"; daneben klein und grau: „Bestandsnetz verbleibt zu 100 % bei ESWE"; flankierend zwei gestrichelte Boxen: links blau kursiv „*Einbringung der Neubauprojekte aus der KWP*", rechts orange kursiv „*Einbringung von Eigenkapital für den Ausbau*".
 
-**Option 2 — „Wärmewende-Wachstumsgesellschaft" (nur Neubau):** Das Bestandsnetz verbleibt zu 100 % in der ESWE (kleine graue Kachel „Bestandsnetz verbleibt bei ESWE"); die neue Gesellschaft bündelt ausschließlich die Neubauprojekte (Icon-Zeilen: „Erweiterungsgebiete Fernwärme" / „Quartierswärme und Contracting"); ESWE Mehrheit, orange Box „Investor" mit „Minderheit"; Investor bringt Eigenkapital ausschließlich für den Ausbau.
+*Eckpunkte (4 ◼-Bullets):*
+- „Die Gesellschaft bündelt ausschließlich die Neubauprojekte aus der Kommunalen Wärmeplanung, während das Bestandsnetz vollständig bei der ESWE verbleibt"
+- „Der Investor bringt Eigenkapital für den Ausbau ein, wodurch die ESWE-Bilanz vom Wärmewende-CapEx entlastet wird, ohne dass Bestandssubstanz abgegeben wird"
+- „ESWE erbringt Betrieb, Vertrieb und Abrechnung über Dienstleistungsverträge und behält damit die operative und preisliche Steuerung"
+- „Die Gesellschaftervereinbarung regelt Reserved Matters, Ausschüttungspolitik und Exit und sichert die Vereinbarkeit mit dem Ergebnisabführungsvertrag sowie die Zustimmung von Stadt und Thüga"
 
-*Kommentar Optionen (1 ◼-Bullet Strukturierung + „Ausgewählte Themen und Herausforderungen:" mit –-Bullets):*
-- „Strukturierung: Entweder wird das gesamte Wärmegeschäft einschließlich Bestandsnetz ausgegliedert, oder eine Wachstumsgesellschaft bündelt ausschließlich die Neubauprojekte aus der Kommunalen Wärmeplanung"
-- „Ausgewählte Themen und Herausforderungen:"
-  – „Option 1 maximiert den Kapitalzufluss aus Kaufpreis und Investoren-Eigenkapital, erfordert jedoch die politisch sensibelste Entscheidung, weil das Bestandsnetz teilprivatisiert wird"
-  – „Option 2 hält das Bestandsnetz vollständig kommunal und ist dadurch deutlich leichter vermittelbar, während der Investor ausschließlich das Wachstum finanziert und ein stärker projektbezogenes Risikoprofil trägt"
-  – „Für beide Wege muss ein Stand-alone-Business-Plan die Anschlussdynamik aus der beschlossenen Wärmeplanung und die BEW-Förderkulisse belastbar abbilden"
-  – „Bezugs- und Dienstleistungsverhältnisse mit der ESWE, etwa die Wärmelieferung der BioEnergie, der MHKW-Abwärmebezug und der Netzbetrieb, sind vertraglich abzugrenzen"
-  – „Eine Gesellschaftervereinbarung muss Governance, Ausschüttungspolitik und Exit regeln und zugleich die Vereinbarkeit mit dem Ergebnisabführungsvertrag sowie die Zustimmung von Stadt und Thüga sichern"
-  – „Steuerliche und regulatorische Aspekte sind früh zu prüfen, insbesondere der steuerliche Querverbund der WVV und die Förderfähigkeit nach einer Ausgliederung"
+*Wirkung-Band:* „Wirkung: Die Investitionsfähigkeit im Wärmebereich steigt sofort, während EK-Quote und Ausschüttungsfähigkeit der AG geschont bleiben"
 
-**Banner unten (Pfeilmarker, fett):** „Ähnliche Strukturen sind auch für andere Assets denkbar, etwa eine Minderheitsbeteiligung an der sw netz, der WiTCOM oder dem Windportfolio"
+### Vorschlag 2 — „Kapitalpaket 2026–2028" (Eigenkapitalstärkung ohne Anteilsverwässerung)
 
-**Fußnoten & Quellenzeile:** Fußnote „1) Vereinfachte, illustrative Darstellung; Beteiligungshöhen und Perimeter sind Gegenstand der Strukturierung" · Keine Quellenzeile (Konzept-Slide).
+*Schema-Grafik:* Drei gestapelte blaue Bausteine mit Pfeil nach rechts auf ein Ziel-Oval „EK-Quote dauerhaft über 25 % trotz Investitionshochlauf":
+1. „Nachrangkapital aus dem Hessischen EnergieFonds²⁾" (eigenkapitalähnlich)
+2. „Planbarer Mehrjahrespfad der Pro-rata-Einlagen von WVV und Thüga" (Muster: 10 Mio. EUR 2025, weitere Zuführung 2026 beschlossen)
+3. „Abgestimmter Thesaurierungspfad bei der Ergebnisabführung"
 
-**Platz-Check:** Spalten- und Kommentaraufbau entsprechen der Vorlage (dort 6 –-Bullets zu je 1–2 Zeilen; hier 6 Bullets zu je 2 Zeilen — passt bei voller Kommentarbreite unter den Optionen). Neu gegenüber der Vorlage sind nur die graue Bestandsnetz-Kachel in Option 2 und der kleine Gesellschafter-Doppelpfeil im Status Quo; beide nutzen vorhandene Formensprache. Bei Platznot zuerst im Status Quo die Gesellschafter-Kacheln streichen (Inhalt steht auf Slide 14).
+*Eckpunkte (4 ◼-Bullets):*
+- „Eigenkapitalähnliches Nachrangkapital aus dem Hessischen EnergieFonds stärkt die Quote, ohne Anteile zu verwässern und ohne die Gesellschafterstruktur anzutasten"
+- „Die Einlagen von Stadt und Thüga werden von jährlichen Einzelfallentscheidungen in einen planbaren Mehrjahrespfad überführt"
+- „Ein abgestimmter Thesaurierungspfad reduziert die jährliche Abführung zugunsten der Investitionsfinanzierung und entschärft das Nebeneinander von Abführung und Einlage"
+- „Das Paket ist ohne Strukturveränderung kurzfristig umsetzbar und lässt sich mit Vorschlag 1 kombinieren"
 
-**Konsequenz für die Nachbar-Slides:** Slide 19 behält die sechs Ziele samt Stellhebel-Moderation; die Überleitung lautet: „Der größte strukturelle Hebel liegt im Wärmebereich, und dort gibt es zwei Wege." Die frühere Fassung mit Nahwärme/Fernwärme-Trennung sowie die Vier-Stellhebel- und JV-Quadranten-Fassungen bleiben im Git-Verlauf als Backup-Material.
+*Wirkung-Band:* „Wirkung: Ein verlässlicher Eigenkapitalpfad entsteht, sodass Beteiligungsentscheidungen aus einer Position der Stärke getroffen werden können"
 
-**Offene Punkte dieser Slide:** BEW-Förderfähigkeit nach Carve-out beziehungsweise in der Wachstumsgesellschaft prüfen; Vereinbarkeit mit dem steuerlichen Querverbund der WVV früh klären, denn sie kann zwischen Option 1 und 2 entscheiden; Bankfähigkeit einer reinen Greenfield-Gesellschaft (Option 2) hängt an belastbaren Anschlussquoten aus der KWP — gegebenenfalls Mischform mit einzelnen Bestands-Clustern als dritte Variante in der Moderation vorhalten.
+**Takeaway-Banner unten:** „Beide Vorschläge lassen sich kombinieren, denn das Kapitalpaket sichert die Bilanz kurzfristig, während die Wachstumsgesellschaft den Hochlauf der Wärmewende dauerhaft finanziert" *(180 Zeichen, 2 Zeilen)*
+
+**Fußnoten & Quellenzeile:** „1) Beteiligungshöhen illustrativ; Perimeter und Quoten sind Gegenstand der Strukturierung; 2) Hessischer EnergieFonds der WIBank mit einem Volumen von 1 Mrd. EUR, aufgelegt im November 2025; Konditionen und Verfügbarkeit für die ESWE sind zu prüfen" · Keine Quellenzeile (Konzept-Slide).
+
+**Platz-Check:** Zwei Spalten statt drei schaffen Raum, sodass jede Spalte Chart, vier Bullets und Wirkung-Band trägt (Bullets 120–190 Zeichen ≈ 2 Zeilen, vergleichbar mit der Kommentardichte der Vorlage). Die Formensprache (Titelbalken, orange Investor-Box, gestrichelte Einbringungs-Boxen, Banner) stammt vollständig aus der Vorlage; neu sind nur das Wirkung-Band und die Baustein-Grafik in Vorschlag 2, die die Kachel-Optik der KPI-Slide wiederverwendet.
+
+**Konsequenz für die Nachbar-Slides:** Slide 19 behält die sechs Ziele als Überblick der Handlungsoptionen; die Moderation leitet über mit: „Aus diesen Zielen haben wir zwei Vorschläge entwickelt, die sich sofort anpacken lassen." Die Status-Quo-Darstellung und die früheren Fassungen (Vier Stellhebel, JV-Quadranten, Bestand-vs.-Wachstum-Vergleich) bleiben im Git-Verlauf als Backup, falls im Termin nach Alternativen wie einer sw-netz- oder WiTCOM-Minderheit gefragt wird.
+
+**Offene Punkte dieser Slide:** Konditionen, Volumina und Antragsweg des Hessischen EnergieFonds für die ESWE prüfen, bevor er als Baustein 1 gezeigt wird; BEW-Förderfähigkeit in der Wachstumsgesellschaft klären; Bankfähigkeit der reinen Neubau-Gesellschaft hängt an belastbaren Anschlussquoten aus der KWP, weshalb eine Mischform mit einzelnen Bestands-Clustern als Rückfallvariante in der Moderation vorgehalten wird; Thesaurierungspfad berührt die Haushaltsplanung der Stadt und die Dividendenerwartung der Thüga und ist daher als Verhandlungsgegenstand, nicht als gesetzt darzustellen.
 
 ---
 
