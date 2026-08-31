@@ -13,12 +13,15 @@ from deck import *
 HEADER = '2. ESWE Versorgungs AG – Übersicht und Herausforderungen'
 SOURCES = ('Quellen: Metzler-Recherche, Geschäftsbericht ESWE Versorgungs AG 2025, '
            'Unternehmenswebsite')
-FN = ('1) Angaben zum Anteilsbesitz nach § 285 Nr. 11 HGB zum 31. Dezember 2025; mit der '
-      'Stadtwerke Wiesbaden Netz GmbH und der WiTCOM GmbH besteht ein Ergebnisabführungs'
-      'vertrag, bei der ESWE Taunuswind GmbH und der ESWE Windpark GmbH erfolgt eine '
-      'freiwillige Ergebnisübernahme durch die ESWE; 2) Ausschüttung der KMW für das '
-      'Geschäftsjahr 2024; 3) Jahresabschluss 2024, Werte für 2025 lagen nicht vor; '
-      'die THEE ESWE Windparkbeteiligungs Verwaltungs GmbH (33,33 %) ist nicht dargestellt')
+FN = ('1) Angaben zum Anteilsbesitz nach § 285 Nr. 11 HGB zum 31.12.2025; Ergebnisabführungs'
+      'vertrag mit der Stadtwerke Wiesbaden Netz GmbH und der WiTCOM GmbH, freiwillige Ergebnis'
+      'übernahme bei ESWE Taunuswind und ESWE Windpark. Nicht dargestellt: THEE ESWE Windpark'
+      'beteiligungs Verwaltungs GmbH (33,33 %) sowie die nicht angabepflichtigen Beteiligungen '
+      'unter 20 % (Hessenwasser 18,18 %, easierLife 10 %, ASEW 7,14 %, Thüga Erneuerbare Energien '
+      '3,35 %); 2) Ausschüttung der KMW für das Geschäftsjahr 2024; 3) Jahresabschluss 2024, Werte '
+      'für 2025 lagen nicht vor')
+# Prozentangaben gegen einen Umbruch zwischen Zahl und Zeichen schuetzen
+FN = __import__('re').sub(r'(\d) %', lambda m: m.group(1) + '\u00a0%', FN)
 
 BOX = rgb(0xE1EDFE)
 TILE_LINE = rgb(0x1F4E79)
