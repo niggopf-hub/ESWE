@@ -301,7 +301,9 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 **Kopfzeile:** „3. Diskussion möglicher Handlungsoptionen"
 
 **Oben links — Titelbalken „Beispielstruktur: Minderheitsbeteiligung an der sw netz¹⁾":**
-Strukturchart: ESWE Versorgungs AG (Logo) „74,9 %" und orange Box „Investor" „25,1 %" (kursiv „Minderheit") auf die Kachel „Stadtwerke Wiesbaden Netz GmbH" (Icon Netzgeschäft; kursiv: „*bestehende Gesellschaft, kein Carve-out erforderlich*"); gestrichelte Boxen: links blau „*Kapitalerhöhung finanziert den Stromnetzausbau*", rechts orange „*Anteilskaufpreis fließt der ESWE zu*".
+Strukturchart: ESWE Versorgungs AG (Logo) „75,1 %"¹⁾ und orange Box „Investor" „24,9 %"¹⁾ (kursiv „Minderheit") auf die Kachel „Stadtwerke Wiesbaden Netz GmbH" (Icon Netzgeschäft; kursiv: „*bestehende Gesellschaft, kein Carve-out erforderlich*"); gestrichelte Boxen: links blau „*Kapitalerhöhung finanziert den Stromnetzausbau*", rechts orange „*Anteilskaufpreis fließt der ESWE zu*".
+
+*Begründung der Quoten (Positionierungsentscheidung, für die Moderation):* Mit 75,1 % behält die ESWE die Dreiviertelmehrheit nach § 53 GmbHG und kann Satzungsänderungen und Kapitalmaßnahmen weiterhin allein beschließen — das deckt sich mit dem Vorteils-Bullet „Erhalt der kommunalen Steuerung" und mit Ziel 2 der Vorschlags-Slide. Der Investor erhält keine gesetzliche Sperrminorität; seine Schutzrechte laufen vertraglich über die Reserved Matters der Gesellschaftervereinbarung (Aspekte-Kasten). Die Sperrminorität (25,1 %) bleibt bewusst Verhandlungsmasse für den Prozess. Sub-25-Minderheiten sind im eigenen Umfeld gelebte Praxis (ESWE hält selbst 24,5 % am MHKW; Thüga-Beteiligungsmodell). Zusatznutzen: Der Erwerb von 25 % ist nach § 37 GWB ein eigener Zusammenschlusstatbestand — 24,9 % kann die Fusionskontrolle vereinfachen (Einzelfallprüfung „wettbewerblich erheblicher Einfluss" vorbehalten).
 
 **Oben rechts — Titelbalken „(private) Beteiligung an Unternehmen/Assets" (sortiert nach Eignung):**
 - „Stadtwerke Wiesbaden Netz GmbH (Minderheitsbeteiligung)"
@@ -326,13 +328,13 @@ Strukturchart: ESWE Versorgungs AG (Logo) „74,9 %" und orange Box „Investor"
 
 **Banner unten (Pfeilmarker, fett) — hier lebt Vorschlag 2 weiter:** „Flankierend stärkt ein Kapitalpakt der Aktionäre aus planbaren Einlagen, Thesaurierungspfad und Nachrangkapital die Eigenkapitalbasis ohne jede Strukturveränderung"
 
-**Fußnoten & Quellenzeile:** „1) Beteiligungshöhen illustrativ; Struktur ähnlich übertragbar auf die weiteren aufgeführten Assets" · Keine Quellenzeile (Konzept-Slide).
+**Fußnoten & Quellenzeile:** „1) Beteiligungshöhen illustrativ; Mitspracherechte des Investors werden vertraglich über die Gesellschaftervereinbarung abgebildet; Struktur ähnlich übertragbar auf die weiteren aufgeführten Assets" · Keine Quellenzeile (Konzept-Slide).
 
 **Platz-Check:** Deckungsgleich mit der evm-Slide (Chart, 3–4er-Liste, 2×5 Bullets, Fußnote); nur die Banner-Zeile kommt hinzu — evm hat an dieser Stelle keine, die DVV-/Beteiligungskonzept-Vorlage schon. Bullets 45–110 Zeichen ≈ 1–2 Zeilen wie im Original.
 
 **Moderation:** Kapitalpakt-Details (Mehrjahrespfad der Einlagen nach Muster 2025/2026, Thesaurierungsanteil, Hessischer EnergieFonds mit 1 Mrd. EUR Nachrangkapital, Konditionen zu prüfen); Portfolio-Durchsicht als Beleg, dass sw netz kein Zufall ist; RAMEN/NEST-Caveat aktiv ansprechen, bevor es aus dem Gremium kommt.
 
-**Offene Punkte dieser Slide:** Stand der Stromkonzession (Sonderkündigungsrecht ab 2025) vor dem Termin klären; RAMEN-/NEST-Bewertungseffekt einschätzen; EnergieFonds-Konditionen prüfen; Entflechtungsanforderungen an einen Netz-Minderheitsgesellschafter juristisch vorprüfen.
+**Offene Punkte dieser Slide:** Stand der Stromkonzession (Sonderkündigungsrecht ab 2025) vor dem Termin klären; RAMEN-/NEST-Bewertungseffekt einschätzen; EnergieFonds-Konditionen prüfen; Entflechtungsanforderungen nach EnWG an einen Netz-Minderheitsgesellschafter juristisch vorprüfen — sie schränken die Investorenauswahl faktisch auf Finanzinvestoren ohne eigene Erzeugungs- oder Vertriebsinteressen ein und sollten vor der Investorenansprache geklärt sein.
 
 ---
 
