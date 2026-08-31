@@ -56,21 +56,23 @@ def build(prs):
             for l in para_lines(FN, 660, 8.0)], line=9.6)
 
     # ---------------- Matrix ----------------
-    rect(s, 29.8, 118.8, 782.4, 19.9, fill=TITLEBAR)
-    line_text(s, 40.0, 122.5, 134.5, 'Investitionsbedarf', F_TWO, 10.0, DARK, True, w=200)
-    rect(s, 29.8, 141.0, 70.0, 73.3, fill=R1_LAB)
+    tb = rect(s, 29.8, 118.8, 782.4, 19.9, fill=TITLEBAR)
+    shape_text(tb, [Run('Investitionsbedarf', F_TWO, 10.0, DARK, True)],
+               anchor='m', inset=(10.2, 1.0, 2.0, 1.0), wrap=False)
+    lab1 = rect(s, 29.8, 141.0, 70.0, 73.3, fill=R1_LAB)
     rect(s, 101.0, 141.0, 710.7, 73.3, fill=R1_BG)
-    rect(s, 29.8, 218.2, 70.0, 36.4, fill=R2_LAB)
+    lab2 = rect(s, 29.8, 218.2, 70.0, 36.4, fill=R2_LAB)
     rect(s, 101.0, 218.2, 711.2, 36.4, fill=R2_BG)
-    rect(s, 29.8, 258.5, 70.0, 145.0, fill=R3_LAB)
+    lab3 = rect(s, 29.8, 258.5, 70.0, 145.0, fill=R3_LAB)
     rect(s, 101.1, 258.5, 711.7, 145.0, fill=R3_BG)
-    textbox(s, 34.0, 141.0, 62, 73.3,
-            [[Run('Investitions-', F_TWO, 9.0, DARK, True)],
-             [Run('schwerpunkt', F_TWO, 9.0, DARK, True)]], anchor='m', line=11.0)
-    textbox(s, 34.0, 218.2, 62, 36.4, [[Run('CapEx', F_TWO, 9.0, DARK, True)]], anchor='m')
-    textbox(s, 34.0, 258.5, 62, 145.0,
-            [[Run('Geplante', F_TWO, 9.0, DARK, True)],
-             [Run('Projekte', F_TWO, 9.0, DARK, True)]], anchor='m', line=11.0)
+    shape_text(lab1, [[Run('Investitions-', F_TWO, 9.0, DARK, True)],
+                      [Run('schwerpunkt', F_TWO, 9.0, DARK, True)]],
+               line=11.0, anchor='m', inset=(4.2, 2.0, 2.0, 2.0), wrap=False)
+    shape_text(lab2, [Run('CapEx', F_TWO, 9.0, DARK, True)],
+               anchor='m', inset=(4.2, 2.0, 2.0, 2.0), wrap=False)
+    shape_text(lab3, [[Run('Geplante', F_TWO, 9.0, DARK, True)],
+                      [Run('Projekte', F_TWO, 9.0, DARK, True)]],
+               line=11.0, anchor='m', inset=(4.2, 2.0, 2.0, 2.0), wrap=False)
     for x in (337.9, 574.7):
         vline(s, x, 152.5, 202.9, rgb(0xCCCCCC), 1.5, dash=True)
         vline(s, x, 277.0, 385.0, rgb(0xCCCCCC), 1.5, dash=True)
@@ -95,15 +97,13 @@ def build(prs):
     hline(s, 187.0, 727.0, 233.2, DARK, 1.5)
     vline(s, 187.0, 226.9, 239.5, DARK, 1.5)
     vline(s, 727.0, 226.9, 239.5, DARK, 1.5)
-    rect(s, 366.0, 220.5, 182.0, 25.0, fill=R2_BG)
-    textbox(s, 366.0, 221.5, 182, 12,
-            [[Run(nb('Anstieg auf bis zu 80 Mio. EUR p. a.'), F_TWO, 10.0, DARK, True)]],
-            anchor='m', align=PP_ALIGN.CENTER, wrap=False)
-    textbox(s, 360.0, 233.5, 194, 12,
-            [[Run(nb('von Ø ~22 Mio. EUR p. a. in den letzten 20 Jahren'), F_TWO, 9.0,
-                  BAR, True),
-              Run('1)', F_TWO, 9.0, BAR, True, baseline=30)]],
-            anchor='m', align=PP_ALIGN.CENTER, wrap=False)
+    klammer = rect(s, 360.0, 220.5, 194.0, 25.0, fill=R2_BG)
+    shape_text(klammer,
+               [[Run(nb('Anstieg auf bis zu 80 Mio. EUR p. a.'), F_TWO, 10.0, DARK, True)],
+                [Run(nb('von Ø ~22 Mio. EUR p. a. in den letzten 20 Jahren'), F_TWO,
+                     9.0, BAR, True),
+                 Run('1)', F_TWO, 9.0, BAR, True, baseline=30)]],
+               line=12.0, anchor='m', align=PP_ALIGN.CENTER, wrap=False)
 
     # ---------------- CapEx-Chart ----------------
     line_text(s, 51.0, 425.0, 437.0, 'Entwicklung der Investitionen (Mio. EUR)',

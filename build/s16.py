@@ -95,13 +95,14 @@ def build(prs):
         textbox(s, x, BASE1 + 3, 35, 12, [[Run(YEARS[i], F_LIGHT, 9.0, BLACK)]],
                 anchor='m', align=PP_ALIGN.CENTER, wrap=False)
         my = 232.0 - (MARGE_V[i] - 23.5) / 5.0 * 48.0
-        oval(s, x + 17.5, my, 48.5, 18.4, fill=C_LILA)
-        textbox(s, x - 7, my - 6, 49, 12, [[Run(MARGE[i], F_TWO, 9.0, WHITE, True)]],
-                anchor='m', align=PP_ALIGN.CENTER, wrap=False)
-    ar = rect(s, 45.7, 240.4, 196.9, 15.1, fill=C_ORANGE, shape=MSO_SHAPE.RIGHT_ARROW)
-    oval(s, 144.1, 248.9, 55.8, 15.3, fill=WHITE, linecolor=C_ORANGE, linew=1.0)
-    textbox(s, 116.2, 242.9, 56, 12, [[Run('+2,7% p.a.', F_TWO, 9.0, BLACK, True)]],
-            anchor='m', align=PP_ALIGN.CENTER, wrap=False)
+        shape_text(oval(s, x + 17.5, my, 48.5, 18.4, fill=C_LILA),
+                   [Run(MARGE[i], F_TWO, 9.0, WHITE, True)],
+                   anchor='m', align=PP_ALIGN.CENTER, wrap=False)
+    rect(s, 45.7, 240.4, 196.9, 15.1, fill=C_ORANGE, shape=MSO_SHAPE.RIGHT_ARROW)
+    shape_text(oval(s, 144.1, 248.9, 55.8, 15.3, fill=WHITE, linecolor=C_ORANGE,
+                    linew=1.0),
+               [Run('+2,7% p.a.', F_TWO, 9.0, BLACK, True)],
+               anchor='m', align=PP_ALIGN.CENTER, wrap=False)
 
     # ================= Panel 2: Kapitalflussrechnung =================
     line_text(s, 307.1, 133.9, 145.0, 'Kapitalflussrechnung (Mio. EUR)',
@@ -121,15 +122,18 @@ def build(prs):
             h = abs(val) * SC2
             if val >= 0:
                 up -= h
-                rect(s, x, up, w, h, fill=c)
+                seg = rect(s, x, up, w, h, fill=c)
                 cy = up + h / 2.0
             else:
-                rect(s, x, dn, w, h, fill=c)
+                seg = rect(s, x, dn, w, h, fill=c)
                 cy = dn + h / 2.0
                 dn += h
-            inside = h > 10
-            labels.append((x + (0 if inside else w + 2), cy - 6,
-                           _num(val), WHITE if inside else BLACK, False))
+            if h > 10:
+                # Wert steht im Textrahmen des Saeulensegments
+                shape_text(seg, [Run(_num(val), F_LIGHT, 9.0, WHITE)],
+                           anchor='m', align=PP_ALIGN.CENTER, wrap=False)
+            else:
+                labels.append((x + w + 2, cy - 6, _num(val), BLACK, False))
         ty = (up - 13) if CF_TOT[i] >= 0 else (dn + 2)
         labels.append((x, ty, _num(CF_TOT[i]), BLACK, True))
         labels.append((x, 380.0, YEARS[i], BLACK, False))
@@ -157,18 +161,14 @@ def build(prs):
         textbox(s, x - 5, BASE3 + 3, 36, 12, [[Run(YEARS[i], F_LIGHT, 9.0, BLACK)]],
                 anchor='m', align=PP_ALIGN.CENTER, wrap=False)
         ey = 245.0 - (EKQ_V[i] - 25.8) / 5.0 * 48.0
-        oval(s, x + 13, ey, 48.5, 18.4, fill=C_LIGHT)
-        textbox(s, x - 11, ey - 6, 48.5, 12, [[Run(EKQ[i], F_TWO, 9.0, WHITE, True)]],
-                anchor='m', align=PP_ALIGN.CENTER, wrap=False)
+        shape_text(oval(s, x + 13, ey, 48.5, 18.4, fill=C_LIGHT),
+                   [Run(EKQ[i], F_TWO, 9.0, WHITE, True)],
+                   anchor='m', align=PP_ALIGN.CENTER, wrap=False)
 
     # ================= Kommentarband =================
-    rect(s, 29.8, 423.1, 782.4, 112.0, fill=BANDBG)
-    line_text(s, 44.0, 430.5, 441.0, 'Kommentar:', F_TWO, 9.0, DARK, True, w=120)
-    yy = 447.0
-    for b in KOMMENTAR:
-        ls = para_lines(nb(b), 748, 9.0)
-        textbox(s, 44.0, yy, 8, 10.8, [[wing(7.7, DARK)]], anchor='m', wrap=False)
-        textbox(s, 57.0, yy - 0.5, 752, len(ls) * 10.8 + 3,
-                [[Run(l, F_LIGHT, 9.0, BLACK)] for l in ls], line=10.8)
-        yy += len(ls) * 10.8 + 3.5
+    band = rect(s, 29.8, 423.1, 782.4, 112.0, fill=BANDBG)
+    shape_text(band, [[Run('Kommentar:', F_TWO, 9.0, DARK, True)]] +
+               [[Run(nb(t), F_LIGHT, 9.0, BLACK)] for t in KOMMENTAR],
+               size=9.0, line=10.8, before=3.5, anchor='t', bullets=True,
+               bullet_from=1, indent=13.0, inset=(14.2, 7.4, 10.0, 4.0))
     return s

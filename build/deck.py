@@ -307,29 +307,6 @@ def para_lines(text, width, size, bold=False, italic=False):
     return res
 
 
-def bullet_block(slide, x_bullet, x_text, y_top, width, items, size=10.6,
-                 line=12.7, gap=14.0, color=BLACK, bcolor=DARK, bsize=None,
-                 font=None, bold=False, measure_only=False):
-    """Metzler-Bulletblock: ◼ links, umbrochener Fließtext rechts.
-    items: Liste von Strings ('|' erzwingt Umbruch).
-    Gibt die Gesamthöhe des Blocks zurück."""
-    font = font or F_LIGHT
-    bsize = bsize or size
-    y = y_top
-    total = 0.0
-    for it in items:
-        lines = para_lines(it, width, size, bold)
-        h = len(lines) * line
-        if not measure_only:
-            textbox(slide, x_bullet, y - 1.5, 14, line + 3,
-                    [[wing(bsize, bcolor)]], anchor='m', wrap=False)
-            textbox(slide, x_text, y - 1.0, width + 6, h + 4,
-                    [[Run(l, font, size, color, bold)] for l in lines],
-                    anchor='t', line=line, wrap=True)
-        y += h + gap
-        total += h + gap
-    return total - gap
-
 
 def set_alpha(shape, pct):
     """Fuellung teiltransparent setzen (pct = Deckkraft in Prozent)."""
@@ -524,42 +501,51 @@ def _bullet_pPr(p, color, size, indent=11.0, before=None, line=None):
     return p
 
 
-def bullet_box(slide, x, y, w, h, items, size=9.0, line=10.4, before=3.0,
-               bullet_color=None, font=None, indent=11.0, anchor='t'):
-    """Ein Textfeld mit echten Aufzaehlungszeichen – kein separates Bullet-Feld.
-
-    items: je Eintrag ein String, ein (Text, Farbe)-Tupel oder eine Run-Liste.
-    """
-    font = font or F_LIGHT
-    bullet_color = bullet_color or DARK
-    box = slide.shapes.add_textbox(Pt(x), Pt(y), Pt(w), Pt(h))
-    tf = box.text_frame
-    tf.word_wrap = True
-    tf.auto_size = MSO_AUTO_SIZE.NONE
-    tf.margin_left = tf.margin_right = tf.margin_top = tf.margin_bottom = 0
-    tf.vertical_anchor = {'t': MSO_ANCHOR.TOP, 'm': MSO_ANCHOR.MIDDLE}[anchor]
-    box.fill.background()
-    box.line.fill.background()
-    strip_style(box)
-    first = True
-    for it in items:
-        if isinstance(it, list):
-            runs = it
-        elif isinstance(it, tuple):
-            runs = [Run(it[0], font, size, it[1])]
-        else:
-            runs = [Run(it, font, size, BLACK)]
-        p = tf.paragraphs[0] if first else tf.add_paragraph()
-        _bullet_pPr(p, bullet_color, size, indent,
-                    before=(0 if first else before), line=line)
-        for r in runs:
-            _apply(p.add_run(), r)
-        first = False
-    return box
-
 
 def add_runs(paragraph, runs):
     """Weitere Textlaeufe an einen bestehenden Absatz anhaengen."""
     for r in runs:
         _apply(paragraph.add_run(), r)
     return paragraph
+
+
+# ---------------------------------------------------------------- Shape-Text
+def shape_text(shape, paras, size=9.0, font=None, color=BLACK, bold=False,
+               italic=False, align=PP_ALIGN.LEFT, anchor='m', line=None,
+               before=0.0, inset=(0.0, 0.0, 0.0, 0.0), bullets=False,
+               bullet_color=None, indent=11.0, wrap=True, bullet_from=0):
+    """Schreibt direkt in den Textrahmen einer Form – kein zusaetzliches Textfeld.
+
+    paras: je Absatz ein String, ein Run oder eine Run-Liste.
+    inset: (links, oben, rechts, unten) in pt.
+    bullets=True setzt echte Aufzaehlungszeichen (Wingdings-Quadrat);
+    bullet_from bestimmt, ab welchem Absatz (z. B. 1 fuer eine Ueberschrift ohne
+    Aufzaehlungszeichen).
+    """
+    font = font or F_LIGHT
+    tf = shape.text_frame
+    tf.word_wrap = wrap
+    tf.auto_size = MSO_AUTO_SIZE.NONE
+    tf.margin_left, tf.margin_top, tf.margin_right, tf.margin_bottom = (
+        Pt(inset[0]), Pt(inset[1]), Pt(inset[2]), Pt(inset[3]))
+    tf.vertical_anchor = {'t': MSO_ANCHOR.TOP, 'm': MSO_ANCHOR.MIDDLE,
+                          'b': MSO_ANCHOR.BOTTOM}[anchor]
+    first = True
+    for idx, para in enumerate(paras):
+        if isinstance(para, list):
+            runs = para
+        elif isinstance(para, Run):
+            runs = [para]
+        else:
+            runs = [Run(para, font, size, color, bold, italic)]
+        p = tf.paragraphs[0] if first else tf.add_paragraph()
+        p.alignment = align
+        if bullets and idx >= bullet_from:
+            _bullet_pPr(p, bullet_color or DARK, size, indent,
+                        before=(0 if first else before), line=line)
+        else:
+            _set_spacing(p, line, (0 if first else before), None)
+        for r in runs:
+            _apply(p.add_run(), r)
+        first = False
+    return shape

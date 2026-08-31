@@ -75,21 +75,22 @@ def build(prs):
     for i, (label, val, prev) in enumerate(TILES):
         x = XS[i % 2]
         y = YS[i // 2]
-        rect(s, x, y, 117.7, 44.3, fill=WHITE, linecolor=DARK, linew=0.75)
-        rows = [(label, F_LIGHT, False, False), (val, F_TWO, True, False)]
+        kachel = rect(s, x, y, 117.7, 44.3, fill=WHITE, linecolor=DARK, linew=0.75)
+        rows = [(label, F_TWO if False else F_LIGHT, False, False),
+                (val, F_TWO, True, False)]
         if prev:
             rows.append((prev, F_LIGHT, False, True))
-        y0 = y + (44.3 - len(rows) * 12.0) / 2.0 + 1.0
-        for j, (t, f, b, it) in enumerate(rows):
-            runs = []
+        paras = []
+        for t, f, b, it in rows:
             if '^' in t:
                 base, sup = t.split('^')
-                runs = [Run(base, f, 10.0, DARK, b, it),
-                        Run(sup + ')', f, 10.0, DARK, b, it, baseline=30)]
+                paras.append([Run(base, f, 10.0, DARK, b, it),
+                              Run(sup + ')', f, 10.0, DARK, b, it, baseline=30)])
             else:
-                runs = [Run(t, f, 10.0, DARK, b, it)]
-            textbox(s, x, y0 + j * 12.0, 117.7, 12.5, [runs], anchor='m',
-                    align=PP_ALIGN.CENTER, wrap=False)
+                paras.append([Run(t, f, 10.0, DARK, b, it)])
+        # Label, Wert und Vorjahr stehen im Textrahmen der Kachel selbst
+        shape_text(kachel, paras, line=12.0, anchor='m', align=PP_ALIGN.CENTER,
+                   inset=(2.0, 1.0, 2.0, 1.0), wrap=False)
     line_text(s, 29.8, 318.4, 328.3, 'Kunden und Netzinfrastruktur', F_TWO, 10.0, DARK,
               True, w=250)
 
@@ -104,7 +105,7 @@ def build(prs):
         mids.append(ang + sweep / 2.0)
         ang += sweep
     import math
-    oval(s, CX, CY, 2 * RI, 2 * RI, fill=WHITE)
+    mitte = oval(s, CX, CY, 2 * RI, 2 * RI, fill=WHITE)
     for (name, pct, color, lab), m in zip(SEG, mids):
         inside = pct > 12
         rr = (RO + RI) / 2.0 if inside else RO + 12.0
@@ -113,23 +114,20 @@ def build(prs):
         col = WHITE if inside else BLACK
         textbox(s, lx - 22, ly - 6, 44, 12, [[Run(lab, F_TWO, 10.0, col, True)]],
                 anchor='m', align=PP_ALIGN.CENTER, wrap=False)
-    textbox(s, CX - 45, CY - 11, 90, 22,
-            [[Run('100 % ≙', F_TWO, 9.0, DARK, True)],
-             [Run('474 Mio. EUR', F_TWO, 9.0, DARK, True)]],
-            anchor='m', align=PP_ALIGN.CENTER, line=11.3, wrap=False)
+    shape_text(mitte, [[Run('100 % ≙', F_TWO, 9.0, DARK, True)],
+                       [Run('474 Mio. EUR', F_TWO, 9.0, DARK, True)]],
+               line=11.3, anchor='m', align=PP_ALIGN.CENTER, wrap=False)
 
     # ---------------- Callouts ----------------
     for x, y, title, si, bullets in CALLOUTS:
         col = SEG[si][2]
-        dashed_rect(s, x, y, 141.7, 99.2, col, fill=WHITE)
-        line_text(s, x + 7.2, y + 9.7, y + 19.7, title, F_TWO, 10.0, col, True, w=134)
-        yy = y + 21.4
-        for b in bullets:
-            lines = para_lines(b, 108, 9.0)
-            textbox(s, x + 7.2, yy, 8, 10.8, [[wing(7.7, col)]], anchor='m', wrap=False)
-            textbox(s, x + 21.4, yy - 0.5, 116, len(lines) * 10.8 + 3,
-                    [[Run(l, F_LIGHT, 9.0, BLACK)] for l in lines], line=10.8)
-            yy += len(lines) * 10.8
+        co = dashed_rect(s, x, y, 141.7, 99.2, col, fill=WHITE)
+        # Titel und Aufzaehlung stehen im Textrahmen des Callouts
+        shape_text(co, [[Run(title, F_TWO, 10.0, col, True)]] +
+                   [[Run(t, F_LIGHT, 9.0, BLACK)] for t in bullets],
+                   size=9.0, line=10.8, before=1.5, anchor='t', bullets=True,
+                   bullet_from=1, bullet_color=col, indent=14.2,
+                   inset=(7.2, 6.5, 5.0, 4.0))
     # Verbindungslinien Callout -> Donut
     elbow(s, [(462.8, 217.8), (501.9, 217.8)], SEG[0][2])
     elbow(s, [(620.6, 218.6), (662.8, 218.6)], SEG[1][2])

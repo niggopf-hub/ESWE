@@ -54,8 +54,19 @@ Teilstrecke, nicht die waagerechte. LibreOffice routet Konnektoren neu und
 kaschiert das, PowerPoint zeichnet die Datei wie gespeichert — die Linien liefen
 dann quer durch die Kästen.
 
-Jeder Infokasten ist **genau ein Textfeld** mit echten Aufzählungszeichen
-(`bullet_box`, Wingdings-Quadrat als `buChar`) — kein separates Feld je Bullet.
+**Text steht im Shape, nicht darauf.** Kacheln, Infokästen und das Kennzahlenband
+tragen ihren Text im eigenen Textrahmen (`shape_text` in `deck.py`) — kein
+Textfeld, das auf einer Form liegt, und kein separates Feld je Aufzählungszeichen.
+Die Aufzählungen sind echte PowerPoint-Bullets (Wingdings-Quadrat als `buChar`).
+Anklicken und tippen genügt zum Ändern.
+
+Das Kennzahlenband besteht deshalb aus vier aneinandergrenzenden Rechtecken —
+optisch ein durchgehendes Band, aber jedes Feld für sich beschriftbar.
+
+Dasselbe Muster ist auf den übrigen Inhaltsfolien umgesetzt (Kacheln, Callouts,
+Ovale, Säulensegmente, Kommentarband, Balken, Titelbalken). Frei stehende
+Beschriftungen ohne Trägerform — Überschriften, Fußnoten, Quotenangaben,
+Achsenbeschriftungen — bleiben eigene Textfelder.
 
 **Logos:** Liegt in `assets/` eine Datei mit dem passenden Namen, setzt der Build
 sie automatisch statt des Firmennamens in die Kachel:

@@ -37,10 +37,9 @@ def build(prs):
     title_2lines(s, 'Die ESWE fokussiert sich auf die Wärmewende, resiliente Netze,',
                  'regionale Erzeugung und profitable Wachstumsfelder')
     for (icon, txt), y in zip(BARS, BAR_Y):
-        rect(s, 29.8, y, 779.8, BAR_H, fill=BARBG)
+        bar = rect(s, 29.8, y, 779.8, BAR_H, fill=BARBG)
         picture(s, icon, 62.0, y + 15.5, 32, 32)
-        ls = para_lines(nb(txt), 670, 10.6)
-        y0 = y + (BAR_H - len(ls) * 12.6) / 2.0
-        textbox(s, 128.0, y0, 676, len(ls) * 12.6 + 4,
-                [[Run(l, F_LIGHT, 10.6, DARK)] for l in ls], line=12.6)
+        # Der Satz steht im Textrahmen des Balkens selbst
+        shape_text(bar, [Run(nb(txt), F_LIGHT, 10.6, DARK)],
+                   line=12.6, anchor='m', inset=(98.2, 4.0, 12.0, 4.0))
     return s

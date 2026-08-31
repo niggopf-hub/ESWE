@@ -28,13 +28,13 @@ def build(prs):
     chrome(s, 19, HEADER, SOURCES)
     title_2lines(s, 'Verschiedene Handlungsoptionen für die zukünftige Positionierung der ESWE')
 
-    oval(s, 421.0, 334.45, 206.2, 206.1, fill=rgb(0xE3E8FB))
+    kreis = oval(s, 421.0, 334.45, 206.2, 206.1, fill=rgb(0xE3E8FB))
     for y in (255.5, 398.4):
         hline(s, 72.3, 769.7, y, DARK, 1.0, dash=True)
-    textbox(s, 321.0, 279.0, 200, 34,
-            [[Run('Mögliche strategische', F_TWO, 14.0, DARK, True)],
-             [Run('Ziele', F_TWO, 14.0, DARK, True)]],
-            anchor='m', align=PP_ALIGN.CENTER, line=15.8)
+    shape_text(kreis, [[Run('Mögliche strategische', F_TWO, 14.0, DARK, True)],
+                       [Run('Ziele', F_TWO, 14.0, DARK, True)]],
+               line=15.8, anchor='t', align=PP_ALIGN.CENTER,
+               inset=(12.0, 47.5, 12.0, 12.0))
     picture(s, 'eswe_logo.png', 371.0, 341.0, 100.0, 100.0 * 517 / 1233.0)
 
     for side, cy, txt, col, icon, (ix, iy, iw, ih) in ZIELE:

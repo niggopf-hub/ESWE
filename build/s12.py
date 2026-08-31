@@ -55,29 +55,26 @@ def build(prs):
     line_text(s, 29.8, 101.5, 115.5, 'Unser Verständnis der Ausgangslage',
               F_REG, 14, GREY, True, w=400)
 
-    soft_shadow(rect(s, 30, 128, 98, 350, fill=DARK))
-    soft_shadow(rect(s, 139, 128, 673, 350, fill=LIGHTBOX,
-                     linecolor=rgb(0xD9D9D9), linew=0.75))
+    kachel = soft_shadow(rect(s, 30, 128, 98, 350, fill=DARK))
+    kasten = soft_shadow(rect(s, 139, 128, 673, 350, fill=LIGHTBOX,
+                              linecolor=rgb(0xD9D9D9), linew=0.75))
 
-    line_text(s, 30, 273.6, 284.1, 'Ausgangslage', F_TWO, 10.6, WHITE, True,
-              align=PP_ALIGN.CENTER, w=98)
+    # Label und Bullets stehen im Textrahmen der jeweiligen Form
+    shape_text(kachel, [Run('Ausgangslage', F_TWO, 10.6, WHITE, True)],
+               align=PP_ALIGN.CENTER, anchor='t', inset=(2.0, 145.6, 2.0, 2.0))
     picture(s, 'doc_icon.png', 56.5, 296, 45, 60)
 
-    # Bulletblock, vertikal im hellblauen Kasten zentriert
-    W = 626.0
-    GAP = 13.5
-    h = bullet_block(None, 0, 0, 0, W, BULLETS, gap=GAP, measure_only=True)
-    y0 = 128 + (350 - h) / 2.0 + 1
-    bullet_block(s, 150.5, 178.9, y0, W, BULLETS, gap=GAP)
+    shape_text(kasten, BULLETS, size=10.6, line=12.7, before=13.5, anchor='m',
+               bullets=True, indent=28.4, inset=(11.5, 12.0, 15.0, 12.0))
 
     # Takeaway-Banner
-    soft_shadow(rect(s, 30, 495, 782, 41, fill=WHITE, linecolor=DARK, linew=1.0))
+    banner = soft_shadow(rect(s, 30, 495, 782, 41, fill=WHITE, linecolor=DARK,
+                              linew=1.0))
     chev = rect(s, 30, 497, 14.5, 37, fill=DARK, shape=MSO_SHAPE.PENTAGON)
     try:
         chev.adjustments[0] = 0.62
     except Exception:
         pass
-    tl = para_lines(TAKEAWAY, 735, 10.6, bold=True)
-    textbox(s, 63.8, 504.3, 740, 30,
-            [[Run(l, F_TWO, 10.6, DARK, True)] for l in tl], line=12.6)
+    shape_text(banner, [Run(TAKEAWAY, F_TWO, 10.6, DARK, True)],
+               line=12.6, anchor='m', inset=(33.8, 3.0, 12.0, 3.0))
     return s

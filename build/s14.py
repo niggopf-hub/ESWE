@@ -98,10 +98,12 @@ ROW2 = [
      'logo_thee.png'),
 ]
 
-KENNZAHLEN = [('Umsatz 2025: ', '473,8 Mio. EUR', BLACK, 36.0, 156.0),
-              ('Jahresüberschuss 2025: ', '48,9 Mio. EUR', GREEN, 200.0, 184.0),
-              ('Gewinnabführung an die WVV: ', '30,1 Mio. EUR', GREEN, 392.0, 210.0),
-              ('Ausgleichszahlung Thüga: ', '18,8 Mio. EUR', GREEN, 610.0, 196.0)]
+# (Label, Wert, Farbe, x, Breite) – jedes Feld ein eigenes Rechteck, die vier
+# ergeben zusammen das durchgehende Kennzahlenband
+KENNZAHLEN = [('Umsatz 2025: ', '473,8 Mio. EUR', BLACK, 29.8, 164.2),
+              ('Jahresüberschuss 2025: ', '48,9 Mio. EUR', GREEN, 194.0, 192.0),
+              ('Gewinnabführung an die WVV: ', '30,1 Mio. EUR', GREEN, 386.0, 218.0),
+              ('Ausgleichszahlung Thüga: ', '18,8 Mio. EUR', GREEN, 604.0, 208.2)]
 
 
 def _sup_runs(text, font, size, color, bold=False):
@@ -114,7 +116,8 @@ def _sup_runs(text, font, size, color, bold=False):
 
 
 def _tile(s, x, y, w, name, size=7.5, logo=None):
-    """Namenskachel; liegt eine Logo-Datei in assets/, wird sie statt des Namens gesetzt."""
+    """Namenskachel – der Name steht im Textrahmen des Rechtecks selbst.
+    Liegt eine Logo-Datei in assets/, wird sie statt des Namens gesetzt."""
     box = rect(s, x, y, w, TILE_H, fill=WHITE, linecolor=TILE_LINE, linew=0.9)
     if logo and os.path.exists(os.path.join(ASSETS, logo)):
         from PIL import Image
@@ -123,11 +126,8 @@ def _tile(s, x, y, w, name, size=7.5, logo=None):
         picture(s, logo, x + (w - h * iw / float(ih)) / 2.0, y + (TILE_H - h) / 2.0,
                 h * iw / float(ih), h)
         return box
-    lines = wrap(name, w - 8, size, bold=True)
-    y0 = y + (TILE_H - len(lines) * 9.0) / 2.0
-    for j, l in enumerate(lines):
-        textbox(s, x, y0 + j * 9.0, w, 9.0, [[Run(l, F_TWO, size, DARK, True)]],
-                anchor='m', align=PP_ALIGN.CENTER, wrap=False)
+    shape_text(box, [Run(name, F_TWO, size, DARK, True)], align=PP_ALIGN.CENTER,
+               anchor='m', line=9.0, inset=(4.0, 1.0, 4.0, 1.0))
     return box
 
 
@@ -171,11 +171,14 @@ def build(prs):
             align=PP_ALIGN.RIGHT, wrap=False)
 
     # ---------------- Kennzahlenband ----------------
-    band = rect(s, 29.8, BAND_Y, 782.4, BAND_H, fill=BOX)
+    band = None
     for label, val, col, x, w in KENNZAHLEN:
-        b = bullet_box(s, x, BAND_Y, w, BAND_H, [''], size=9.0, line=11.0, anchor='m')
-        add_runs(b.text_frame.paragraphs[0],
-                 [Run(label, F_LIGHT, 9.0, BLACK), Run(val, F_LIGHT, 9.0, col)])
+        seg = rect(s, x, BAND_Y, w, BAND_H, fill=BOX)
+        shape_text(seg, [[Run(label, F_LIGHT, 9.0, BLACK), Run(val, F_LIGHT, 9.0, col)]],
+                   size=9.0, line=11.0, anchor='m', bullets=True, indent=10.0,
+                   inset=(6.0, 0.0, 2.0, 0.0), wrap=False)
+        if band is None:
+            band = seg
 
     # ---------------- Reihe 1 und 2 ----------------
     # Reihe 2 wird ueber eine Klammer versorgt: senkrecht in der Gasse zwischen
@@ -193,11 +196,12 @@ def build(prs):
             # senkrechter Abgang, oben mittig an die Kachel geklebt
             connect(s, cx, drop_y, cx, tile_y, end=(tile, 0))
             _quote(s, cx, drop_y + 3.0, q)
-            rect(s, x, box_y, CW, box_h, fill=BOX)
-            bullet_box(s, x + 5.0, box_y + 5.0, CW - 9.0, box_h - 8.0,
-                       [_sup_runs(akt, F_LIGHT, 9.0, BLACK),
-                        _sup_runs(kpi, F_LIGHT, 9.0, BLACK),
-                        _sup_runs(erg, F_LIGHT, 9.0, col)], indent=10.0)
+            info = rect(s, x, box_y, CW, box_h, fill=BOX)
+            shape_text(info, [_sup_runs(akt, F_LIGHT, 9.0, BLACK),
+                              _sup_runs(kpi, F_LIGHT, 9.0, BLACK),
+                              _sup_runs(erg, F_LIGHT, 9.0, col)],
+                       size=9.0, line=10.4, before=3.0, anchor='t', bullets=True,
+                       indent=10.0, inset=(5.0, 5.0, 4.0, 3.0))
 
     # ---------------- Beteiligungsobjekte hervorheben ----------------
     dashed_rect(s, 26.0, 250.0, 261.0, 126.0, ORANGE, linew=1.25)

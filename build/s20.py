@@ -31,22 +31,19 @@ VORTEILE = ['Teilung von Risiken und Investitionsbedarf',
 
 
 def _quadrant_title(s, x, w, text, sup=None):
-    rect(s, x, 127.6, w, 19.8, fill=TITLE_BAR)
+    bar = rect(s, x, 127.6, w, 19.8, fill=TITLE_BAR)
     runs = [Run(text, F_TWO, 10.0, WHITE, True)]
     if sup:
         runs.append(Run(sup, F_TWO, 10.0, WHITE, True, baseline=30))
-    textbox(s, x, 128.5, w, 18, [runs], anchor='m', align=PP_ALIGN.CENTER, wrap=False)
+    shape_text(bar, [runs], anchor='m', align=PP_ALIGN.CENTER, wrap=False)
 
 
-def _bullets(s, x, y0, w, items, pitch=18.0, size=10.0, line=12.0):
-    yy = y0
-    for it in items:
-        ls = para_lines(it, w - 14, size)
-        textbox(s, x, yy, 9, line, [[wing(size * 0.73, DARK)]], anchor='m', wrap=False)
-        textbox(s, x + 13.8, yy - 0.5, w - 13, len(ls) * line + 3,
-                [[Run(l, F_LIGHT, size, DARK)] for l in ls], line=line)
-        yy += max(pitch, len(ls) * line + 5.5)
-    return yy
+def _bullets(shape, items, size=10.0, line=12.0, before=6.0, inset=None):
+    """Aufzaehlung direkt in den Textrahmen der uebergebenen Form."""
+    shape_text(shape, [[Run(t, F_LIGHT, size, DARK)] for t in items],
+               size=size, line=line, before=before, anchor='t', bullets=True,
+               indent=13.8, inset=inset or (7.2, 8.0, 8.0, 4.0))
+    return shape
 
 
 def build(prs):
@@ -62,21 +59,21 @@ def build(prs):
     rect(s, 29.8, 147.4, 385.5, 228.3, fill=BODY)
     # SPV
     rect(s, 154.1, 204.3, 137.0, 133.1, fill=WHITE, linecolor=TITLE_BAR, linew=0.75)
-    rect(s, 154.1, 204.3, 137.0, 28.4, fill=DARK, linecolor=TITLE_BAR, linew=0.75)
-    textbox(s, 154.1, 206.5, 137, 12, [[Run('Wärme/EE SPV', F_TWO, 9.0, WHITE, True)]],
-            anchor='m', align=PP_ALIGN.CENTER, wrap=False)
-    textbox(s, 154.1, 217.5, 137, 12,
-            [[Run('post Carve-Out', F_TWO, 9.0, WHITE, True, italic=True)]],
-            anchor='m', align=PP_ALIGN.CENTER, wrap=False)
+    kopf = rect(s, 154.1, 204.3, 137.0, 28.4, fill=DARK, linecolor=TITLE_BAR,
+                linew=0.75)
+    shape_text(kopf, [[Run('Wärme/EE SPV', F_TWO, 9.0, WHITE, True)],
+                      [Run('post Carve-Out', F_TWO, 9.0, WHITE, True, italic=True)]],
+               line=11.0, anchor='m', align=PP_ALIGN.CENTER, wrap=False)
     picture(s, 'gf4.png', 166.0, 250.0, 26, 26)
     line_text(s, 200.0, 258.0, 269.0, 'Fernwärme', F_LIGHT, 9.0, BLACK, w=90)
     picture(s, 'gf3.png', 166.0, 293.0, 26, 26)
     line_text(s, 200.0, 301.0, 312.0, 'EE-Erzeugung', F_LIGHT, 9.0, BLACK, w=90)
     # ESWE / Investor
     picture(s, 'eswe_logo.png', 46.0, 166.0, 76.0, 76.0 * 517 / 1233.0)
-    rect(s, 316.1, 167.8, 72.8, 19.4, fill=ORANGE, linecolor=WHITE, linew=0.75)
-    textbox(s, 316.1, 168.8, 72.8, 17, [[Run('Investor', F_TWO, 9.0, WHITE, True)]],
-            anchor='m', align=PP_ALIGN.CENTER, wrap=False)
+    shape_text(rect(s, 316.1, 167.8, 72.8, 19.4, fill=ORANGE, linecolor=WHITE,
+                    linew=0.75),
+               [Run('Investor', F_TWO, 9.0, WHITE, True)],
+               anchor='m', align=PP_ALIGN.CENTER, wrap=False)
     # Pfeile
     elbow(s, [(84.0, 200.0), (84.0, 218.4), (152.0, 218.4)], BLUE, 1.5)
     elbow(s, [(352.5, 187.2), (352.5, 218.4), (293.0, 218.4)], ORANGE, 1.5)
@@ -85,30 +82,30 @@ def build(prs):
     line_text(s, 296.0, 190.0, 201.0, 'Minderheit', F_TWO, 9.0, ORANGE, True,
               align=PP_ALIGN.CENTER, w=52)
     # gestrichelte Kommentarkästen
-    dashed_rect(s, 41.9, 263.9, 101.4, 67.8, BLUE, fill=GREYF)
-    textbox(s, 46.9, 280.0, 92, 40,
-            [[Run(l, F_LIGHT, 9.0, DARK, italic=True)] for l in
-             ['Einbringung', 'Fernwärmenetz/', 'EE-Projekte']],
-            anchor='m', align=PP_ALIGN.CENTER, line=10.8)
-    dashed_rect(s, 301.8, 263.9, 101.4, 67.8, ORANGE, fill=GREYF)
-    textbox(s, 306.8, 285.0, 92, 30,
-            [[Run(l, F_LIGHT, 9.0, DARK, italic=True)] for l in
-             ['Einbringung EK für', 'Capex und Kaufpreis']],
-            anchor='m', align=PP_ALIGN.CENTER, line=10.8)
+    shape_text(dashed_rect(s, 41.9, 263.9, 101.4, 67.8, BLUE, fill=GREYF),
+               [[Run(l, F_LIGHT, 9.0, DARK, italic=True)] for l in
+                ['Einbringung', 'Fernwärmenetz/', 'EE-Projekte']],
+               line=10.8, anchor='m', align=PP_ALIGN.CENTER, wrap=False)
+    shape_text(dashed_rect(s, 301.8, 263.9, 101.4, 67.8, ORANGE, fill=GREYF),
+               [[Run(l, F_LIGHT, 9.0, DARK, italic=True)] for l in
+                ['Einbringung EK für', 'Capex und Kaufpreis']],
+               line=10.8, anchor='m', align=PP_ALIGN.CENTER, wrap=False)
 
     # ---------------- Q2: Beteiligung an Unternehmen/Assets ----------------
     _quadrant_title(s, 426.7, 385.5, '(private) Beteiligung an Unternehmen/Assets')
-    rect(s, 426.7, 147.4, 385.5, 228.3, fill=BODY)
-    _bullets(s, 433.9, 162.4, 360, ASSETS_LIST, pitch=24.0)
+    _bullets(rect(s, 426.7, 147.4, 385.5, 228.3, fill=BODY), ASSETS_LIST,
+             line=12.0, before=12.0, inset=(7.2, 13.0, 12.0, 4.0))
 
     # ---------------- Q3 / Q4 ----------------
     line_text(s, 37.0, 397.5, 408.0, 'Wesentliche Aspekte bei der Gestaltung einer '
               'Partnerschaft', F_TWO, 10.0, DARK, True, w=380)
-    rect(s, 29.8, 410.8, 385.5, 108.4, fill=WHITE, linecolor=GREYF, linew=0.75)
-    _bullets(s, 37.0, 417.3, 372, ASPEKTE, pitch=17.0, line=13.7)
+    _bullets(rect(s, 29.8, 410.8, 385.5, 108.4, fill=WHITE, linecolor=GREYF,
+                  linew=0.75),
+             ASPEKTE, line=13.7, before=4.3, inset=(7.2, 5.0, 10.0, 3.0))
 
     line_text(s, 433.9, 397.5, 408.0, 'Vorteile für die ESWE Versorgungs AG',
               F_TWO, 10.0, DARK, True, w=380)
-    rect(s, 426.7, 410.8, 385.5, 108.4, fill=WHITE, linecolor=GREYF, linew=0.75)
-    _bullets(s, 433.9, 417.3, 372, VORTEILE, pitch=18.0, line=13.7)
+    _bullets(rect(s, 426.7, 410.8, 385.5, 108.4, fill=WHITE, linecolor=GREYF,
+                  linew=0.75),
+             VORTEILE, line=13.7, before=4.3, inset=(7.2, 5.0, 10.0, 3.0))
     return s
