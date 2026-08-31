@@ -22,15 +22,15 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 | Feld | Inhalt |
 |---|---|
 | Unternehmen | Alvarez & Marsal Deutschland GmbH (A&M Germany) |
-| Kontakt | Johann Stohner |
-| Position | Managing Director, **Head of Restructuring Germany** |
-| E-Mail | jstohner@alvarezandmarsal.com |
-| E-Mail-Status | **Bestätigt** (offizielle Kontaktseite germany-alvarezandmarsal.com, inkl. Mobil +49 170 921 3836) |
+| Kontakt | Jürgen Zapf |
+| Position | Managing Director, **Co-Head A&M Deutschland** (Führungstrio mit Patrick Siebert und Bob Rajan); Head of German Transaction Advisory Group |
+| E-Mail | jzapf@alvarezandmarsal.com |
+| E-Mail-Status | **Widersprüchlich belegt – vor Versand klären** |
 | Anrede | Herr |
-| Address | Sonnenstraße 20, 80331 München (T +49 89 71040 600) |
-| Kontaktquelle | https://www.alvarezandmarsal.com/our-people/johann-stohner · https://www.germany-alvarezandmarsal.com/en/contact-us |
-| E-Mail-Quelle | https://www.germany-alvarezandmarsal.com/en/contact-us (Adresse dort mit Telefonnummer veröffentlicht) |
-| Kommentar | **Geändert gegenüber der ersten Fassung.** Ursprünglich war Jürgen Zapf (MD, Co-Head A&M Deutschland) gesetzt, mit einer aus `jstohner@` abgeleiteten Adresse `jzapf@alvarezandmarsal.com`. Diese Ableitung stützte sich auf **einen** Beleg und ist damit nach SOP Abschnitt 5 Stufe B nicht belastbar. Stohner ist mit veröffentlichter Direktadresse belegt und als Head of Restructuring Germany fachlich unmittelbar zuständig. **Alternativen auf Country-Lead-Ebene:** Jürgen Zapf und Patrick Siebert (beide Co-Head A&M Deutschland) – für sie ist nur der offizielle Sammelkanal `infode@alvarezandmarsal.com` gesichert. Vier deutsche Standorte (München, Frankfurt: Neue Mainzer Str. 28, Hamburg, Düsseldorf). |
+| Address | Sonnenstraße 20, 80331 München (deutsche Zentrale, T +49 89 710 40 600) |
+| Kontaktquelle | https://www.alvarezandmarsal.com/our-people/jurgen-zapf · https://www.alvarezandmarsal.com/de/insights/am-deutschland-ernennt-patrick-siebert-zum-co-head |
+| E-Mail-Quelle | Firmenschema `[Initial Vorname][Nachname]@alvarezandmarsal.com`, belegt durch `jstohner@alvarezandmarsal.com` auf der offiziellen Kontaktseite germany-alvarezandmarsal.com. **Widerspruch:** finance-thinktank.de (Dritter) führt ihn als `j.zapf@alvarezandmarsal.com` – mit Punkt. Beide Varianten kursieren, ohne Seitenaufruf nicht auflösbar. |
+| Kommentar | **Korrekturen gegenüber früheren Fassungen:** (a) A&M Deutschland wird nicht von zwei, sondern von **drei** Co-Heads geführt – Zapf, Patrick Siebert (Corporate Transformation Services) und Bob Rajan (Private Equity Performance Improvement, München). (b) Die deutsche Zentrale ist **München**, nicht Frankfurt; die frühere Frankfurter Anschrift (Neue Mainzer Str. 28) ist einer der vier Standorte, aber nicht Zapfs Büro. **Sichere Alternativen:** Johann Stohner, MD & Head of Restructuring Germany, München – `jstohner@alvarezandmarsal.com` (bestätigt, Mobil +49 170 921 3836). Offizieller Sammelkanal: `infode@alvarezandmarsal.com`. |
 
 ## 2. FTI Andersch
 
@@ -173,7 +173,7 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 
 | # | Unternehmen | Kontakt | Position | E-Mail | Status |
 |---|---|---|---|---|---|
-| 1 | Alvarez & Marsal | Johann Stohner | MD, Head of Restructuring Germany | jstohner@alvarezandmarsal.com | **bestätigt** |
+| 1 | Alvarez & Marsal | Jürgen Zapf | MD, Co-Head A&M Deutschland | jzapf@alvarezandmarsal.com | widersprüchlich |
 | 2 | FTI Andersch | Christian Säuberlich | Vorstandssprecher, Senior Partner | christian.saeuberlich@fti-andersch.com | abgeleitet (Umlaut unsicher) |
 | 3 | FRP | Geoff Rowley | Group CEO & Co-Founder (UK) | geoff.rowley@frpadvisory.com | **bestätigt** |
 | 4 | Investec | Jürgen Schwarz | Managing Partner Germany, Head of Restructuring | contact-de@capitalmind.com | allgemeiner Kontakt |
@@ -190,9 +190,32 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 2. **Investec / Forvis Mazars** – kein offiziell veröffentlichtes Personenpostfach; bewusst allgemeiner Kanal mit Weiterleitungsbitte gewählt. Persönliche Adressen nicht als bestätigt ausgeben.
 3. **FTI Andersch** – Umlaut-Transliteration in `saeuberlich` ist nicht offiziell belegt. Bei Unsicherheit `info@fti-andersch.com` verwenden.
 4. **FRP / Piper Sandler** – keine deutsche Partnerebene vorhanden; Ansprache bewusst auf UK-Ebene. Falls ausschließlich deutsche Kontakte zulässig sind, fallen diese beiden Zeilen aus der Liste.
-5. **Alvarez & Marsal** – gesetzt ist Johann Stohner (bestätigte Direktadresse). Auf Country-Lead-Ebene stehen alternativ die Co-Heads Jürgen Zapf und Patrick Siebert, dann aber nur über `infode@alvarezandmarsal.com`.
+5. **Alvarez & Marsal** – Punkt-Variante der Adresse ungeklärt (`jzapf@` vs. `j.zapf@`). Wer sicher ankommen muss, nimmt Johann Stohner (`jstohner@alvarezandmarsal.com`, bestätigt) oder den Sammelkanal `infode@alvarezandmarsal.com`.
 6. **Ankura** – das Format `vorname.nachname@ankura.com` stützt sich auf nur einen Beleg. Vor Versand verifizieren.
 7. **Piper Sandler** – die Maildomain `psc.com` ist offiziell belegt, das Personenschema nur über maskierte Datenbank-Treffer. Schwächster Datensatz der Liste.
 8. Alle abgeleiteten Adressen: Mailbox nicht getestet, es wurden keine Test-Mails versendet.
 
 **Bekannte Einschränkung dieser Recherche:** Der direkte Seitenabruf ist in dieser Umgebung netzseitig gesperrt. Adressen konnten deshalb nur über Suchtreffer belegt werden, nicht durch Aufruf der Profilseite selbst. Bei Stifel hat sich gezeigt, dass Profilseiten Direktadressen führen, die auf diesem Weg nicht sichtbar werden – für Ankura, Piper Sandler, Oliver Wyman und Roland Berger kann dasselbe gelten.
+
+
+---
+
+## Anhang: Prüfung der vier Zeilen aus dem übrigen Contact Log
+
+Diese Unternehmen gehören nicht zu den zehn recherchierten Häusern, wurden auf Nachfrage aber mitgeprüft.
+
+| Unternehmen | Zeile im Log | Befund |
+|---|---|---|
+| **KPMG** | Jürgen Wildermuth, Head of Corporate Development, `jwildermuth@kpmg.com` | **Person nicht verifizierbar.** Bei KPMG Deutschland ist ausschließlich **Wolfram** Wildermuth auffindbar: Stuttgart, Leiter Public Sector & Healthcare Südwest, `wwildermuth@kpmg.com`, T +49 711 9060 41158. Für einen Jürgen Wildermuth in einer Corporate-Development-Rolle gibt es keinen Treffer – Verwechslung wahrscheinlich. Positiv: Das Schema `[Initial][Nachname]@kpmg.com` ist durch `wwildermuth@kpmg.com` offiziell bestätigt, und die Domain ist `kpmg.com` (nicht `kpmg.de`). Quelle: https://kpmg.com/de/de/home/contacts/w/wolfram-wildermuth.html |
+| **AlixPartners** | Jan Kantowsky, Leiter Consulting Deutschland, `jkantowsky@alixpartners.com` | **Titel falsch.** Laut eigener Profilseite Partner & Managing Director; er leitet **EMEA Private Equity**, nicht das deutsche Consulting. Person und Zugehörigkeit aktuell bestätigt, kein Hinweis auf Ausscheiden. Quelle: https://www.alixpartners.com/our-people/28271/jan-kantowsky/ |
+| **Accenture** | Matthieu Guidetti, Senior Manager M&A, `matthieu.guidetti@accenture.com` | **Sitzt in London**, nicht in Deutschland. Rolle: Corporate Development Manager – M&A, verantwortet Accentures Zukäufe in Europa. Funktion passt inhaltlich, als deutscher Ansprechpartner fällt die Zeile aus dem Raster. |
+| **Baker Tilly** | Alexandra Sausmekat, Partner, `alexandra.sausmekat@bakertilly.de` | **Bestätigt.** Partnerin bei Baker Tilly in Dortmund, Steuerberaterin und Rechtsanwältin; Schwerpunkte Steuern bei Transaktionen, Tax Due Diligence, Restrukturierung, Energierechtsregulierung, Corporate/M&A. Domain `bakertilly.de` korrekt. Für Energiethemen der stärkste Datensatz: Lead Partner beim EnBW-Verkauf der Windenergie-Servicegesellschaften (DK/FR) und beim Gesellschafterwechsel der eins energie in sachsen. Quelle: https://www.bakertilly.de/bt/alexandra-sausmekat.html |
+
+### Weitere Korrekturen am bestehenden Log
+
+- **Investec:** `juergen.schwarz@investec.com` ist nicht belegt. Drei Domains konkurrieren – `capitalmind.com` (Advisory-Einheit, offizieller Kanal `contact-de@capitalmind.com`), `investec.com` (Teamseiten) und `investecmail.com` (Investec Frankfurt, historisch). Nicht als Firmenschema führen.
+- **Forvis Mazars:** Herkunft „Hunter" ist nach SOP Abschnitt 6 kein zulässiger Alleinbeleg („E-Mail-Datenbank oder Suchaggregator nur als Hinweis"). Zusätzlich ist `mazars.de` parallel aktiv.
+- **Piper Sandler:** Herkunft „Eigene Website" konnte nicht bestätigt werden – es liegt kein Nachweis vor, dass pipersandler.com Adressen auf den Bio-Seiten führt.
+- **Oliver Wyman, Roland Berger, Ankura:** Herkunft war leer. Richtig ist „Firmenschema" – Oliver Wyman und Roland Berger mit je drei veröffentlichten Formatbelegen, Ankura mit nur einem.
+- **Stifel:** Der Seitenkopf nennt als Bereich „Business Services", der Bio-Text „Diversified Industries Investment Banking Group".
+- **FTI Andersch:** Ergänzung zur Position – Säuberlich ist zugleich Country Leader DACH bei FTI Consulting.
