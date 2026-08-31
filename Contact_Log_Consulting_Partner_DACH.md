@@ -22,15 +22,15 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 | Feld | Inhalt |
 |---|---|
 | Unternehmen | Alvarez & Marsal Deutschland GmbH (A&M Germany) |
-| Kontakt | Jürgen Zapf |
-| Position | Managing Director; **Co-Head A&M Deutschland**, zugleich Head of German Transaction Advisory Group |
-| E-Mail | jzapf@alvarezandmarsal.com |
-| E-Mail-Status | **Aus offiziellem Firmenformat abgeleitet; Mailbox nicht verifiziert** |
+| Kontakt | Johann Stohner |
+| Position | Managing Director, **Head of Restructuring Germany** |
+| E-Mail | jstohner@alvarezandmarsal.com |
+| E-Mail-Status | **Bestätigt** (offizielle Kontaktseite germany-alvarezandmarsal.com, inkl. Mobil +49 170 921 3836) |
 | Anrede | Herr |
-| Address | Neue Mainzer Str. 28, 60311 Frankfurt am Main |
-| Kontaktquelle | https://www.alvarezandmarsal.com/our-people/jurgen-zapf · https://www.germany-alvarezandmarsal.com/en/leadership |
-| E-Mail-Quelle | Format-Beleg: `jstohner@alvarezandmarsal.com` (Johann Stohner, offizielle Kontaktangabe germany-alvarezandmarsal.com) → Muster `[Initial Vorname][Nachname]@alvarezandmarsal.com` |
-| Kommentar | A&M Deutschland wird von zwei Co-Heads geführt. **Alternative 1:** Patrick Siebert (MD, Co-Head A&M Germany / Co-Head European Corporate Transformation Services, Hamburg). **Alternative 2 – einzige bestätigte Direktadresse:** Johann Stohner, MD, Head of Restructuring Germany, München (Sonnenstraße 20, 80331 München), `jstohner@alvarezandmarsal.com`, T +49 170 921 3836. Vier deutsche Standorte (FFM, München, Hamburg, Düsseldorf). |
+| Address | Sonnenstraße 20, 80331 München (T +49 89 71040 600) |
+| Kontaktquelle | https://www.alvarezandmarsal.com/our-people/johann-stohner · https://www.germany-alvarezandmarsal.com/en/contact-us |
+| E-Mail-Quelle | https://www.germany-alvarezandmarsal.com/en/contact-us (Adresse dort mit Telefonnummer veröffentlicht) |
+| Kommentar | **Geändert gegenüber der ersten Fassung.** Ursprünglich war Jürgen Zapf (MD, Co-Head A&M Deutschland) gesetzt, mit einer aus `jstohner@` abgeleiteten Adresse `jzapf@alvarezandmarsal.com`. Diese Ableitung stützte sich auf **einen** Beleg und ist damit nach SOP Abschnitt 5 Stufe B nicht belastbar. Stohner ist mit veröffentlichter Direktadresse belegt und als Head of Restructuring Germany fachlich unmittelbar zuständig. **Alternativen auf Country-Lead-Ebene:** Jürgen Zapf und Patrick Siebert (beide Co-Head A&M Deutschland) – für sie ist nur der offizielle Sammelkanal `infode@alvarezandmarsal.com` gesichert. Vier deutsche Standorte (München, Frankfurt: Neue Mainzer Str. 28, Hamburg, Düsseldorf). |
 
 ## 2. FTI Andersch
 
@@ -98,13 +98,13 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 |---|---|
 | Unternehmen | Stifel Europe Advisory GmbH (vormals ACXIT Capital Partners), Frankfurt – DACH-Advisory der Stifel Financial Corp. |
 | Kontakt | Christian Stippler |
-| Position | Managing Director, Investment Banking (Diversified Industries), Frankfurt; laut Handelsregister seit 12/2025 **Geschäftsführer der Stifel Europe Advisory GmbH** (gemeinsam mit Stefan Hampker) |
-| E-Mail | stipplerc@stifel.com |
-| E-Mail-Status | **Aus Firmenformat abgeleitet; Mailbox nicht verifiziert** |
+| Position | Managing Director, Business Services / Diversified Industries Investment Banking, Frankfurt; laut Handelsregister seit 12/2025 **Geschäftsführer der Stifel Europe Advisory GmbH** (gemeinsam mit Stefan Hampker) |
+| E-Mail | christian.stippler@stifel.com |
+| E-Mail-Status | **Bestätigt** (auf der offiziellen Profilseite veröffentlicht, inkl. Telefon +49 69 247414 119 und v-Card) |
 | Anrede | Herr |
 | Address | Stifel Europe Advisory GmbH, Luginsland 1, 60313 Frankfurt am Main (Registeranschrift seit 01/2026; zuvor Taunusanlage 1). Konzernschwester: Stifel Europe AG, Kennedyallee 76, 60596 Frankfurt am Main |
 | Kontaktquelle | https://stifelinstitutional.com/meet/christian-stippler/ · https://www.northdata.com/Stifel+Europe+Advisory+GmbH,+Frankfurt+a.+Main/Amtsgericht+Frankfurt+am+Main+HRB+101001 |
-| E-Mail-Quelle | Format-Beleg: `shapiron@stifel.com` (Neil Shapiro, Media Contact in offiziellen Stifel-Pressemitteilungen, stifel.com/docs/pdf/pressreleases) → Muster `[Nachname][Initial Vorname]@stifel.com` |
+| E-Mail-Quelle | https://stifelinstitutional.com/meet/christian-stippler/ – Adresse dort direkt veröffentlicht. **Korrektur:** Eine frühere Ableitung `stipplerc@stifel.com` aus `shapiron@stifel.com` war falsch; das ist eine Funktionsadresse der US-Kommunikation, nicht das Banker-Schema. Stifel nutzt `vorname.nachname@stifel.com`. |
 | Kommentar | **Vor Versand prüfen – Führung im Umbruch:** ACXIT-Gründer Johannes Lucas (Co-Head DACH Advisory) hat Stifel im November 2024 verlassen; Thomas Klack führte danach die DACH-Advisory allein, ist laut Handelsregister aber seit 09.12.2025 nicht mehr Geschäftsführer. Als aktuell eingetragene Geschäftsführer sind Stefan Hampker und Christian Stippler ausgewiesen. Stippler ist zugleich über eine offizielle Stifel-Bio als MD in Frankfurt belegt und daher der belastbarste Ansprechpartner. Konzernebene: Stifel Europe AG (Frankfurt), Vorstand u. a. Dr. Lars Friedrich, Jörg Baumgartner. |
 
 ## 7. Forvis Mazars
@@ -173,12 +173,12 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 
 | # | Unternehmen | Kontakt | Position | E-Mail | Status |
 |---|---|---|---|---|---|
-| 1 | Alvarez & Marsal | Jürgen Zapf | MD, Co-Head A&M Deutschland | jzapf@alvarezandmarsal.com | abgeleitet |
+| 1 | Alvarez & Marsal | Johann Stohner | MD, Head of Restructuring Germany | jstohner@alvarezandmarsal.com | **bestätigt** |
 | 2 | FTI Andersch | Christian Säuberlich | Vorstandssprecher, Senior Partner | christian.saeuberlich@fti-andersch.com | abgeleitet (Umlaut unsicher) |
 | 3 | FRP | Geoff Rowley | Group CEO & Co-Founder (UK) | geoff.rowley@frpadvisory.com | **bestätigt** |
 | 4 | Investec | Jürgen Schwarz | Managing Partner Germany, Head of Restructuring | contact-de@capitalmind.com | allgemeiner Kontakt |
 | 5 | Piper Sandler | Christian Hess | MD, European Head of Financial Sponsors (London) | christian.hess@psc.com | abgeleitet |
-| 6 | Stifel | Christian Stippler | MD IB Frankfurt, GF Stifel Europe Advisory GmbH | stipplerc@stifel.com | abgeleitet |
+| 6 | Stifel | Christian Stippler | MD IB Frankfurt, GF Stifel Europe Advisory GmbH | christian.stippler@stifel.com | **bestätigt** |
 | 7 | Forvis Mazars | Dr. Christoph Regierer | CEO Forvis Mazars Deutschland | contact-de@forvismazars.com | allgemeiner Kontakt |
 | 8 | Oliver Wyman | Fabian Brandt | Market Leader Deutschland & Österreich | fabian.brandt@oliverwyman.com | abgeleitet |
 | 9 | Roland Berger | Stefan Schaible | Global Managing Partner, Sprecher der GF | stefan.schaible@rolandberger.com | abgeleitet |
@@ -186,9 +186,13 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 
 ### Offene Punkte für die Qualitätskontrolle (SOP Abschnitt 8)
 
-1. **Stifel** – DACH-Advisory-Führung befindet sich seit Ende 2024 im Wechsel (Lucas ausgeschieden, Klack seit 12/2025 nicht mehr Geschäftsführer). Rolle von Christian Stippler vor Versand auf stifelinstitutional.com verifizieren.
+1. **Stifel** – E-Mail und Telefon sind über die Profilseite bestätigt. Offen bleibt die Führungsfrage: Die DACH-Advisory-Spitze wechselt seit Ende 2024 (Lucas ausgeschieden, Klack seit 12/2025 nicht mehr Geschäftsführer).
 2. **Investec / Forvis Mazars** – kein offiziell veröffentlichtes Personenpostfach; bewusst allgemeiner Kanal mit Weiterleitungsbitte gewählt. Persönliche Adressen nicht als bestätigt ausgeben.
 3. **FTI Andersch** – Umlaut-Transliteration in `saeuberlich` ist nicht offiziell belegt. Bei Unsicherheit `info@fti-andersch.com` verwenden.
 4. **FRP / Piper Sandler** – keine deutsche Partnerebene vorhanden; Ansprache bewusst auf UK-Ebene. Falls ausschließlich deutsche Kontakte zulässig sind, fallen diese beiden Zeilen aus der Liste.
-5. **Alvarez & Marsal** – zwei gleichrangige Co-Heads (Zapf, Siebert). Wenn ein Restrukturierungsbezug im Vordergrund steht, ist Johann Stohner mit bestätigter Direktadresse der pragmatischere Erstkontakt.
-6. Alle abgeleiteten Adressen: Mailbox nicht getestet, es wurden keine Test-Mails versendet.
+5. **Alvarez & Marsal** – gesetzt ist Johann Stohner (bestätigte Direktadresse). Auf Country-Lead-Ebene stehen alternativ die Co-Heads Jürgen Zapf und Patrick Siebert, dann aber nur über `infode@alvarezandmarsal.com`.
+6. **Ankura** – das Format `vorname.nachname@ankura.com` stützt sich auf nur einen Beleg. Vor Versand verifizieren.
+7. **Piper Sandler** – die Maildomain `psc.com` ist offiziell belegt, das Personenschema nur über maskierte Datenbank-Treffer. Schwächster Datensatz der Liste.
+8. Alle abgeleiteten Adressen: Mailbox nicht getestet, es wurden keine Test-Mails versendet.
+
+**Bekannte Einschränkung dieser Recherche:** Der direkte Seitenabruf ist in dieser Umgebung netzseitig gesperrt. Adressen konnten deshalb nur über Suchtreffer belegt werden, nicht durch Aufruf der Profilseite selbst. Bei Stifel hat sich gezeigt, dass Profilseiten Direktadressen führen, die auf diesem Weg nicht sichtbar werden – für Ankura, Piper Sandler, Oliver Wyman und Roland Berger kann dasselbe gelten.
