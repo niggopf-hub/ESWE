@@ -284,3 +284,68 @@ Sie sind das Instrument, mit dem ein Investor bei 24,9 % vertraglich abgesichert
 ## 9 — Methodischer Hinweis
 
 Die Folien konnten in dieser Umgebung nicht gerendert werden (LibreOffice ist defekt und scheitert auch an einer Textdatei). Alle Aussagen oben beruhen auf der ausgelesenen Folien-XML — Texte, Objektpositionen in Zoll, Farben, Chart-Datenreihen und think-cell-Objekten — sowie auf den Primärquellen. Rein visuelle Defekte wie Überlappungen oder Textüberläufe sind damit **nicht** geprüft; das sollte vor dem Termin an einem PDF-Export nachgeholt werden.
+
+---
+
+## 10 — Neuentwurf Slide 17: Rolle im evm-Deck und Redesign-Brief
+
+### 10.1 Herkunft
+
+ESWE S. 17 ist ein nahezu unveränderter Klon von **evm S. 17** („Die evm AG fokussiert sich auf Kundennähe, intelligente Netze, regionale Erzeugung und resiliente Infrastruktur"): identisches Layout aus sechs hellblauen Bändern, dieselben sechs Icons (Einkaufswagen, Strommast, Kraftwerk, Thermostat, Funkturm, Haus mit Wassertropfen), dasselbe Titelmuster „Die [Firma] fokussiert sich auf A, B, C und D".
+
+### 10.2 Welche Rolle die Slide im evm-Deck hatte
+
+Der Kapitel-2-Bogen bei evm:
+
+| Seite | Inhalt |
+|---|---|
+| 12 | Ausgangslage, Investitionsprogramm von fast 600 Mio. EUR als zentrale Herausforderung |
+| 13 | Umsatzstruktur (~90 % Strom und Gas) und Netzinfrastruktur |
+| 14 | Beteiligungsstruktur |
+| 15 | Investitionsbedarf: drei Schwerpunkte mit konkreten Projekten, dazu Verschuldung |
+| 16 | GuV, Kapitalfluss, Bilanz — „scheint nicht aus dem operativen Cash Flow finanzierbar" |
+| **17** | **die sechs Geschäftsfelder** |
+| 19 | sechs mögliche strategische Ziele |
+| 20 | Joint Venture Energieerzeugung/Netzbetrieb, Fußnote „Ähnlich übertragbar auf weitere Geschäftsfelder, z. B. Wind-/Solarbeteiligungen" |
+
+Daraus ergibt sich die Funktion von evm S. 17 eindeutig: **Sie ist die Geschäftsfeld-Landkarte, die den Möglichkeitsraum für Kapitel 3 aufspannt.** S. 15 sagt, wofür Geld gebraucht wird. S. 16 sagt, dass es fehlt. S. 17 sagt, *woran* sich privates Kapital andocken ließe — an sechs Felder, nicht nur an eines. Ohne S. 17 hätte die Fußnote auf evm S. 20 („ähnlich übertragbar auf weitere Geschäftsfelder") keinen Anker im Deck.
+
+Ein zweiter, weicherer Zweck: **Deeskalation vor dem Pitch.** S. 16 endet hart. S. 17 setzt danach eine ruhige, positive Bestandsaufnahme, sodass man Kapitel 3 nicht als Bittsteller betritt, sondern als Eigentümer eines breiten Portfolios. Bei evm funktioniert das, weil evm S. 15 den Kapitalbedarf bereits vollständig erzählt hat.
+
+### 10.3 Warum sie bei ESWE nicht mehr trägt
+
+Bei evm sind die sechs Felder auf S. 17 inhaltlich disjunkt von S. 15, weil S. 15 dort einen anderen Schnitt hat (drei Investitionsschwerpunkte) und weil evm laut eigener Fußnote gar keine quantitative Aufteilung veröffentlichen konnte („Keine öffentliche quantitative Aufteilung nach Investitionsschwerpunkten verfügbar").
+
+Bei ESWE ist das anders: S. 15 hat vier Sektoren mit projektscharfen Bullets, und die überschneiden sich fast vollständig mit S. 17:
+
+| S. 17, Zeile | Deckungsgleich mit |
+|---|---|
+| 2 — Stromnetz-Ausbau, zurückhaltende Gasnetz-Investitionen, H2-Prüfung | S. 15, Spalte Strom & Gas |
+| 3 — Biomasse, MHKW-Abwärme, Hohe Wurzel, Thüga und KMW | S. 15, Spalte Beteiligungen & Erzeugung |
+| 4 — Wärmeplanung, Fernwärmeausbau, Quartierslösungen | S. 15, Spalte Wärme |
+| 6 — Trinkwasser-Betriebsführung WLW, 14,0 Mio. EUR | S. 15, Spalte Wasser, inklusive derselben Zahl |
+
+Nur Zeile 1 (Vertrieb) und Zeile 5 (WiTCOM) sind neu. Nach dem Detail-Upgrade von S. 15 wiederholt S. 17 also vier von sechs Zeilen auf höherer Flughöhe — und liefert dabei weniger.
+
+Hinzu kommt: Bei evm zeigt S. 20 **ein** Joint Venture und verweist per Fußnote auf weitere Felder. Bei ESWE listet S. 20 bereits **vier** konkrete Assets (sw netz, WiTCOM, Windportfolio, Wärme-Neubaugeschäft). Die Landkartenfunktion ist damit teilweise auf S. 20 gewandert, ohne dass S. 17 sie vorbereitet.
+
+### 10.4 Redesign-Brief
+
+S. 17 soll explizit werden, was sie im evm-Deck implizit war: **die Asset-Landkarte der ESWE-Gruppe.** Nicht mehr „was wollen wir tun" (das gehört jetzt S. 15), sondern „wo sitzt welches Geschäft, was trägt es bei, wie viel Kapital braucht es, und wie gut ließe sich dort ein Partner andocken".
+
+Arbeitstitel: **„Die sechs Geschäftsfelder der ESWE sitzen auf unterschiedlichen Ebenen und eignen sich damit unterschiedlich gut für die Einbindung privater Investoren"**
+
+Sechs Zeilen, identisch mit der Leiste auf S. 13, je Zeile: Gesellschaft und Ebene · Beitrag 2025 · Kapitalbedarf · Eignung für Partner.
+
+| Geschäftsfeld | Gesellschaft / Ebene | Beitrag 2025 | Kapitalbedarf | Partner |
+|---|---|---|---|---|
+| Energievertrieb & -beschaffung | ESWE Versorgungs AG | Umsatz 346 Mio. EUR (73 %), rund 200.000 Kunden | niedrig | gering |
+| Netzgeschäft | sw netz GmbH (100 %, EAV); Gasnetz in der AG | Gewinnabführung 5,4 Mio. EUR; 2.820 km Strom, 823 km Gas | sehr hoch | hoch |
+| Energieerzeugung | KMW 50 %, BioEnergie 90 %, MHKW 24,5 %, sechs Windgesellschaften | Beteiligungsergebnis 25,1 Mio. EUR, davon KMW-Dividende 14,0 | hoch | selektiv |
+| Energiedienstleistungen, Wärme & E-Mobilität | ESWE Versorgungs AG | Umsatz Wärme 43,7 Mio. EUR; 132,9 km Fernwärme; 926 Ladepunkte | hoch | mittel |
+| Telekommunikation | WiTCOM GmbH (100 %, EAV) | Umsatz 17,7 Mio. EUR, Abführung 3,4 Mio. EUR | mittel | hoch |
+| Wasser | ESWE Versorgungs AG, Betriebsführung für den WLW | Umsatz 49,5 Mio. EUR; CapEx 14,0 Mio. EUR | hoch | gering |
+
+Damit bedient S. 17 unmittelbar Ziel 4 auf S. 19 („Erschließung externen Kapitals unterhalb der AG-Ebene ohne Eingriff in die Aktionärsstruktur") und begründet die Asset-Auswahl auf S. 20, statt sie unkommentiert zu behaupten. Die Sechser-Klammer zu S. 13 bleibt erhalten.
+
+**Offene Entscheidung:** Ob die Spalte „Partner" so explizit auf die Folie gehört. Sie nimmt vorweg, welche Assets grundsätzlich zur Disposition stehen — bei evm blieb S. 17 bewusst neutral und die Asset-Auswahl stand erst auf S. 20 unter „ausgewählte Impulse". Da ESWE S. 20 die vier Assets ohnehin schon nennt, spricht viel für die explizite Variante; die weichere Alternative wäre, nur „Kapitalbedarf" zu zeigen und die Eignung mündlich zu führen.
