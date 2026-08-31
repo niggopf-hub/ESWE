@@ -28,6 +28,9 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 | E-Mail-Status | **Widersprüchlich belegt – vor Versand klären** |
 | Anrede | Herr |
 | Address | Sonnenstraße 20, 80331 München (deutsche Zentrale, T +49 89 710 40 600) |
+| Land | Deutschland |
+| Region | Europa |
+| Website | https://www.germany-alvarezandmarsal.com |
 | Kontaktquelle | https://www.alvarezandmarsal.com/our-people/jurgen-zapf · https://www.alvarezandmarsal.com/de/insights/am-deutschland-ernennt-patrick-siebert-zum-co-head |
 | E-Mail-Quelle | Firmenschema `[Initial Vorname][Nachname]@alvarezandmarsal.com`, belegt durch `jstohner@alvarezandmarsal.com` auf der offiziellen Kontaktseite germany-alvarezandmarsal.com. **Widerspruch:** finance-thinktank.de (Dritter) führt ihn als `j.zapf@alvarezandmarsal.com` – mit Punkt. Beide Varianten kursieren, ohne Seitenaufruf nicht auflösbar. |
 | Kommentar | **Korrekturen gegenüber früheren Fassungen:** (a) A&M Deutschland wird nicht von zwei, sondern von **drei** Co-Heads geführt – Zapf, Patrick Siebert (Corporate Transformation Services) und Bob Rajan (Private Equity Performance Improvement, München). (b) Die deutsche Zentrale ist **München**, nicht Frankfurt; die frühere Frankfurter Anschrift (Neue Mainzer Str. 28) ist einer der vier Standorte, aber nicht Zapfs Büro. **Sichere Alternativen:** Johann Stohner, MD & Head of Restructuring Germany, München – `jstohner@alvarezandmarsal.com` (bestätigt, Mobil +49 170 921 3836). Offizieller Sammelkanal: `infode@alvarezandmarsal.com`. |
@@ -43,6 +46,9 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 | E-Mail-Status | **Abgeleitet, Umlaut-Schreibweise unbestätigt** – gesicherter Rückfallkanal: `info@fti-andersch.com` (offiziell, auf der Management-Seite jedem Vorstandsmitglied zugeordnet) |
 | Anrede | Herr |
 | Address | Taunusanlage 9–10, 60329 Frankfurt am Main |
+| Land | Deutschland |
+| Region | Europa |
+| Website | https://www.fti-andersch.com |
 | Kontaktquelle | https://www.fti-andersch.com/en/about-us/management/ · https://www.fti-andersch.com/en/news/fti-andersch-expands-executive-board/ |
 | E-Mail-Quelle | Format-Belege: `leoni.juschkat@fti-andersch.com`, `ellina.hanxleden@fti-andersch.com` (offizielle Karriereseite karriere.andersch-ag.de) → Muster `vorname.nachname@fti-andersch.com`; Umlaut-Konvention „ue/ae" gestützt durch Website-Slug `.../management/tim-mueller/` |
 | Kommentar | Vorstand: Christian Säuberlich (Sprecher), Karsten Schulze, Ralf Winzer, Mike Zöller. Gründer Tammo Andersch ist Aufsichtsratsvorsitzender, Mirko Liebthal Senior Advisor. **Mutter-/Tochterlogik:** M&A-Entscheidungen laufen letztlich über FTI Consulting (US), die deutsche AG hat aber eigenen Vorstand und eigene Marktverantwortung – deshalb Ansprache auf AG-Ebene. Umlautfreie Alternativen im selben Gremium: `karsten.schulze@fti-andersch.com`, `ralf.winzer@fti-andersch.com`. |
@@ -58,6 +64,9 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 | E-Mail-Status | **Bestätigt** (offizielle Personenseite frpadvisory.com) |
 | Anrede | neutral behandeln (Mr. Rowley) |
 | Address | 110 Cannon Street, London EC4N 6EU, United Kingdom |
+| Land | Vereinigtes Königreich |
+| Region | Europa |
+| Website | https://www.frpadvisory.com |
 | Kontaktquelle | https://www.frpadvisory.com/about-us/our-people/geoff-rowley/ · https://www.frpadvisory.com/investors/board/ |
 | E-Mail-Quelle | https://www.frpadvisory.com/about-us/our-people/geoff-rowley/ (T +44 20 3005 4289); Formatgegenprobe: `harry.trick@frpadvisory.com`, `adrian.coates@frpadvisory.com` |
 | Kommentar | **Kein deutscher Partner vorhanden** – FRP unterhält nach eigener Standortübersicht keine Gesellschaft in Deutschland; internationale Abdeckung läuft über das Netzwerk „Eight International". Damit ist die Gruppenebene in London die einzige belastbare Entscheidungsstelle. Allgemeiner Kanal: `contactus@frpadvisory.com`, +44 (0)20 3005 4000. Sollte ein DACH-Einstieg das Motiv sein, ist der Group CEO ohnehin der richtige Adressat. |
@@ -73,6 +82,9 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 | E-Mail-Status | **Allgemeiner offizieller Kontakt** (Stufe D) – persönliche Adresse nicht offiziell veröffentlicht |
 | Anrede | Herr |
 | Address | Sonnenberger Straße 16, 65193 Wiesbaden |
+| Land | Deutschland |
+| Region | Europa |
+| Website | https://capitalmind.com |
 | Kontaktquelle | https://www.investec.com/advisory/team/jurgen-schwarz/ · https://capitalmind.com/team/jurgen-schwarz/ · Handelsregister (Investec Advisory Verwaltungs GmbH, HRB 23839, Wiesbaden) |
 | E-Mail-Quelle | https://capitalmind.com/contact/ (contact-de@capitalmind.com, +49 611 205 48 10) |
 | Kommentar | **Nicht als bestätigt verwenden:** Für persönliche Postfächer existiert nur ein Aggregator-Hinweis auf `Vorname.Nachname@capitalmind.com` (SOP Stufe C, kein offizieller Beleg); zusätzlich läuft der Domainwechsel Richtung `investec.com/advisory`, so dass eine abgeleitete Adresse (`juergen.schwarz@capitalmind.com`) doppelt unsicher wäre. Anschreiben deshalb über den offiziellen Kanal mit klarer Weiterleitungsbitte an Herrn Schwarz. **Alternative auf gleicher Ebene:** Michael Fabich, Founding Partner & Chairman Germany (Wiesbaden). Zweiter deutscher Standort: Friedrichstraße 95, 10117 Berlin. |
@@ -88,6 +100,9 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 | E-Mail-Status | **Aus Firmenformat abgeleitet; Mailbox nicht verifiziert** |
 | Anrede | Herr |
 | Address | Piper Sandler Ltd., 2 Gresham Street, 6th Floor, London, United Kingdom |
+| Land | Vereinigtes Königreich |
+| Region | Europa |
+| Website | https://www.pipersandler.com |
 | Kontaktquelle | https://www.pipersandler.com/about/people/christian-hess · https://www.pipersandler.com/news/piper-sandler-expands-global-financial-sponsors-group-addition-christian-hess |
 | E-Mail-Quelle | Firmen-Maildomain ist `psc.com` (Beleg: `investorrelations@psc.com` in offiziellen Piper-Sandler-Pressemitteilungen); Personenformat `vorname.nachname@psc.com` belegt u. a. durch `matt.morrell@psc.com`, `michael.bailey@psc.com`, `mark.cantrell@psc.com` |
 | Kommentar | **Kein deutscher Deal-Partner:** Das Münchner Büro dient nach den verfügbaren Quellen der Research-/Equity-Distribution bzw. LP-Coverage (Aviditi Advisors), nicht dem M&A-Advisory. Deutschsprachige Senior-Abdeckung liegt in London bei Christian Hess (30 J. Erfahrung, zuvor Investec und UBS). **Alternative:** Paul Leece, MD & Global Head of Infrastructure (Energy, Power & Infrastructure, London) – inhaltlich näher an Versorger-/Infrastrukturthemen. |
@@ -103,6 +118,9 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 | E-Mail-Status | **Bestätigt** (auf der offiziellen Profilseite veröffentlicht, inkl. Telefon +49 69 247414 119 und v-Card) |
 | Anrede | Herr |
 | Address | Stifel Europe Advisory GmbH, Luginsland 1, 60313 Frankfurt am Main (Registeranschrift seit 01/2026; zuvor Taunusanlage 1). Konzernschwester: Stifel Europe AG, Kennedyallee 76, 60596 Frankfurt am Main |
+| Land | Deutschland |
+| Region | Europa |
+| Website | https://www.stifel.com |
 | Kontaktquelle | https://stifelinstitutional.com/meet/christian-stippler/ · https://www.northdata.com/Stifel+Europe+Advisory+GmbH,+Frankfurt+a.+Main/Amtsgericht+Frankfurt+am+Main+HRB+101001 |
 | E-Mail-Quelle | https://stifelinstitutional.com/meet/christian-stippler/ – Adresse dort direkt veröffentlicht. **Korrektur:** Eine frühere Ableitung `stipplerc@stifel.com` aus `shapiron@stifel.com` war falsch; das ist eine Funktionsadresse der US-Kommunikation, nicht das Banker-Schema. Stifel nutzt `vorname.nachname@stifel.com`. |
 | Kommentar | **Vor Versand prüfen – Führung im Umbruch:** ACXIT-Gründer Johannes Lucas (Co-Head DACH Advisory) hat Stifel im November 2024 verlassen; Thomas Klack führte danach die DACH-Advisory allein, ist laut Handelsregister aber seit 09.12.2025 nicht mehr Geschäftsführer. Als aktuell eingetragene Geschäftsführer sind Stefan Hampker und Christian Stippler ausgewiesen. Stippler ist zugleich über eine offizielle Stifel-Bio als MD in Frankfurt belegt und daher der belastbarste Ansprechpartner. Konzernebene: Stifel Europe AG (Frankfurt), Vorstand u. a. Dr. Lars Friedrich, Jörg Baumgartner. |
@@ -118,6 +136,9 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 | E-Mail-Status | **Allgemeiner offizieller Kontakt** (Stufe D) |
 | Anrede | Herr |
 | Address | Alt-Moabit 2, 10557 Berlin (Standort Dr. Regierer, T +49 30 208 88-1210) · Hauptverwaltung: Domstraße 15, 20095 Hamburg |
+| Land | Deutschland |
+| Region | Europa |
+| Website | https://www.forvismazars.com/de/de |
 | Kontaktquelle | https://www.forvismazars.com/de/de/users/dr.-christoph-regierer · https://www.forvismazars.com/de/en/who-we-are/our-managing-team |
 | E-Mail-Quelle | https://www.forvismazars.com/de/de/legals/impressum (contact-de@forvismazars.com, +49 40 288 01-0) |
 | Kommentar | **Kein persönliches Postfach offiziell veröffentlicht.** Belegt sind nur Funktionsadressen, teils noch auf der Altdomain (`hamburg@mazars.de`), teils auf der neuen Domain (`contact-de@forvismazars.com`) – das Nebeneinander zweier Domains macht eine Ableitung nach SOP Stufe C unzulässig. Naheliegende Arbeitshypothese `christoph.regierer@forvismazars.com` ist **unbestätigt** und sollte nur mit ausdrücklichem Vorbehalt genutzt werden. Zweiter deutscher GGB-Vertreter: Anja Spitzenberg. Der deutsche Vorstand besteht aus sechs Partnern. |
@@ -133,6 +154,9 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 | E-Mail-Status | **Aus offiziellem Firmenformat abgeleitet; Mailbox nicht verifiziert** |
 | Anrede | Herr |
 | Address | Müllerstraße 3, 80469 München (HRB 103619, AG München) |
+| Land | Deutschland |
+| Region | Europa |
+| Website | https://www.oliverwyman.de |
 | Kontaktquelle | https://www.oliverwyman.de/presse/2024/dec/oliver-wyman-ernennt-automobilexperten-fabian-brandt-zum-neuen-m.html · https://www.oliverwyman.de/terms/impressum.html |
 | E-Mail-Quelle | Format-Beleg: `felix.wilker@oliverwyman.com` (offizieller Pressekontakt Deutschland auf oliverwyman.de) → Muster `vorname.nachname@oliverwyman.com` |
 | Kommentar | Brandt ist im Impressum der Oliver Wyman GmbH als Geschäftsführer **und** als presserechtlich Verantwortlicher geführt – damit klar die operative Spitze in Deutschland. Deutschland/Österreich ist laut Unternehmen der zweitgrößte Beratungsmarkt der Gruppe. Konzernentscheidungen über größere Zukäufe laufen über Marsh McLennan/Oliver Wyman Group (CEO Nick Studer, ebenfalls als Geschäftsführer der deutschen GmbH eingetragen); Erstansprache dennoch über Brandt. Funktionsadresse Marketing: `MarketingGnA@oliverwyman.com`. |
@@ -148,6 +172,9 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 | E-Mail-Status | **Aus offiziellem Firmenformat abgeleitet; Mailbox nicht verifiziert** |
 | Anrede | Herr |
 | Address | Sitz: Sederanger 1, 80538 München · Arbeitsort laut Impressum: OpernTurm, Bockenheimer Landstraße 2–8, 60306 Frankfurt am Main |
+| Land | Deutschland |
+| Region | Europa |
+| Website | https://www.rolandberger.com |
 | Kontaktquelle | https://www.rolandberger.com/en/Persons/Stefan.Schaible.html · https://www.rolandberger.com/en/legal/ |
 | E-Mail-Quelle | Format-Belege: `silvia.zoesch@rolandberger.com`, `julia.frank@rolandberger.com`, `philipp.topitsch@rolandberger.com` (offizielle Presse-/Newsroom-Seiten) → Muster `vorname.nachname@rolandberger.com` |
 | Kommentar | Roland Berger ist eine deutsche Partnerschaft ohne separaten „Head of Germany" neben der Geschäftsführung; Schaible ist im Impressum als Sprecher der Geschäftsführung und presserechtlich Verantwortlicher (Frankfurt) geführt. Weitere Geschäftsführer: Marcus Berret, Denis Depoux, Per Breuer, Edeltraud Leibrock, Maria Mikhaylenko, Matthias Rückriegel. Für einen Restrukturierungs-/Transaktionsbezug ist Philipp Topitsch der offizielle Presse-Ansprechpartner der Practice „Restructuring, Transaction & Investor Services" – als Türöffner, nicht als Entscheider. |
@@ -163,6 +190,9 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 | E-Mail-Status | **Aus offiziellem Firmenformat abgeleitet; Mailbox nicht verifiziert** |
 | Anrede | Herr |
 | Address | Taunusanlage 21, 60325 Frankfurt am Main |
+| Land | Deutschland |
+| Region | Europa |
+| Website | https://ankura.com |
 | Kontaktquelle | https://ankura.com/experts-and-advisors/jens-nawrath · https://ankura.com/news/ankura-launches-turnaround-restructuring-practice-in-germany |
 | E-Mail-Quelle | Format-Beleg: `robin.boesen@ankura.com` (Media Contact in der offiziellen Ankura-Pressemitteilung vom 14.08.2025) → Muster `vorname.nachname@ankura.com` |
 | Kommentar | Ankura hat das Frankfurter Büro erst neu aufgebaut; Nawrath (30+ Jahre Debt Advisory / Financial Restructuring, zuvor Leiter DACH Debt Advisory einer globalen Beratung) ist der fachlich unmittelbar zuständige deutsche Senior Partner. **Alternative auf gleicher Ebene:** Manuela Mackert, Senior Managing Director im deutschen Management-Team (zuvor Chief Compliance Officer Deutsche Telekom) – eher Governance-/Compliance-Profil, deshalb nachrangig. |
@@ -183,6 +213,8 @@ Seite gegengelesen werden (Punkt 8 der SOP).
 | 8 | Oliver Wyman | Fabian Brandt | Market Leader Deutschland & Österreich | fabian.brandt@oliverwyman.com | abgeleitet |
 | 9 | Roland Berger | Stefan Schaible | Global Managing Partner, Sprecher der GF | stefan.schaible@rolandberger.com | abgeleitet |
 | 10 | Ankura | Jens Nawrath | SMD, Head of Turnaround & Restructuring Deutschland | jens.nawrath@ankura.com | abgeleitet |
+
+**Zu Land und Region:** Beide Felder beziehen sich immer auf die **adressierte Gesellschaft**, nicht auf den Konzernsitz. Alvarez & Marsal (New York), Stifel (St. Louis), Piper Sandler (Minneapolis) und Ankura (Washington D.C.) sind US-Häuser; angesprochen wird jeweils die europäische Einheit, deshalb steht dort Europa. Bei FRP und Piper Sandler ist die adressierte Gesellschaft in London, weil keine deutsche Partnerebene existiert.
 
 ### Offene Punkte für die Qualitätskontrolle (SOP Abschnitt 8)
 
