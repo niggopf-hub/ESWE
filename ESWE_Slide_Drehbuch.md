@@ -292,54 +292,47 @@ Platzierung an den evm-analogen Stellen: Slide 12 Bullet 6 + Takeaway-Banner, Sl
 
 ---
 
-## Slide 20 — Zwei konkrete Vorschläge: Minderheitsöffnung der sw netz und Kapitalpakt der Aktionäre
+## Slide 20 — FINALE FASSUNG (evm-Quadranten-Layout): Beispielstruktur sw netz + sortierte Asset-Liste
 
-**Herleitung (warum genau diese zwei):** Erstens die Sparte: Der quantitativ größte Investitionshochlauf der ESWE liegt nicht in der Wärme, sondern im Stromnetz, denn der Energieentwicklungsplan erwartet die künftige Wärmeversorgung Wiesbadens großteils über Wärmepumpen — und das Stromnetz liegt in der Stadtwerke Wiesbaden Netz GmbH. Die sw netz ist bereits eine eigenständige, regulierte Gesellschaft mit 69,6 Mio. EUR Eigenkapital und rund 10,4 Mio. EUR Jahresüberschuss vor Abführung: kein Carve-out nötig, erprobter Investorenmarkt (Versicherer, Pensionskassen, kommunale Minderheitsmodelle nach Thüga-Vorbild), schnell umsetzbar. Ein Wärme-Vehikel wäre dagegen unbeziffert und als reines Neubau-Geschäft kaum bankfähig; die Wärme bleibt besser in der AG und wird über BEW-Förderung und die entlastete Bilanz finanziert. Zweitens das Regime: Das Nebeneinander von voller Ergebnisabführung (2025: 48,9 Mio. EUR) und gleichzeitigen Einlagen (10 Mio. EUR) ist ein vertragliches Problem der Gesellschafter und verlangt einen mehrjährigen Pakt statt jährlicher Einzelbeschlüsse. Beide Vorschläge respektieren die Leitplanke aus Ziel 2: Die Aktionärsstruktur der AG (50,62/49,38) bleibt exakt unverändert.
+**Layout-Entscheidung:** Volles evm-2×2-Layout, damit die vorhandene evm-Slide als Bau-Gerüst dienen kann (nur Inhalte tauschen). Links das konkrete „Wie" (Beispielstruktur), rechts das „Wo" (sortierte Asset-Liste), unten Aspekte und Vorteile, der Kapitalpakt läuft in der Banner-Zeile mit. Frühere Fassungen (Zwei-Vorschläge-Layout, Vier Stellhebel, Bestand-vs.-Wachstum) bleiben im Git-Verlauf als Backup.
 
-**Message (1 Satz):** Die beiden Vorschläge erschließen Kapital an den zwei Stellen, an denen es die Aktionärsstruktur zulässt — unterhalb der AG bei der sw netz und im Gesellschafter-Regime selbst — und finanzieren damit zugleich Stromnetz-Hochlauf und Wärmewende.
+**Headline (evm-Wortlaut angepasst):** „Bei Bedarf können private Investoren in unterschiedlichen Modellen und bei unterschiedlichen Assets beteiligt werden" *(117 Zeichen)*; graue Zwischenüberschrift: „Ausgewählte Impulse"
 
-**Headline:** „Zwei konkrete Vorschläge erschließen Kapital für den Investitionshochlauf, ohne die Aktionärsstruktur der ESWE anzutasten" *(121 Zeichen, 2 Zeilen)*
+**Kopfzeile:** „3. Diskussion möglicher Handlungsoptionen"
 
-**Kopfzeile:** „3. Diskussion möglicher Handlungsoptionen" · **Diagonal-Badge (grün):** „Ausgewählte Vorschläge – illustrativ"
+**Oben links — Titelbalken „Beispielstruktur: Minderheitsbeteiligung an der sw netz¹⁾":**
+Strukturchart: ESWE Versorgungs AG (Logo) „74,9 %" und orange Box „Investor" „25,1 %" (kursiv „Minderheit") auf die Kachel „Stadtwerke Wiesbaden Netz GmbH" (Icon Netzgeschäft; kursiv: „*bestehende Gesellschaft, kein Carve-out erforderlich*"); gestrichelte Boxen: links blau „*Kapitalerhöhung finanziert den Stromnetzausbau*", rechts orange „*Anteilskaufpreis fließt der ESWE zu*".
 
-**Layout:** Zwei gleich breite Spalten mit blauen Titelbalken, je Spalte oben Strukturgrafik (~40 %), darunter 4 ◼-Eckpunkte, darunter „Wirkung"-Band (fett, hellblau); unten Takeaway-Banner über die volle Breite. Formensprache aus der Vorlage (orange Investor-Box, kursives „Minderheit", gestrichelte Boxen).
+**Oben rechts — Titelbalken „(private) Beteiligung an Unternehmen/Assets" (sortiert nach Eignung):**
+- „Stadtwerke Wiesbaden Netz GmbH (Minderheitsbeteiligung)"
+- „WiTCOM GmbH (Minderheit oder Wachstumspartnerschaft)"
+- „Windportfolio inklusive Projekt Hohe Wurzel"
+- „Wärme-Neubaugeschäft (Projektgesellschaft)"
+*(Nur Moderation, nicht auf die Slide: ESWE BioEnergie und MHKW-Anteil — sonst bleibt „ESWE verkauft die Wärmeerzeugung" als Schlagzeile hängen; KMW, WRT und die AG selbst bewusst nicht gelistet.)*
 
-### Vorschlag 1 — „Minderheitsöffnung der Stadtwerke Wiesbaden Netz GmbH"
+**Unten links — „Wesentliche Aspekte bei der Gestaltung einer Partnerschaft" (5 ◼-Bullets):**
+- „Ausgewogene Governance mit definierten Reserved Matters, Dividendenpolitik und Exit-Mechanismen"
+- „Vereinbarkeit mit dem Ergebnisabführungsvertrag und der Ausgleichszahlung an die Thüga"
+- „Auswirkungen der RAMEN- und NEST-Festlegungen auf das Netzergebnis sind in der Bewertung zu berücksichtigen"
+- „Rendite- und Rückzahlungsmechanismen sowie Festlegung von Budget und Investitionsplan"
+- „Frühzeitige Einbindung beider Ankergesellschafter"
 
-*Strukturchart:* ESWE Versorgungs AG „74,9 %"¹⁾ und orange Box „Langfristiger Infrastrukturinvestor" „25,1 %"¹⁾ (kursiv: „Minderheit") an der Kachel „Stadtwerke Wiesbaden Netz GmbH" (Icon-Zeile: „Stromnetz Wiesbaden und Taunusstein"; kursiver Zusatz: „*bestehende Gesellschaft, kein Carve-out erforderlich*"); links gestrichelte blaue Box „*Kapitalerhöhung finanziert den Netzausbau*", rechts gestrichelte orange Box „*Anteilskaufpreis fließt der ESWE zu*".
+**Unten rechts — „Vorteile für die ESWE Versorgungs AG" (5 ◼-Bullets):**
+- „Teilung von Kapitalbedarf und Projektrisiken"
+- „Entlastung der Gesellschafter von weiteren Eigenkapitalzuführungen"
+- „Zufluss von Kaufpreis und frischem Eigenkapital in den Netzausbau"
+- „Schnellere Umsetzung der Netz- und Wärmewende-Investitionen"
+- „Governance flexibel strukturierbar bei Erhalt der kommunalen Steuerung"
 
-*Eckpunkte (4 ◼-Bullets):*
-- „Die sw netz ist bereits eine eigenständige Gesellschaft, sodass keine Ausgliederung erforderlich ist und der Prozess unmittelbar aufgesetzt werden kann"
-- „Die Beteiligung lässt sich als Kapitalerhöhung für den Netzausbau, als Anteilsverkauf mit Mittelzufluss an die ESWE oder als Kombination aus beidem strukturieren"
-- „Das regulierte Geschäftsmodell mit planbaren Erlösobergrenzen entspricht dem Profil langfristiger Infrastrukturinvestoren wie Versicherern und Pensionskassen"
-- „Die kommunale Kontrolle bleibt auf jeder Ebene erhalten, denn die ESWE hält weiterhin die Mehrheit an der sw netz und die Stadt ihre Mehrheit an der ESWE"
+**Banner unten (Pfeilmarker, fett) — hier lebt Vorschlag 2 weiter:** „Flankierend stärkt ein Kapitalpakt der Aktionäre aus planbaren Einlagen, Thesaurierungspfad und Nachrangkapital die Eigenkapitalbasis ohne jede Strukturveränderung"
 
-*Wirkung-Band:* „Wirkung: Der Stromnetz-Hochlauf wird außerhalb der ESWE-Bilanz finanzierbar, während der Kaufpreiszufluss Eigenkapitalquote und Wärmewende in der AG stärkt"
+**Fußnoten & Quellenzeile:** „1) Beteiligungshöhen illustrativ; Struktur ähnlich übertragbar auf die weiteren aufgeführten Assets" · Keine Quellenzeile (Konzept-Slide).
 
-### Vorschlag 2 — „Kapitalpakt der Aktionäre" (mehrjähriges Eigenkapital- und Ausschüttungskonzept)
+**Platz-Check:** Deckungsgleich mit der evm-Slide (Chart, 3–4er-Liste, 2×5 Bullets, Fußnote); nur die Banner-Zeile kommt hinzu — evm hat an dieser Stelle keine, die DVV-/Beteiligungskonzept-Vorlage schon. Bullets 45–110 Zeichen ≈ 1–2 Zeilen wie im Original.
 
-*Schema-Grafik:* Oben die Aktionärs-Kacheln „WVV 50,62 %" und „Thüga 49,38 %" mit Klammer „Kapitalpakt"; darunter drei Bausteine mit Pfeil auf ein Ziel-Oval „EK-Quote dauerhaft über 25 % ohne jährliche Nachschüsse":
-1. „Verbindlicher Mehrjahrespfad der Pro-rata-Einlagen" (Muster: 10 Mio. EUR 2025, weitere Zuführung 2026 beschlossen)
-2. „Abgestimmter Thesaurierungsanteil an der Ergebnisabführung"
-3. „Eigenkapitalähnliches Nachrangkapital, etwa aus dem Hessischen EnergieFonds²⁾"
+**Moderation:** Kapitalpakt-Details (Mehrjahrespfad der Einlagen nach Muster 2025/2026, Thesaurierungsanteil, Hessischer EnergieFonds mit 1 Mrd. EUR Nachrangkapital, Konditionen zu prüfen); Portfolio-Durchsicht als Beleg, dass sw netz kein Zufall ist; RAMEN/NEST-Caveat aktiv ansprechen, bevor es aus dem Gremium kommt.
 
-*Eckpunkte (4 ◼-Bullets):*
-- „Die bereits praktizierten Einlagen werden in einen verbindlichen Mehrjahrespfad überführt, der pro rata erfolgt und die Beteiligungsquoten exakt konstant hält"
-- „Ein abgestimmter Thesaurierungsanteil an der Abführung entschärft das Nebeneinander von voller Ausschüttung und gleichzeitiger Einlage"
-- „Nachrangkapital ergänzt das Paket ohne jede Verwässerung und ohne Eingriff in die Gesellschafterstruktur"
-- „Der Pakt gibt der Stadt Planungssicherheit im Haushalt und der Thüga einen klaren Rahmen für ihr Kapitalmaßnahmen-Programm Horizonte+2030"
-
-*Wirkung-Band:* „Wirkung: Das Nebeneinander von Abführung und Einlage wird aufgelöst, sodass künftige Strukturentscheidungen aus einer Position der Stärke getroffen werden"
-
-**Takeaway-Banner unten:** „Beide Vorschläge wirken zusammen, denn der Kapitalpakt stabilisiert das Fundament, während die Netzöffnung das Wachstumskapital für die Transformation erschließt" *(166 Zeichen, 2 Zeilen)*
-
-**Fußnoten & Quellenzeile:** „1) Beteiligungshöhen illustrativ; Quote, Bewertungsauswirkungen der RAMEN-/NEST-Festlegungen und der Stand der Konzessionsverträge sind Gegenstand der Strukturierung; 2) Hessischer EnergieFonds der WIBank mit einem Volumen von 1 Mrd. EUR, aufgelegt im November 2025; Konditionen und Verfügbarkeit für die ESWE sind zu prüfen" · Keine Quellenzeile (Konzept-Slide).
-
-**Platz-Check:** Zwei Spalten mit je Chart, vier Bullets (130–165 Zeichen ≈ 2 Zeilen) und Wirkung-Band entsprechen der Kommentardichte der Vorlage; die Bausteinkacheln in Vorschlag 2 nutzen die Kachel-Optik der KPI-Slide. Bei Platznot in Vorschlag 1 zuerst den Investoren-Profil-Bullet streichen (Inhalt in die Moderation).
-
-**Konsequenz für die Nachbar-Slides:** Slide 19 liefert mit Ziel 2 („Erhalt der kommunalen Mehrheit…") und Ziel 5 („Kapital unterhalb der AG-Ebene") die logische Brücke; die Moderation lautet: „Aus diesen Leitplanken folgen zwei Vorschläge, die beide die Aktionärsstruktur unangetastet lassen." Wärme-Strukturen (Wachstums-NewCo, Carve-out-Varianten), WiTCOM-Minderheit und die Vier-Stellhebel-Systematik bleiben als Backup im Git-Verlauf für Rückfragen im Termin.
-
-**Offene Punkte dieser Slide:** Stand der Stromkonzession Wiesbaden (Sonderkündigungsrecht der Stadt ab 2025) zwingend vor dem Termin klären, denn er beeinflusst die Bewertung der sw netz unmittelbar (Offener Punkt 7); Auswirkungen der RAMEN-/NEST-Festlegungen auf die Netzbewertung einschätzen; EnergieFonds-Konditionen prüfen; kartell- und energierechtliche Anforderungen an einen sw-netz-Minderheitsgesellschafter (Entflechtung) juristisch vorprüfen.
+**Offene Punkte dieser Slide:** Stand der Stromkonzession (Sonderkündigungsrecht ab 2025) vor dem Termin klären; RAMEN-/NEST-Bewertungseffekt einschätzen; EnergieFonds-Konditionen prüfen; Entflechtungsanforderungen an einen Netz-Minderheitsgesellschafter juristisch vorprüfen.
 
 ---
 
