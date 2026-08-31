@@ -326,7 +326,9 @@ Strukturchart: ESWE Versorgungs AG (Logo) „75,1 %"¹⁾ und orange Box „Inve
 - „Schnellere Umsetzung der Netz- und Wärmewende-Investitionen"
 - „Governance flexibel strukturierbar bei Erhalt der kommunalen Steuerung"
 
-**Banner unten (Pfeilmarker, fett) — hier lebt Vorschlag 2 weiter:** „Flankierend stärkt ein Kapitalpakt der Aktionäre aus planbaren Einlagen, Thesaurierungspfad und Nachrangkapital die Eigenkapitalbasis ohne jede Strukturveränderung"
+**Banner unten (Pfeilmarker, fett) — reine Zusammenfassung der Slide, nichts Neues (Vorlagen-Grammatik):** „Beteiligungen unterhalb der AG-Ebene erschließen Kapital für Netzausbau und Wärmewende, während Aktionärsstruktur und kommunale Steuerung der ESWE unverändert bleiben" *(166 Zeichen, 2 Zeilen; greift Ziel 5 der Vorseite wörtlich auf)*
+
+*Der Kapitalpakt (mehrjährige Einlagen, Thesaurierungspfad, Nachrangkapital) steht damit bewusst NICHT mehr auf der Slide, sondern ist Moderations-/Nachfass-Punkt zu den Zielen 3, 4 und 6: „Dazu haben wir ebenfalls konkrete Überlegungen, die wir gern in einem zweiten Schritt vertiefen." Die ausformulierte Fassung liegt im Handoff und im Git-Verlauf.*
 
 **Fußnoten & Quellenzeile:** „1) Beteiligungshöhen illustrativ; Mitspracherechte des Investors werden vertraglich über die Gesellschaftervereinbarung abgebildet; Struktur ähnlich übertragbar auf die weiteren aufgeführten Assets" · Keine Quellenzeile (Konzept-Slide).
 
