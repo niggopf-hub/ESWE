@@ -25,6 +25,7 @@ DECK_QA=1 python3 build/build_deck.py  # Vorschau-Variante (■ statt Wingdings-
 | `assets/` | Freigestellte Icons, ESWE-Logo, Metzler-Logo, Titelbild |
 | `make_assets.py` | Erzeugt die Icons/Logos neu aus den Quell-PDFs |
 | `iconpool.png` | Übersicht aller im Deck vorhandenen Icons (ziel1–6, gf1–6, p21_*) — Auswahlhilfe, wenn eine Folie ein anderes Icon braucht |
+| `fix_pfeile.py` | Repariert verrutschte Verbindungslinien in einer bearbeiteten Fassung: `python3 fix_pfeile.py quelle.pptx ziel.pptx` |
 
 ## Folienzuordnung
 
