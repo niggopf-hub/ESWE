@@ -7,6 +7,7 @@ Pflicht-Platzhalter noch leer sind.
     python3 inspect_deck.py deck.pptx              Uebersicht ueber alle Folien
     python3 inspect_deck.py deck.pptx --slide 12   eine Folie im Detail
     python3 inspect_deck.py deck.pptx --check      Pruefmodus vor Uebergabe
+    python3 inspect_deck.py neu.pptx --vergleich alt.pptx   Shapes gegen die Vorlage
 
 Benoetigt: pip install python-pptx
 """
@@ -193,15 +194,54 @@ def check(prs):
     return 1
 
 
+def vergleich(prs, vorlage_pfad):
+    """Zeigt, welche Shapes gegenueber der Vorlage dazugekommen oder verschwunden sind.
+
+    Der Sinn: Neue Textfelder erben keine Formatierung vom Master. Wer eine Vorlage
+    befuellt, sollte am Ende wissen, ob er wirklich nur befuellt hat.
+    """
+    alt = Presentation(vorlage_pfad)
+    if len(alt.slides) != len(prs.slides):
+        print(f"Folienzahl unterschiedlich: Vorlage {len(alt.slides)}, Datei {len(prs.slides)} "
+              "— der Vergleich ist dann nur eingeschraenkt aussagekraeftig.\n")
+    zu = weg = 0
+    for i in range(min(len(alt.slides), len(prs.slides))):
+        a = {sh.shape_id: (sh.name, sh.shape_type) for sh in alle_shapes_flach(alt.slides[i])}
+        b = {sh.shape_id: (sh.name, sh.shape_type) for sh in alle_shapes_flach(prs.slides[i])}
+        for sid in sorted(set(b) - set(a)):
+            name, typ = b[sid]
+            hinweis = "  ← neues Textfeld" if str(typ).startswith("TEXT_BOX") else ""
+            print(f"  F{i+1:>2}  NEU       <{sid}> {name!r}{hinweis}")
+            zu += 1
+        for sid in sorted(set(a) - set(b)):
+            name, _ = a[sid]
+            print(f"  F{i+1:>2}  ENTFERNT  <{sid}> {name!r}")
+            weg += 1
+    print(f"\n{zu} Shape(s) hinzugefuegt, {weg} entfernt.")
+    if zu:
+        print("Jedes hinzugefuegte Shape sollte das Duplikat eines gleichartigen vorhandenen\n"
+              "Elements sein — ein frei gezogenes Textfeld erbt weder Schrift noch Position.")
+    return 1 if zu else 0
+
+
+def alle_shapes_flach(slide):
+    for sh, _ in alle_shapes(slide.shapes):
+        yield sh
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("pptx")
     p.add_argument("--slide", type=int, help="eine Folie im Detail")
     p.add_argument("--check", action="store_true", help="Pruefmodus vor Uebergabe")
+    p.add_argument("--vergleich", metavar="VORLAGE.pptx",
+                   help="Shapes gegen die Vorlage vergleichen")
     a = p.parse_args()
     prs = Presentation(a.pptx)
     if a.slide:
         detail(prs, a.slide)
+    elif a.vergleich:
+        sys.exit(vergleich(prs, a.vergleich))
     elif a.check:
         sys.exit(check(prs))
     else:

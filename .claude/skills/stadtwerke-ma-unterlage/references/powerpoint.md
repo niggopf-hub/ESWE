@@ -158,7 +158,14 @@ sofort, welche Platzhalter noch leer sind.
 python3 scripts/inspect_deck.py unterlage.pptx                 # Übersicht
 python3 scripts/inspect_deck.py unterlage.pptx --slide 12      # eine Folie im Detail
 python3 scripts/inspect_deck.py unterlage.pptx --check         # Prüfmodus
+python3 scripts/inspect_deck.py neu.pptx --vergleich alt.pptx  # gegen die Vorlage
 ```
+
+Der **Vergleichsmodus** ist der eigentliche Wächter über die Grundregel: Er stellt die
+Shapes der bearbeiteten Datei denen der Vorlage gegenüber und meldet jede Zugabe einzeln,
+neue Textfelder ausdrücklich markiert. Ohne diesen Vergleich fällt eine hinzugefügte Box
+niemandem auf — sie sieht auf der Folie unauffällig aus und rächt sich erst beim nächsten
+Bearbeiten. Vor der Übergabe einmal laufen lassen und jede gemeldete Zugabe erklären können.
 
 Der Prüfmodus meldet genau die Fehler aus der Prüfliste: leere Pflicht-Platzhalter
 (Quellenzeile, Kapitelkolumne), Textreste mit verdächtigen Mustern (`WIP`, `TODO`, `http`,
@@ -206,5 +213,5 @@ Platzhalters bleibt erhalten.
    zuerst, weil sie überall gleich lauten müssen.
 4. Kapitel 2 befüllen, dann 3, dann 1 (Kapitel 1 ist meist reine Übernahme).
 5. Diagrammdaten in think-cell eintragen.
-6. `inspect_deck.py --check` laufen lassen.
+6. `inspect_deck.py --check` und `--vergleich` gegen die Vorlage laufen lassen.
 7. Durchsehen: fremde Namen, WIP-Reste, leere Platzhalter, Nummernbezüge in Kommentaren.

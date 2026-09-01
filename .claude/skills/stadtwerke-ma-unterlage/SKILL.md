@@ -159,6 +159,8 @@ Skripte: `references/powerpoint.md`. Das Wichtigste in Kürze:
   .pptx — damit findest du die Box, in die geschrieben werden soll.
 - `scripts/fill_deck.py` schreibt Text in vorhandene Boxen (nach Folie + Platzhalter-Index
   oder Shape-Name) und legt bewusst keine neuen an.
+- `scripts/inspect_deck.py --vergleich <vorlage.pptx>` meldet vor der Übergabe jede Zugabe
+  gegenüber der Vorlage. Eine hinzugefügte Box fällt sonst niemandem auf.
 
 ### Schritt 6 — Prüfen
 
@@ -297,7 +299,8 @@ wertlos. Jede Option muss an den in Kapitel 2 belegten Engpass anknüpfen.
 - [ ] Keine fremden Mandanten- oder Projektnamen mehr im Dokument — auch nicht in
       Kolumnentiteln, Fußnoten und Dateinamen.
 - [ ] Keine WIP-Notizen, Klebezettel oder Quell-URLs auf den Folien.
-- [ ] Keine neu eingefügten Textfelder neben den Template-Platzhaltern.
+- [ ] Keine neu eingefügten Textfelder neben den Template-Platzhaltern — mit
+      `--vergleich` gegen die Vorlage geprüft, jede Zugabe ist ein erklärtes Duplikat.
 - [ ] Jede Inhaltsfolie hat Quellenzeile und, wo nötig, Fußnoten.
 - [ ] Diagramme sind unverändert think-cell-Objekte.
 - [ ] Agenda, Kapiteltrenner und Kolumnentitel nennen dieselben Kapitelnamen.
