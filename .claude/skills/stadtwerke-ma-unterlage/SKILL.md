@@ -58,13 +58,28 @@ Kurzfassung der Pflichtmaterialien:
 
 | Material | Wozu | Wo |
 |---|---|---|
-| Letzte vergleichbare Unterlage (.pptx) | Bogen, Template, Kapitel 1, Schaubilder | Projektordner |
+| Letzte vergleichbare Unterlage (.pptx) | Template, Kapitel 1, Schaubilder | Projektordner |
 | Jahresabschlüsse 4–5 Jahre | Financials, Beteiligungen, Lagebericht | Unternehmensregister |
 | Geschäftsbericht (aktuellstes Jahr) | Aktuelles Jahr, Strategie, O-Töne | Website des Unternehmens |
 | Handelsregisterauszug | Gesellschafter, Organe, Kapital | Registerportal |
 | Website / Presse | Projekte, Personalien, Wärmeplanung | Recherche |
 
 **Zwischenstopp:** Materialstand und Lücken melden, bevor du anfängst.
+
+**Was woher gilt.** Die Referenzunterlagen sind nicht gleichrangig, und das zu verwechseln
+ist die häufigste Ursache für eine Unterlage, die zwar gut aussieht, aber nicht passt:
+
+| Quelle | Wofür sie maßgeblich ist |
+|---|---|
+| **Der Bogen der letzten Unterlagen** | Argumentation, Tonalität, Kapitel 1, Formulierungsmuster, Folienmechanik |
+| **Die Gliederung nach Abschnitten *(i)–(vi)*** | Welche Folien es gibt und in welcher Reihenfolge — siehe Landkarte |
+| **Das Financial Model im Projekt** | Zeilengerüst und Kennzahlenlogik der Financial-Folie: HGB-Einzelabschluss, nicht angelsächsische Margenkaskade |
+
+Konkret heißt das für die beiden Folien, bei denen es am häufigsten schiefgeht: Der
+**One Pager** ist eine Merkmal-Angabe-Tabelle, keine Kachelwand. Die **Financial-Folie**
+zeigt Umsatz **und Rohertrag** als zwei Reihen und gliedert nach Ertragslage, Finanzlage,
+Vermögenslage — nicht nach EBITDA-, EBIT- und EAT-Margen. Beides steht in
+`assets/tabellenlayouts.md`.
 
 ### Schritt 2 — Storyline für diesen Deal ableiten und bestätigen lassen
 
@@ -129,10 +144,10 @@ inhaltliche Energie gehört nach hinten, nicht nach vorn.
 
 Nach jedem Kapitel anhalten und vorlegen. Die Details je Kapitel:
 
-- `references/kapitel-2-unternehmen.md` — Ausgangslage, Steckbrief, Beteiligungsstruktur,
-  Investitionsbedarf, Financials, strategische Stoßrichtungen
-- `references/kapitel-3-handlungsoptionen.md` — Ziele, Optionenraum, Beteiligungsmodelle,
-  Investorenlandschaft, Mehrwert des Hauses
+- `references/kapitel-2-unternehmen.md` — Ausgangslage, One Pager, Beteiligungsstruktur,
+  Investitionshorizont, Financials, Summary/Überleitung
+- `references/kapitel-3-handlungsoptionen.md` — Ziele des Unternehmens, Ansatzpunkte für
+  direkte Vorschläge, Mehrwert des Hauses
 - `references/kapitel-1-credentials.md` — Ansprechpartner, Haus, Sektorfokus, Track Record,
   Case Studies
 
@@ -172,6 +187,10 @@ kurzen Notiz, welche Zahlen aus welchem Jahr stammen und was noch offen ist.
 Rund 20 Folien, drei Kapitel. Zweck je Folie in einer Zeile — die inhaltliche Tiefe steht
 in den references-Dateien.
 
+Die Abschnittsziffern *(i)–(vi)* sind die verbindliche Gliederung von Kapitel 2 und 3. Sie
+sind nicht verhandelbar und auch nicht zu ergänzen: wer eine Folie dazuerfindet oder eine
+weglässt, bricht die Vergleichbarkeit zwischen den Unterlagen.
+
 | # | Folie | Zweck |
 |---|---|---|
 | 1 | Titel | Thema, Ort/Datum, Vertraulichkeitsvermerk |
@@ -184,15 +203,15 @@ in den references-Dateien.
 | 8 | Track Record | Aktuelle Mandate als Tombstones |
 | 9–10 | Case Studies | Zwei Transaktionen im Detail: was wir konkret gemacht haben |
 | 11 | Kapiteltrenner 2 | — |
-| 12 | Unser Verständnis der Ausgangslage | Die These des Kapitels, sieben Bullets, Kernsatz im Kasten |
-| 13 | Kunden und Infrastruktur | Steckbrief: KPI-Kacheln, Umsatzsplit, Erlösquellen |
-| 14 | Beteiligungsstruktur | Wer hält was — kommunale und strategische Verankerung |
-| 15 | Investitionsbedarf | Verschuldungsentwicklung gegen Investitionsprogramm |
-| 16 | Financials | GuV, Cashflow, Bilanz über 5 Jahre plus Kommentar |
-| 17 | Strategische Stoßrichtungen | Wohin das Unternehmen selbst will |
+| 12 | Ausgangslage *(i)* | Die These des Kapitels, sieben Bullets, Kernsatz im Kasten |
+| 13 | One Pager / Steckbrief *(ii)* | Merkmal-Angabe-Tabelle: Firma, Aktionäre, Organe, Kennzahlen, Steuerungsgrößen |
+| 14 | Beteiligungsstruktur *(iii)* | Wer hält was — kommunale und strategische Verankerung |
+| 15 | Investitionshorizont *(iv)* | Historie, Schwerpunkte, Ausblick und der daraus folgende Finanzierungsbedarf |
+| 16 | Financials *(v)* | Umsatz/Rohertrag, Cashflows, Bilanz als drei Blöcke plus Kommentar |
+| 17 | Summary / Überleitung *(vi)* | Kernbotschaft des Kapitels und die Leitfrage für Kapitel 3 |
 | 18 | Kapiteltrenner 3 | — |
-| 19 | Mögliche strategische Ziele | Der Zielraum, aus dem Optionen folgen |
-| 20 | Beteiligungsmodelle | Wie eine Partnerschaft konkret aussähe |
+| 19 | Mögliche Ziele des Unternehmens *(i)* | Was das Haus selbst erreichen will, aus Abschlüssen und Presse abgeleitet |
+| 20 | Ansatzpunkte für direkte Vorschläge *(ii)* | Finanzierung, Eigenkapital, Portfolio/Struktur, Operativ |
 | 21 | Mehrwert des Hauses | Warum wir, in sechs Punkten |
 | 22 | Disclaimer | Standardtext aus dem Master |
 
@@ -304,4 +323,9 @@ wertlos. Jede Option muss an den in Kapitel 2 belegten Engpass anknüpfen.
 - [ ] Jede Inhaltsfolie hat Quellenzeile und, wo nötig, Fußnoten.
 - [ ] Diagramme sind unverändert think-cell-Objekte.
 - [ ] Agenda, Kapiteltrenner und Kolumnentitel nennen dieselben Kapitelnamen.
+- [ ] Die Gliederung ist vollständig: Kapitel 2 mit allen sechs Abschnitten *(i)–(vi)*
+      — insbesondere die **Summary/Überleitung**, die am häufigsten fehlt — und Kapitel 3
+      mit Zielen *(i)* und Ansatzpunkten *(ii)*.
+- [ ] Die Leitfrage auf der Summary-Folie nennt Vorhaben, Verpflichtung **und**
+      Nebenbedingung. Ohne die letzten beiden lautet die Antwort "mehr Kredit".
 - [ ] Dateiname nach Schema `JJJJMMTT_<Haus>_<Unternehmen>_<Version>`.

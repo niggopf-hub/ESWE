@@ -138,22 +138,32 @@ Konzessionsverpflichtungen.
 
 **Offene Frage:** "Woraus verdient dieses Unternehmen eigentlich sein Geld?"
 
-### 2.2 Steckbrief — die Substanz
+### 2.2 One Pager / Steckbrief — die Substanz
 
-**GERÜST.** Drei Elemente auf einer Folie: KPI-Kacheln mit Vorjahresvergleich, ein
-Umsatzsplit als Ring mit Summenbezug, und eine Erläuterung der Erlösquellen.
+**GERÜST.** Eine zweispaltige Tabelle Merkmal | Angabe, die das Unternehmen auf einer Seite
+greifbar macht: Rechtsform und Register, Eigentümer mit Quoten, Organe, Mitarbeiter und
+Kunden, die Kernzahlen über zwei Jahre, Absatz und Netz, die Ergebnisverwendung und zuletzt
+die Steuerungskennzahlen.
 
-Der Titel dieser Folie ist eine **quantifizierte Aussage** über die Ertragskonzentration —
-etwa "erwirtschaftet rund X % mit … und besitzt eine umfassende Netzinfrastruktur". Damit
-tut die Folie zwei Dinge auf einmal: sie zeigt Substanz (Netz, Kunden, Mitarbeiter) und
-bereitet vor, dass diese Substanz kapitalintensiv ist.
+Die Folie tut zwei Dinge auf einmal: Sie zeigt **Substanz** — Netz, Kunden, Anlagen, das
+Unternehmen ist real und groß — und sie legt offen, dass diese Substanz **kapitalintensiv**
+ist. Beides braucht Kapitel 2 später.
 
-Die Kacheln zeigen konsequent **zwei Jahre** — laufendes und Vorjahr. Der Leser sieht die
-Richtung, ohne dass die Folie sie behaupten muss.
+Zwei Zeilen tragen mehr, als es aussieht:
 
-**BELEG ‹variabel›:** alle Kacheln, der Split, die Netzlängen, die Kundenzahlen. Auch die
-*Auswahl* der Kacheln ist variabel: bei einem Netzbetreiber gehören Netzlänge und
-Zählpunkte nach vorn, bei einem Vertrieb Kundenzahl und Absatzmengen.
+- **Ergebnisverwendung.** Sie sagt, dass ein Teil des Ergebnisses vertraglich gebunden
+  abfließt — Ergebnisabführung, Ausgleichszahlung, Konzessionsabgabe. Die Folie erwähnt es
+  beiläufig, und auf Folie 16 wird daraus die halbe Argumentation.
+- **Steuerungskennzahlen.** Sie nennen die Größen, mit denen das Haus sich selbst steuert.
+  Wer sie übernimmt, spricht die Sprache des Adressaten; wer EBITDA zeigt, wo mit EBT
+  gesteuert wird, redet an ihm vorbei.
+
+Zahlen stehen konsequent über **zwei Jahre**. Der Leser sieht die Richtung, ohne dass die
+Folie sie behaupten muss.
+
+**BELEG ‹variabel›:** sämtliche Zeilen. Auch die *Auswahl* ist variabel: bei einem
+Netzbetreiber gehören Netzlänge und Zählpunkte nach vorn, bei einem Vertrieb Kundenzahl und
+Absatzmengen.
 
 **Offene Frage:** "Wem gehört das, und was hängt noch alles daran?"
 
@@ -178,11 +188,14 @@ Geschäftsbereichen, Stichtag der Anteilsbesitzliste.
 
 **Offene Frage:** "Was kostet die Zukunft dieses Konzerns?"
 
-### 2.4 Investitionsbedarf — die Schere, Teil 1
+### 2.4 Investitionshorizont — die Schere, Teil 1
 
-**GERÜST.** Die zentrale Folie des Kapitels, zweigeteilt:
+**GERÜST.** Die zentrale Folie des Kapitels, dreigeteilt — Vergangenheit, Gegenwart, Zukunft:
 
-- **Links: die Verschuldungsentwicklung.** Net Debt über etwa fünf Jahre als Säulen, darüber
+- **Die Historie:** die Investitionen der letzten fünf Jahre. Sie zeigt das gewohnte Niveau,
+  gegen das der Ausblick abgesetzt wird. Ohne diesen Bezug ist jede geplante Summe nur eine
+  Zahl; mit ihm wird sichtbar, dass das Programm ein Vielfaches des Gewohnten ist.
+- **Die Verschuldungsentwicklung.** Net Debt über etwa fünf Jahre als Säulen, darüber
   Net Debt / EBITDA als Vielfaches. Zwei Größen, weil die absolute Zahl ohne Bezug nichts
   aussagt und die Relation ohne Absolutwert nicht greifbar ist.
 - **Rechts: das Investitionsprogramm**, aufgeteilt in typischerweise drei
@@ -211,8 +224,17 @@ in eine Fußnote, weil sie nicht standardisiert ist.
 
 ### 2.5 Financials — die Schere, Teil 2
 
-**GERÜST.** Drei Blöcke nebeneinander — GuV, Kapitalflussrechnung, Bilanzpositionen — über
-denselben Zeitraum, darunter ein Kommentarblock.
+**GERÜST.** Drei Blöcke nebeneinander — Ertragslage, Finanzlage, Vermögenslage — über
+denselben Zeitraum, darunter ein Kommentarblock. Die Zeilenlogik folgt dem HGB-Einzel-
+abschluss, weil kommunale Versorger mit Betriebsergebnis, Beteiligungsergebnis und EBT
+steuern und das Beteiligungsergebnis bei einem Querverbund keine Nebenposition ist.
+
+Der erste Block zeigt **Umsatz und Rohertrag** als zwei Reihen — nicht Umsatz und Ergebnis.
+Das ist keine Formsache: Der Umsatz eines Versorgers schwankt mit den Beschaffungspreisen,
+ohne dass sich am Geschäft etwas ändert. Die beiden Reihen nebeneinander zeigen, dass der
+Rohertrag bleibt, während der Umsatz sich halbiert. Das ist die Entwarnung, die vor der
+schlechten Nachricht kommen muss — und ohne sie liest der Adressat die Folie als Angriff auf
+seine Ertragskraft.
 
 Diese Folie beantwortet die Frage aus 2.4 mit einem **Nein**, und zwar so, dass der Leser
 es selbst ableitet. Der Kommentar sagt es dann in einem einzigen, sorgfältig gebauten Satz:
@@ -250,27 +272,44 @@ verliert die Glaubwürdigkeit für alles andere.
 
 **Offene Frage:** "Und wo will das Unternehmen selbst hin?"
 
-### 2.6 Strategische Stoßrichtungen — die Brücke
+### 2.6 Summary / Überleitung — die Brücke
 
-**GERÜST.** Fünf bis sechs Stoßrichtungen als flache Zeilen, jede ein Satz. Kein Netz-,
-Wärme-, Erzeugungs-, Kunden- und Infrastrukturthema fehlt.
+**GERÜST.** Zwei Teile: eine Kernbotschaft als Absatz, darunter die Leitfrage für Kapitel 3
+in einem hervorgehobenen Kasten.
 
-Die Funktion dieser Folie wird oft unterschätzt. Sie ist die **Brücke zwischen den
-Kapiteln** und leistet zwei Dinge:
+Diese Folie wird am häufigsten vergessen und ist die wichtigste des Kapitels. Ohne sie fällt
+der Leser aus Kapitel 2 in Kapitel 3, ohne zu wissen, warum — und Kapitel 3 wirkt dann wie
+ein Themenwechsel statt wie eine Antwort.
 
-- Sie zeigt, dass die Strategie des Unternehmens **richtig** ist. Kapitel 3 schlägt danach
-  keine andere Strategie vor, sondern nur einen anderen Weg, sie zu finanzieren. Das nimmt
-  dem Vorschlag jede Kränkung.
-- Sie zeigt, dass diese Strategie **Kapital bindet** — jede einzelne Stoßrichtung ist
-  investitionsintensiv. Der Leser hat damit die Schere zweimal gesehen: einmal in Zahlen,
-  einmal in Vorhaben.
+Die **Kernbotschaft** verdichtet den Doppelsatz des Kapitels: erst die Stärke, dann das
+"steht aber am Beginn von", dann die Kräfte, die die Innenfinanzierungskraft begrenzen. Sie
+referiert nichts Neues — jede Aussage wurde auf den Folien 12 bis 16 belegt. Genau das macht
+sie stark: der Leser hat alles schon gesehen und nickt mit.
 
-Die Stoßrichtungen stammen aus dem Lagebericht und der Unternehmenskommunikation, nicht aus
-eigener Meinung. Sie werden in der Sprache des Unternehmens wiedergegeben. Das signalisiert:
-wir haben zugehört.
+Die **Leitfrage** ist das Scharnier der ganzen Unterlage. Sie hat drei Bestandteile:
 
-**BELEG ‹variabel›:** alle Stoßrichtungen. Sie sind unternehmensspezifisch und müssen aus
-Lagebericht, Geschäftsbericht und Website belegt sein.
+> Wie finanziert und organisiert ‹Gesellschaft› ‹das Vorhaben› bei gleichzeitig
+> ‹bestehender Verpflichtung› und ‹bestehender Nebenbedingung›?
+
+Alle drei sind nötig. Nennt man nur das Vorhaben, lautet die naheliegende Antwort "dann
+nehmen wir eben mehr Kredit auf" — und die Unterlage hat sich selbst überflüssig gemacht.
+Erst die Verpflichtung (das Ergebnis fließt vertraglich ab) und die Nebenbedingung (die
+Eigenkapitalquote soll gehalten werden) schließen diesen Ausweg. Der Leser kommt dann selbst
+auf die Frage, die Kapitel 3 beantwortet.
+
+Und noch etwas leistet die Folie: Sie stellt eine **Frage**, keine Forderung. Der Adressat
+wird nicht vor eine Diagnose gestellt, sondern vor ein Problem, das er als seines erkennt.
+Was danach kommt, sind Antwortmöglichkeiten — nicht Verkaufsargumente.
+
+**BELEG ‹variabel›:** Kernbotschaft und Leitfrage vollständig. Nichts davon wird neu
+recherchiert — die Verpflichtung steht im Anhang, die Nebenbedingung im Lagebericht, der
+Rest auf den Folien davor.
+
+**Optional davor:** eine Folie **Strategische Stoßrichtungen** — fünf bis sechs Themenfelder
+aus Lagebericht und Unternehmenskommunikation, je ein Satz, in der Sprache des Unternehmens.
+Sie bestätigt die Strategie des Hauses (Kapitel 3 schlägt danach keine andere Strategie vor,
+nur einen anderen Weg, sie zu finanzieren — das nimmt dem Vorschlag jede Kränkung) und zeigt
+zugleich, dass jede Stoßrichtung Kapital bindet. Sie ersetzt die Summary nicht.
 
 ### Offene Frage für Kapitel 3
 
@@ -287,72 +326,78 @@ gestaltbar, und die operative Kontrolle kann beim Unternehmen bleiben.
 Der Grund ist nicht Zurückhaltung, sondern Realismus — bei einem kommunalen Adressaten ist
 die Entscheidung politisch, und ein zu konkreter Vorschlag zwingt zu einem zu frühen Nein.
 
-Das Kapitel verengt in drei Schritten: **Ziele → Modelle → Absender.**
+Das Kapitel verengt in drei Schritten: **Ziele des Adressaten → unsere Ansatzpunkte → Absender.**
 
-### 3.1 Mögliche strategische Ziele
+Die Reihenfolge ist der Kern: Wer mit Vorschlägen beginnt, verkauft. Wer mit den Zielen des
+anderen beginnt, berät.
 
-**GERÜST.** Etwa sechs Zielfelder, gleichrangig nebeneinander, ohne Bewertung. Sie decken
-systematisch drei Richtungen ab:
+### 3.1 Mögliche Ziele des Unternehmens
 
-- **Passivseite** — Fremdfinanzierungsspielraum erweitern, Eigenkapitalbasis stärken
-- **Risiko und Partnerschaft** — Kapitalbedarf und Projektrisiken teilen, gebundenes Kapital
-  aus ausgewählten Assets freisetzen
-- **Wachstum** — regionale Marktposition ausbauen, Plattformen um Kompetenzen erweitern
+**GERÜST.** Sechs bis sieben nummerierte Ziele — **die des Adressaten, nicht unsere.** Sie
+werden aus Jahresabschluss, Geschäftsbericht und Presse abgeleitet, jedes mit einer
+Fundstelle im Rücken.
 
-Warum der Einstieg über *Ziele* und nicht über *Optionen*: Der Adressat soll sich in einem
-Ziel wiedererkennen, bevor er über Instrumente nachdenkt. Wer mit "Minderheitsverkauf"
-beginnt, bekommt eine Abwehrreaktion. Wer mit "langfristige finanzielle Flexibilität"
-beginnt, bekommt ein Nicken. Die Ziele sind außerdem **kombinierbar** — es gibt kein
-Entweder-oder, und das nimmt Druck aus dem Gespräch.
+Warum die Folie so und nicht als Katalog von Handlungsoptionen gebaut ist: Der Adressat soll
+sich zuerst selbst wiedererkennen. Ein Ziel, das er als seines liest, macht ihn zum
+Mitdenker. Ein Ziel aus einem Standardkatalog macht ihn zum Publikum einer Verkaufspräsentation
+— und er merkt den Unterschied sofort, weil er seine eigene Strategie kennt.
 
-Dass auch Wachstumsziele dabeistehen, ist kein Füllmaterial: es zeigt, dass es nicht nur um
-Not geht, sondern auch um Gestaltung.
+Die Ziele decken systematisch ab, was ein kommunaler Versorger in dieser Lage verfolgt:
+Transformation und Wärmeplanung; Finanzierung des Programms bei einer Ziel-Eigenkapitalquote;
+Ergebnisstabilität und Ausschüttungsfähigkeit; Sicherung knapper Ressourcen wie Baukapazität,
+Fachkräfte und IT; Wachstum in energienahen Feldern; Zukunftsthemen mit laufenden
+Strategieprojekten; Risikomanagement.
 
-**BELEG ‹variabel›:** die Auswahl und Gewichtung der Ziele — abgeleitet aus dem in
-Kapitel 2 belegten Engpass und aus der Gesellschafterlage. Wo bereits ein strategischer
-Partner an Bord ist, rückt "Plattform erweitern" nach vorn; wo die EK-Quote unter Druck
-steht, "Eigenkapitalbasis stärken".
+Zwei davon werden gern weggelassen und gehören dazu. **Wachstum**, weil das Kapitel sonst
+wie ein Notprogramm klingt. Und **Risikomanagement**, weil es unspektakulär aussieht, aber
+beweist, dass wir den Risikobericht gelesen haben — und Anknüpfungspunkte liefert, die
+nichts mit Kapital zu tun haben.
 
-**Offene Frage:** "Wie sähe so etwas konkret aus?"
+Keine Priorisierung, weder durch Reihenfolge noch durch Hervorhebung: Die Gewichtung ist
+Sache des Adressaten, und ihm eine vorzugeben, wäre genau die Anmaßung, die das Kapitel
+vermeiden will.
 
-### 3.2 Beteiligungsmodelle — der Impuls
+**BELEG ‹variabel›:** alle Ziele, jedes mit einem konkreten Anker — Jahreszahl, Projekt,
+Quote, Gremienbeschluss — und einer Fundstelle. Ein Ziel ohne Anker ist ein Gemeinplatz, der
+auf jedes Stadtwerk passt.
 
-**GERÜST.** Ein konkretes Modell exemplarisch, mit vier Bestandteilen:
+**Offene Frage:** "Und woran könnte man dafür konkret arbeiten?"
 
-1. **Ein Strukturschaubild** — Carve-out eines abgrenzbaren Bereichs in ein Vehikel,
-   Investor mit Minderheit, Einbringung von Assets auf der einen und Eigenkapital für Capex
-   und Kaufpreis auf der anderen Seite.
-2. **Vorteile für das Unternehmen** — Risiko- und Investitionsteilung, Kaufpreiszufluss,
-   schnellere Umsetzung, strategischer Input, flexible Governance.
-3. **Gestaltungsaspekte einer Partnerschaft** — Governance mit Reserved Matters,
-   Dividendenpolitik, Exit-Mechanismen, Rendite- und Rückzahlungsmechanismen, Budget und
-   Investitionsplan, gemeinsames Rollenverständnis.
-4. **Ein Übertragbarkeitshinweis** — dass dasselbe Muster auf andere Geschäftsfelder passt.
+### 3.2 Ansatzpunkte für direkte Vorschläge
 
-Der wichtigste Baustein ist Nummer 3, und er wird oft weggelassen. Die Sorge des Adressaten
-ist nicht der Kaufpreis, sondern der Kontrollverlust. Indem die Unterlage Governance,
-Reserved Matters und Exit von sich aus auf den Tisch legt, beantwortet sie die unausgesprochene
-Frage, bevor sie gestellt wird — und zeigt zugleich, dass der Absender diese Verhandlungen
-schon geführt hat.
+**GERÜST.** Vier Kategorien, je drei bis vier Ansätze: **Finanzierungsseite,
+Eigenkapitalseite, Portfolio und Struktur, Operativ.**
 
-Der Übertragbarkeitshinweis (Nr. 4) verhindert, dass das Beispiel als Festlegung
-missverstanden wird. Er hält den Raum offen, den 3.1 aufgemacht hat.
+Die Kategorien sind nicht bloß Ordnung, sie sind ein Argument. Sie sagen: Es gibt mehrere
+Hebel, und der Verkauf von Anteilen ist einer unter vielen — nicht der Ausgangspunkt. Ein
+Kapitel, das mit einer Beteiligungsstruktur beginnt, bekommt eine Abwehrreaktion. Ein
+Kapitel, das mit Förderkrediten und Zinsmanagement beginnt und die Beteiligung als eine
+Möglichkeit unter mehreren führt, bekommt ein Gespräch.
 
-**BELEG ‹variabel›:** welcher Bereich im Schaubild steht (Wärme, Netze, Erneuerbare, ein
-Beteiligungsportfolio) und welche Gesellschaften eingebracht würden. Diese Auswahl ist eine
-**Urteilsfrage** — sie hängt an politischer Durchsetzbarkeit und an der Frage, welcher
-Bereich überhaupt sauber abgrenzbar ist. Nicht ohne Rücksprache festlegen.
+Jeder Ansatz **knüpft sichtbar an ein Ziel aus 3.1 und an einen Beleg aus Kapitel 2 an.**
+Das ist die Probe für dieses Kapitel: Wer einen Ansatz nicht auf ein Ziel und eine Zahl
+zurückführen kann, streicht ihn. Ansätze, die für jedes Stadtwerk gelten, kosten
+Glaubwürdigkeit, ohne etwas beizutragen.
 
-**Optionale Erweiterung.** Wo der Adressat den Raum ausgeschritten haben will, tritt hier
-eine Folie mit dem vollständigen Optionenspektrum dazu — Minderheit am Geschäftsbereich,
-Minderheit am Unternehmen, Mehrheit am Geschäftsbereich, Komplettverkauf einer Einheit —
-je mit Beschreibung und Einschätzung. Die Einschätzungen nennen **immer auch die Nachteile**,
-insbesondere den Abstimmungsaufwand und den politischen Überzeugungsbedarf. Eine Option
-ohne Nachteil liest sich wie ein Verkaufsargument und wird entsprechend behandelt.
+Was hier **nicht** steht: Kaufpreise, Multiplikatoren, Bewertungen. Öffentliche Daten tragen
+das nicht, und eine Zahl an dieser Stelle verengt das Gespräch auf eine Verhandlung, bevor
+es begonnen hat.
 
-Ebenfalls optional: eine Folie zur **Investorenlandschaft**, die institutionelle Investoren
-und Strategen entlang Strategie, Finanzprofil, Beteiligungshöhe und Exit gegenüberstellt.
-Sie beantwortet die Frage "wer würde das überhaupt kaufen" und macht den Prozess vorstellbar.
+Was hier **stehen muss**: dass die operative Kontrolle beim Unternehmen bleiben kann. Die
+Sorge des Adressaten ist nicht der Kaufpreis, sondern der Kontrollverlust — und die
+unausgesprochene Frage wird besser beantwortet, bevor sie gestellt wird.
+
+**BELEG ‹variabel›:** die Auswahl und Gewichtung der Ansätze, abgeleitet aus dem in
+Kapitel 2 belegten Engpass und der Gesellschafterlage. Welche Einheit für eine Partnerschaft
+in Frage käme, ist eine **Urteilsfrage** — politische Durchsetzbarkeit und saubere
+Abgrenzbarkeit, keine Ableitung. Nicht ohne Rücksprache festlegen.
+
+**Optionale Vertiefungen**, die eine Kategorie ausbauen statt sie zu ersetzen: ein
+Beteiligungsmodell im Schaubild — dessen wichtigster Teil nicht die Struktur ist, sondern die
+Gestaltungsaspekte (Governance mit Reserved Matters, Dividendenpolitik, Exit-Mechanismen);
+ein Optionenspektrum, in dem **jede** Option auch ihre Nachteile nennt, insbesondere
+Abstimmungsaufwand und politischen Überzeugungsbedarf; und eine Investorenlandschaft, wenn
+der Adressat zweifelt, dass es überhaupt Interesse gibt.
 
 **Offene Frage:** "Und warum mit euch?"
 
@@ -384,8 +429,8 @@ der Verweis auf einen konkret vergleichbaren Prozess.
 | Kapitel | Aussage | Beleg | Lässt offen |
 |---|---|---|---|
 | 1 | Wir kennen Energie, Infrastruktur und öffentliche Hand | Personen, Haus, Fokussektor, Mandate, Case Studies | "Was seht ihr bei uns?" |
-| 2 | Solide aufgestellt — und vor einem Programm, das die Innenfinanzierung übersteigt | Steckbrief, Struktur, Verschuldung vs. Investitionen, Zeitreihen, Strategie | "Was schlagt ihr vor?" |
-| 3 | Es gibt gestaltbare Wege, und die Kontrolle bleibt bei euch | Zielraum, Beteiligungsmodell mit Governance, Investorenlandschaft, Mehrwert | "Sollen wir reden?" |
+| 2 | Solide aufgestellt — und vor einem Programm, das die Innenfinanzierung übersteigt | One Pager, Struktur, Verschuldung vs. Investitionen, Zeitreihen, Leitfrage | "Was schlagt ihr vor?" |
+| 3 | Es gibt gestaltbare Wege, und die Kontrolle bleibt bei euch | Ziele des Unternehmens, Ansatzpunkte in vier Kategorien, Mehrwert | "Sollen wir reden?" |
 
 ## Wann der Bogen nicht trägt
 

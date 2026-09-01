@@ -131,26 +131,31 @@ Kernaussagen-Kasten:
   ▪ ‹Gesellschaft› hat Verpflichtungen gegenüber ‹Gesellschafter/Kommune›
 ```
 
-## 13 — Kunden und Infrastruktur
+## 13 — One Pager / Steckbrief
 
 ```
-[Titel]    ‹Gesellschaft› erwirtschaftet ~‹X› % mit ‹Sparten› und besitzt ‹Infrastruktur›
-[Bereich]  Kunden und Netzinfrastruktur
-[Fußnoten] 1) ‹Definition Kennzahl›; 2) ‹Abweichung Abschluss/Website›;
-           3) ‹Bezugsgesellschaft und Stichtag der Netzlängen›
+[Titel]    ‹Aussagesatz zum Unternehmen: Marktstellung und Substanz in einem Satz›
+[Bereich]  One Pager
+[Fußnoten] 1) ‹Abweichung Abschluss/Website, z. B. Mitarbeiterzahl›;
+           2) ‹Bezugsgesellschaft und Stichtag der Netzlängen›
 
-Kacheln (je Wert + Bezeichnung + Vorjahr):
-  Umsatz ‹J›       ‹X› Mio. EUR   (‹Vorjahr›)
-  EBITDA ‹J›       ‹X› Mio. EUR   (‹Vorjahr›)
-  EBIT ‹J›         ‹X› Mio. EUR   (‹Vorjahr›)
-  EAT ‹J›          ‹X› Mio. EUR   (‹Vorjahr›)
-  CapEx ‹J›        ‹X› Mio. EUR   (‹Vorjahr›)
-  Mitarbeiter      ca. ‹X›
-  ‹Sparte›kunden   ‹X›
-  ‹Sparte›netz     ‹X› km
-
-Ring:  ‹Anteile in %› · Mittelbeschriftung: 100% ≙ ‹Summe› Mio. EUR
-Erlösquellen: je Quelle Überschrift + 2 erläuternde Bullets
+Tabelle Merkmal | Angabe — feste Zeilenfolge:
+  Firma / Sitz                │ ‹Firma›, ‹Straße›, ‹PLZ Ort›
+  Rechtsform / Register       │ ‹Rechtsform›, ‹HRB› (‹Amtsgericht›)
+  Aktionäre                   │ ‹Gesellschafter A› ‹X› % · ‹Gesellschafter B› ‹Y› %
+  Grundkapital                │ ‹X› Mio. €
+  Vorstand                    │ ‹Name› (Vors.), ‹Name›
+  AR-Vorsitz                  │ ‹Name, Funktion›
+  Mitarbeiter                 │ Ø ‹X› (‹Jahr›)
+  Kunden                      │ ~‹X› (‹Sparten›, ‹Jahr›)
+  Umsatz ‹J-1› / ‹J›          │ ‹X› / ‹Y› Mio. €
+  EBT ‹J-1› / ‹J›             │ ‹X› / ‹Y› Mio. €
+  Jahresüberschuss ‹J-1›/‹J›  │ ‹X› / ‹Y› Mio. €
+  Eigenkapital / EK-Quote     │ ‹X› Mio. € / ‹Y› % (‹Stichtag›)
+  Absatz ‹J›                  │ ‹Sparte› ‹X› GWh · ‹Sparte› ‹Y› GWh · ‹Sparte› ‹Z› Mio. m³
+  Netz                        │ ‹Sparte› > ‹X› km; ‹weitere›; ‹Sparte› via ‹Tochter›
+  Ergebnisverwendung          │ ‹EAV mit …› · ‹Ausgleichszahlung an …›
+  Steuerungskennzahlen        │ ‹finanzielle›; nicht-finanziell: ‹operative›
 ```
 
 ## 14 — Beteiligungsstruktur
@@ -172,14 +177,16 @@ Kästen bei wesentlichen Beteiligungen:
 Legende  ‹Geschäftsbereiche›
 ```
 
-## 15 — Investitionsbedarf
+## 15 — Investitionshorizont
 
 ```
 [Titel]    ‹Gesellschaft› ist finanziell ‹Einordnung› − ‹Investitionsbedarf› bis ‹Jahr›
-[Bereich]  Entwicklung der Verschuldung (Mio. EUR)   |   Geplante Investitionen ‹Zeitraum›
+[Bereich]  Investitionen ‹J1›–‹J5› (Mio. EUR)  |  Entwicklung der Verschuldung  |
+           Geplante Investitionen ‹Zeitraum›
 [Fußnoten] 1) Keine öffentliche quantitative Aufteilung nach Investitionsschwerpunkten
            verfügbar; 2) Net Debt = ‹Definition›
 
+Historie Säulen Gesamtinvestitionen ‹J1›–‹J5› · Schwerpunkte des jüngsten Jahres
 Links   Säulen Net Debt ‹J1›–‹J5› · darüber Net Debt / EBITDA als ‹x›-Faktoren
 Kasten  Die Verschuldung bleibt mit ‹Faktor› tragfähig, reduziert jedoch den
         finanziellen Spielraum für das Investitionsprogramm von ‹Summe›
@@ -192,13 +199,17 @@ Rechts  Zeile "Investitionsschwerpunkt": ‹A› | ‹B› | ‹C›
 
 ```
 [Titel]    ‹Aussage zur Ertragsentwicklung› − jedoch ‹Aussage zu Cashflow/Verschuldung›
-[Bereich]  Gewinn- und Verlustrechnung (Mio. EUR) | Kapitalflussrechnung (Mio. EUR) |
-           Bilanzpositionen (Mio. EUR)
-[Fußnoten] 1) ‹Erläuterung Fachbegriff›
+[Bereich]  Ertragslage (Mio. EUR) | Finanzlage (Mio. EUR) | Vermögenslage (Mio. EUR)
+[Fußnoten] 1) ‹Definition Net Debt›; 2) ‹Erläuterung Fachbegriff›
 
-Block 1  Umsatz und Rohertrag ‹J1›–‹J5›, CAGR, Rohertragsmarge in %
-Block 2  Operating / Investing / Financing Cash Flow, Summe Total Cash Flow
-Block 3  Kassenbestand und Net Debt, Eigenkapitalquote in %
+Block 1  Umsatz und Rohertrag ‹J1›–‹J5› als zwei Säulenreihen
+         CAGR +‹X› % p.a. · Rohertragsmarge in % über den Säulen
+Block 2  Cashflow aus laufender Geschäfts-, Investitions- und Finanzierungstätigkeit
+         Summe: Veränderung des Finanzmittelfonds
+Block 3  Finanzmittelfonds und Net Debt · Eigenkapitalquote in % über den Säulen
+
+Zeilenlogik durchgehend HGB: Betriebliches Ergebnis, Beteiligungsergebnis,
+Zinsergebnis, Ergebnis vor Steuern — nicht EBITDA-/EBIT-/EAT-Margen.
 
 Kommentar:
   ▪ ‹Satz zur Ertragslage›
@@ -207,51 +218,79 @@ Kommentar:
     operativen Cash Flow finanzierbar zu sein
 ```
 
-## 17 — Strategische Stoßrichtungen
+## 17 — Summary / Überleitung zu Kapitel 3
 
 ```
-[Titel]    ‹Gesellschaft› fokussiert sich auf ‹drei bis vier Schlagworte›
-Je Zeile:  ‹Themenfeld› — ein Satz in der Sprache des Unternehmens
-           Netze · Wärme · Erzeugung · Kunde/Vertrieb · Wasser/TK · Digitalisierung
+[Titel]    ‹Kernaussage des Kapitels als Aussagesatz›
+[Bereich]  Summary ‹Kapitelname› / Überleitung zu Kapitel 3
+
+Kernbotschaft (Absatz, kein Bullet):
+  ‹Gesellschaft› ist ein ‹Charakterisierung› mit ‹Stärke 1›, ‹Stärke 2› und
+  ‹Stärke 3› — steht aber am Beginn ‹der investitionsintensivsten Phase›.
+  ‹Auslöser› machen ‹Gesellschaft› zum ‹Rolle›, während gleichzeitig
+  ‹Gegenkräfte› die Innenfinanzierungskraft begrenzen.
+
+Leitfrage (hervorgehobener Kasten, ein Satz):
+  Wie finanziert und organisiert ‹Gesellschaft› ‹das Vorhaben› bei gleichzeitig
+  ‹bestehender Verpflichtung› und ‹bestehender Nebenbedingung›?
 ```
+
+*Optional davor:* eine Folie **Strategische Stoßrichtungen** — fünf bis sechs Themenfelder,
+je ein Satz in der Sprache des Unternehmens. Sie ersetzt die Summary nicht.
 
 ---
 
 ## Kapitel 3
 
-## 19 — Mögliche strategische Ziele
+## 19 — Mögliche Ziele des Unternehmens
 
 ```
 [Titel]    Verschiedene Handlungsoptionen für die zukünftige Positionierung ‹Gesellschaft›
-[Bereich]  Mögliche strategische Ziele
-  ▪ Erweiterung des Fremdfinanzierungsspielraums zur Umsetzung geplanter Investitionen
-  ▪ Stärkung der Eigenkapitalbasis zur Sicherung langfristiger finanzieller Flexibilität
-  ▪ Teilung von Kapitalbedarf und Projektrisiken bei größeren Investitionsvorhaben
-  ▪ Freisetzung gebundenen Kapitals aus ausgewählten Assets und Beteiligungen
-  ▪ Ausbau der regionalen Marktposition durch gezielte Akquisitionen und Beteiligungen
-  ▪ Erweiterung bestehender Plattformen um zusätzliche Kompetenzen und Kunden
+[Bereich]  Mögliche Ziele des Unternehmens
+[Quellen]  Quellen: eigene Recherche, Jahresabschlüsse ‹Gesellschaft› ‹J1›–‹J5›,
+           Geschäftsbericht ‹J5›, Presseberichterstattung
+
+  1. ‹Transformation: Wärmeplanung, Klimaneutralität bis ‹Jahr›, Dekarbonisierung›
+  2. ‹Finanzierung des Investitionsprogramms bei EK-Quote ‹X› %›
+  3. ‹Ergebnisstabilität und Absicherung der Ausschüttungsfähigkeit›
+  4. ‹Sicherung knapper Ressourcen: Baukapazitäten, Fachkräfte, IT›
+  5. ‹Wachstum in energienahen Geschäftsfeldern›
+  6. ‹Zukunftsthemen mit laufenden Strategieprojekten›
+  7. ‹Risikomanagement: Markt-, Ausfall-, Cyber-, Regulierungsrisiken›
 ```
 
-## 20 — Beteiligungsmodelle
+Jedes Ziel mit einem konkreten Anker — Jahreszahl, Projekt, Quote oder Gremienbeschluss —
+und aus Abschluss, Geschäftsbericht oder Presse abgeleitet, nicht aus einem Standardkatalog.
+
+## 20 — Ansatzpunkte für direkte Vorschläge
 
 ```
-[Titel]    Bei Bedarf können private Investoren in unterschiedlichen Modellen und bei
-           unterschiedlichen Assets beteiligt werden − ausgewählte Impulse
-[Fußnoten] 1) Ähnlich übertragbar auf weitere Geschäftsfelder, z. B. ‹Beispiele›
+[Titel]    ‹Aussagesatz: woran konkret gearbeitet werden könnte›
+[Bereich]  Ansatzpunkte für direkte Vorschläge
+[Fußnoten] 1) ‹Hinweis auf Übertragbarkeit oder regulatorische Machbarkeit›
 
-Schaubild  ‹Gesellschaft› → ‹Bereich› SPV post Carve-Out ← Investor (Minderheit, X%)
-           Pfeile: Einbringung ‹Assets› | Einbringung EK für Capex und Kaufpreis
-[Bereich]  Vorteile für ‹Gesellschaft›
-  ▪ Teilung von Risiken und Investitionsbedarf   ▪ Zufluss des Kaufpreises
-  ▪ Schnellere Umsetzung von Investitionen        ▪ Zusätzlicher strategischer Input
-  ▪ Governance flexibel strukturierbar
-[Bereich]  Wesentliche Aspekte bei der Gestaltung einer Partnerschaft
-  ▪ Ausgewogene Governance mit definierten Reserved Matters, Dividendenpolitik und
-    Exit-Mechanismen
-  ▪ Investorengerechte Schaffung einer Plattform / eines abgegrenzten Vehikels
-  ▪ Rendite- und Rückzahlungsmechanismen
-  ▪ Festlegung Budget und Investitionsplan   ▪ Gemeinsames Rollenverständnis
+Finanzierungsseite          │ Eigenkapitalseite
+  ▪ ‹strukturierte Lang-    │   ▪ ‹Kapitalerhöhung oder Thesaurierungspfad›
+    fristfinanzierung›      │   ▪ ‹Balance Ausschüttung vs. EK-Quote›
+  ▪ ‹Förderkredite,         │   ▪ ‹hybride Instrumente›
+    Bundesprogramme›        │   ▪ ‹EK-Ausstattung einzelner Töchter›
+  ▪ ‹Schuldschein / Green   │
+    Finance›                │
+────────────────────────────┼──────────────────────────────────────────────
+Portfolio und Struktur      │ Operativ
+  ▪ ‹Bewertung und Weiter-  │   ▪ ‹Beschaffungs- und Produktstrategie›
+    entwicklung Beteilig.›  │   ▪ ‹Forderungsmanagement›
+  ▪ ‹Beteiligung privater   │   ▪ ‹Digitalisierung zur Kostensenkung›
+    Partner an ‹Einheit››   │
+  ▪ ‹Contracting / Wärme-   │
+    lösungen›               │
 ```
+
+Jeder Ansatz knüpft sichtbar an ein Ziel aus Folie 19 und an einen Beleg aus Kapitel 2 an.
+
+*Optionale Vertiefungen:* Beteiligungsmodell im Schaubild (Carve-out, Investor mit
+Minderheit, Governance mit Reserved Matters, Dividendenpolitik, Exit) · Optionenspektrum mit
+Einschätzung inklusive Nachteilen · Investorenlandschaft institutionell gegen strategisch.
 
 ## 21 — Mehrwert des Hauses
 

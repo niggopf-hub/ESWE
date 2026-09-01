@@ -8,7 +8,7 @@ woher die Zahlen kommen und wo es schiefgeht.
 
 ---
 
-## 2.1 Unser Verständnis der Ausgangslage
+## 2.1 Ausgangslage
 
 **Zweck:** Die These des Kapitels setzen und zeigen, dass man das Haus verstanden hat.
 
@@ -42,21 +42,46 @@ Eigennamen. Bullets ohne Zahl wirken wie Werbetext.
 
 ---
 
-## 2.2 Kunden und Infrastruktur (Steckbrief)
+## 2.2 One Pager / Steckbrief
 
-**Zweck:** Substanz zeigen und die Ertragsstruktur offenlegen.
+**Zweck:** Das Unternehmen auf einer Seite greifbar machen — rechtlich, personell,
+wirtschaftlich, operativ. Der Leser soll die Gesellschaft danach einordnen können, ohne
+zurückblättern zu müssen.
 
-**Aufbau:** KPI-Kacheln; ein Ring mit dem Umsatzsplit und Summenbezug `100% ≙ ‹Summe›`;
-Erläuterungen zu den Erlösquellen; Titel als quantifizierte Aussage über die
-Ertragskonzentration.
+**Aufbau:** Eine zweispaltige Tabelle **Merkmal | Angabe**. Kein Fließtext, keine Bullets.
+Die Zeilen stehen in fester Reihenfolge, von der Rechtsform über die Eigentümer und Organe
+zu den Zahlen und zuletzt der Steuerungslogik. Das exakte Layout steht in
+`assets/tabellenlayouts.md`.
 
-**Kacheln — Standardsatz:** Umsatz, EBITDA, EBIT, EAT, Capex, Mitarbeiter, Kundenzahlen je
-Sparte, Netzlängen je Sparte. Jede Finanzkachel **mit Vorjahreswert**. Die Auswahl an den
-Fall anpassen: bei einem Netzbetreiber Netzlänge und Zählpunkte nach vorn, bei einem
-Vertrieb Kunden und Absatzmengen.
+Die Pflichtzeilen:
 
-**Woher:** Finanzkacheln aus dem Modell (`Overview FS`), operative Kacheln aus
-Geschäftsbericht und Website, Umsatzsplit aus der Umsatzaufgliederung im Anhang.
+| Zeile | Woher |
+|---|---|
+| Firma / Sitz | Handelsregister, Anschrift aus dem Abschluss |
+| Rechtsform / Register | Handelsregister mit Gericht und Nummer |
+| Aktionäre / Gesellschafter mit Quoten | Anhang, Handelsregister, Beteiligungsbericht |
+| Grundkapital / Stammkapital | Bilanz, Anhang |
+| Vorstand / Geschäftsführung | Anhang, Geschäftsbericht, Register |
+| Aufsichtsratsvorsitz | Anhang, Geschäftsbericht |
+| Mitarbeiter | Anhang (Ø Beschäftigte), Geschäftsbericht |
+| Kunden | Geschäftsbericht, Website |
+| Umsatz (zwei Jahre) | Modell |
+| EBT (zwei Jahre) | Modell |
+| Jahresüberschuss (zwei Jahre) | Modell |
+| Eigenkapital / EK-Quote | Modell, Lagebericht |
+| Absatzmengen je Sparte | Lagebericht |
+| Netz (Längen, Sparten) | Lagebericht, Geschäftsbericht |
+| Ergebnisverwendung | Anhang: EAV, Ausgleichszahlung, Ausschüttung |
+| Steuerungskennzahlen | Lagebericht, Abschnitt Steuerungssystem |
+
+**Warum die letzte Zeile dazugehört:** Sie nennt die Kennzahlen, mit denen das Unternehmen
+sich *selbst* steuert. Wer diese Größen in der übrigen Unterlage verwendet, spricht die
+Sprache des Adressaten. Wer EBITDA zeigt, wo das Haus mit EBT steuert, redet an ihm vorbei.
+Die Zeile ist damit weniger Deko als Anweisung für die Financial-Folie.
+
+**Detailtiefe:** Eine Zeile je Merkmal, bei Zahlen zwei Jahre nebeneinander. Wo eine Angabe
+mehrteilig ist (Aktionäre, Absatz), stehen die Teile durch Mittelpunkt getrennt in
+derselben Zelle, statt die Tabelle aufzublähen.
 
 **Fallstricke:**
 - **Mitarbeiterzahlen** weichen zwischen Abschluss (Gesellschaft) und Website (Gruppe) fast
@@ -65,9 +90,15 @@ Geschäftsbericht und Website, Umsatzsplit aus der Umsatzaufgliederung im Anhang
 - **Netzlängen** unterscheiden Trassen- und Leitungskilometer und beziehen sich oft auf die
   Netzgesellschaft, nicht auf die Muttergesellschaft — mit Stichtag und Gesellschaft
   ausweisen.
-- Bei Ergebnisabführungsvertrag: EAT vor Abführung zeigen, sonst steht dort fast null.
+- Bei Ergebnisabführungsvertrag: **Ergebnis vor Abführung** zeigen, sonst steht dort fast
+  null. Die Zeile Ergebnisverwendung erklärt, warum.
+- Grundkapital nicht mit Eigenkapital verwechseln — bei kommunalen Versorgern liegen
+  Kapitalrücklage und Gewinnrücklagen oft deutlich darüber.
 
----
+**Optionale Erweiterung.** Wo eine visuellere Fassung gewünscht ist, tritt an die Stelle der
+Tabelle die Kachelvariante: KPI-Kacheln mit Vorjahreswert, ein Umsatzring mit Summenbezug
+und die Erlösquellen als kurze Erläuterungen. Sie zeigt weniger, wirkt aber luftiger. Der
+Regelfall ist die Tabelle.
 
 ## 2.3 Beteiligungsstruktur
 
@@ -98,14 +129,27 @@ Beteiligungen bestehen").
 
 ---
 
-## 2.4 Investitionsbedarf
+## 2.4 Investitionshorizont
 
 **Zweck:** Die Schere zeigen — Teil 1. Die wichtigste Folie der Unterlage.
 
-**Aufbau:** Links Net Debt als Säulenreihe über fünf Jahre, darüber Net Debt / EBITDA als
-Faktoren. Rechts das Investitionsprogramm in typischerweise drei Schwerpunkten mit je einer
-Spalte konkreter Projekte. Dazwischen der Kernsatz im Kasten: Verschuldung tragfähig,
-**aber** reduzierter Spielraum für das Programm.
+**Aufbau:** Drei Teile, die zusammen den Horizont aufspannen — Vergangenheit, Gegenwart,
+Zukunft:
+
+- **Historie:** die Investitionen der letzten fünf Jahre, mit den Schwerpunkten des jüngsten
+  Jahres. Sie zeigt das gewohnte Niveau, gegen das der Ausblick abgesetzt wird.
+- **Verschuldung:** Net Debt als Säulenreihe, darüber Net Debt / EBITDA als Faktoren. Zwei
+  Größen, weil die absolute Zahl ohne Bezug nichts aussagt und die Relation ohne Absolutwert
+  nicht greifbar ist.
+- **Ausblick:** das Investitionsprogramm in typischerweise drei Schwerpunkten mit je einer
+  Spalte konkreter Projekte.
+
+Dazwischen der Kernsatz im Kasten: Verschuldung tragfähig, **aber** reduzierter Spielraum
+für das Programm.
+
+Die Historie ist der Teil, der oft weggelassen wird, und sie trägt das Argument: Ein
+Investitionsprogramm wirkt erst dann groß, wenn danebensteht, was das Haus bisher jährlich
+gestemmt hat. Ohne diesen Bezug ist jede Summe nur eine Zahl.
 
 **Woher:** Net-Debt-Reihe und Faktoren aus dem Modell; Investitionssumme aus dem
 Prognosebericht; Projekte aus Lagebericht, Website, Presse und kommunalen Beschlüssen.
@@ -128,17 +172,35 @@ Absichtserklärung.
 
 **Zweck:** Die Schere zeigen — Teil 2, und sie mit einem Satz schließen.
 
-**Aufbau:** Drei Blöcke nebeneinander — GuV (Umsatz, Rohertrag, Margen), Kapitalflussrechnung
-(operativ, Investitions-, Finanzierungs-, Total), Bilanzpositionen (Kassenbestand, Net Debt,
-EK-Quote) — je über denselben Fünfjahreszeitraum. Darunter ein Kommentarblock mit drei
-Sätzen in fester Rollenverteilung (siehe `storyline.md`).
+**Aufbau: drei Blöcke nebeneinander**, alle über denselben Fünfjahreszeitraum, darunter ein
+Kommentarblock.
 
-Wo die Detailtiefe größer sein soll, tritt statt der drei Blöcke eine **durchgehende
-Tabelle** auf, mit nummerierten Kreisen, die auf die Kommentare daneben verweisen. Das
-Layout dafür steht in `assets/tabellenlayouts.md`.
+| Block | Inhalt |
+|---|---|
+| **Ertragslage** | Umsatz und **Rohertrag** als Säulen, CAGR über der Reihe, Rohertragsmarge in Prozent über den Säulen |
+| **Finanzlage** | Cashflow aus laufender Geschäftstätigkeit, Investitions- und Finanzierungstätigkeit, dazu die Summe |
+| **Vermögenslage** | Finanzmittelfonds und Nettoverschuldung als Säulen, Eigenkapitalquote in Prozent darüber |
+
+Der erste Block ist der wichtigste und wird am häufigsten falsch gebaut: Es sind **Umsatz
+und Rohertrag**, nicht Umsatz und Ergebnis. Der Rohertrag ist bei einem Versorger die
+aussagekräftigere Größe, weil der Umsatz mit den Beschaffungspreisen schwankt, ohne dass
+sich am Geschäft etwas ändert. Zwei Reihen nebeneinander machen genau das sichtbar: Umsatz
+halbiert sich, Rohertrag bleibt — das ist die Entwarnung, die vor der schlechten Nachricht
+kommen muss.
+
+**Die Zeilenlogik folgt dem HGB-Einzelabschluss**, nicht der angelsächsischen Kennzahlen-
+kaskade. Also Betriebsergebnis, Beteiligungsergebnis, Zinsergebnis, Ergebnis vor Steuern —
+und nicht EBITDA-Marge, EBIT-Marge, EAT-Marge. Der Grund ist derselbe wie beim Steckbrief:
+kommunale Versorger steuern mit diesen Größen, und das Beteiligungsergebnis ist bei einem
+Querverbund keine Nebenposition, sondern oft die Hälfte des Ergebnisses. Wer es in einem
+EBITDA verschwinden lässt, verliert die halbe Ertragskraft aus dem Blick. Das vollständige
+Zeilengerüst steht in `assets/tabellenlayouts.md`.
 
 **Woher:** Ausschließlich aus dem Modell. Keine Zahl auf dieser Folie, die nicht in
 `Overview FS` steht.
+
+**Der Kommentar** hat drei Sätze in fester Rollenverteilung (siehe `storyline.md`):
+Ertragslage, dann Erklärung der Cashflow-Ausreißer, dann die Finanzierungslücke.
 
 **Fallstricke:**
 - **Ausreißer erklären.** Ein Cashflow-Sprung ohne Erklärung entwertet die Schlussfolgerung.
@@ -150,28 +212,55 @@ Layout dafür steht in `assets/tabellenlayouts.md`.
 - Der Schlusssatz bleibt vorsichtig ("scheint nicht … finanzierbar"). Die Mittelfristplanung
   ist nicht öffentlich; Sicherheit vorzutäuschen, lädt zum Widerspruch ein.
 - Einheiten: Mio. € auf der Folie, T€ im Modell. Umrechnung nur im Modell.
+- Diagramme sind think-cell-Objekte — Werte im Datenblatt eintragen, nicht neu bauen.
 
----
+**Optionale Erweiterung.** Wo mehr Detailtiefe gewünscht ist, tritt an die Stelle der drei
+Blöcke eine durchgehende Tabelle mit nummerierten Kreisen, die auf die Kommentare daneben
+verweisen. Auch sie folgt der HGB-Zeilenlogik. Layout in `assets/tabellenlayouts.md`.
 
-## 2.6 Strategische Stoßrichtungen
+## 2.6 Summary Kapitel 2 / Überleitung zu Kapitel 3
 
-**Zweck:** Die Brücke zu Kapitel 3 — Strategie bestätigen und ihren Kapitalbedarf zeigen.
+**Zweck:** Das Kapitel in einer Kernbotschaft bündeln und die Frage stellen, die Kapitel 3
+beantwortet. Diese Folie wird am häufigsten vergessen und ist die wichtigste des Kapitels —
+ohne sie fällt der Leser aus Kapitel 2 in Kapitel 3, ohne zu wissen, warum.
 
-**Aufbau:** Fünf bis sechs flache Zeilen, je ein Satz, je ein Themenfeld: Netze, Wärme,
-Erzeugung, Kunde/Vertrieb, Wasser oder Telekommunikation, Digitalisierung.
+**Aufbau:** Zwei Teile, klar getrennt.
 
-**Woher:** Lagebericht (Prognose- und Strategieteil), Geschäftsbericht, Website. **In der
-Sprache des Unternehmens**, nicht in eigener.
+1. **Die Kernbotschaft**, ein Absatz von drei bis fünf Sätzen, gebaut nach dem Doppelsatz des
+   Kapitels: erst die Stärke, dann das "steht aber am Beginn von", dann die Kräfte, die die
+   Innenfinanzierungskraft begrenzen. Sie referiert nichts Neues, sondern verdichtet, was auf
+   den Folien 12 bis 16 belegt wurde.
+2. **Die Leitfrage für Kapitel 3**, ein einziger Fragesatz im hervorgehobenen Kasten.
 
-**Detailtiefe:** Ein bis zwei Zeilen je Stoßrichtung, konkret genug, dass ein Vorstand sich
-wiedererkennt. Kein Bullet, der auf jedes Stadtwerk passt.
+Die Leitfrage ist das Scharnier der ganzen Unterlage. Sie hat eine feste Form: *Wie
+finanziert und organisiert ‹Gesellschaft› ‹das Investitionsprogramm› bei gleichzeitig
+‹bestehender Verpflichtung› und ‹bestehendem Ziel›?* Drei Bestandteile — das Vorhaben, die
+Verpflichtung, die Nebenbedingung. Wer nur das Vorhaben nennt, bekommt die Antwort "dann
+nehmen wir eben mehr Kredit auf". Erst die beiden anderen Teile machen sichtbar, dass es
+diesen Weg nicht gibt.
+
+**Woher:** Nichts Neues recherchieren. Alles steht bereits auf den Folien 12 bis 16 — die
+Verpflichtung aus dem Anhang (EAV, Ausgleichszahlung, Konzessionsabgabe), die Nebenbedingung
+aus dem Lagebericht (Ziel-EK-Quote, Rating, Kreditlinien).
+
+**Detailtiefe:** Eine Folie, kein Diagramm. Die Kernbotschaft darf dicht sein; die Leitfrage
+muss in einen Satz passen.
 
 **Fallstricke:**
-- Keine eigenen strategischen Empfehlungen. Diese Folie referiert, sie bewertet nicht — die
-  Bewertung kommt in Kapitel 3.
-- Kein Themenfeld auslassen, das im Geschäftsbericht prominent ist. Der Adressat merkt es.
+- **Keine neue Zahl.** Was hier steht, muss vorher belegt worden sein. Eine Zahl, die zum
+  ersten Mal in der Zusammenfassung auftaucht, wirkt nachgeschoben.
+- **Keine Lösung vorwegnehmen.** Die Folie endet mit einer Frage, nicht mit einem Vorschlag.
+  Sonst ist Kapitel 3 überflüssig, bevor es beginnt.
+- **Die Nebenbedingung nicht weglassen.** Sie ist der Teil, der den bequemen Ausweg
+  ausschließt, und genau deshalb der wichtigste.
+- Die Kernbotschaft nicht als Bullet-Liste setzen. Sie ist ein Absatz, weil sie einen
+  Zusammenhang behauptet und keine Aufzählung.
 
----
+**Optionale Erweiterung.** Wo das Unternehmen seine Strategie prominent kommuniziert, kann
+vor der Summary eine Folie **Strategische Stoßrichtungen** stehen: fünf bis sechs
+Themenfelder, je ein Satz, in der Sprache des Unternehmens. Sie bestätigt die Strategie und
+zeigt zugleich, dass jede einzelne Stoßrichtung Kapital bindet. Sie ersetzt die Summary
+nicht.
 
 ## Checkliste: was in Kapitel 2 nicht fehlen darf
 
