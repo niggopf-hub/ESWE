@@ -110,6 +110,12 @@ Architektur, Farbkonvention, Kontrollzeilen und Kennzahlendefinitionen:
   **jede Abweichung zwischen zwei Abschlüssen**. Vorjahreswerte werden regelmäßig
   umgegliedert; wer das nicht dokumentiert, wird im Termin darauf angesprochen.
 
+**Quelldateien bleiben unverändert.** Ein vorhandenes Modell wird nie an Ort und Stelle
+erweitert, sondern als neue Version kopiert (`…_v2.xlsx`) — ebenso Abschlüsse, Berichte und
+die Referenzunterlage. Wer eine Quelldatei überschreibt, nimmt dem Nutzer den Stand, gegen
+den er prüfen wollte, und macht die Änderung unsichtbar. Wenn eine Quelldatei doch angefasst
+werden muss, vorher sagen.
+
 **Zwischenstopp:** Kennzahlenübersicht (Umsatz, Rohertrag, EBITDA, Capex, Net Debt,
 Net Debt/EBITDA, EK-Quote, Cashflows) zeigen und plausibilisieren lassen.
 
@@ -242,6 +248,9 @@ Quellenzeilen.
 Quell-URLs und Zwischenständen auf der Folie, in 8 pt. Vor Übergabe alle Notizkästchen,
 Links und Klebezettel entfernen — auch die, die hinter einem Bild oder außerhalb des
 sichtbaren Bereichs liegen.
+
+**Quelldatei still überschrieben.** Modelle, Abschlüsse und die Referenzunterlage sind
+Belege, keine Arbeitsdateien. Änderungen gehören in eine neue Version mit eigenem Namen.
 
 **Neue Textboxen statt Platzhalter.** Führt zu falscher Schrift, verrutschten Rändern und
 einer Datei, die niemand mehr sauber weiterbearbeiten kann. Siehe Schritt 5.
