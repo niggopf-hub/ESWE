@@ -12,7 +12,7 @@
 | Profil | Alter | Update nötig? | Kernpunkte |
 |---|---|---|---|
 | **Inheco** | ~5 Monate | **Teilweise – "leichtes" Update** | Finanzzahlen (2020A–2024A) sind weiterhin die aktuellsten offengelegten Zahlen (JA 2025 noch nicht offengelegt). Neu seit Profilerstellung bzw. im Profil nicht enthalten: **Finanzierungsrunde durch Blue Cap + Egora (Feb. 2026)**, **Trading-Update H1 2026 (Aug. 2026)**, **Management/HR-Status (GF-Bestellung S. Williams 11/2025)**, Mitarbeiterzahl zu verifizieren. |
-| **SemiQuarz** | ~10,5 Monate | **Ja – substanzielles Update** | Profil zeigt Ergebnisse nur bis **2023**. **Die Jahresabschlüsse 2024 sind zwischenzeitlich offengelegt** (semiQuarz Holding GmbH: 20.01.2026; SemiQuartz Europe GmbH: 28.05.2026). Zusätzlich: Struktur-/Gesellschafter-/GF-Angaben und Standortkarte (Hinweise auf NL/USA) sind neu zu validieren. |
+| **SemiQuarz** | ~10,5 Monate | **Ja – substanzielles Update** | Profil zeigt Ergebnisse nur bis **2023**. **Die Jahresabschlüsse 2024 sind zwischenzeitlich offengelegt** (semiQuarz Holding GmbH: FY2024 festgestellt 22.05.2026, Auszug 29.05.2026 – **liegt vor, siehe 2.4**; SemiQuartz Europe GmbH: Offenlegung 28.05.2026). Zusätzlich: Struktur-/Gesellschafter-/GF-Angaben und Standortkarte (Hinweise auf NL/USA) sind neu zu validieren. |
 
 > **Wichtige Einschränkung zur Belastbarkeit:** In dieser Session sind Bundesanzeiger, Unternehmensregister, Handelsregister, North Data, Creditreform sowie die Unternehmenswebsites **durch die Netzwerk-Policy gesperrt** (Egress-Proxy, HTTP 403). Alle unten genannten Fakten stammen daher aus **Websuche-Treffern/Snippets**, nicht aus den Primärdokumenten. Sie sind als **Prüfliste** zu verstehen: Die mit "→ verifizieren" markierten Punkte müssen vor Verwendung in Markus/BvD, Bundesanzeiger bzw. Handelsregister nachgezogen werden.
 
@@ -76,7 +76,7 @@
 
 | Datenpunkt | Status | Befund / Quelle |
 |---|---|---|
-| **Ergebnisreihen (nur bis 2023)** | **Veraltet – Hauptpunkt** | **semiQuarz Holding GmbH: Jahresabschluss/Bilanz per 31.12.2024 am 20.01.2026 eingestellt.** **SemiQuartz Europe GmbH: jüngste Bilanz/Jahresabschluss am 28.05.2026 veröffentlicht.** Beides **nach** Profildatum (20.10.2025). → **FY2024-Ergebnisse für alle Einheiten nachziehen** und die Reihen auf 2022–2024 umstellen. |
+| **Ergebnisreihen (nur bis 2023)** | **Veraltet – Hauptpunkt; FY2024 der Holding liegt inzwischen vor (→ 2.4)** | **semiQuarz Holding GmbH: JA 01.01.–31.12.2024, festgestellt am 22.05.2026** (Unternehmensregister-Auszug vom 29.05.2026) – **Jahresüberschuss EUR 8,9 m**. **SemiQuartz Europe GmbH: jüngste Offenlegung 28.05.2026** (Geschäftsjahr noch zu verifizieren). Beides **nach** Profildatum (20.10.2025). → **FY2024 für alle Einheiten nachziehen** und die Reihen auf 2022–2024 umstellen. |
 | **SemiQuarz GmbH & Co. KG – nur ein Jahr (2021)** | **Lücke schließen** | Die operative Einheit wurde per Gesellschafterbeschluss **08/2024 in die SemiQuarz GmbH & Co. KG formgewechselt (eingetragen 13.09.2024, AG München HRA 119951)**; die alte SemiQuarz GmbH (HRB 121979) ist gelöscht. → Prüfen, welche Abschlüsse für 2022–2024 unter welcher Registernummer offengelegt sind; die einzelne 2021er-Zahl im Profil ist heute schwach. |
 | **Gesellschafterquoten** | **→ verifizieren** | Der Verkauf durch **Dietmar Henke** (Nachfolgeregelung, begleitet von der HWB-Gruppe) an das Umfeld **Hartmut Büsche/hmb Quarzglas** ist der Hintergrund der heutigen Struktur. Die im Profil gezeigten 49,0/48,4/2,6% sowie die 80%/20%-Angabe (Dr. Katja Henke) sind **gegen die aktuelle Gesellschafterliste** zu prüfen. |
 | **Geschäftsführung** | **→ verifizieren / Namensschreibweise** | Registerhinweise: **Jan-Felix Büsche** als Geschäftsführer mit Alleinvertretung eingetragen, **Thorsten Müller als GF (der operativen Einheit) abberufen** – er ist jedoch **GF der SemiQuartz Europe GmbH** (HRB 1431 SB, AG Lübeck). **Ann-Dorothée Büsche-Maurer** (im Profil als "Ann-Dorothée Büsche") ist **GF der SemiQuarz Beteiligungsgesellschaft mbH** und **Prokuristin der semiQuarz Holding GmbH**. → Namen/Funktionen im Profil präzisieren. |
@@ -94,6 +94,41 @@
 3. **Standorte:** um etwaige Auslandsstandorte (NL/USA) bzw. Vertriebspräsenzen ergänzen – oder Fußnote "Produktionsstandorte Deutschland".
 4. **Fußnote 1)** ("indicative, no complete corporate structure and consolidated financials available") beibehalten, aber um die neu identifizierten Einheiten (Besitz-KG, SAJ) erweitern bzw. deren Nichtberücksichtigung begründen.
 
+
+### 2.4 Primärquelle ausgewertet: semiQuarz Holding GmbH, JA 2024
+
+Grundlage: Auszug aus dem Unternehmensregister vom 29.05.2026, Jahresabschluss 01.01.–31.12.2024, festgestellt am 22.05.2026 (Anhang unterzeichnet Elmenhorst, 30.06.2025). Größenklasse: **kleine Kapitalgesellschaft (§ 267 HGB)** – **keine GuV offengelegt**, Erleichterungen nach §§ 266 Abs. 1, 276, 288 HGB in Anspruch genommen.
+
+| EUR | 31.12.2024 | 31.12.2023 |
+|---|---:|---:|
+| **Jahresüberschuss** | **8.893.529,91** | **928.089,37** |
+| Gewinnvortrag | 3.706.752,14 | 7.160.162,77 |
+| Gezeichnetes Kapital | 980.000,00 | 980.000,00 |
+| **Eigenkapital** | **13.580.282,05** | 9.068.252,14 |
+| Bilanzsumme | 14.625.561,77 | 9.426.249,86 |
+| Anlagevermögen (davon Finanzanlagen) | 6.093.079,64 (4.635.770,23) | 7.031.381,48 (5.696.855,52) |
+| Forderungen und sonstige VG | 4.118.255,32 | 428.034,94 |
+| Liquide Mittel | 4.411.965,58 | 1.963.656,71 |
+| Rückstellungen | 903.697,68 | 63.677,80 |
+| Verbindlichkeiten | 139.525,04 | 294.319,92 |
+| Ø Arbeitnehmer | 6 | 5 |
+
+**Der 2023er-Wert (0,9 EURm) bestätigt die Profilangabe** – die Methodik der bestehenden Reihe ist damit verifiziert: gezeigt wird der **Jahresüberschuss des HGB-Einzelabschlusses**.
+
+**Einordnung des 2024er-Werts (wichtig vor Übernahme in die Folie):**
+- **Ausschüttung 2024: EUR 4.381.500,00** (Gewinnvortrag 2023 7.160.162,77 + JÜ 2023 928.089,37 ./. Gewinnvortrag 2024 3.706.752,14). EK-Brücke geht exakt auf: 9.068.252,14 + 8.893.529,91 − 4.381.500,00 = 13.580.282,05.
+- Der Sprung des Jahresüberschusses von 0,9 auf 8,9 EURm ist **kein operatives Holding-Ergebnis**. Bilanzbewegungen deuten auf Ergebniszufluss aus dem Konzern: **Forderungen gegen verbundene Unternehmen 3.986.468,67 EUR** (Forderungen gesamt +3,7 EURm), **Liquidität +2,4 EURm**, **Finanzanlagen −1,06 EURm**, **Rückstellungen +0,84 EURm** (mutmaßlich Steuern). Naheliegende – **zu verifizierende** – Erklärung: Gewinnanteil/Ausschüttung der operativen Einheit (seit dem Formwechsel 09/2024 GmbH & Co. KG, Gewinnanteil des Kommanditisten wird beim Gesellschafter ergebniswirksam) und/oder ein Einmaleffekt aus dem Abgang von Finanzanlagen. Ohne offengelegte GuV nicht aus dem Abschluss ableitbar.
+- **Konsequenz für die Folie:** „2024: EUR 8,9 m" für die Holding **nicht unkommentiert** neben 2022/2023 stellen – sonst wird ein Einmal-/Durchleitungseffekt als Ergebnissprung gelesen und mit den Ergebnissen der Schwestergesellschaften doppelt gezählt. Entweder Fußnote („enthält Ergebnisübernahmen aus verbundenen Unternehmen") oder die Holding-Reihe zugunsten der operativen Einheit zurückstellen.
+
+**Weitere Erkenntnisse aus dem Abschluss:**
+- **Geschäftsführer im GJ 2024: Hartmut Büsche und Thorsten Müller**, jeweils alleinvertretungsberechtigt und von § 181 BGB befreit. Die Management-Box des Profils (Ann-Dorothée Büsche, Jan-Felix Büsche) bildet damit **nicht die Holding-Ebene** ab – Ebene und Stand klarstellen.
+- **Holding-Ebene hat nur 6 Mitarbeiter (VJ 5)** – die ~140 Mitarbeiter sitzen in den operativen Einheiten.
+- Sitz laut Auszug: **Elmenhorst (Kreis Herzogtum Lauenburg) OT Lanken**. Der Anhang nennt „HRB 13686 SB", die Registerangabe lautet HRB 13686 HL – Schreibfehler im Anhang, für die Folie unerheblich.
+- Keine Verbindlichkeiten gegenüber Kreditinstituten; sonstige finanzielle Verpflichtungen nur aus Immobilienmietverträgen (81,1 TEUR < 1 Jahr; 111,6 TEUR 1–5 Jahre).
+- Forderungen gegen Gesellschafter 24.479,37 EUR, Verbindlichkeiten gegenüber Gesellschaftern 1.011,21 EUR (§ 42 GmbHG).
+
+**Damit noch offen:** SemiQuartz Europe GmbH FY2024, SemiQuarz GmbH & Co. KG (2022/2023/2024, ggf. unter alter HRB 121979) sowie SemiQuarz Besitz GmbH & Co. KG.
+
 ---
 
 ## 3. To-dos in Primärquellen (in dieser Session nicht zugänglich)
@@ -101,7 +136,7 @@
 | # | Quelle | Was genau ziehen |
 |---|---|---|
 | 1 | Bundesanzeiger / Unternehmensregister | **Inheco GmbH**: prüfen, ob JA 2025 bereits offengelegt (sonst Frist 31.12.2026); aus JA 2024 die durchschnittliche Arbeitnehmerzahl. |
-| 2 | Bundesanzeiger / Unternehmensregister | **semiQuarz Holding GmbH (HRB 13686 HL)**, **SemiQuartz Europe GmbH (HRB 1431 SB)**, **SemiQuarz GmbH & Co. KG (HRA 119951)**, ggf. **SemiQuarz Besitz GmbH & Co. KG (HRA 119892)**: JA 2024 (und ggf. 2025) inkl. Jahresüberschuss, Bilanzsumme, EK, Mitarbeiter. |
+| 2 | Unternehmensregister (GJ ab 2022) / Bundesanzeiger (GJ bis 2021) | **semiQuarz Holding GmbH (HRB 13686 HL): erledigt, siehe 2.4.** Offen: **SemiQuartz Europe GmbH (HRB 1431 SB)**, **SemiQuarz GmbH & Co. KG (HRA 119951)** – für 2022/2023 auch unter der gelöschten **HRB 121979** suchen, ggf. **SemiQuarz Besitz GmbH & Co. KG (HRA 119892)**: JA 2024 (und ggf. 2025) inkl. Jahresüberschuss, Bilanzsumme, EK, Mitarbeiter. |
 | 3 | Handelsregister (AG München / AG Lübeck) | Aktuelle **Chronologische Auszüge + Gesellschafterlisten** beider Gruppen (GF/Prokura/Quoten, Sitzverlegung der semiQuarz Holding). |
 | 4 | Markus – Bureau van Dijk | Gegencheck Finanzkennzahlen und Beteiligungsstruktur (Quelle ist bereits in beiden Profilen zitiert). |
 | 5 | Blue Cap IR | **Geschäftsbericht 2025** (Ende April 2026) und **Halbjahresbericht 2026** (Aug. 2026) für die wörtlichen Inheco-Passagen; Q1-2026-Newsletter für die Finanzierungsmeldung. |
@@ -123,7 +158,8 @@
 - analytica 2026 Ausstellerprofil: https://exhibitors.analytica.de/exhibitor-portal/2026/list-of-exhibitors/exhibitordetails/inheco-gmbh/
 
 **SemiQuarz**
-- semiQuarz Holding GmbH (HRB 13686 HL, Elmenhorst; JA 31.12.2024 eingestellt 20.01.2026): https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/3954070 · https://www.registercheck.de/companies/semiquarz-holding-gmbh-15346
+- **semiQuarz Holding GmbH – Jahresabschluss 01.01.–31.12.2024, Auszug aus dem Unternehmensregister vom 29.05.2026 (Primärquelle, vom Auftraggeber bereitgestellt: `Luebeck_HRB_13686_01.09.2026.pdf`)**
+- semiQuarz Holding GmbH (HRB 13686 HL, Elmenhorst) – Sekundärquellen: https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/3954070 · https://www.registercheck.de/companies/semiquarz-holding-gmbh-15346
 - SemiQuartz Europe GmbH (HRB 1431 SB, GF Thorsten Müller; jüngste Bilanz 28.05.2026): https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/2762781
 - SemiQuarz GmbH & Co. KG (AG München HRA 119951; Formwechsel eingetragen 13.09.2024): https://www.companyhouse.de/SemiQuarz-GmbH-Allershausen · https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/5404293
 - SemiQuarz Besitz GmbH & Co. KG (HRA 119892, Allershausen): https://firmeneintrag.creditreform.de/85391/8350424979/SEMIQUARZ_BESITZ_GMBH_CO_KG
