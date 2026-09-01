@@ -24,6 +24,14 @@ Die wichtigste Quelle. Für einen kommunalen Versorger sind das in der Regel **J
 Tätigkeitsabschlüsse nach EnWG** — also Einzelabschluss plus die getrennten Rechnungskreise
 für Elektrizitäts- und Gasverteilung, Messstellenbetrieb und sonstige Tätigkeiten.
 
+**Dem Dateinamen nicht trauen.** Registerportale benennen ihre Auszüge oft nach der
+Registernummer und dem Abrufdatum (`Ort_HRB_12345_TT.MM.JJJJ.pdf`) — der Inhalt ist aber der
+Jahresabschluss eines bestimmten Geschäftsjahres, nicht der Registerauszug. Welches Jahr
+drinsteht, sagt die erste Seite: dort stehen "Tag der Erstellung" und "Jahresabschluss zum
+Geschäftsjahr vom … bis …". Vier gleich benannte Dateien für vier Jahre sind der Normalfall.
+Jede Datei einmal öffnen und nach Geschäftsjahr umbenennen, bevor irgendetwas daraus
+übernommen wird.
+
 Praktisch wichtig: **jeder Abschluss enthält das Geschäftsjahr und das Vorjahr.** Für eine
 Fünfjahresreihe brauchst du also vier Abschlüsse, nicht fünf. Beim Herunterladen die Datei
 nach Geschäftsjahr benennen — die Portale vergeben nichtssagende Namen, und vier Dateien mit
@@ -47,6 +55,19 @@ unverzichtbar.
 
 Wo Geschäftsbericht und Abschluss dasselbe Jahr abdecken, ist der **Abschluss maßgeblich**;
 der Geschäftsbericht rundet und stellt teils die Gruppe statt der Gesellschaft dar.
+
+Zwei Dinge, die man leicht übersieht:
+
+- **Der Geschäftsbericht enthält oft den vollständigen Jahresabschluss** des jüngsten Jahres —
+  Bilanz, GuV, Anhang, Anteilsbesitz und Bestätigungsvermerk. Dann ist er für dieses Jahr
+  keine Sekundärquelle, sondern die Primärquelle, und die Zeitreihe reicht ein Jahr weiter als
+  gedacht. Vor dem Zitieren aus Auszügen einmal das Inhaltsverzeichnis prüfen.
+- **Die Tabellen sind häufig als Bild eingebettet.** Textextraktion liefert dann nichts oder
+  Bruchstücke, und es sieht so aus, als fehlten die Zahlen. Die betreffenden Seiten als Bild
+  rendern und lesen, statt die Quelle als unbrauchbar abzuhaken.
+- **Auch innerhalb eines Berichts gibt es Widersprüche.** Es kommt vor, dass dieselbe Position
+  an drei Stellen (Lagebericht, Bilanz, Anhang) drei leicht verschiedene Werte trägt. Der
+  geprüfte Anhangwert gewinnt; die Abweichung wird dokumentiert.
 
 ### Handelsregister
 

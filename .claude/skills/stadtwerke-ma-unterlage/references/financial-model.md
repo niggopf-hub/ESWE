@@ -138,7 +138,16 @@ in einer Fußnote nennen.
 
 Pensionsrückstellungen gehören hinein, weil sie bei kommunalen Versorgern erheblich sind
 und wie Fremdkapital wirken. Verbundene Unternehmen werden **saldiert**, weil
-Cash-Pooling-Salden innerhalb des Stadtkonzerns sonst die Verschuldung verzerren. Wenn du
+Cash-Pooling-Salden innerhalb des Stadtkonzerns sonst die Verschuldung verzerren.
+
+**Vorsicht bei Ergebnisabführungsvertrag.** Wo ein EAV besteht, stecken die noch nicht
+gezahlte Gewinnabführung und die Ausgleichszahlung an den Minderheitsgesellschafter in den
+Verbindlichkeiten gegenüber verbundenen und Beteiligungsunternehmen. Nach der Formel oben
+wandern sie damit in die Nettoverschuldung — obwohl sie Ergebnisverwendung sind und kein
+Fremdkapital. Der Faktor wird dadurch systematisch zu hoch. Praktikabel ist, eine engere
+Definition auf die Folie zu nehmen (Bankverbindlichkeiten + Pensionsrückstellungen ./.
+liquide Mittel) und die weitere Definition in der Fußnote mitzugeben. Wichtig ist nur, dass
+die gewählte Definition über alle Jahre gleich gerechnet und offen genannt ist. Wenn du
 von dieser Definition abweichst, muss die Fußnote das sagen — und die Reihe muss über alle
 Jahre konsistent gerechnet sein.
 
@@ -155,7 +164,16 @@ Jahre konsistent gerechnet sein.
 | EK-Quote | Eigenkapital / Bilanzsumme — Definition des Unternehmens prüfen |
 | Capex | Investitionen in Sach- und immaterielles Anlagevermögen; Finanzanlagen getrennt |
 
-Zwei Fallstricke, die bei kommunalen Versorgern regelmäßig auftreten:
+Drei Fallstricke, die bei kommunalen Versorgern regelmäßig auftreten:
+
+- **EBITDA mit oder ohne Beteiligungsergebnis.** Wo ein erheblicher Teil des Ergebnisses aus
+  Beteiligungen stammt — bei Querverbund-Versorgern oft die Hälfte des Vorsteuerergebnisses —
+  klaffen die Definitionen weit auseinander: das Unternehmen rechnet das Beteiligungsergebnis
+  häufig ein, die Deck-Konvention (Betriebsergebnis + Abschreibungen) lässt es draußen. Der
+  Unterschied schlägt voll auf den Verschuldungsfaktor durch und kann ihn glatt halbieren.
+  Beide Reihen rechnen, auf der Folie eine zeigen, die andere in die Fußnote — und die
+  Entscheidung, welche nach vorn gehört, mit dem Nutzer abstimmen. Nur eine Reihe zu zeigen
+  macht die Folie angreifbar, sobald der Adressat mit seiner eigenen Definition gegenrechnet.
 
 - **EAT vor Ergebnisabführung.** Wo ein Ergebnisabführungsvertrag besteht, ist der
   Jahresüberschuss nach Abführung nahe null und als Ertragsmaß wertlos. Die Ertragskraft
@@ -189,6 +207,15 @@ Einheiten innerhalb einer Mappe sind die häufigste Ursache für Zahlendreher um
 Bei Versorgern liegt das Netzgeschäft oft in einer eigenen Gesellschaft, die einen eigenen
 Abschluss offenlegt. Dann bekommt jede Gesellschaft ihren eigenen Satz Input-Blätter mit
 Präfix (`EVU Bilanz`, `Netz Bilanz`), und `Overview` zeigt beide Blöcke untereinander.
+
+**Der Blindfleck, den das erzeugt.** Wo eine Tochter einen eigenen Abschluss hat, dessen
+Zahlen aber nicht vorliegen, fehlt ihr Investitionsbedarf vollständig in der Darstellung.
+Bei Versorgern trifft das typischerweise das Stromnetz: die Netzgesellschaft trägt die
+größten Investitionen der nächsten Jahre, und der Einzelabschluss der Mutter zeigt davon
+nichts. Der tatsächliche Kapitalbedarf der Gruppe ist dann höher als das, was auf der Folie
+steht — und das gehört ausdrücklich gesagt, in einer Fußnote oder einem Kommentarsatz.
+Sonst argumentiert die Unterlage gegen sich selbst: der Adressat weiß, was in seiner
+Netztochter liegt.
 
 **Nicht addieren.** Ohne Konsolidierung führt eine Summe zu Doppelzählungen bei
 Innenumsätzen, Pacht und Ergebnisabführung. Die Blöcke stehen nebeneinander, und die Folie

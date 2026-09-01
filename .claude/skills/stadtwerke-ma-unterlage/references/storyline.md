@@ -235,6 +235,14 @@ Der Kommentar hat drei Sätze in fester Rollenverteilung:
 Wichtig ist die Reihenfolge: erst erklären, dann schließen. Die Folie führt den Leser durch
 seine eigenen Zahlen, bevor sie eine Konsequenz zieht.
 
+**Der stärkste verfügbare Beleg: das Unternehmen sagt es selbst.** Lageberichte enthalten
+häufig einen Satz, in dem die Gesellschaft die Schlussfolgerung selbst zieht — etwa dass
+klassische Bankdarlehen angesichts der Dimension der Energiewende künftig nicht mehr
+ausreichen, oder dass eine Stärkung des Eigenkapitals erforderlich ist. Wo ein solcher Satz
+existiert, gehört er wörtlich zitiert und mit Fundstelle belegt. Er ist jeder eigenen
+Formulierung überlegen: die Unterlage behauptet dann nichts über den Adressaten, sondern
+nimmt ihn beim Wort. Danach gezielt suchen, bevor man selbst formuliert.
+
 **BELEG ‹variabel›:** alle Zeitreihen, Margen, Cashflow-Größen, die Erklärung der Ausreißer,
 Sondereffekte. Sondereffekte gehören ausdrücklich benannt — ein Rekordjahr aus
 Rückstellungsauflösungen ist kein nachhaltiges Ergebnisniveau, und wer das verschweigt,
