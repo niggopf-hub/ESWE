@@ -1,24 +1,18 @@
 ---
 name: stadtwerke-ma-unterlage
 description: >-
-  Erstellt M&A-/Corporate-Finance-Unterlagen zu kommunalen Versorgern, Stadtwerken,
-  Energieversorgern und Netzgesellschaften nach dem Haus-Bogen "Überlegungen zur
-  Kapitalflexibilisierung durch Einbindung privater Investoren" — von der Recherche in
-  Unternehmensregister, Geschäftsbericht und Handelsregister über das Financial Model in
-  Excel bis zur fertigen PowerPoint, die aus der letzten Unterlage abgeleitet und in deren
-  vorhandene Textboxen geschrieben wird. Diesen Skill unbedingt verwenden, sobald ein
-  Stadtwerk, ein kommunaler Versorger, ein Energieversorger, eine Stadtwerke-Holding oder
-  ein Verteilnetzbetreiber genannt wird und irgendetwas in Richtung Unterlage,
-  Präsentation, Pitch, Deck, Foliensatz, Analyse, Steckbrief, One Pager, Profil,
-  Unternehmensübersicht, Beteiligungsstruktur, Investitionsbedarf, Verschuldung,
-  Kapitalflexibilisierung, Investorenansprache, Handlungsoptionen oder Storyline gefragt
-  ist. Auch bei beiläufigen und unvollständigen Formulierungen auslösen — "mach mir mal
-  was zu den Stadtwerken X", "schau dir die Zahlen von Y an", "wir haben Termin bei Z",
-  "so eine Unterlage wie beim letzten Mal", "bau mir Kapitel 2", "Financials für den
-  Versorger", "wer sind die Gesellschafter von …" — und ebenso, wenn Jahresabschlüsse aus
-  dem Unternehmensregister, ein Geschäftsbericht, ein HRB-Auszug oder ein Financial Model
-  eines Versorgers im Projekt liegen. Auch für Teilaufgaben verwenden (nur Storyline, nur
-  Financials, nur Beteiligungsstruktur, nur eine einzelne Folie).
+  Erstellt M&A-Unterlagen zu kommunalen Versorgern, Stadtwerken, Energieversorgern und
+  Netzgesellschaften nach dem Bogen "Kapitalflexibilisierung durch Einbindung privater
+  Investoren" — von der Recherche in Unternehmensregister und Geschäftsbericht über das
+  Financial Model bis zur PowerPoint, die aus der letzten Unterlage abgeleitet und in deren
+  vorhandene Boxen geschrieben wird. Unbedingt verwenden, sobald ein Stadtwerk, kommunaler
+  Versorger oder Netzbetreiber genannt wird und es um Unterlage, Präsentation, Pitch, Deck,
+  Foliensatz, Steckbrief, One Pager, Beteiligungsstruktur, Investitionsbedarf, Verschuldung,
+  Kapitalflexibilisierung, Investorenansprache, Handlungsoptionen oder Storyline geht. Auch bei
+  beiläufigen Formulierungen auslösen ("mach mal was zu den Stadtwerken X", "schau dir die
+  Zahlen von Y an", "Unterlage wie beim letzten Mal", "bau mir Kapitel 2") und wenn
+  Jahresabschlüsse eines Versorgers im Projekt liegen. Auch für Teilaufgaben: nur Storyline, nur
+  Financials, nur eine Folie.
 ---
 
 # Unterlage kommunaler Versorger — Kapitalflexibilisierung
