@@ -251,3 +251,180 @@ Diese Unternehmen gehören nicht zu den zehn recherchierten Häusern, wurden auf
 - **Oliver Wyman, Roland Berger, Ankura:** Herkunft war leer. Richtig ist „Firmenschema" – Oliver Wyman und Roland Berger mit je drei veröffentlichten Formatbelegen, Ankura mit nur einem.
 - **Stifel:** Der Seitenkopf nennt als Bereich „Business Services", der Bio-Text „Diversified Industries Investment Banking Group".
 - **FTI Andersch:** Ergänzung zur Position – Säuberlich ist zugleich Country Leader DACH bei FTI Consulting.
+
+
+---
+
+# Zweite Tranche: acht weitere Häuser (Stand 01.09.2026)
+
+> **Einschränkung dieser Tranche – bitte lesen.** Der Auftrag war, alles über die offiziellen Websites zu prüfen. Das ist in dieser Session **nicht möglich**: Die Egress-Policy der Organisation blockiert jeden Zugriff auf externe Hosts (Proxy antwortet mit 403 auf CONNECT; getestet mit WebFetch und curl, Chromium liefe über denselben Proxy). Die README des Agent-Proxy weist ausdrücklich an, solche Policy-Denials zu melden statt sie zu umgehen. Alle Angaben unten stammen daher aus Suchmaschinen-Auswertungen der jeweils verlinkten Originalquellen. **Keine einzige Adresse dieser Tranche ist durch Aufruf der Seite verifiziert.** Wie der Freigabeweg aussieht, steht am Ende.
+
+## 11. Cedra
+
+| Feld | Inhalt |
+|---|---|
+| Unternehmen | Cedra Group / Cedra Sverige AB |
+| Kontakt | Pontus Tonning |
+| Position | Chief Executive Officer, Cedra Group (zuvor Assurance Leader PwC Schweden) |
+| E-Mail | pontus.tonning@cedra.se |
+| E-Mail-Status | Veröffentlicht laut Suchtreffer (Kontaktangabe mit Mobilnummer) – Seite nicht geöffnet |
+| Anrede | Herr |
+| Address | Torsgatan 21, 113 97 Stockholm, Schweden (T +46 10 212 40 00) |
+| Land | Schweden |
+| Region | Europa |
+| Website | https://cedragroup.se |
+| Kontaktquelle | https://cedragroup.se · https://tidningenbalans.se/artikel/pontus-tonning-cedra-vill-vara-ledande-och-ha-de-basta-revisorerna · https://adelisequity.com/investments/cedra/ |
+| Kommentar | **Kein deutsches Büro und kein deutscher Partner.** Cedra ist ein Anfang 2025 gegründeter nordischer Konsolidierer: Zusammenschluss der fünf schwedischen Gesellschaften Allians, Crowe Osborne, Frejs Revisorer, RSM Göteborg und Qrev mit Adelis Equity Partners als Minderheitsgesellschafter, danach Carve-out von PwC Schwedens SME-Prüfungs- und Beratungsgeschäft (über 270 Mitarbeiter), Expansion nach Norwegen (Deloitte-Carve-out) und Dänemark. Als aktiver Käufer ist der Group CEO die richtige Ebene. Mobil +46 709 29 12 12. |
+
+## 12. Cherry Bekaert
+
+| Feld | Inhalt |
+|---|---|
+| Unternehmen | Cherry Bekaert Advisory LLC / Cherry Bekaert LLP |
+| Kontakt | Michelle Loyd Thompson |
+| Position | Chief Executive Officer (seit 2022), Mitglied des Executive Board |
+| E-Mail | michelle.thompson@cbh.com |
+| E-Mail-Status | **Schwach belegt – vor Versand prüfen** |
+| Anrede | Frau |
+| Address | 3800 Glenwood Ave, Raleigh, NC 27612, USA |
+| Land | USA |
+| Region | Amerika |
+| Website | https://www.cbh.com |
+| Kontaktquelle | https://www.cbh.com/professional/michelle-loyd-thompson/ |
+| E-Mail-Quelle | Kein offizieller Beleg. Format First.Last@cbh.com stammt aus einem Aggregator (SOP Stufe C) und wird dort nur für 37 % der Adressen angegeben. Zusätzlich unklar, ob der Zweitname „Loyd" in der Adresse auftaucht. Offizieller Weg: https://www.cbh.com/contact/find-a-press-contact/ |
+| Kommentar | **Kein europäisches Büro.** Reine US-Firma (Top-25 CPA- und Advisory-Haus), Hauptsitz 1991 von Charlotte nach Richmond, inzwischen nach Raleigh verlegt; Richmond bleibt großer Standort (200 S 10th St, Ste 900, Richmond, VA 23219). Zehn neue Partner zum 01.01.2026. |
+
+## 13. DJH (vormals DJH Mitten Clarke)
+
+| Feld | Inhalt |
+|---|---|
+| Unternehmen | DJH / DJH Holding Group (bis April 2024 „DJH Mitten Clarke") |
+| Kontakt | Scott Heath |
+| Position | Chief Executive Officer |
+| E-Mail | info@djh.co.uk |
+| E-Mail-Status | **Allgemeiner offizieller Kontakt** (Stufe D) |
+| Anrede | Herr |
+| Address | The Glades, Festival Way, Festival Park, Stoke-on-Trent, Staffordshire ST1 5SQ, UK (T +44 1782 279615) |
+| Land | Vereinigtes Königreich |
+| Region | Europa |
+| Website | https://www.djh.co.uk |
+| Kontaktquelle | https://www.djh.co.uk/team/scott-heath/ · https://www.djh.co.uk/about-us/ |
+| E-Mail-Quelle | https://www.djh.co.uk/offices/stoke-on-trent/. Persönliches Schema unbelegt; belegt sind nur Standortadressen wie `bexley@djh.co.uk`. |
+| Kommentar | **Kein deutsches Büro.** 2021 aus der Fusion der Staffordshire-Gesellschaften Mitten Clarke und DJH entstanden, seit April 2024 nur noch „DJH". Sehr aktiver Konsolidierer, PE-gestützt (Tenzing), rund 900 Mitarbeiter an 19 Standorten in UK und Irland, allein bis April 2024 neun Praxisübernahmen. **Alternative und für eine Verkaufsansprache oft der direktere Weg:** Richard Crook, Mergers and Acquisitions Director. |
+
+## 14. Grant Thornton
+
+| Feld | Inhalt |
+|---|---|
+| Unternehmen | Grant Thornton AG Wirtschaftsprüfungsgesellschaft (Deutschland) |
+| Kontakt | Prof. Dr. Heike Wieland-Blöse |
+| Position | **Sprecherin des Vorstands / CEO Grant Thornton Deutschland** |
+| E-Mail | heike.wieland-bloese@de.gt.com |
+| E-Mail-Status | **Aus Firmenformat abgeleitet; Umlaut-Schreibweise unbestätigt** |
+| Anrede | Frau |
+| Address | Johannstraße 39, 40476 Düsseldorf (T +49 211 9524 0) |
+| Land | Deutschland |
+| Region | Europa |
+| Website | https://www.grantthornton.de |
+| Kontaktquelle | https://www.grantthornton.de/en/presse/ · https://www.grantthornton.de/en/imprint/ |
+| E-Mail-Quelle | Firmenschema `vorname.nachname@de.gt.com` mit **zwei** Belegen: `willi.keipper@de.gt.com` (Manager PR & Corporate Communications) und `mandy.zingsem@de.gt.com` (IT-Consulting). Rückfall: `request@de.gt.com`. |
+| Kommentar | **Achtung Domain:** Die Maildomain ist `de.gt.com`, nicht `grantthornton.de`. Rund 2.000 Mitarbeiter an zehn Standorten, unter den zehn größten Prüfungsgesellschaften Deutschlands; Sitz ist Düsseldorf, nicht Frankfurt. Seit Februar 2026 neuer CFO/COO: Martin Biegel. Offen bleibt die Transliteration von „Blöse" – `bloese` ist die naheliegende, aber unbelegte Variante. |
+
+## 15. Kroll
+
+| Feld | Inhalt |
+|---|---|
+| Unternehmen | Kroll, Standort Deutschland |
+| Kontakt | Andreas Fluhrer |
+| Position | Managing Director, **Co-Head of Restructuring Europe**, München |
+| E-Mail | Andreas.Fluhrer@kroll.com |
+| E-Mail-Status | **Aus Firmenformat abgeleitet, ein Beleg** |
+| Anrede | Herr |
+| Address | Kroll, Büro München – Straßenanschrift nicht belegt |
+| Land | Deutschland |
+| Region | Europa |
+| Website | https://www.kroll.com |
+| Kontaktquelle | https://www.kroll.com/en/our-team/andreas-fluhrer · https://www.consultancy.eu/news/11506/aurelio-garcia-miro-and-andreas-fluhrer-to-co-lead-krolls-restructuring-arm |
+| E-Mail-Quelle | Firmenschema `Vorname.Nachname@kroll.com`, belegt durch `Emma.Thompson@kroll.com` in einer offiziellen Kroll-Pressemitteilung. Sammelkanal: `mediarelations@kroll.com`. |
+| Kommentar | **Wichtiger Personalwechsel:** Andreas Stoecklin, bis dahin Country Leader Germany und Head of EMEA Corporate Finance, ist zu FTI Consulting gewechselt und dort bei FTI-Andersch als M&A-/Transaktionsexperte gemeldet. In den Quellen hat Kroll Deutschland damit keinen ausgewiesenen Country Head mehr; Fluhrer ist der ranghöchste deutsche Restrukturierungspartner (Co-Lead Europa gemeinsam mit Aurelio Garcia-Miro, zuvor FTI Consulting, McKinsey RTS und A&M). Telefon +49 89 388884016. Die Münchner Straßenanschrift war über die Suche nicht sauber isolierbar – zu viele Namensgleichheiten mit anderen „Kroll GmbH". |
+
+## 16. Province
+
+| Feld | Inhalt |
+|---|---|
+| Unternehmen | StoneTurn Group (Germany) GmbH – a Province company |
+| Kontakt | Julia Arbery |
+| Position | Partner DACH, StoneTurn; leitet das Frankfurter Team |
+| E-Mail | julia.arbery@stoneturn.com |
+| E-Mail-Status | **Schwach belegt – vor Versand prüfen** |
+| Anrede | Frau |
+| Address | Bockenheimer Landstraße 17/19, Excellent Business Center, 60325 Frankfurt am Main (T +49 69 710 455 457) – Registeranschrift abweichend: Bockenheimer Landstraße 2-4, 60306 Frankfurt |
+| Land | Deutschland |
+| Region | Europa |
+| Website | https://provincefirm.com (deutsche Einheit: https://stoneturn.com) |
+| Kontaktquelle | https://stoneturn.com/de-en/stoneturn-spotlight-julia-arbery/ · https://www.presseportal.de/pm/159706/5062963 · Handelsregister HRB 107960 (AG Frankfurt) |
+| E-Mail-Quelle | Kein Beleg für ein Personenschema auf stoneturn.com; belegt ist nur `press@stoneturn.com`. |
+| Kommentar | **Die deutsche Präsenz ist neu und entstand nur durch M&A.** Province (gegründet 2008, Sitz Las Vegas, geführt von den Principals Peter Kravitz und Paul Huygens, Kapital von Trivest Partners) hat StoneTurn im Februar 2026 übernommen; die kombinierte Firma hat 300+ Professionals an 19 Standorten. Über Zukäufe entscheidet Province in den USA – nach SOP Abschnitt 2 also: **Entscheider in den USA, deutscher Anknüpfungspunkt über StoneTurn Frankfurt.** Kristof Wabl, der StoneTurns DACH-Aufbau mitgetragen hat, ist inzwischen bei AlixPartners – nicht mehr als Kontakt verwenden. |
+
+## 17. Teneo
+
+| Feld | Inhalt |
+|---|---|
+| Unternehmen | Teneo Germany GmbH / Herter & Co. – A Teneo company |
+| Kontakt | Marcel Herter |
+| Position | Senior Managing Director Teneo; **Gründer und Leiter von Herter & Co.**, Teneos Financial-Advisory-Geschäft in Deutschland |
+| E-Mail | marcel.herter@teneo.com |
+| E-Mail-Status | **Schwach belegt – vor Versand prüfen** |
+| Anrede | Herr |
+| Address | Neue Mainzer Straße 80, 60311 Frankfurt am Main (T +49 69 867 906 056) |
+| Land | Deutschland |
+| Region | Europa |
+| Website | https://www.teneo.com/germany/ |
+| Kontaktquelle | https://www.teneo.com/person/marcel-herter/ · https://www.teneo.com/news/press-releases/teneo-to-acquire-herter-co/ · Handelsregister HRB 122811 (AG Frankfurt) |
+| E-Mail-Quelle | Kein Formatbeleg für `teneo.com` gefunden (Suchtreffer maskieren die Adressen). Zweite mögliche Domain: `herter-co.de`. |
+| Kommentar | Teneo hat Herter & Co. im September 2023 übernommen; Herter führt das Geschäft als „Herter & Co – A Teneo company" weiter (Frankfurt und Berlin). Er gilt als Marktführer im deutschen Corporate-Debt-Advisory, über 30 Jahre Erfahrung, bekannt u. a. durch die Leoni-Restrukturierung sowie Refinanzierungen für Hipp, Webasto und OHB. **Nicht verwechseln:** Die im Handelsregister eingetragenen Geschäftsführer der Teneo Germany GmbH (Philippe Blanchard, Susan Couldery; Felix Schönauer seit 29.07.2026 ausgeschieden) sind Konzernfunktionen, keine deutschen Marktpartner. Weiterer deutscher SMD bei Herter & Co.: Michael Spahn. Teneo Deutschland ist ansonsten stark kommunikationslastig besetzt (Dominik Cziesche, Rolf Benders) bzw. forensisch (Uwe Heim, Sven Büschgens). |
+
+## 18. WTS Global
+
+| Feld | Inhalt |
+|---|---|
+| Unternehmen | WTS Group AG / WTS Global |
+| Kontakt | Fritz Esterer |
+| Position | **Group CEO WTS Global** – verantwortet ausdrücklich Akquisitionen und den Aufbau neuer Ländergesellschaften; Vorstand WTS Group AG |
+| E-Mail | info@wts.de |
+| E-Mail-Status | **Allgemeiner offizieller Kontakt** (Stufe D) |
+| Anrede | Herr |
+| Address | Thomas-Wimmer-Ring 1, 80539 München (Registeranschrift, HRB 181035 AG München; Quellen nennen auch Nr. 3. Operative Gesellschaften WTS Consulting/Tax/Digital: Friedenstraße 22, 81671 München) |
+| Land | Deutschland |
+| Region | Europa |
+| Website | https://wts.com |
+| Kontaktquelle | https://wts.com/de-en/experts/fritz-esterer · https://wts.com/de-de/publishing-article/20260701-ceo-bjoern-viebrock~publishing-article · https://wts.com/de-de/impressum |
+| E-Mail-Quelle | https://wts.com/de-de/impressum (`info@wts.de`, T +49 89 28646-0). Persönliches Schema unbelegt. |
+| Kommentar | **Führungswechsel Mitte 2026 – für die Kontaktwahl entscheidend.** Björn Viebrock (zuvor Vorstand bei PwC) wurde CEO von WTS Deutschland und zugleich Group COO. Fritz Esterer, seit 2009 Vorstandsvorsitzender, führt als Group CEO die internationale Holding weiter und ist laut Unternehmensmitteilung ausdrücklich für **Akquisitionen** und den Aufbau neuer Ländergesellschaften zuständig – für eine Verkaufsansprache also genau die richtige Ebene, weshalb er hier gesetzt ist. Für rein deutsche Themen ist Viebrock der Ansprechpartner. Weiterer Vorstand: Jürgen Scholz, Tim Zech. Niederlassungsleitung München: Georg Fahrenschon (Sprecher), Marco Dern, Christiane Belz, Thomas Kupke. WTS Global ist der 2003 gegründete Verbund niederländischen Rechts. |
+
+## Zusammenfassung zweite Tranche
+
+| # | Unternehmen | Kontakt | Position | Land | Beleglage E-Mail |
+|---|---|---|---|---|---|
+| 11 | Cedra | Pontus Tonning | CEO Cedra Group | Schweden | veröffentlicht (Suchtreffer) |
+| 12 | Cherry Bekaert | Michelle Loyd Thompson | CEO | USA | **schwach** |
+| 13 | DJH (Mitten Clarke) | Scott Heath | CEO | UK | allgemeiner Kontakt |
+| 14 | Grant Thornton | Prof. Dr. Heike Wieland-Blöse | Sprecherin des Vorstands / CEO Deutschland | Deutschland | Firmenschema (2 Belege), Umlaut offen |
+| 15 | Kroll | Andreas Fluhrer | MD, Co-Head Restructuring Europe | Deutschland | Firmenschema (1 Beleg) |
+| 16 | Province | Julia Arbery | Partner DACH, StoneTurn | Deutschland | **schwach** |
+| 17 | Teneo | Marcel Herter | SMD; Gründer und Leiter Herter & Co. | Deutschland | **schwach** |
+| 18 | WTS Global | Fritz Esterer | Group CEO WTS Global | Deutschland | allgemeiner Kontakt |
+
+### Häuser ohne deutschen Partner
+
+Bei drei der acht Häuser gibt es keine deutsche Partnerebene, die man ansprechen könnte – das ist ein Ergebnis, keine Recherchelücke:
+
+- **Cedra** – rein nordisch (Schweden, Norwegen, Dänemark).
+- **Cherry Bekaert** – rein US-amerikanisch.
+- **DJH** – rein UK und Irland.
+
+Bei **Province** existiert die deutsche Präsenz erst seit Februar 2026 über die StoneTurn-Übernahme, und die Akquisitionsentscheidung liegt weiter in den USA.
+
+### Warum keine Website-Prüfung möglich war und wie man sie freischaltet
+
+Die Egress-Policy dieser Umgebung erlaubt keinen Zugriff auf externe Hosts – der Proxy beantwortet jedes CONNECT mit 403. Betroffen sind WebFetch, curl und ein etwaiger Chromium-Lauf gleichermaßen, weil alle über denselben Proxy gehen. Freischalten lässt sich das nur außerhalb dieser Session, über die Netzwerk-Policy der Umgebung; die Optionen sind in der Dokumentation zu Claude Code on the Web beschrieben (https://code.claude.com/docs/en/claude-code-on-the-web). Sobald eine Umgebung mit offenem oder um die relevanten Domains erweitertem Netzzugang bereitsteht, kann jede Zeile dieser Tranche in einem Durchgang gegen die Profilseiten geprüft werden. Der zweitschnellste Weg ist der, der bei Stifel funktioniert hat: Screenshot der Profilseite – daraus lässt sich die Zeile sofort auf bestätigt setzen.
