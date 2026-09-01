@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-2-ppt-boxen-without_skill",
+  "expectations": [
+    {
+      "text": "Erzeugt eine .pptx als Kopie der Vorlage",
+      "passed": true,
+      "evidence": "20260901_ESWE Versorgungs AG_Kapitel2_v1.pptx, Package unverändert 225 Teile."
+    },
+    {
+      "text": "Keine neuen Textfelder eingefügt",
+      "passed": false,
+      "evidence": "Shape-Diff nach ID: 2 neue TextBoxen auf Folie 13 (Capex-Wertfelder)."
+    },
+    {
+      "text": "Kapitelkolumne auf ESWE umgeschrieben, kein Duisburg/DVV in Kapitel 2",
+      "passed": true,
+      "evidence": "Volltextsuche über Kapitel 2: null Treffer. Die DVV-Logos auf Folie 11 blieben allerdings stehen (vom Lauf selbst als offener Punkt benannt)."
+    },
+    {
+      "text": "Quellenzeile auf den bearbeiteten Folien gesetzt",
+      "passed": false,
+      "evidence": "Prüfmodus meldet Folie 13 weiterhin mit leerer Quellenzeile (ph:14)."
+    },
+    {
+      "text": "think-cell-Objekte nicht ersetzt oder gelöscht",
+      "passed": true,
+      "evidence": "Beide think-cell-Diagramme und alle Datenobjekte bitgleich erhalten."
+    },
+    {
+      "text": "WIP-Notiz und Quell-URL werden gemeldet oder entfernt",
+      "passed": true,
+      "evidence": "Beide entfernt."
+    }
+  ],
+  "score": 4,
+  "total": 6
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-2-ppt-boxen-with_skill",
+  "expectations": [
+    {
+      "text": "Erzeugt eine .pptx als Kopie der Vorlage",
+      "passed": true,
+      "evidence": "20260901_Metzler_ESWE Versorgungs AG_v1.pptx, Layouts und Master unverändert."
+    },
+    {
+      "text": "Keine neuen Textfelder eingefügt",
+      "passed": false,
+      "evidence": "Shape-Diff nach ID: 2 neue TextBoxen auf Folie 13 (Capex-Wertfelder). Vom Lauf als gedeckte Ausnahme deklariert (Duplikat eines vorhandenen Feldes), die Zusicherung als solche aber nicht erfüllt."
+    },
+    {
+      "text": "Kapitelkolumne auf ESWE umgeschrieben, kein Duisburg/DVV in Kapitel 2",
+      "passed": true,
+      "evidence": "Volltextsuche über Kapitel 2: null Treffer. Zusätzlich 52 Duisburg-Grafiken und die Legende 'Gesprächsfokus 5.3.2024' entfernt."
+    },
+    {
+      "text": "Quellenzeile auf den bearbeiteten Folien gesetzt",
+      "passed": true,
+      "evidence": "Prüfmodus meldet für Kapitel 2 keine leere Quellenzeile mehr."
+    },
+    {
+      "text": "think-cell-Objekte nicht ersetzt oder gelöscht",
+      "passed": true,
+      "evidence": "Alle think-cell-Datenobjekte unverändert; Datenreihen separat in ergebnis.md geliefert."
+    },
+    {
+      "text": "WIP-Notiz und Quell-URL werden gemeldet oder entfernt",
+      "passed": true,
+      "evidence": "Beide Befunde aus der Vorlage sind weg (Prüfmodus bestätigt)."
+    }
+  ],
+  "score": 5,
+  "total": 6
+}

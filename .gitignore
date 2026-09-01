@@ -1,2 +1,4 @@
-.claude/skills/stadtwerke-ma-unterlage-workspace/
 dist/
+# Die zusammengebaute Review-HTML ist 28 MB gross und laesst sich jederzeit
+# aus den Rohdaten neu erzeugen - deshalb nicht im Repository.
+.claude/skills/stadtwerke-ma-unterlage-workspace/**/review.html

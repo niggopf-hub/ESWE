@@ -1,0 +1,13 @@
+{
+  "eval_id": 0,
+  "eval_name": "storyline-zuerst",
+  "prompt": "Für die ESWE Versorgungs AG in Wiesbaden soll eine Unterlage entstehen, so wie die letzte zur evm. Die Jahresabschlüsse 2021–2024 und der Geschäftsbericht 2025 liegen im Projekt. Fang mal an.",
+  "assertions": [
+    "Nennt den Materialstand und benennt ausdrücklich, was fehlt oder unklar ist",
+    "Liefert eine Storyline (Gesamtbogen in Sätzen), nicht nur eine Gliederung",
+    "Gibt pro Kapitel Aussage, Beleg und offene Frage an",
+    "Prüft ausdrücklich, ob der Bogen zur ESWE trägt (Schere Investitionsbedarf vs. Innenfinanzierung)",
+    "Endet mit einem Zwischenstopp/einer Rückfrage zur Bestätigung statt mit fertigen Folien",
+    "Belegt den Investitionsbedarf mit einer konkreten Zahl oder benennt, dass keine Summe beziffert ist"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-0-storyline-zuerst-without_skill",
+  "expectations": [
+    {
+      "text": "Nennt den Materialstand und benennt ausdrücklich, was fehlt oder unklar ist",
+      "passed": true,
+      "evidence": "Vorbemerkung korrigiert zwei überholte Briefing-Prämissen, insgesamt sieben Korrekturen."
+    },
+    {
+      "text": "Liefert eine Storyline (Gesamtbogen in Sätzen), nicht nur eine Gliederung",
+      "passed": true,
+      "evidence": "Teil A mit Kernbotschaft in einem Satz und Beweis in drei Schritten."
+    },
+    {
+      "text": "Gibt pro Kapitel Aussage, Beleg und offene Frage an",
+      "passed": false,
+      "evidence": "Teil B ist ein Seitenplan mit Headline und Inhalt je Folie; die Kette Aussage/Beleg/offene Frage fehlt als Struktur."
+    },
+    {
+      "text": "Prüft ausdrücklich, ob der Bogen zur ESWE trägt",
+      "passed": true,
+      "evidence": "Stellt fest, dass ESWE keine Investitionssumme veröffentlicht, und baut das Argument stattdessen aus der Finanzhistorie."
+    },
+    {
+      "text": "Endet mit einem Zwischenstopp statt mit fertigen Folien",
+      "passed": false,
+      "evidence": "Liefert einen vollständigen 22-Seiten-Plan inklusive Zahlenanhang, ohne vorher Bestätigung einzuholen."
+    },
+    {
+      "text": "Belegt den Investitionsbedarf mit einer Zahl oder benennt, dass keine Summe beziffert ist",
+      "passed": true,
+      "evidence": "Als 'wichtigste Informationslücke der gesamten Unterlage' markiert — allerdings mit einem selbst gerechneten illustrativen Rahmen gefüllt."
+    }
+  ],
+  "score": 4,
+  "total": 6
+}

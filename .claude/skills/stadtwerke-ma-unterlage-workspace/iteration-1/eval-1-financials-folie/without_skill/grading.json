@@ -1,0 +1,42 @@
+{
+  "run_id": "eval-1-financials-folie-without_skill",
+  "expectations": [
+    {
+      "text": "Zeitreihe über mindestens 4 Jahre mit Umsatz und Ergebnisgrößen",
+      "passed": true,
+      "evidence": "Vollständige Zeitreihe 2021–2025 plus Datenanhang 2020–2025 in T€."
+    },
+    {
+      "text": "Net Debt mit expliziter Definition in einer Fußnote",
+      "passed": true,
+      "evidence": "Drei Definitionen gerechnet, Empfehlung plus evm-Definition in der Fußnote."
+    },
+    {
+      "text": "Sondereffekte 2024 ausdrücklich benannt",
+      "passed": true,
+      "evidence": "20,6 Mio. EUR Rückstellungsauflösungen im EBITDA; bereinigte Leverage-Reihe nachgerechnet."
+    },
+    {
+      "text": "Kommentar folgt der Dreiteilung Ertragslage / Cashflow / Finanzierungslücke",
+      "passed": false,
+      "evidence": "Sieben Kommentar-Bullets ohne die feste Rollenverteilung der drei Sätze."
+    },
+    {
+      "text": "Folientitel ist ein vollständiger Aussagesatz",
+      "passed": true,
+      "evidence": "Action Title vorhanden."
+    },
+    {
+      "text": "Quellenzeile mit Gesellschaft und Jahr",
+      "passed": true,
+      "evidence": "Quellenzeile und vier Fußnoten enthalten."
+    },
+    {
+      "text": "Einheiten konsistent (Mio. EUR auf der Folie)",
+      "passed": true,
+      "evidence": "Folie in Mio. EUR, Anhang in T€ mit Seitenverweisen."
+    }
+  ],
+  "score": 6,
+  "total": 7
+}

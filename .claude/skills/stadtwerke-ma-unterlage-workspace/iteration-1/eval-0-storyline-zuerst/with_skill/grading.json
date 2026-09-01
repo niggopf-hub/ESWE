@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-0-storyline-zuerst-with_skill",
+  "expectations": [
+    {
+      "text": "Nennt den Materialstand und benennt ausdrücklich, was fehlt oder unklar ist",
+      "passed": true,
+      "evidence": "Abschnitt 2 listet jede Datei mit ihrem tatsächlichen Inhalt; korrigiert drei Fehlannahmen (HRB-Dateien sind Jahresabschlüsse, GB 2025 enthält den vollständigen Abschluss 2025) und nennt vier Materiallücken."
+    },
+    {
+      "text": "Liefert eine Storyline (Gesamtbogen in Sätzen), nicht nur eine Gliederung",
+      "passed": true,
+      "evidence": "Abschnitt 3.2 formuliert den Gesamtbogen als Zitat aus Sicht des Lesers, dann die vier Bewegungen."
+    },
+    {
+      "text": "Gibt pro Kapitel Aussage, Beleg und offene Frage an",
+      "passed": true,
+      "evidence": "3.3 und 3.4 je Folie mit Kernsatz, Belegtabelle und 'Offene Frage, die die Folie hinterlässt'."
+    },
+    {
+      "text": "Prüft ausdrücklich, ob der Bogen zur ESWE trägt",
+      "passed": true,
+      "evidence": "3.1 mit drei benannten Prüfungen (a) beziffertes Programm NEIN (b) Anspannung JA (c) anderer Anlass nicht erkennbar; Ergebnis: Bogen trägt mit ausgetauschter Achse."
+    },
+    {
+      "text": "Endet mit einem Zwischenstopp statt mit fertigen Folien",
+      "passed": true,
+      "evidence": "Abschnitt 0 'Wo ich anhalte', Abschnitt 1 fünf unbeantwortete Rückfragen, Abschnitt 6 offene Urteilsfragen. Keine Folientexte."
+    },
+    {
+      "text": "Belegt den Investitionsbedarf mit einer Zahl oder benennt, dass keine Summe beziffert ist",
+      "passed": true,
+      "evidence": "3.1(a) zitiert den seit 2022 wortgleichen Lageberichtssatz und stellt fest: keine Summe, kein Horizont, keine Aufteilung."
+    }
+  ],
+  "score": 6,
+  "total": 6
+}

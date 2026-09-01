@@ -1,0 +1,373 @@
+{
+  "metadata": {
+    "skill_name": "stadtwerke-ma-unterlage",
+    "skill_path": "/home/user/ESWE/.claude/skills/stadtwerke-ma-unterlage",
+    "executor_model": "claude-opus-5",
+    "timestamp": "2026-09-01T12:25:00Z",
+    "evals_run": [
+      0,
+      1,
+      2
+    ],
+    "runs_per_configuration": 1
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "eval_name": "storyline-zuerst",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 6,
+        "failed": 0,
+        "total": 6,
+        "time_seconds": 733.5,
+        "tokens": 235410,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Nennt den Materialstand und benennt ausdrücklich, was fehlt oder unklar ist",
+          "passed": true,
+          "evidence": "Abschnitt 2 listet jede Datei mit ihrem tatsächlichen Inhalt; korrigiert drei Fehlannahmen (HRB-Dateien sind Jahresabschlüsse, GB 2025 enthält den vollständigen Abschluss 2025) und nennt vier Materiallücken."
+        },
+        {
+          "text": "Liefert eine Storyline (Gesamtbogen in Sätzen), nicht nur eine Gliederung",
+          "passed": true,
+          "evidence": "Abschnitt 3.2 formuliert den Gesamtbogen als Zitat aus Sicht des Lesers, dann die vier Bewegungen."
+        },
+        {
+          "text": "Gibt pro Kapitel Aussage, Beleg und offene Frage an",
+          "passed": true,
+          "evidence": "3.3 und 3.4 je Folie mit Kernsatz, Belegtabelle und 'Offene Frage, die die Folie hinterlässt'."
+        },
+        {
+          "text": "Prüft ausdrücklich, ob der Bogen zur ESWE trägt",
+          "passed": true,
+          "evidence": "3.1 mit drei benannten Prüfungen (a) beziffertes Programm NEIN (b) Anspannung JA (c) anderer Anlass nicht erkennbar; Ergebnis: Bogen trägt mit ausgetauschter Achse."
+        },
+        {
+          "text": "Endet mit einem Zwischenstopp statt mit fertigen Folien",
+          "passed": true,
+          "evidence": "Abschnitt 0 'Wo ich anhalte', Abschnitt 1 fünf unbeantwortete Rückfragen, Abschnitt 6 offene Urteilsfragen. Keine Folientexte."
+        },
+        {
+          "text": "Belegt den Investitionsbedarf mit einer Zahl oder benennt, dass keine Summe beziffert ist",
+          "passed": true,
+          "evidence": "3.1(a) zitiert den seit 2022 wortgleichen Lageberichtssatz und stellt fest: keine Summe, kein Horizont, keine Aufteilung."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 0,
+      "eval_name": "storyline-zuerst",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.667,
+        "passed": 4,
+        "failed": 2,
+        "total": 6,
+        "time_seconds": 963.2,
+        "tokens": 232481,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Nennt den Materialstand und benennt ausdrücklich, was fehlt oder unklar ist",
+          "passed": true,
+          "evidence": "Vorbemerkung korrigiert zwei überholte Briefing-Prämissen, insgesamt sieben Korrekturen."
+        },
+        {
+          "text": "Liefert eine Storyline (Gesamtbogen in Sätzen), nicht nur eine Gliederung",
+          "passed": true,
+          "evidence": "Teil A mit Kernbotschaft in einem Satz und Beweis in drei Schritten."
+        },
+        {
+          "text": "Gibt pro Kapitel Aussage, Beleg und offene Frage an",
+          "passed": false,
+          "evidence": "Teil B ist ein Seitenplan mit Headline und Inhalt je Folie; die Kette Aussage/Beleg/offene Frage fehlt als Struktur."
+        },
+        {
+          "text": "Prüft ausdrücklich, ob der Bogen zur ESWE trägt",
+          "passed": true,
+          "evidence": "Stellt fest, dass ESWE keine Investitionssumme veröffentlicht, und baut das Argument stattdessen aus der Finanzhistorie."
+        },
+        {
+          "text": "Endet mit einem Zwischenstopp statt mit fertigen Folien",
+          "passed": false,
+          "evidence": "Liefert einen vollständigen 22-Seiten-Plan inklusive Zahlenanhang, ohne vorher Bestätigung einzuholen."
+        },
+        {
+          "text": "Belegt den Investitionsbedarf mit einer Zahl oder benennt, dass keine Summe beziffert ist",
+          "passed": true,
+          "evidence": "Als 'wichtigste Informationslücke der gesamten Unterlage' markiert — allerdings mit einem selbst gerechneten illustrativen Rahmen gefüllt."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "eval_name": "financials-folie",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 1389.3,
+        "tokens": 293052,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Zeitreihe über mindestens 4 Jahre mit Umsatz und Ergebnisgrößen",
+          "passed": true,
+          "evidence": "35-zeilige Tabelle 2021–2025 in Mio. EUR."
+        },
+        {
+          "text": "Net Debt mit expliziter Definition in einer Fußnote",
+          "passed": true,
+          "evidence": "Sechs Fußnoten, darunter die Net-Debt-Definition; zusätzlich die Variante mit/ohne Beteiligungsergebnis als offene Frage (3,6x gegen 2,3x)."
+        },
+        {
+          "text": "Sondereffekte 2024 ausdrücklich benannt",
+          "passed": true,
+          "evidence": "25,6 Mio. EUR periodenfremde Erträge, davon 20,6 aus Rückstellungsauflösungen; 2025 nur 5,3."
+        },
+        {
+          "text": "Kommentar folgt der Dreiteilung Ertragslage / Cashflow / Finanzierungslücke",
+          "passed": true,
+          "evidence": "Sechs Kommentarbullets plus Kernaussagenkasten in dieser Reihenfolge."
+        },
+        {
+          "text": "Folientitel ist ein vollständiger Aussagesatz",
+          "passed": true,
+          "evidence": "Als Aussagentitel unter ph:0 ausgewiesen."
+        },
+        {
+          "text": "Quellenzeile mit Gesellschaft und Jahr",
+          "passed": true,
+          "evidence": "ph:14 explizit ausgeschrieben."
+        },
+        {
+          "text": "Einheiten konsistent (Mio. EUR auf der Folie)",
+          "passed": true,
+          "evidence": "Tabelle durchgehend Mio. EUR, Modell in T€; Umrechnung im Output-Blatt."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "eval_name": "financials-folie",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.857,
+        "passed": 6,
+        "failed": 1,
+        "total": 7,
+        "time_seconds": 920.0,
+        "tokens": 206429,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Zeitreihe über mindestens 4 Jahre mit Umsatz und Ergebnisgrößen",
+          "passed": true,
+          "evidence": "Vollständige Zeitreihe 2021–2025 plus Datenanhang 2020–2025 in T€."
+        },
+        {
+          "text": "Net Debt mit expliziter Definition in einer Fußnote",
+          "passed": true,
+          "evidence": "Drei Definitionen gerechnet, Empfehlung plus evm-Definition in der Fußnote."
+        },
+        {
+          "text": "Sondereffekte 2024 ausdrücklich benannt",
+          "passed": true,
+          "evidence": "20,6 Mio. EUR Rückstellungsauflösungen im EBITDA; bereinigte Leverage-Reihe nachgerechnet."
+        },
+        {
+          "text": "Kommentar folgt der Dreiteilung Ertragslage / Cashflow / Finanzierungslücke",
+          "passed": false,
+          "evidence": "Sieben Kommentar-Bullets ohne die feste Rollenverteilung der drei Sätze."
+        },
+        {
+          "text": "Folientitel ist ein vollständiger Aussagesatz",
+          "passed": true,
+          "evidence": "Action Title vorhanden."
+        },
+        {
+          "text": "Quellenzeile mit Gesellschaft und Jahr",
+          "passed": true,
+          "evidence": "Quellenzeile und vier Fußnoten enthalten."
+        },
+        {
+          "text": "Einheiten konsistent (Mio. EUR auf der Folie)",
+          "passed": true,
+          "evidence": "Folie in Mio. EUR, Anhang in T€ mit Seitenverweisen."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "ppt-boxen",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.833,
+        "passed": 5,
+        "failed": 1,
+        "total": 6,
+        "time_seconds": 1789.1,
+        "tokens": 378290,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Erzeugt eine .pptx als Kopie der Vorlage",
+          "passed": true,
+          "evidence": "20260901_Metzler_ESWE Versorgungs AG_v1.pptx, Layouts und Master unverändert."
+        },
+        {
+          "text": "Keine neuen Textfelder eingefügt",
+          "passed": false,
+          "evidence": "Shape-Diff nach ID: 2 neue TextBoxen auf Folie 13 (Capex-Wertfelder). Vom Lauf als gedeckte Ausnahme deklariert (Duplikat eines vorhandenen Feldes), die Zusicherung als solche aber nicht erfüllt."
+        },
+        {
+          "text": "Kapitelkolumne auf ESWE umgeschrieben, kein Duisburg/DVV in Kapitel 2",
+          "passed": true,
+          "evidence": "Volltextsuche über Kapitel 2: null Treffer. Zusätzlich 52 Duisburg-Grafiken und die Legende 'Gesprächsfokus 5.3.2024' entfernt."
+        },
+        {
+          "text": "Quellenzeile auf den bearbeiteten Folien gesetzt",
+          "passed": true,
+          "evidence": "Prüfmodus meldet für Kapitel 2 keine leere Quellenzeile mehr."
+        },
+        {
+          "text": "think-cell-Objekte nicht ersetzt oder gelöscht",
+          "passed": true,
+          "evidence": "Alle think-cell-Datenobjekte unverändert; Datenreihen separat in ergebnis.md geliefert."
+        },
+        {
+          "text": "WIP-Notiz und Quell-URL werden gemeldet oder entfernt",
+          "passed": true,
+          "evidence": "Beide Befunde aus der Vorlage sind weg (Prüfmodus bestätigt)."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "ppt-boxen",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.667,
+        "passed": 4,
+        "failed": 2,
+        "total": 6,
+        "time_seconds": 1530.5,
+        "tokens": 306406,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Erzeugt eine .pptx als Kopie der Vorlage",
+          "passed": true,
+          "evidence": "20260901_ESWE Versorgungs AG_Kapitel2_v1.pptx, Package unverändert 225 Teile."
+        },
+        {
+          "text": "Keine neuen Textfelder eingefügt",
+          "passed": false,
+          "evidence": "Shape-Diff nach ID: 2 neue TextBoxen auf Folie 13 (Capex-Wertfelder)."
+        },
+        {
+          "text": "Kapitelkolumne auf ESWE umgeschrieben, kein Duisburg/DVV in Kapitel 2",
+          "passed": true,
+          "evidence": "Volltextsuche über Kapitel 2: null Treffer. Die DVV-Logos auf Folie 11 blieben allerdings stehen (vom Lauf selbst als offener Punkt benannt)."
+        },
+        {
+          "text": "Quellenzeile auf den bearbeiteten Folien gesetzt",
+          "passed": false,
+          "evidence": "Prüfmodus meldet Folie 13 weiterhin mit leerer Quellenzeile (ph:14)."
+        },
+        {
+          "text": "think-cell-Objekte nicht ersetzt oder gelöscht",
+          "passed": true,
+          "evidence": "Beide think-cell-Diagramme und alle Datenobjekte bitgleich erhalten."
+        },
+        {
+          "text": "WIP-Notiz und Quell-URL werden gemeldet oder entfernt",
+          "passed": true,
+          "evidence": "Beide entfernt."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 0.944,
+        "stddev": 0.096,
+        "min": 0.8333333333333334,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 1303.967,
+        "stddev": 532.949,
+        "min": 733.5,
+        "max": 1789.1
+      },
+      "tokens": {
+        "mean": 302250.667,
+        "stddev": 71882.788,
+        "min": 235410,
+        "max": 378290
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.73,
+        "stddev": 0.11,
+        "min": 0.6666666666666666,
+        "max": 0.8571428571428571
+      },
+      "time_seconds": {
+        "mean": 1137.9,
+        "stddev": 340.687,
+        "min": 920.0,
+        "max": 1530.5
+      },
+      "tokens": {
+        "mean": 248438.667,
+        "stddev": 51863.624,
+        "min": 206429,
+        "max": 306406
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.214",
+      "time_seconds": "+166.1",
+      "tokens": "+53812"
+    }
+  },
+  "analyst_notes": [
+    "Die Zusicherung 'keine neuen Textfelder' schlaegt in beiden Konfigurationen fehl: beide Laeufe haben auf Folie 13 dieselben zwei Capex-Wertfelder ergaenzt. Das Kriterium ist zu hart formuliert, weil der Skill das Duplizieren eines vorhandenen Elements ausdruecklich erlaubt. Fuer die naechste Runde praeziser fassen: neue Shapes nur als Duplikat eines gleichartigen vorhandenen Elements, und deklariert.",
+    "Der Unterschied liegt nicht in der Analysequalitaet. Beide Konfigurationen fanden die fehlende Investitionssumme, die Sondereffekte 2024 und die Net-Debt-Problematik. Der Skill wirkt auf den Prozess: anhalten statt durchziehen, keine Zahl erfinden, Ausgabe direkt nach Platzhalter-Indizes strukturiert.",
+    "Der Skill kostet Zeit und Token (+21 % Laufzeit, +36 % Token gegenueber der Baseline), weil er zusaetzlich Modell und Pruefmodus fahrt. Das ist der Preis fuer die Rueckfuehrbarkeit der Zahlen.",
+    "Nicht diskriminierend waren: Zeitreihe ueber vier Jahre, Sondereffekte benennen, Aussagentitel, think-cell unangetastet. Diese vier bestand die Baseline ebenso — sie taugen als Regression, nicht als Nachweis des Skill-Nutzens."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "run_id": "eval-1-financials-folie-with_skill",
+  "expectations": [
+    {
+      "text": "Zeitreihe über mindestens 4 Jahre mit Umsatz und Ergebnisgrößen",
+      "passed": true,
+      "evidence": "35-zeilige Tabelle 2021–2025 in Mio. EUR."
+    },
+    {
+      "text": "Net Debt mit expliziter Definition in einer Fußnote",
+      "passed": true,
+      "evidence": "Sechs Fußnoten, darunter die Net-Debt-Definition; zusätzlich die Variante mit/ohne Beteiligungsergebnis als offene Frage (3,6x gegen 2,3x)."
+    },
+    {
+      "text": "Sondereffekte 2024 ausdrücklich benannt",
+      "passed": true,
+      "evidence": "25,6 Mio. EUR periodenfremde Erträge, davon 20,6 aus Rückstellungsauflösungen; 2025 nur 5,3."
+    },
+    {
+      "text": "Kommentar folgt der Dreiteilung Ertragslage / Cashflow / Finanzierungslücke",
+      "passed": true,
+      "evidence": "Sechs Kommentarbullets plus Kernaussagenkasten in dieser Reihenfolge."
+    },
+    {
+      "text": "Folientitel ist ein vollständiger Aussagesatz",
+      "passed": true,
+      "evidence": "Als Aussagentitel unter ph:0 ausgewiesen."
+    },
+    {
+      "text": "Quellenzeile mit Gesellschaft und Jahr",
+      "passed": true,
+      "evidence": "ph:14 explizit ausgeschrieben."
+    },
+    {
+      "text": "Einheiten konsistent (Mio. EUR auf der Folie)",
+      "passed": true,
+      "evidence": "Tabelle durchgehend Mio. EUR, Modell in T€; Umrechnung im Output-Blatt."
+    }
+  ],
+  "score": 7,
+  "total": 7
+}

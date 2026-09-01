@@ -1,0 +1,13 @@
+{
+  "eval_id": 2,
+  "eval_name": "ppt-boxen",
+  "prompt": "Nimm die Duisburg-Unterlage aus dem Projekt als Basis und schreib Kapitel 2 auf die ESWE um. Nur die Textteile, die Charts mache ich selbst in think-cell.",
+  "assertions": [
+    "Erzeugt eine .pptx als Kopie der Vorlage statt einer neu gebauten Datei",
+    "Die Anzahl der Shapes je bearbeiteter Folie bleibt gleich — es wurden keine neuen Textfelder eingefügt",
+    "Kapitelkolumne (ph:13) wurde auf ESWE umgeschrieben, kein 'Duisburg'/'DVV' mehr auf Kapitel-2-Folien",
+    "Quellenzeile (ph:14) ist auf den bearbeiteten Folien gesetzt",
+    "think-cell-Objekte und Diagramme wurden nicht ersetzt oder gelöscht",
+    "WIP-Notiz und Quell-URL aus der Vorlage werden gemeldet oder entfernt"
+  ]
+}

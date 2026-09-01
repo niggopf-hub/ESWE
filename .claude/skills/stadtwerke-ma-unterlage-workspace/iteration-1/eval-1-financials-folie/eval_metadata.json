@@ -1,0 +1,14 @@
+{
+  "eval_id": 1,
+  "eval_name": "financials-folie",
+  "prompt": "Ich brauche die Financial-Folie für die ESWE — Zeitreihe, Verschuldung, Kommentar. Zahlen aus den Abschlüssen im Projekt. Wie sieht die aus?",
+  "assertions": [
+    "Enthält eine Zeitreihe über mindestens 4 Jahre mit Umsatz und Ergebnisgrößen",
+    "Nennt Net Debt mit einer expliziten Definition (Fußnote)",
+    "Benennt die Sondereffekte 2024 (Rückstellungsauflösungen / Wasserkartellverfahren) ausdrücklich",
+    "Kommentar folgt der Dreiteilung Ertragslage / Cashflow-Erklärung / Finanzierungslücke",
+    "Folientitel ist ein vollständiger Aussagesatz, kein Etikett wie 'Financials'",
+    "Enthält eine Quellenzeile mit Gesellschaft und Jahr",
+    "Einheiten sind konsistent (Mio. EUR auf der Folie)"
+  ]
+}
