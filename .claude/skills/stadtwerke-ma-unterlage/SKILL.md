@@ -35,26 +35,44 @@ Sechs Schritte, jeder mit einem Zwischenstopp. Nicht in einem Durchlauf produzie
 Unterlage lebt davon, dass der Nutzer die Zwischenstände korrigiert, und ein falsch
 gesetzter Bogen macht 15 Folien wertlos.
 
-### Schritt 0 — Auftrag klären
+### Schritt 0 — Auftrag und Analyseprofil klären
 
-Vor allem anderen zwei Dinge feststellen, weil sie den gesamten Bogen bestimmen:
+Vor allem anderen drei Dinge feststellen. Die ersten beiden bestimmen den Bogen, das dritte
+bestimmt, ob die Zahlen später überhaupt vergleichbar sind:
 
 - **Wer ist der Adressat?** Vorstand, Aufsichtsrat, Gesellschafter (Stadt/Kämmerei), oder
   ein strategischer Partner? Ein Kämmerer liest Kapitel 3 anders als ein technischer Vorstand.
-- **Ist das ein Erstkontakt oder eine Fortsetzung?** Beim Erstkontakt trägt Kapitel 1 viel
-  Gewicht. Bei einer Fortsetzung schrumpft es auf zwei Folien, und Kapitel 3 wird konkreter.
+- **Erstkontakt oder Fortsetzung?** Beim Erstkontakt trägt Kapitel 1 viel Gewicht. Bei einer
+  Fortsetzung schrumpft es, und Kapitel 3 wird konkreter.
+- **Welche wirtschaftliche Einheit wird gezeigt?** Einzelabschluss oder Konzern — das ist
+  keine Formalie: Eine Stadtwerke-Holding sinnvoll als Konzern, eine Vertriebs-AG mit
+  Netztochter als Einzelabschluss. Die falsche Wahl zeigt nicht andere Zahlen, sondern ein
+  anderes Unternehmen.
 
-Wenn beides nicht aus dem Auftrag hervorgeht: fragen. Es sind zwei Sätze, und sie sparen
-einen kompletten Umbau.
+Dazu gehören Zeitraum, Modellversion, Einheiten und die Definitionen von Net Debt, EBITDA
+und Free Cashflow. Das vollständige Analyseprofil und warum jede Festlegung nötig ist:
+`references/financial-model.md`, Abschnitt 1.
 
-### Schritt 1 — Material sichten und Lücken benennen
+**Kurzweg für Teilaufgaben.** Wenn nur eine Zahl, eine Folie oder die Beteiligungsstruktur
+gefragt ist, gilt nicht der ganze Ablauf. Dann reichen Analyseprofil, die betroffene Quelle
+und die Prüfpunkte des jeweiligen Kapitels. Eine einzelne Zahlenfrage löst weder die
+Beschaffung einer letzten Unterlage noch Kapitelstopps aus. Der volle Ablauf gilt, sobald
+eine Unterlage oder ein ganzes Kapitel entsteht.
+
+Wenn Adressat oder Einheit nicht aus dem Auftrag hervorgehen: fragen. Es sind zwei Sätze,
+und sie sparen einen kompletten Umbau.
+
+### Schritt 1 — Material sichten, Rollen festlegen, Lücken benennen
 
 Prüfen, was im Projekt liegt, und **explizit sagen, was fehlt**. Ohne die letzte Unterlage
-gibt es keinen Bogen und kein Template; ohne die Abschlüsse gibt es keine Financials.
+gibt es kein Template; ohne die Abschlüsse gibt es keine Financials.
 
-Details, Quellen und was aus jedem Dokument zu holen ist: `references/recherche.md`.
-
-Kurzfassung der Pflichtmaterialien:
+Ebenso wichtig und leicht zu übersehen: **jeder Datei eine Rolle geben** — Primärquelle,
+bestätigtes Modell, Layoutvorlage, historische Unterlage, Arbeitsnotiz, ungeprüfter Entwurf.
+Der Dateiname sagt darüber nichts. Der gefährlichste Fall ist ein Arbeitsdeck, das aus einer
+Vorlage entstanden ist und noch Zahlen des Vorgängerfalls trägt: Es sieht fertig aus, und
+seine Zahlen gehören dem alten Mandanten. Die Rollen und was aus welcher übernommen werden
+darf: `references/recherche.md`.
 
 | Material | Wozu | Wo |
 |---|---|---|
@@ -62,85 +80,113 @@ Kurzfassung der Pflichtmaterialien:
 | Jahresabschlüsse 4–5 Jahre | Financials, Beteiligungen, Lagebericht | Unternehmensregister |
 | Geschäftsbericht (aktuellstes Jahr) | Aktuelles Jahr, Strategie, O-Töne | Website des Unternehmens |
 | Handelsregisterauszug | Gesellschafter, Organe, Kapital | Registerportal |
-| Website / Presse | Projekte, Personalien, Wärmeplanung | Recherche |
+| Website / Presse / Ratsinformationssystem | Projekte, Personalien, Wärmeplanung | Recherche |
 
-**Zwischenstopp:** Materialstand und Lücken melden, bevor du anfängst.
+**Zwischenstopp:** Materialstand, Rollen und Lücken melden, bevor du anfängst.
 
-**Was woher gilt.** Die Referenzunterlagen sind nicht gleichrangig, und das zu verwechseln
-ist die häufigste Ursache für eine Unterlage, die zwar gut aussieht, aber nicht passt:
+**Was woher gilt.** Die Referenzen sind nicht gleichrangig, und das zu verwechseln ist die
+häufigste Ursache für eine Unterlage, die gut aussieht und nicht passt:
 
 | Quelle | Wofür sie maßgeblich ist |
 |---|---|
 | **Der Bogen der letzten Unterlagen** | Argumentation, Tonalität, Kapitel 1, Formulierungsmuster, Folienmechanik |
-| **Die Gliederung nach Abschnitten *(i)–(vi)*** | Welche Folien es gibt und in welcher Reihenfolge — siehe Landkarte |
-| **Das Financial Model im Projekt** | Zeilengerüst und Kennzahlenlogik der Financial-Folie: HGB-Einzelabschluss, nicht angelsächsische Margenkaskade |
+| **Die Gliederung nach Abschnitten *(i)–(vi)*** | Welche Inhalte es gibt und in welcher Reihenfolge |
+| **Das bestätigte Financial Model** | Zeilengerüst und Kennzahlenlogik der Financial-Folie |
 
-Konkret heißt das für die beiden Folien, bei denen es am häufigsten schiefgeht: Der
-**One Pager** ist eine Merkmal-Angabe-Tabelle, keine Kachelwand. Die **Financial-Folie**
-zeigt Umsatz **und Rohertrag** als zwei Reihen und gliedert nach Ertragslage, Finanzlage,
-Vermögenslage — nicht nach EBITDA-, EBIT- und EAT-Margen. Beides steht in
-`assets/tabellenlayouts.md`.
+Konkret für die beiden Folien, bei denen es am häufigsten schiefgeht: Der **One Pager** ist
+eine Merkmal-Angabe-Tabelle, keine Kachelwand. Die **Financial-Folie** zeigt Umsatz **und
+Rohertrag** als zwei Reihen und gliedert nach Ertragslage, Finanzlage, Vermögenslage — nicht
+nach EBITDA-, EBIT- und EAT-Margen. Beides in `assets/tabellenlayouts.md`.
 
-### Schritt 2 — Storyline für diesen Deal ableiten und bestätigen lassen
-
-**Das ist immer der erste inhaltliche Arbeitsschritt — vor jeder Folie, vor jeder Zahl.**
+### Schritt 2 — Arbeitshypothese für die Storyline
 
 `references/storyline.md` lesen. Dort steht der Bogen als Argumentationskette: was jedes
 Kapitel behauptet, womit es das belegt, welche Frage es offen lässt. Der Bogen ist das
 übertragbare Gerüst; die Belege sind pro Transaktion neu.
 
-Dann prüfen, ob das Gerüst zur vorliegenden Transaktion trägt. Die entscheidende Frage:
+Was hier entsteht, ist **eine Hypothese, keine Storyline**. Sie formuliert, welche
+Argumentation der Fall vermutlich trägt, und benennt, **was sie belegen müsste**, um zu
+gelten. Sie wird noch nicht zur Bestätigung vorgelegt — dafür fehlen die Zahlen.
 
-> **Gibt es hier wirklich eine Schere zwischen Investitionsprogramm und
-> Innenfinanzierungskraft — und lässt sie sich aus offengelegten Zahlen belegen?**
+Die Hypothese des Standardbogens lautet: Investitionsbedarf und Innenfinanzierungskraft
+laufen auseinander. Sie ist plausibel, aber **nicht gesetzt**. Ein Verschuldungsfaktor
+beweist weder Tragfähigkeit noch einen ausgeschöpften Kreditspielraum, und eine große
+Investitionssumme neben einem kleineren Jahres-Cashflow ist noch keine Lücke — über fünf
+Jahre steht 100 gegen 150, nicht 100 gegen 30.
 
-Wenn ja, trägt der Bogen. Wenn nein — etwa weil das Unternehmen kaum verschuldet ist, weil
-das Investitionsprogramm nicht beziffert ist, oder weil der eigentliche Anlass ein ganz
-anderer ist (Gesellschafterwechsel, Portfoliobereinigung, Nachfolge) — dann trägt er nicht,
-und du musst das sagen, statt ihn zu erzwingen. Eine Unterlage, die eine Not konstruiert,
-die der Vorstand nicht empfindet, verliert ihn auf Folie 12.
+Deshalb gehört zur Hypothese immer die Gegenhypothese: Was müsste zutreffen, damit der Bogen
+**nicht** trägt? Etwa freie Kreditlinien, ein bevorstehender Beteiligungsverkauf, eine
+zugesagte Kapitalerhöhung, ein Investitionsprogramm, das gar nicht beziffert ist. Beides
+schriftlich festhalten, bevor gerechnet wird — sonst sucht die Rechnung nur noch
+Bestätigung.
 
-Ergebnis dieses Schritts ist ein kurzer Text, kein Foliensatz: Gesamtbogen in drei bis fünf
-Sätzen, dann pro Kapitel Aussage / Beleg / offene Frage. Belege konkret benennen — mit Zahl
-und Quelle, nicht als Platzhalter.
+### Schritt 3 — Financial Model und Finanzierungsüberleitung
+
+Die Zahlen kommen aus einer Excel-Mappe, nicht aus dem Fließtext. Architektur,
+Farbkonvention, Kontrollzeilen, Umgang mit Lücken und Rundung, Kennzahlendefinitionen:
+`references/financial-model.md`. Das Wichtigste:
+
+- Input-Blätter transkribieren zeilengetreu, ein Blatt je Rechenwerk; Output-Blätter rechnen.
+- Farbkonvention: **blau = Eingabewert, schwarz = Formel im Blatt, grün = Verweis.**
+- Kontrollzeilen prüfen die **Übertragung**, nicht die Definition. Wo eine Kontrolle eine
+  Definitionsdifferenz aufdeckt — etwa beim Finanzmittelfonds, der bei Konzernen oft
+  Kassenkredite einschließt und dann negativ ist —, wird die Definition des Unternehmens
+  nachgebaut und die Differenz dokumentiert. Nie die Quelle anpassen, damit ein Test besteht.
+- Fehlende Werte werden unterschieden: tatsächlich null, nicht gesondert ausgewiesen, in
+  anderer Position enthalten, nicht verfügbar. Pauschale Nullen erfinden Aussagen.
+
+**Dann die Finanzierungsüberleitung.** Sie ist der Kern dieses Schritts und entscheidet, ob
+die Hypothese aus Schritt 2 hält. Über denselben Zeitraum und dieselbe wirtschaftliche
+Einheit:
+
+```
+  verfügbare operative Mittel über den Zeitraum
++ freie Liquidität und zugesagte, noch nicht gezogene Finanzierungen
++ Zuschüsse und Fördermittel, soweit bewilligt
+− vertraglich gebundene Abflüsse (Ergebnisabführung, Ausgleichszahlung, Tilgung)
+− geplante Investitionen über denselben Zeitraum
+= Finanzierungssaldo
+```
+
+Zwei Fehler, die diese Rechnung wertlos machen: **Doppelabzug** — was bereits im operativen
+Cashflow steckt, darf nicht erneut abgezogen werden; und **Zeitraumbruch** — eine
+Investitionssumme über fünf Jahre gegen einen Cashflow über ein Jahr zu stellen, erzeugt eine
+Lücke, die es nicht gibt.
+
+Wo eine Größe fehlt, bleibt sie offen und wird als offen ausgewiesen. Eine Überleitung mit
+Annahmen ist eine Rechnung über Annahmen, keine Lücke.
+
+**Zwischenstopp:** Kennzahlenübersicht und Finanzierungsüberleitung zeigen und
+plausibilisieren lassen.
+
+### Schritt 4 — Storyline bestätigen lassen
+
+Jetzt erst wird aus der Hypothese eine Storyline. Die Überleitung aus Schritt 3 sagt, welcher
+der drei Fälle vorliegt:
+
+| Befund | Konsequenz |
+|---|---|
+| **Saldo deutlich negativ, belegt** | Der Standardbogen trägt. Der Kernsatz benennt die Lücke mit ihrer Größenordnung. |
+| **Saldo nicht bestimmbar**, weil das Programm nicht beziffert ist | Der Bogen trägt qualitativ. Der Kernsatz benennt die Anspannung, nicht die Lücke, und die Folie sagt offen, dass keine öffentliche Bezifferung vorliegt. |
+| **Saldo tragfähig oder positiv** | Der Bogen trägt **nicht**. Das sagen, statt eine Not zu konstruieren — und einen anderen Bogen vorschlagen (Wachstum, Portfolio, Gesellschafterwechsel, Nachfolge). |
+
+Formulierungen wie „tragfähig", „scheint nicht finanzierbar" oder „reduzierter Spielraum"
+sind **Ergebnisse dieser Prüfung, keine Vorgaben.** Sie stehen in `assets/textbausteine.md`
+als Muster für den Fall, dass der Befund sie trägt. Ohne Beleg gehören sie nicht auf die
+Folie — eine Unterlage, die eine Not behauptet, die der Vorstand nicht empfindet, verliert
+ihn auf Folie 12.
+
+Ergebnis ist ein kurzer Text, kein Foliensatz: Gesamtbogen in drei bis fünf Sätzen, dann pro
+Kapitel Aussage / Beleg / offene Frage, Belege mit Zahl und Quelle.
 
 **Zwischenstopp:** Storyline vorlegen und bestätigen lassen. Erst danach schreiben.
 
-### Schritt 3 — Financial Model bauen
-
-Die Zahlen kommen aus einer Excel-Mappe, nicht aus dem Fließtext. Das ist keine Formalie:
-die Financial-Folie und die Verschuldungsfolie sind die einzigen Stellen, an denen der
-Adressat dich sofort widerlegen kann.
-
-Architektur, Farbkonvention, Kontrollzeilen und Kennzahlendefinitionen:
-`references/financial-model.md`. Wichtigste Punkte:
-
-- Input-Blätter transkribieren den HGB-Abschluss zeilengetreu, ein Blatt je Rechenwerk.
-- Ein Output-Blatt (`Overview FS`) enthält genau die Blöcke, die auf die Folien gehen.
-- Farbkonvention: **blau = Eingabewert aus dem Abschluss, schwarz = Formel im Blatt,
-  grün = Verweis auf ein anderes Blatt.** Summen sind nie hartcodiert.
-- Kontrollzeilen (Aktiva ./. Passiva, Bilanzgewinn = 0, Cashflow-Abstimmung, EK-Quote
-  berechnet gegen Lagebericht) müssen null ergeben, bevor eine Zahl auf eine Folie darf.
-- Ein Blatt `Quellen & Hinweise` dokumentiert Abgrenzung, Gliederungsharmonisierung und
-  **jede Abweichung zwischen zwei Abschlüssen**. Vorjahreswerte werden regelmäßig
-  umgegliedert; wer das nicht dokumentiert, wird im Termin darauf angesprochen.
-
-**Quelldateien bleiben unverändert.** Ein vorhandenes Modell wird nie an Ort und Stelle
-erweitert, sondern als neue Version kopiert (`…_v2.xlsx`) — ebenso Abschlüsse, Berichte und
-die Referenzunterlage. Wer eine Quelldatei überschreibt, nimmt dem Nutzer den Stand, gegen
-den er prüfen wollte, und macht die Änderung unsichtbar. Wenn eine Quelldatei doch angefasst
-werden muss, vorher sagen.
-
-**Zwischenstopp:** Kennzahlenübersicht (Umsatz, Rohertrag, EBITDA, Capex, Net Debt,
-Net Debt/EBITDA, EK-Quote, Cashflows) zeigen und plausibilisieren lassen.
-
-### Schritt 4 — Kapitelweise schreiben
+### Schritt 5 — Kapitelweise schreiben
 
 Nicht das ganze Deck am Stück. Reihenfolge: **Kapitel 2 → Kapitel 3 → Kapitel 1.**
 
 Kapitel 2 zuerst, weil es die Fakten setzt, aus denen Kapitel 3 folgen muss. Kapitel 1
-zuletzt, weil es das Standardteil ist und aus der letzten Unterlage übernommen wird —
-inhaltliche Energie gehört nach hinten, nicht nach vorn.
+zuletzt, weil es das Standardteil ist — inhaltliche Energie gehört nach hinten.
 
 Nach jedem Kapitel anhalten und vorlegen. Die Details je Kapitel:
 
@@ -151,45 +197,68 @@ Nach jedem Kapitel anhalten und vorlegen. Die Details je Kapitel:
 - `references/kapitel-1-credentials.md` — Ansprechpartner, Haus, Sektorfokus, Track Record,
   Case Studies
 
-### Schritt 5 — In PowerPoint bauen
+### Schritt 6 — In PowerPoint bauen
 
 **Grundregel: Die letzte Unterlage wird kopiert, und der Text wird in die vorhandenen
-Boxen geschrieben. Es werden keine neuen Textfelder eingefügt.**
+Boxen und Tabellenzellen geschrieben. Es werden keine neuen Textfelder eingefügt.**
 
-Das ist die wichtigste operative Regel des Skills. Das Template trägt Master, Schriften,
-Farben, Fußzeilen und die think-cell-Objekte der Diagramme. Ein neu eingefügtes Textfeld
-erbt nichts davon: es steht in einer anderen Schrift, an einer minimal anderen Position,
-und beim nächsten Bearbeiten fällt es auf. Eine Folie, die aus lauter frei platzierten
-Kästchen besteht, ist nicht mehr pflegbar.
+Das Template trägt Master, Schriften, Farben, Fußzeilen und die think-cell-Objekte. Ein neu
+eingefügtes Textfeld erbt nichts davon: andere Schrift, verrutschte Position, und beim
+nächsten Bearbeiten fällt es auf.
 
-Vollständige Mechanik — Platzhalter-Indizes, Layoutfamilien, think-cell, Schaubilder,
-Skripte: `references/powerpoint.md`. Das Wichtigste in Kürze:
+Vollständige Mechanik in `references/powerpoint.md`. Das Wichtigste:
 
 - Jede Inhaltsfolie hat feste Platzhalter, die alle befüllt gehören: Aussagentitel,
   Kapitelkolumne, Bereichsüberschriften, **Quellenzeile**, **Fußnotenzeile**.
-- Diagramme sind think-cell-Objekte mit einem eingebetteten Datenobjekt. Nicht
-  programmatisch neu bauen — Datenwerte in think-cell aktualisieren, sonst geht das Diagramm
-  kaputt.
-- `scripts/inspect_deck.py` listet alle Folien, Layouts, Platzhalter und Textboxen einer
-  .pptx — damit findest du die Box, in die geschrieben werden soll.
-- `scripts/fill_deck.py` schreibt Text in vorhandene Boxen (nach Folie + Platzhalter-Index
-  oder Shape-Name) und legt bewusst keine neuen an.
-- `scripts/inspect_deck.py --vergleich <vorlage.pptx>` meldet vor der Übergabe jede Zugabe
-  gegenüber der Vorlage. Eine hinzugefügte Box fällt sonst niemandem auf.
+- Diagramme sind think-cell-Objekte. Nicht programmatisch ersetzen — die Datenreihen aus dem
+  Modell in think-cell eintragen. **Ein erhaltenes think-cell-Objekt kann alte Daten zeigen;**
+  jedes Diagramm gehört einzeln abgeglichen (Übergabeliste in `references/powerpoint.md`).
+- `scripts/inspect_deck.py` listet Folien, Platzhalter, Textboxen und Tabellenzellen.
+- `scripts/fill_deck.py` schreibt in vorhandene Boxen und Zellen und legt keine neuen an.
 
-### Schritt 6 — Prüfen
+### Schritt 7 — Prüfen und freigeben
 
-Die Prüfliste am Ende dieser Datei abarbeiten. Danach die Unterlage übergeben, mit einer
-kurzen Notiz, welche Zahlen aus welchem Jahr stammen und was noch offen ist.
+Die Prüfliste am Ende dieser Datei abarbeiten und beide Skriptprüfungen zusammen laufen
+lassen:
+
+```bash
+python3 scripts/inspect_deck.py neu.pptx --check --vergleich vorlage.pptx
+```
+
+**Was die Skripte nicht prüfen — und was deshalb trotz grüner Meldung offen ist:** ob die
+Zahlen stimmen, ob die Diagramme die aktuellen Daten zeigen, und wie die Folien aussehen.
+Diese drei Dinge werden von Hand abgenommen. Ein grüner Status bescheinigt ausschließlich
+die tatsächlich geprüften Eigenschaften.
+
+**Fertig ist die Unterlage erst, wenn alle vier Punkte abgehakt sind:**
+
+1. Beide Skriptprüfungen ohne offenen Befund, jede Abweichung gegenüber der Vorlage erklärt.
+2. Jede Zahl auf den Folien gegen das Modell abgeglichen, Tabellenzellen eingeschlossen.
+3. Jedes Diagramm einzeln gegen das Modell abgeglichen — nicht nur „think-cell ist noch da".
+4. Jede Folie einmal angesehen: Umbrüche, Überlauf, Ausrichtung, Restinhalte.
+
+Danach übergeben, mit einer kurzen Notiz, welche Zahlen aus welchem Jahr stammen, welche
+Definitionen gelten und was offen ist.
 
 ## Landkarte des Dokuments
 
 Rund 20 Folien, drei Kapitel. Zweck je Folie in einer Zeile — die inhaltliche Tiefe steht
 in den references-Dateien.
 
-Die Abschnittsziffern *(i)–(vi)* sind die verbindliche Gliederung von Kapitel 2 und 3. Sie
-sind nicht verhandelbar und auch nicht zu ergänzen: wer eine Folie dazuerfindet oder eine
-weglässt, bricht die Vergleichbarkeit zwischen den Unterlagen.
+**Verbindlich sind die Inhalte, nicht die Folienzahl.** Die Abschnitte *(i)–(vi)* in
+Kapitel 2 und *(i)–(ii)* in Kapitel 3 müssen alle vorkommen — keiner darf fehlen, und keiner
+darf durch einen anderen ersetzt werden. Das ist die Vergleichbarkeit zwischen den
+Unterlagen.
+
+Wie viele Folien ein Abschnitt braucht, ist dagegen Sache des Falls. Ein Abschnitt darf sich
+auf zwei Folien erstrecken, und zwischen den Abschnitten dürfen Vertiefungen stehen, die in
+den Kapitelreferenzen ausdrücklich als optional benannt sind — etwa die strategischen
+Stoßrichtungen vor der Summary oder das Beteiligungsmodell nach den Ansatzpunkten. Ebenso
+darf Kapitel 1 bei einer Fortsetzung von sieben auf zwei Folien schrumpfen.
+
+Was **nicht** erlaubt ist: einen Abschnitt weglassen, ihn durch etwas anderes ersetzen, oder
+eine Folie erfinden, die keinem Abschnitt und keiner benannten Vertiefung entspricht. Die
+Spalte „Folie" unten ist die Regelbesetzung, nicht die einzig zulässige.
 
 | # | Folie | Zweck |
 |---|---|---|
@@ -244,13 +313,13 @@ von `references/kapitel-2-unternehmen.md` und `references/kapitel-3-handlungsopt
 
 | Datei | Wann |
 |---|---|
-| `references/storyline.md` | **Immer zuerst**, in Schritt 2 |
-| `references/recherche.md` | Schritt 1: welche Quelle liefert was, und wie zitiert man sie |
-| `references/financial-model.md` | Schritt 3: Excel-Architektur, Kennzahlen, Kontrollen |
-| `references/kapitel-2-unternehmen.md` | Schritt 4: Folien 12–17 im Detail |
-| `references/kapitel-3-handlungsoptionen.md` | Schritt 4: Folien 19–21 im Detail |
-| `references/kapitel-1-credentials.md` | Schritt 4: Folien 4–10, meist Übernahme |
-| `references/powerpoint.md` | Schritt 5: Template-Mechanik, think-cell, Skripte |
+| `references/storyline.md` | **Vor jeder Folie** — Schritt 2 (Hypothese) und Schritt 4 (Bestätigung) |
+| `references/recherche.md` | Schritt 1: Quellen, Dateirollen, Widersprüche, Zitierkonvention |
+| `references/financial-model.md` | Schritt 0 (Analyseprofil) und Schritt 3 (Modell, Kontrollen, Überleitung) |
+| `references/kapitel-2-unternehmen.md` | Schritt 5: Folien 12–17 im Detail |
+| `references/kapitel-3-handlungsoptionen.md` | Schritt 5: Folien 19–21 im Detail |
+| `references/kapitel-1-credentials.md` | Schritt 5: Folien 4–10, meist Übernahme |
+| `references/powerpoint.md` | Schritt 6 und 7: Template-Mechanik, think-cell, Skripte, Übergabeliste |
 | `assets/musterdokument.md` | Folie-für-Folie-Vorlage mit Platzhaltern |
 | `assets/textbausteine.md` | Standardformulierungen und Titelmuster |
 | `assets/tabellenlayouts.md` | Exakte Layouts für Financial-Tabelle, KPI-Kacheln, Struktur |
@@ -274,7 +343,7 @@ sichtbaren Bereichs liegen.
 Belege, keine Arbeitsdateien. Änderungen gehören in eine neue Version mit eigenem Namen.
 
 **Neue Textboxen statt Platzhalter.** Führt zu falscher Schrift, verrutschten Rändern und
-einer Datei, die niemand mehr sauber weiterbearbeiten kann. Siehe Schritt 5.
+einer Datei, die niemand mehr sauber weiterbearbeiten kann. Siehe Schritt 6.
 
 **Diagramme programmatisch angefasst.** Die Diagramme sind think-cell-Objekte. Wer sie mit
 einem Skript ersetzt, verliert die Verknüpfung und die Formatierung.
@@ -296,6 +365,21 @@ wertlos. Jede Option muss an den in Kapitel 2 belegten Engpass anknüpfen.
 
 **Titel ohne Aussage.** "Financials" ist kein Titel. Siehe Prüfliste.
 
+**Unsichtbare Reste beim Textaustausch.** Beim Überschreiben einer Box können Hyperlinks auf
+den alten Mandanten, Felder (Foliennummer, Datum, eingefügte Werte) und weiche Umbrüche
+stehenbleiben — im Textfeld unsichtbar, in der Datei vorhanden, beim Klick sichtbar.
+`fill_deck.py` entfernt sie und meldet, was es weggeworfen hat; wer von Hand ersetzt, prüft
+es selbst.
+
+**Tabellen werden übersehen.** One Pager und Financial-Tabelle stehen in Tabellen, nicht in
+Textrahmen. Wer nur Textrahmen kontrolliert, prüft genau die Folien nicht, auf denen die
+Zahlen stehen. Die Skripte lesen Tabellenzellen mit — die Adressierung dafür ist
+`name:Tabelle!r2c1`.
+
+**Ein Urteil aus einem einzelnen Jahr.** Ein Sonderjahr mit einem Beteiligungsverkauf drückt
+den Verschuldungsfaktor auf einen Wert, der zwölf Monate später nicht mehr gilt. Immer die
+Reihe zeigen, nie den Punkt.
+
 ## Prüfliste vor Übergabe
 
 **Aussage**
@@ -306,9 +390,14 @@ wertlos. Jede Option muss an den in Kapitel 2 belegten Engpass anknüpfen.
 - [ ] Der Bogen stimmt: Legitimation → Engpass → Lösungsraum, ohne Sprung.
 
 **Zahlen**
-- [ ] Jede Zahl ist auf einen offengelegten Abschluss oder Geschäftsbericht rückführbar und
-      steht so auch im Modell.
-- [ ] Alle Kontrollzeilen im Modell stehen auf null.
+- [ ] Jede Zahl ist auf eine benannte Quelle rückführbar und steht so auch im Modell.
+      Abschluss und Geschäftsbericht für Finanzzahlen; Register, Presse und kommunale
+      Beschlüsse für Struktur, Personen, Projekte und Vorhaben — jeweils mit Fundstelle.
+- [ ] Alle Kontrollzeilen im Modell sind geklärt: null, oder eine benannte und begründete
+      Differenz. Definitionsdifferenzen sind als solche dokumentiert, nicht wegjustiert.
+- [ ] Fehlende Werte sind als fehlend gekennzeichnet und nicht auf null gesetzt.
+- [ ] Der Finanzierungssaldo trägt die Aussage, die auf den Folien steht — gleicher Zeitraum,
+      gleiche Einheit, keine Doppelabzüge.
 - [ ] Abweichungen zwischen Quellen sind dokumentiert und, wo sie auf der Folie sichtbar
       werden, in einer Fußnote erklärt.
 - [ ] Stichtage und Geschäftsjahre sind überall genannt und einheitlich.

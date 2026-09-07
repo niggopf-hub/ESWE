@@ -118,6 +118,29 @@ dem Modell (Jahre, Werte, Faktoren) in einer klar beschrifteten Tabelle, und die
 werden in think-cell eingetragen. Textteile der Folie werden programmatisch befüllt,
 Diagrammdaten von Hand.
 
+### Übergabeliste für die Diagramme
+
+Der gefährlichste Zustand einer Unterlage ist ein **unversehrtes Diagramm mit alten Daten**.
+Es sieht richtig aus, jede Skriptprüfung meldet grün, und es zeigt die Zahlen des
+Vorgängerfalls. Weder `--check` noch `--vergleich` können das finden: Sie sehen, dass das
+think-cell-Objekt da ist, nicht was drinsteht.
+
+Deshalb bekommt jedes Diagramm eine Zeile in einer Übergabeliste, die mit der Datei
+weitergereicht wird:
+
+| Folie | Diagramm | Datenreihe aus dem Modell | Werte eingetragen | Gegengelesen |
+|---|---|---|---|---|
+| 15 | Net Debt + Faktoren | `Overview FS`, Verschuldungsblock | ☐ | ☐ |
+| 16 | Umsatz / Rohertrag | `Overview FS`, Ertragslage | ☐ | ☐ |
+| 16 | Cashflows | `Overview FS`, Finanzlage | ☐ | ☐ |
+| 16 | Kassenbestand / Net Debt | `Overview FS`, Vermögenslage | ☐ | ☐ |
+| 13 | Umsatzring | `Overview FS`, Umsatzaufteilung | ☐ | ☐ |
+
+„Gegengelesen" heißt: Jemand hat den Wert im Diagramm mit dem Wert im Modell verglichen —
+nicht, dass das Diagramm existiert. Solange eine Zeile offen ist, ist die Unterlage nicht
+fertig. Das gilt auch für Diagramme auf Folien, die inhaltlich unverändert übernommen
+wurden: Wenn sich der Fall geändert hat, haben sich ihre Daten geändert.
+
 ---
 
 ## Wiederkehrende Bauteile
@@ -161,11 +184,29 @@ python3 scripts/inspect_deck.py unterlage.pptx --check         # Prüfmodus
 python3 scripts/inspect_deck.py neu.pptx --vergleich alt.pptx  # gegen die Vorlage
 ```
 
-Der **Vergleichsmodus** ist der eigentliche Wächter über die Grundregel: Er stellt die
-Shapes der bearbeiteten Datei denen der Vorlage gegenüber und meldet jede Zugabe einzeln,
-neue Textfelder ausdrücklich markiert. Ohne diesen Vergleich fällt eine hinzugefügte Box
-niemandem auf — sie sieht auf der Folie unauffällig aus und rächt sich erst beim nächsten
-Bearbeiten. Vor der Übergabe einmal laufen lassen und jede gemeldete Zugabe erklären können.
+Der **Vergleichsmodus** ist der Wächter über die Grundregel: Er stellt die Shapes der
+bearbeiteten Datei denen der Vorlage gegenüber und meldet jede Zugabe, Entfernung und
+Ersetzung einzeln. Er verlässt sich dabei nicht auf die Shape-ID allein — PowerPoint vergibt
+die ID eines gelöschten Shapes neu, sodass ein eingeschmuggeltes Textfeld unter recycelter ID
+sonst unsichtbar bliebe. Zusätzliche und fehlende Folien werden ebenfalls gemeldet, und der
+Inhalt zusätzlicher Folien wird ausgegeben.
+
+**Beide Prüfungen zusammen laufen lassen.** `--check` und `--vergleich` prüfen Verschiedenes
+und verdrängen einander nicht:
+
+```bash
+python3 scripts/inspect_deck.py neu.pptx --check --vergleich vorlage.pptx
+```
+
+Rückgabestatus 0 heißt: keine Abweichung und kein Inhaltsbefund. Jede gemeldete Abweichung
+muss erklärbar sein — auch Entfernungen, denn ein versehentlich gelöschtes Element fällt
+sonst niemandem auf.
+
+**Was der Prüfer nicht kann.** Er prüft Text, Tabellenzellen, Platzhalter, Kapitelkolumnen
+gegen die Agenda und eine grobe Überlaufschätzung. Er prüft **nicht**, ob die Zahlen stimmen,
+ob die Diagramme aktuelle Daten zeigen und wie die Folien aussehen. Ein grüner Status
+bescheinigt ausschließlich das Geprüfte — die drei genannten Punkte werden von Hand
+abgenommen (siehe Übergabeliste oben und Schritt 7 der SKILL.md).
 
 Der Prüfmodus meldet genau die Fehler aus der Prüfliste: leere Pflicht-Platzhalter
 (Quellenzeile, Kapitelkolumne), Textreste mit verdächtigen Mustern (`WIP`, `TODO`, `http`,
@@ -196,9 +237,31 @@ Format der Zuordnungsdatei:
 }
 ```
 
-Adressierung: `ph:<index>` für Platzhalter, `name:<Shapename>` für benannte Shapes.
-Mehrzeilige Inhalte als Liste von Zeilen übergeben; die Aufzählungsformatierung des
-Platzhalters bleibt erhalten.
+Adressierung:
+
+| Form | Ziel |
+|---|---|
+| `ph:13` | Platzhalter mit diesem Index |
+| `name:Text Box 29` | Shape mit exakt diesem Namen — **muss eindeutig sein** |
+| `name:One Pager!r4c2` | Zelle Zeile 4, Spalte 2 der Tabelle „One Pager" (1-basiert) |
+| `ph:5!r3c2` | dieselbe Zellenadressierung für eine Tabelle in einem Platzhalter |
+
+Die Zellenadressierung ist nicht optional: One Pager und Financial-Tabelle stehen in
+Tabellen, nicht in Textrahmen. Die vollständigen Shape-Namen liefert
+`inspect_deck.py --slide N` — ungekürzt, denn sie sind die Zieladresse.
+
+Mehrzeilige Inhalte als Liste von Zeilen übergeben; die Absatzformatierung bleibt erhalten.
+
+**Was das Skript beim Ersetzen wegwirft — und meldet.** Beim Überschreiben eines Absatzes
+bleiben sonst Reste des alten Inhalts stehen, die im Textfeld unsichtbar sind: Hyperlinks auf
+den alten Mandanten, Felder (Foliennummer, Datum, eingefügte Werte), weiche Zeilenumbrüche.
+Das Skript entfernt sie ausdrücklich und schreibt in die Hinweise, was es entfernt hat. Bei
+gemischt formatierten Absätzen übernimmt der neue Text die Formatierung des ersten Runs und
+meldet das — wenn Teile anders aussehen sollen, ist das von Hand nachzuarbeiten.
+
+Zwei Sicherungen, die das Skript fail-closed machen: Ein **mehrdeutiger Shape-Name** bricht
+mit Fehler ab, statt das erste Vorkommen zu treffen; und **Quell- und Zieldatei dürfen nicht
+identisch sein**, damit die Vorlage nicht überschrieben wird.
 
 ---
 
@@ -213,5 +276,13 @@ Platzhalters bleibt erhalten.
    zuerst, weil sie überall gleich lauten müssen.
 4. Kapitel 2 befüllen, dann 3, dann 1 (Kapitel 1 ist meist reine Übernahme).
 5. Diagrammdaten in think-cell eintragen.
-6. `inspect_deck.py --check` und `--vergleich` gegen die Vorlage laufen lassen.
-7. Durchsehen: fremde Namen, WIP-Reste, leere Platzhalter, Nummernbezüge in Kommentaren.
+6. `inspect_deck.py --check --vergleich <vorlage.pptx>` laufen lassen und jede Abweichung
+   erklären.
+7. Übergabeliste der Diagramme abarbeiten: jede Datenreihe eingetragen und gegengelesen.
+8. Jede Folie einmal ansehen: fremde Namen, WIP-Reste, leere Platzhalter, Umbrüche,
+   Überlauf, Nummernbezüge in Kommentaren.
+
+**Voraussetzungen.** Beide Skripte brauchen Python 3 und `python-pptx`
+(`pip install python-pptx`); weitere Abhängigkeiten gibt es nicht. Die Ausgabe ist auf
+ASCII beschränkt und stellt die Konsole auf UTF-8 um, damit sie auch unter Windows ohne
+Zeichenkodierungsfehler läuft.

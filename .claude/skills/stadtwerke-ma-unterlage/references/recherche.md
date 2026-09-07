@@ -94,6 +94,40 @@ Neubau. Wenn sie fehlt: **danach fragen, bevor du anfängst.**
 
 ---
 
+## 1a. Jede Datei bekommt eine Rolle
+
+Im Projektordner liegen Dateien mit sehr unterschiedlicher Verlässlichkeit nebeneinander,
+und der Dateiname sagt darüber nichts. Bevor eine Zahl übernommen wird, wird die Rolle der
+Datei festgehalten:
+
+| Rolle | Was daraus übernommen werden darf |
+|---|---|
+| **Primärquelle** — offengelegter Abschluss, Geschäftsbericht, Registerauszug | Zahlen und Aussagen, mit Fundstelle |
+| **Bestätigtes Modell** — geprüfte Mappe mit laufenden Kontrollen | Zahlen für die Folien |
+| **Layoutvorlage** — ein Deck, dessen Aufbau übernommen wird | Struktur, Formatierung, Bauteile — **keine Zahlen** |
+| **Historische Unterlage** — ein früher ausgeliefertes Deck | Formulierungsmuster, Kapitel 1 — Zahlen nur mit Datum und nur als Historie |
+| **Arbeitsnotiz** — README, Briefing, Zwischenstand | Hinweise und offene Punkte, keine belastbaren Zahlen |
+| **Ungeprüfter Entwurf** — ein angefangenes Deck | gar nichts, bis geklärt ist, was darin geprüft wurde |
+
+Der gefährlichste Fall ist der vorletzte in Kombination mit dem drittletzten: ein Arbeitsdeck,
+das aus einer Vorlage entstanden ist und **noch Zahlen des Vorgängerfalls trägt**. Solche
+Dateien sehen fertig aus. Eine Investitionssumme oder ein Verschuldungsfaktor darin gehört
+zum alten Mandanten, bis er gegen eine Primärquelle geprüft ist.
+
+Praktische Konsequenz: Vor der Übernahme einer Zahl aus einem Deck immer die Frage stellen,
+ob sie dort **belegt** oder **geerbt** ist. Bei einer Layoutvorlage lautet die Antwort
+grundsätzlich: geerbt.
+
+Umgekehrt gilt: Fremde Namen sind nicht automatisch Altlast. Beteiligungen, echte Case
+Studies, Vergleichsunternehmen und Referenztransaktionen gehören legitim in die Unterlage.
+Geprüft wird, ob ein Name **an dieser Stelle** hingehört — nicht, ob er vorkommt.
+
+Und: Arbeitsnotizen veralten. Ein Briefing, das eine fehlende Datei anmahnt, die inzwischen
+im Projekt liegt, ist an dieser Stelle überholt. Vor der Übernahme eines „offenen Punkts"
+prüfen, ob er noch offen ist.
+
+---
+
 ## 2. Reihenfolge der Beschaffung
 
 1. Letzte vergleichbare Unterlage — sonst fehlt der Maßstab.
@@ -102,8 +136,13 @@ Neubau. Wenn sie fehlt: **danach fragen, bevor du anfängst.**
 4. Handelsregisterauszug — klärt Gesellschafter und Organe.
 5. Website, Presse, Ratsinformationssystem — für Projekte und Aktualität.
 
-Nach Schritt 2 steht fest, welchen Zeitraum die Financials abdecken können. Diese
-Entscheidung nicht später revidieren — sie zieht sich durch alle Folien.
+**Den Zeitraum erst festlegen, wenn alle fünf Quellen gesichtet sind** — nicht schon nach
+den Jahresabschlüssen. Der Geschäftsbericht
+enthält oft den vollständigen Abschluss des jüngsten Jahres, und einzelne Rechenwerke reichen
+unterschiedlich weit zurück — der operative Cashflow eines frühen Jahres fehlt häufig, obwohl
+Bilanz und GuV vorliegen. Wer den Zeitraum vorher fixiert, verschenkt ein Jahr oder baut eine
+Reihe mit Löchern. Erst wenn alle Quellen gesichtet sind, wird der Zeitraum **je Rechenwerk**
+festgehalten und danach nicht mehr revidiert.
 
 ---
 

@@ -1,42 +1,58 @@
 #!/usr/bin/env python3
-"""Schreibt Text in VORHANDENE Boxen einer Unterlage — und legt niemals neue an.
+"""Schreibt Text in VORHANDENE Boxen und Tabellenzellen - und legt niemals neue an.
 
 Der Sinn: Platzhalter erben Schrift, Groesse, Farbe und Position vom Master. Ein neu
-eingefuegtes Textfeld erbt nichts davon und macht die Datei unbrauchbar fuer die
-Weiterbearbeitung. Deshalb bricht dieses Skript ab, wenn ein Ziel nicht existiert,
-statt es anzulegen — ein Tippfehler soll auffallen, nicht stillschweigend eine Box
-erzeugen.
+eingefuegtes Textfeld erbt nichts davon. Deshalb bricht dieses Skript ab, wenn ein Ziel
+nicht existiert, statt es anzulegen.
+
+Ebenso wichtig und weniger offensichtlich: Beim Ersetzen von Text koennen Reste des alten
+Inhalts stehenbleiben, die im Textfeld unsichtbar sind - Hyperlinks auf den alten Mandanten,
+Felder (Foliennummer, Datum, eingefuegte Werte), weiche Zeilenumbrueche. Dieses Skript
+entfernt sie ausdruecklich und meldet, was es dabei weggeworfen hat.
 
     python3 fill_deck.py deck.pptx --map befuellung.json --out deck_v2.pptx
     python3 fill_deck.py deck.pptx --map befuellung.json --dry-run
 
-Format der Zuordnungsdatei (Folienummer 1-basiert):
+Zieladressen:
+    "ph:13"                Platzhalter mit diesem Index
+    "name:Text Box 29"     Shape mit exakt diesem Namen (muss eindeutig sein)
+    "name:Tab1!r2c1"       Zelle Zeile 2, Spalte 1 der Tabelle 'Tab1' (1-basiert)
+    "ph:5!r3c2"            dasselbe fuer eine Tabelle in einem Platzhalter
+
+Beispiel:
 
     {
       "12": {
-        "ph:0":  "Starke Marktposition mit umfangreichem Investitionsprogramm …",
-        "ph:13": "2. Musterversorger AG – Uebersicht und Herausforderungen",
-        "ph:14": "Quellen: eigene Recherche, Jahresabschluss Musterversorger AG 2025",
-        "ph:15": ["1) Net Debt = …", "2) Stichtag 31.12.2025"]
+        "ph:0":  "Starke Marktposition mit umfangreichem Investitionsprogramm ...",
+        "ph:13": "2. Musterversorger AG - Uebersicht und Herausforderungen",
+        "ph:15": ["1) Net Debt = ...", "2) Stichtag 31.12.2025"]
       },
-      "13": { "name:Text Box 29": "999 Mio. EUR" }
+      "13": { "name:One Pager!r4c2": "Musterstadt Holding GmbH 50,6 % - Partner AG 49,4 %" }
     }
 
-Eine Liste wird zu mehreren Absaetzen. Die Formatierung des ersten vorhandenen
-Absatzes wird auf alle neuen Absaetze uebertragen, damit Aufzaehlungszeichen und
-Schriftgrad erhalten bleiben.
+Eine Liste wird zu mehreren Absaetzen; die Absatzformatierung des Originals bleibt erhalten.
 
 Benoetigt: pip install python-pptx
 """
 import argparse
 import copy
 import json
+import os
+import re
 import sys
 
 try:
     from pptx import Presentation
+    from pptx.oxml.ns import qn
 except ImportError:
     sys.exit("Fehlt: pip install python-pptx")
+
+ZELLE = re.compile(r"^(?P<ziel>.+?)!r(?P<r>\d+)c(?P<c>\d+)$")
+# Elemente, die beim Ersetzen sichtbaren oder unsichtbaren Altbestand tragen
+ALTLAST = {
+    qn("a:fld"): "Feld (Foliennummer, Datum o. ae.)",
+    qn("a:br"): "weicher Zeilenumbruch",
+}
 
 
 def alle_shapes(shapes):
@@ -46,54 +62,152 @@ def alle_shapes(shapes):
             yield from alle_shapes(sh.shapes)
 
 
-def finde(slide, adresse):
-    """Loest 'ph:<idx>' oder 'name:<Shapename>' auf. Gibt None zurueck, wenn es fehlt."""
-    art, _, wert = adresse.partition(":")
-    if art == "ph":
-        try:
-            idx = int(wert)
-        except ValueError:
-            return None
-        for sh in alle_shapes(slide.shapes):
-            if sh.is_placeholder and sh.placeholder_format.idx == idx:
-                return sh
-    elif art == "name":
-        for sh in alle_shapes(slide.shapes):
-            if sh.name == wert:
-                return sh
+def finde_shapes(slide, art, wert):
+    """Alle passenden Shapes - Mehrdeutigkeit wird vom Aufrufer gemeldet, nicht verschluckt."""
+    treffer = []
+    for sh in alle_shapes(slide.shapes):
+        if art == "ph" and sh.is_placeholder:
+            try:
+                if sh.placeholder_format.idx == int(wert):
+                    treffer.append(sh)
+            except ValueError:
+                return []
+        elif art == "name" and sh.name == wert:
+            treffer.append(sh)
+    return treffer
+
+
+def rpr_vorlage(paragraph):
+    """rPr des ersten Runs als Vorlage - ohne Hyperlinks, die zum alten Inhalt gehoeren."""
+    for r in paragraph._p.findall(qn("a:r")):
+        rpr = r.find(qn("a:rPr"))
+        if rpr is not None:
+            v = copy.deepcopy(rpr)
+            for tag in ("a:hlinkClick", "a:hlinkMouseOver"):
+                for h in v.findall(qn(tag)):
+                    v.remove(h)
+            return v
     return None
 
 
-def schreibe(shape, inhalt):
-    """Ersetzt den Text und erhaelt die Absatzformatierung des Originals."""
-    tf = shape.text_frame
-    zeilen = inhalt if isinstance(inhalt, list) else [inhalt]
-    zeilen = [str(z) for z in zeilen]
+def gemischt(paragraph):
+    """True, wenn die Runs des Absatzes unterschiedlich formatiert sind."""
+    formate = set()
+    for r in paragraph._p.findall(qn("a:r")):
+        rpr = r.find(qn("a:rPr"))
+        formate.add(str(rpr.xml) if rpr is not None else "")
+        if len(formate) > 1:
+            return True
+    return False
 
-    vorlage = copy.deepcopy(tf.paragraphs[0]._p)
 
-    # Alle Absaetze bis auf den ersten entfernen, dann den ersten neu befuellen.
-    for p in list(tf.paragraphs)[1:]:
+def absatz_neu(paragraph, text, vorlage):
+    """Leert den Absatz vollstaendig und setzt genau einen Run - meldet Verworfenes."""
+    p = paragraph._p
+    verworfen = []
+    for kind in list(p):
+        if kind.tag == qn("a:pPr"):
+            continue
+        if kind.tag in ALTLAST:
+            verworfen.append(ALTLAST[kind.tag])
+        elif kind.tag == qn("a:r"):
+            rpr = kind.find(qn("a:rPr"))
+            if rpr is not None and rpr.find(qn("a:hlinkClick")) is not None:
+                verworfen.append("Hyperlink auf den alten Inhalt")
+        p.remove(kind)
+    r = p.makeelement(qn("a:r"), {})
+    if vorlage is not None:
+        r.append(copy.deepcopy(vorlage))
+    t = p.makeelement(qn("a:t"), {})
+    t.text = text
+    r.append(t)
+    p.append(r)
+    return verworfen
+
+
+def schreibe(textframe, inhalt):
+    """Ersetzt den Text vollstaendig. Gibt (Warnungen, Verworfenes) zurueck."""
+    zeilen = [str(z) for z in (inhalt if isinstance(inhalt, list) else [inhalt])]
+    warn, verworfen = [], []
+    erster = textframe.paragraphs[0]
+    if gemischt(erster):
+        warn.append(
+            "Absatz war gemischt formatiert; der neue Text uebernimmt die Formatierung "
+            "des ersten Runs. Wenn Teile anders aussehen sollen, von Hand nacharbeiten."
+        )
+    vorlage_rpr = rpr_vorlage(erster)
+    vorlage_p = copy.deepcopy(erster._p)
+
+    for p in list(textframe.paragraphs)[1:]:
         p._p.getparent().remove(p._p)
-
-    erster = tf.paragraphs[0]
-    for r in list(erster.runs)[1:]:
-        r._r.getparent().remove(r._r)
-    if erster.runs:
-        erster.runs[0].text = zeilen[0]
-    else:
-        erster.add_run().text = zeilen[0]
+    verworfen += absatz_neu(textframe.paragraphs[0], zeilen[0], vorlage_rpr)
 
     for zeile in zeilen[1:]:
-        neu = copy.deepcopy(vorlage)
-        tf._txBody.append(neu)
-        p = tf.paragraphs[-1]
-        for r in list(p.runs)[1:]:
-            r._r.getparent().remove(r._r)
-        if p.runs:
-            p.runs[0].text = zeile
-        else:
-            p.add_run().text = zeile
+        neu = copy.deepcopy(vorlage_p)
+        textframe._txBody.append(neu)
+        verworfen += absatz_neu(textframe.paragraphs[-1], zeile, vorlage_rpr)
+    return warn, sorted(set(verworfen))
+
+
+def platzschaetzung(shape, text):
+    """Grobe Warnung, wenn der Text die Box sprengt. Ersetzt keine Sichtpruefung."""
+    try:
+        breite_cm = shape.width / 360000
+        hoehe_cm = shape.height / 360000
+    except (TypeError, AttributeError):
+        return None
+    if not breite_cm or not hoehe_cm:
+        return None
+    groesse_pt = 9.0
+    for para in shape.text_frame.paragraphs:
+        for r in para.runs:
+            if r.font.size:
+                groesse_pt = r.font.size.pt
+                break
+        break
+    zeichen_breite_cm = groesse_pt * 0.0352778 * 0.5
+    zeilen_hoehe_cm = groesse_pt * 0.0352778 * 1.25
+    pro_zeile = max(1, int(breite_cm / zeichen_breite_cm))
+    passt = max(1, int(hoehe_cm / zeilen_hoehe_cm)) * pro_zeile
+    laenge = len(text)
+    if laenge > passt * 1.15:
+        return (f"Text ({laenge} Zeichen) passt rechnerisch nicht in die Box "
+                f"(~{passt} Zeichen bei {groesse_pt:.0f} pt). Sichtpruefung noetig.")
+    return None
+
+
+def loese_ziel(slide, adresse):
+    """Gibt (textframe, shape, fehler) zurueck. Tabellenzellen werden mit aufgeloest."""
+    m = ZELLE.match(adresse)
+    zelle = None
+    if m:
+        adresse, zelle = m.group("ziel"), (int(m.group("r")), int(m.group("c")))
+    art, _, wert = adresse.partition(":")
+    if art not in ("ph", "name"):
+        return None, None, f"'{adresse}': unbekannte Adressart (erlaubt: ph:, name:)"
+    treffer = finde_shapes(slide, art, wert)
+    if not treffer:
+        return None, None, (f"'{adresse}' nicht gefunden - keine neue Box angelegt. "
+                            "Ziel mit inspect_deck.py pruefen.")
+    if len(treffer) > 1:
+        return None, None, (f"'{adresse}' ist mehrdeutig: {len(treffer)} Shapes tragen "
+                            "diesen Namen. Eindeutig benennen oder ueber ph: adressieren.")
+    sh = treffer[0]
+    if zelle:
+        if not sh.has_table:
+            return None, None, f"'{adresse}': Shape ist keine Tabelle"
+        r, c = zelle
+        tb = sh.table
+        if not (1 <= r <= len(tb.rows) and 1 <= c <= len(tb.columns)):
+            return None, None, (f"'{adresse}': Zelle ausserhalb der Tabelle "
+                                f"({len(tb.rows)}x{len(tb.columns)})")
+        return tb.cell(r - 1, c - 1).text_frame, sh, None
+    if sh.has_table:
+        return None, None, (f"'{adresse}' ist eine Tabelle - Zelle angeben, "
+                            f"z. B. '{adresse}!r2c1'")
+    if not sh.has_text_frame:
+        return None, None, f"'{adresse}' nimmt keinen Text auf"
+    return sh.text_frame, sh, None
 
 
 def main():
@@ -106,11 +220,17 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="nur pruefen, nichts schreiben")
     a = ap.parse_args()
 
+    if a.out and os.path.abspath(a.out) == os.path.abspath(a.pptx):
+        sys.exit("Ziel- und Quelldatei sind identisch. Die Vorlage wird nicht ueberschrieben "
+                 "- anderen Namen fuer --out waehlen.")
+
     prs = Presentation(a.pptx)
     with open(a.map, encoding="utf-8") as f:
         zuordnung = json.load(f)
 
-    fehler, geschrieben = [], []
+    schreiben = bool(a.out) and not a.dry_run
+    fehler, protokoll, hinweise = [], [], []
+
     for folie_nr, felder in zuordnung.items():
         try:
             nr = int(folie_nr)
@@ -122,34 +242,45 @@ def main():
             continue
         slide = prs.slides[nr - 1]
         for adresse, inhalt in felder.items():
-            shape = finde(slide, adresse)
-            if shape is None:
-                fehler.append(
-                    f"F{nr}: '{adresse}' nicht gefunden — "
-                    "keine neue Box angelegt. Ziel mit inspect_deck.py pruefen."
-                )
+            if isinstance(inhalt, list) and not inhalt:
+                fehler.append(f"F{nr}: '{adresse}' hat eine leere Inhaltsliste. "
+                              "Leeren Text als \"\" angeben, wenn das gewollt ist.")
                 continue
-            if not shape.has_text_frame:
-                fehler.append(f"F{nr}: '{adresse}' nimmt keinen Text auf")
+            tf, sh, err = loese_ziel(slide, adresse)
+            if err:
+                fehler.append(f"F{nr}: {err}")
                 continue
-            if not (a.dry_run or not a.out):
-                schreibe(shape, inhalt)
-            vorschau = (inhalt if isinstance(inhalt, str) else " | ".join(map(str, inhalt)))[:58]
-            geschrieben.append(f"F{nr:>2}  {adresse:<22} ← {vorschau}")
+            text = inhalt if isinstance(inhalt, str) else "\n".join(map(str, inhalt))
+            if schreiben:
+                warn, verworfen = schreibe(tf, inhalt)
+                for w in warn:
+                    hinweise.append(f"F{nr} {adresse}: {w}")
+                for v in verworfen:
+                    hinweise.append(f"F{nr} {adresse}: {v} wurde entfernt.")
+            if sh is not None and not sh.has_table:
+                eng = platzschaetzung(sh, text)
+                if eng:
+                    hinweise.append(f"F{nr} {adresse}: {eng}")
+            protokoll.append(f"F{nr:>2}  {adresse:<26} <- {text[:52]}")
 
-    for z in geschrieben:
+    for z in protokoll:
         print(z)
+    if hinweise:
+        print("\nHinweise:")
+        for h in hinweise:
+            print(f"  {h}")
     if fehler:
         print(f"\n{len(fehler)} Problem(e):", file=sys.stderr)
         for f in fehler:
             print(f"  {f}", file=sys.stderr)
         sys.exit(1)
 
-    if a.out and not a.dry_run:
+    if schreiben:
         prs.save(a.out)
-        print(f"\nGespeichert: {a.out}  ({len(geschrieben)} Felder)")
+        print(f"\nGespeichert: {a.out}  ({len(protokoll)} Felder)")
+        print("Naechster Schritt: inspect_deck.py --check --vergleich <vorlage.pptx>")
     else:
-        print(f"\nProbelauf ohne Befund ({len(geschrieben)} Felder wuerden geschrieben).")
+        print(f"\nProbelauf ohne Befund ({len(protokoll)} Felder wuerden geschrieben).")
 
 
 if __name__ == "__main__":

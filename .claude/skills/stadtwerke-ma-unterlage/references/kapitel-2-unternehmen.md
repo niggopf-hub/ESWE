@@ -162,8 +162,12 @@ Absichtserklärung.
 - **Net Debt braucht eine Fußnote mit der Definition** — die Größe ist nicht standardisiert.
 - Wo keine öffentliche Aufteilung des Investitionsprogramms existiert, sagt das eine
   Fußnote. Die Schwerpunkte dürfen qualitativ gebildet werden, die Summe nicht verteilt.
-- Der Kernsatz muss "tragfähig" enthalten oder ein Äquivalent. Ohne diese Anerkennung wird
-  die Folie als Angriff gelesen, und der Adressat verteidigt sich statt mitzurechnen.
+- **Der Kernsatz folgt dem Befund, nicht umgekehrt.** Ob die Verschuldung "tragfähig" ist,
+  ergibt sich aus der Finanzierungsüberleitung (Schritt 3), nicht aus dem Verschuldungsfaktor
+  allein — ein Faktor beweist weder Tragfähigkeit noch einen ausgeschöpften Kreditspielraum.
+  Trägt der Befund die Anerkennung, gehört sie in den Satz: Ohne sie wird die Folie als
+  Angriff gelesen, und der Adressat verteidigt sich statt mitzurechnen. Trägt er sie nicht,
+  wird nicht behauptet, sondern der Bogen angepasst.
 - Verschuldungsfaktoren über 3x sollten kommentiert werden, nicht nur gezeigt.
 
 ---
@@ -209,8 +213,14 @@ Ertragslage, dann Erklärung der Cashflow-Ausreißer, dann die Finanzierungslüc
 - **Sondereffekte benennen.** Ein Rekordergebnis aus Rückstellungsauflösungen ist kein
   nachhaltiges Niveau. Wer das verschweigt, verliert die Glaubwürdigkeit für alles andere —
   der Vorstand weiß es.
-- Der Schlusssatz bleibt vorsichtig ("scheint nicht … finanzierbar"). Die Mittelfristplanung
-  ist nicht öffentlich; Sicherheit vorzutäuschen, lädt zum Widerspruch ein.
+- **Der Schlusssatz setzt die Finanzierungsüberleitung voraus.** "Scheint nicht aus dem
+  operativen Cash Flow finanzierbar" ist eine Schlussfolgerung, keine Formulierungsvorgabe:
+  Sie gilt, wenn der Saldo aus Schritt 3 sie trägt. Eine große Investitionssumme neben einem
+  kleineren Jahres-Cashflow reicht dafür nicht — über fünf Jahre steht 100 gegen 150, nicht
+  100 gegen 30. Ist der Saldo nicht bestimmbar, benennt der Satz die Anspannung statt der
+  Lücke und sagt offen, dass keine Bezifferung vorliegt.
+- "Scheint" bleibt auch dann stehen, wenn der Saldo klar ist: Die Mittelfristplanung ist
+  nicht öffentlich, und Sicherheit vorzutäuschen lädt zum Widerspruch ein.
 - Einheiten: Mio. € auf der Folie, T€ im Modell. Umrechnung nur im Modell.
 - Diagramme sind think-cell-Objekte — Werte im Datenblatt eintragen, nicht neu bauen.
 

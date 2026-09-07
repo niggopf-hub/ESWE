@@ -211,6 +211,14 @@ ist ein Kompliment. Die Aussage ist nicht "ihr seid überschuldet", sondern "ihr
 *zusätzlichen* Spielraum". Das kann ein Vorstand einräumen, ohne sich zu verteidigen — und
 genau das braucht die Unterlage.
 
+**Beides muss aber belegt sein, bevor es dasteht.** "Tragfähig" und "kein zusätzlicher
+Spielraum" sind zwei Aussagen, und keine folgt aus dem Verschuldungsfaktor allein: Ein
+niedriger Faktor kann mit ausgeschöpften Linien einhergehen, ein hoher mit langen
+Restlaufzeiten und Fördermitteln. Die Grundlage ist die Finanzierungsüberleitung — verfügbare
+operative Mittel, freie Liquidität, zugesagte und noch nicht gezogene Finanzierungen,
+gebundene Abflüsse, geplante Investitionen, über denselben Zeitraum. Trägt sie die Aussage
+nicht, wird der Satz anders formuliert, nicht die Zahl passend gemacht.
+
 Die Projektspalten rechts leisten etwas Eigenes: sie zeigen, dass die Investitionssumme
 keine abstrakte Planzahl ist, sondern aus benennbaren Vorhaben besteht. Damit ist sie nicht
 verhandelbar — man kann eine Planzahl kürzen, aber nicht ein bereits kommuniziertes
@@ -236,11 +244,22 @@ Rohertrag bleibt, während der Umsatz sich halbiert. Das ist die Entwarnung, die
 schlechten Nachricht kommen muss — und ohne sie liest der Adressat die Folie als Angriff auf
 seine Ertragskraft.
 
-Diese Folie beantwortet die Frage aus 2.4 mit einem **Nein**, und zwar so, dass der Leser
-es selbst ableitet. Der Kommentar sagt es dann in einem einzigen, sorgfältig gebauten Satz:
+Diese Folie beantwortet die Frage aus 2.4. **Wie sie ausfällt, entscheidet die
+Finanzierungsüberleitung, nicht die Dramaturgie.** Im Regelfall lautet die Antwort "nein" —
+aber sie ist ein Ergebnis, kein Ausgangspunkt, und der häufigste Denkfehler an dieser Stelle
+ist ein Zeitraumbruch: Eine Investitionssumme über fünf Jahre gegen einen Jahres-Cashflow zu
+halten, erzeugt eine Lücke, die es nicht gibt. 100 über fünf Jahre stehen gegen 150, nicht
+gegen 30.
+
+Trägt die Überleitung das Nein, sagt der Kommentar es in einem sorgfältig gebauten Satz:
 
 > Das Investitionsvolumen von ‹Summe› über ‹Zeitraum› **scheint nicht aus dem operativen
 > Cash Flow finanzierbar zu sein**.
+
+Ist der Saldo dagegen **nicht bestimmbar**, weil das Programm nirgends beziffert ist, benennt
+der Satz die Anspannung statt der Lücke und die Fußnote sagt offen, dass keine öffentliche
+Bezifferung vorliegt. Ist er **tragfähig oder positiv**, trägt dieser Bogen nicht — dann
+gehört das gesagt, statt eine Not zu konstruieren.
 
 "Scheint" ist Absicht. Die Unterlage kennt die Mittelfristplanung nicht und behauptet nicht,
 sie zu kennen. Diese Vorsicht ist das Gegenteil von Schwäche — sie macht die Aussage
