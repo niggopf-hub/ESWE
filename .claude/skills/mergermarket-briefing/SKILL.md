@@ -270,10 +270,14 @@ Markennamen — `Viessmann Generations Group`, nicht `Viessmann`.
 
 ### 6.5 Bieterlisten
 
-Standard: `Bieter u.a. X, Y und Z`.
+Gebräuchlich, je nach Prozessphase — als Anhaltspunkt, nicht als Vorschrift:
 
-Steht das Wort „Bieter" schon im Satz („erreicht zweite Bieterrunde"), nicht
-wiederholen → `mit u.a. X und Y`. Nicht „Finalisten", nicht „Interessenten".
+- Bieterrunde erreicht → `erreicht zweite Bieterrunde mit u.a. X und Y`
+- laufender Prozess → `treibt Verkauf … voran, Interessenten u.a. X`
+- Gebote werden eingesammelt → `sammelt finale Gebote …, im Rennen u.a. X und Y`
+- vor der Gebotsphase → `erhält Bieterinteresse vor unverbindlichen Geboten, u.a. X`
+
+Steht das Wort „Bieter" schon im Satz, nicht wiederholen.
 
 **Nicht stapeln:** Wenn Bieternamen genannt sind, fallen Deal-Value und
 Prozessstadium („vor bindenden Geboten") weg.
@@ -284,6 +288,22 @@ Prozessstadium („vor bindenden Geboten") weg.
 - Steht ein Bieter als Satzsubjekt, braucht der Satz trotzdem ein Verb mit
   eigener Handlung. `X und Y zählen zu den Bietern für Z` weicht vom sonstigen
   Satzbau ab und wurde als Ausreißer beanstandet.
+
+### 6.5a Verben und Wendungen
+
+Gebräuchlich: `treibt … voran`, `prüft`, `erwägt`, `bereitet … vor`, `startet`,
+`sucht Zukäufe`, `plant`, `zeigt sich offen für`, `erreicht zweite Bieterrunde`,
+`steht vor`, `führt Gespräche`, `sammelt Gebote`, `mandatiert`,
+`meldet … zur Kartellprüfung an`.
+
+**Das ist ein Inventar, kein Korsett.** Die wiederkehrenden Wendungen sorgen
+dafür, dass die Liste wie aus einer Feder wirkt — aber jeder Satz wird für die
+jeweilige Meldung gedraftet, nicht aus Bausteinen zusammengesetzt. Passt keine
+Floskel, formuliere frei.
+
+**Verbindlich sind** die Klammerlogik (6.1), die Financials-Regeln (6.2), die
+Fettung (6.4), das Kürzungsprinzip (6.6) und die Textnormen (7).
+**Nicht verbindlich** ist der exakte Wortlaut des Satzes.
 
 ### 6.6 Kürzungsprinzip
 
@@ -532,9 +552,8 @@ sie für Regeln hält:
 
 | Regel hier | In den freigegebenen Zeilen |
 |---|---|
-| Bieterlisten ohne „Interessenten" | `Interessenten u.a. Brookfield …` (Uniper), `im Rennen u.a.` (SWARCO, Diagnostikum, Nestlé) |
-| Attributionen streichen | `laut Franz von Metzler` und `laut CEO Orlopp` blieben stehen |
-| Financials ohne Jahresangabe | `Umsatz H1: 176,1 Mio. CHF` (CPH Group) blieb stehen |
+| Attributionen streichen | `laut Franz von Metzler` und `laut CEO Orlopp` blieben stehen — **Auflösung:** eine Attribution mit Personennamen darf bleiben, wenn sie die Aussage trägt; ein blankes „laut CEO" fliegt raus |
+| Financials ohne Jahresangabe | `Umsatz H1: 176,1 Mio. CHF` (CPH Group) blieb stehen — **Auflösung:** das Verbot zielt auf Jahres- und Prognoselabels (`FY25`, `2026e`); nennt die Meldung nur eine Halbjahres- oder Quartalszahl, darf das Label mit |
 | Textnormen durchgängig | 7× `Börsengang`, 4× `bereinigtes EBITDA`, 3× `Lincoln International` blieben stehen |
 
 Die Textnormen gelten trotzdem durchgängig: Jede Korrektur des Empfängers ging in
