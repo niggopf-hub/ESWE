@@ -530,25 +530,32 @@ ist die Pflichtzahl `N` in der Aufnahmeüberschrift.
 4. DACH-Regel geprüft — auch „nur eine Nennung unter vielen" ausgeschlossen?
 5. Klammer beim **grammatischen Subjekt**, nicht automatisch beim Ziel?
 6. Investor als Subjekt ohne eigene Klammer, Eigentümer als letzter Klammereintrag?
-7. Financials ohne Jahresangabe, Originalwährung, deutsches Dezimalkomma?
-8. Textnormen aus Abschnitt 7 durchgängig?
-9. `via` nur instrumental und nur bei Zukäufen?
-10. Berater nur genannt, wenn im Artikel — mit korrektem Label, nicht fett?
-11. **Alle** Unternehmens- und Akteursnamen fett, sonst nichts?
-12. Bieterliste im richtigen Muster, nicht mit Deal-Value gestapelt?
-13. Motivation, Historie, Zwischentermine, Börsensegmente, Statuswörter gestrichen?
-14. Chronologisch absteigend, kein Aufzählungszeichen, eine Leerzeile je Eintrag?
-15. Ausschlussliste vollständig, **vor** der Aufnahmeliste, jeder verworfene
+7. **Gehören die Financials dem Klammer-Träger** — keine Konzern-, Gruppen- oder
+   Kombinationszahlen für ein Zielobjekt?
+8. Financials nur aus der Meldung, Originalwährung, deutsches Dezimalkomma,
+   kein Jahres- oder Prognoselabel?
+9. Unbelastbare Zahlen weggelassen (bestritten, veraltet, Zielgröße statt
+   eigenem Umsatz)?
+10. Textnormen aus Abschnitt 7 durchgängig?
+11. `via` nur instrumental und nur bei Zukäufen?
+12. Berater nur genannt, wenn im Artikel — mit korrektem Label, nicht fett?
+13. **Alle** Unternehmens- und Akteursnamen fett, sonst nichts?
+14. Bieterliste im richtigen Muster, nicht mit Deal-Value gestapelt?
+15. Motivation, Historie, Zwischentermine, Börsensegmente, Statuswörter gestrichen?
+16. Chronologisch absteigend, kein Aufzählungszeichen, eine Leerzeile je Eintrag?
+17. Ausschlussliste vollständig, **vor** der Aufnahmeliste, jeder verworfene
     Artikel namentlich und begründet?
-16. Pflichtzahl `N` in der Aufnahmeüberschrift gesetzt?
+18. Pflichtzahl `N` in der Aufnahmeüberschrift gesetzt?
+19. Jeder freistehende Link verarbeitet — nie als „Link ohne Artikel" abgetan?
+20. Quelle ist der Mergermarket-Link mit `?`, nicht die Originalquelle?
 
 ---
 
 ## 10. Bekannte Spannungen zur Praxis
 
-Vier Stellen, an denen die freigegebenen Zeilen von dieser Anleitung abweichen.
-Maßgeblich ist die Anleitung; die Abweichungen sind dokumentiert, damit niemand
-sie für Regeln hält:
+Drei Stellen, an denen die freigegebenen Zeilen von dieser Anleitung abweichen.
+Zwei sind aufgelöst, die dritte ist eine bewusste Setzung. Dokumentiert, damit
+niemand die Abweichungen für Regeln hält:
 
 | Regel hier | In den freigegebenen Zeilen |
 |---|---|
@@ -574,6 +581,7 @@ diese Richtung, keine einzige zurück. Nur die Durchsetzung war lückenhaft.
 | `research/04_versionsdiff_112.md` | maschineller Diff über 112 Einträge |
 | `research/05_arbeitsanleitung_original.md` | Arbeitsanleitung des Absenders, verbatim — maßgebliche Quelle |
 | `research/06_antwortstruktur.md` | Antwortvertrag aus 36 ausgewerteten Sichtungsrunden |
+| `research/07_luecken_und_widersprueche.md` | Lückenaudit des Skills gegen das Quellmaterial |
 
 **Wöchentliche Selbstkontrolle:** Nach dem Versand die herausgegangene Fassung
 gegen den eigenen Entwurf diffen (`examples/diff_tool.py`). Jede Korrektur, die
