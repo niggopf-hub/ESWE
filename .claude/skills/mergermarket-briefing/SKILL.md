@@ -181,7 +181,10 @@ Geografie, wenn das Länderkürzel sie schon trägt.
 **Financials:** `Umsatz:`, `EBITDA:`, `Adj. EBITDA:`, `EBITDA-Marge:`, `EBIT:`,
 `Gewinn:`, `Marktkapitalisierung:`, `Mitarbeiter:`, `Portfoliowert:`,
 `Eigenkapitalwert:`, `EV-Erwartung:`, `Feuerkraft:`, `Volumen:`.
-**Ohne Jahresangabe** — kein `2026e`, kein `FY25`.
+**Periodenlabel:** Bei Ist-Zahlen kein Fiskaljahr-Label (`FY25`). Bei
+**Prognosezahlen ist das Jahr Pflicht** (`Umsatz 2026e:`), sonst liest der
+Empfänger eine erwartete Zahl als Ist-Zahl. Nennt die Meldung nur eine
+Halbjahres- oder Quartalszahl, darf das Label mit (`Umsatz H1:`).
 
 `ARR:` gehört **nicht** in die Klammer, sondern in den Satz („Zielgröße bis
 5-7 Mio. EUR ARR"). Ebenso `Bewertung:` und `Deal-Value:` — die stehen im Satz,
@@ -197,9 +200,17 @@ die Meldung nur Zahlen der Mutter, der Gruppe oder des kombinierten
 Unternehmens, bleibt die Klammer des Zielobjekts schlank. Beziehen sich die
 Zahlen auf die verkauften Assets, gehören sie zu den Assets — nicht zur Gruppe.
 
-**Fallback-Hierarchie:** Umsatz/EBITDA → sonst Marktkapitalisierung → sonst
-`Mitarbeiter:` als Anker. Prognose- und Run-Rate-Zahlen gelten nicht als
-belastbar.
+**Prognosen kommen rein.** Erwartete und prognostizierte Financials
+(`Umsatz 2026e`, Run-Rate, angepeiltes EBITDA) werden aufgenommen wie Ist-Zahlen
+— sie sind oft die einzigen Zahlen, die eine Meldung zu einem Zielobjekt hergibt.
+Bedingung ist nur, dass sie **als Prognose erkennbar** bleiben: Jahr ans Label
+(`Umsatz 2026e: 80 Mio. EUR`) oder als solche benannt
+(`Run-Rate: ~30 Mio. EUR`, `angepeiltes EBITDA: 12 Mio. EUR`).
+
+**Fallback-Hierarchie:** Ist-Zahlen (Umsatz/EBITDA) → Prognosezahlen →
+Marktkapitalisierung → `Mitarbeiter:` als Anker. Eine Prognosezahl schlägt also
+die Mitarbeiterzahl; ganz ohne Zahl bleibt der Eintrag nur, wenn die Meldung
+wirklich keine hergibt.
 
 **Unbelastbare Zahlen weglassen:**
 - Vom Eigentümer bestrittene Zahlen („inaccurate") → weg
@@ -532,8 +543,8 @@ ist die Pflichtzahl `N` in der Aufnahmeüberschrift.
 6. Investor als Subjekt ohne eigene Klammer, Eigentümer als letzter Klammereintrag?
 7. **Gehören die Financials dem Klammer-Träger** — keine Konzern-, Gruppen- oder
    Kombinationszahlen für ein Zielobjekt?
-8. Financials nur aus der Meldung, Originalwährung, deutsches Dezimalkomma,
-   kein Jahres- oder Prognoselabel?
+8. Financials nur aus der Meldung, Originalwährung, deutsches Dezimalkomma?
+   Prognosezahlen aufgenommen **und** als Prognose gekennzeichnet?
 9. Unbelastbare Zahlen weggelassen (bestritten, veraltet, Zielgröße statt
    eigenem Umsatz)?
 10. Textnormen aus Abschnitt 7 durchgängig?
@@ -560,7 +571,7 @@ niemand die Abweichungen für Regeln hält:
 | Regel hier | In den freigegebenen Zeilen |
 |---|---|
 | Attributionen streichen | `laut Franz von Metzler` und `laut CEO Orlopp` blieben stehen — **Auflösung:** eine Attribution mit Personennamen darf bleiben, wenn sie die Aussage trägt; ein blankes „laut CEO" fliegt raus |
-| Financials ohne Jahresangabe | `Umsatz H1: 176,1 Mio. CHF` (CPH Group) blieb stehen — **Auflösung:** das Verbot zielt auf Jahres- und Prognoselabels (`FY25`, `2026e`); nennt die Meldung nur eine Halbjahres- oder Quartalszahl, darf das Label mit |
+| Financials ohne Jahresangabe | `Umsatz H1: 176,1 Mio. CHF` (CPH Group) blieb stehen — **aufgelöst:** Periodenlabel sind zulässig, bei Prognosen sogar Pflicht (siehe 6.2) |
 | Textnormen durchgängig | 7× `Börsengang`, 4× `bereinigtes EBITDA`, 3× `Lincoln International` blieben stehen |
 
 Die Textnormen gelten trotzdem durchgängig: Jede Korrektur des Empfängers ging in
