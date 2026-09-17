@@ -27,6 +27,12 @@ Nie stillschweigend aussortieren — jeder verworfene Artikel wird genannt.
   Woche" fällt. Was eingefügt wird, wird verarbeitet. Das Datum kommt aus dem
   Artikel-Timestamp, dient aber nur der Sortierung, nie als Filter.
 
+**Freistehende Links im Batch:** Einzeln gepastete Mergermarket-Links gehören zu
+Artikeln, die als Datei angehängt wurden, weil sie zu lang sind. **Nie
+ignorieren und nie als „Link ohne Artikel" abtun.** Lässt sich ein Link keinem
+Artikeltext zuordnen, trotzdem einen Eintrag anlegen und als
+`Quelle: unzugeordnet` markieren.
+
 ---
 
 ## 1. Aufnehmen
@@ -66,6 +72,17 @@ Ausschlussgrund.
 - **Marktkommentare, Podcasts, Personalstrategien von Banken,
   Fondsstrategie-Interviews** ohne konkretes Ziel.
 - **Reine Aktien-Distribution an Altaktionäre** ohne Eigentümerwechsel.
+- **Dementis und Klarstellungen** zu einem bereits gemeldeten Vorgang. Kein
+  neuer Sachverhalt — auch nicht als Update.
+- **Reine Berater-/Mandatsmeldungen ohne Prozessfortschritt.** Ein Bieter
+  mandatiert eine Bank, aber am Prozess ändert sich nichts: keine neue Runde,
+  keine neuen Zahlen → raus.
+- **Nachfolgende Vorstandsempfehlungen** zu einem schon gelisteten Angebot.
+
+**Umgekehrt:** Ein ausgeschlossener Artikel kann eine **Nebenerwähnung**
+enthalten, die eigenständig aufnahmefähig ist — etwa ein separater
+DACH-Verkaufsprozess, der nur beiläufig genannt wird. Solche Fälle mitnehmen und
+im Nachlauf benennen.
 
 ## 3. DACH-Bezug — die schwierigste Abgrenzung
 
@@ -124,6 +141,10 @@ TT.MM.JJ: **Akteur** (Land, Branche, Financials) Kerninhalt, Sell-side Berater: 
 - Kein Satzpunkt am Ende
 - **Das Datum stammt immer aus dem Artikel-Timestamp**, nie aus dem Kontext
   umliegender Artikel — das ist die häufigste Fehlerquelle.
+- **Quelle ist immer der Mergermarket-Link**, nie die im Artikel verlinkte
+  Originalquelle (FAZ, Handelsblatt, Pressemitteilung). Muster:
+  `[Quelle](https://mergermarket.ionanalytics.com/content/<ID>?)` — mit
+  angehängtem `?`.
 
 ### 6.1 Wer bekommt die Klammer
 
@@ -140,6 +161,12 @@ des Satzes**, nicht automatisch dem Zielunternehmen.
   `**Viessmann Generations Group** steht vor Erwerb einer 5%-Beteiligung an **FC Bayern München AG** (DE, Fußballclub)`
 - `via Plattform X` **nur bei Zukäufen**, nie bei Verkäufen:
   `**Bregal** erwägt via Plattform **MDT Technologies** …`
+- **Akteur und verkaufte Sparte bekommen je eine eigene Klammer:**
+  `**Webasto** (DE, Automobilzulieferer, Umsatz: 4 Mrd. EUR) treibt Verkauf seiner verteidigungsnahen HVAC-Sparte in Polen voran (Umsatz: 16,7 Mio. EUR, EBITDA-Marge: 40%)`
+- **Mehrere Verkäufer oder Akteure** stehen als gemeinsames Satzsubjekt:
+  `**CDPQ** und **Columna Capital** beleben Exit-Pläne für **Datamars** (…) wieder`
+- **Staatliche und kommunale Akteure** (Bundesländer, Stadtwerke, kommunale
+  Klinikträger) sind normale Akteure — sie werden fett gesetzt wie jede Firma.
 
 ### 6.2 Klammer-Inhalte
 
@@ -151,13 +178,37 @@ LU). Bei Doppelsitz `DE/AT` oder `LU/DE`.
 `Asset Manager` statt `Vermögensverwaltung/Konsolidierungsplattform`. Keine
 Geografie, wenn das Länderkürzel sie schon trägt.
 
-**Financials:** `Umsatz:`, `EBITDA:`, `Adj. EBITDA:`, `EBIT:`,
-`Marktkapitalisierung:`, `Mitarbeiter:`, `ARR:`, `Portfoliowert:`, `Bewertung:`,
-`Deal-Value:`. **Ohne Jahresangabe** — kein `2026e`, kein `FY25`.
+**Financials:** `Umsatz:`, `EBITDA:`, `Adj. EBITDA:`, `EBITDA-Marge:`, `EBIT:`,
+`Gewinn:`, `Marktkapitalisierung:`, `Mitarbeiter:`, `Portfoliowert:`,
+`Eigenkapitalwert:`, `EV-Erwartung:`, `Feuerkraft:`, `Volumen:`.
+**Ohne Jahresangabe** — kein `2026e`, kein `FY25`.
+
+`ARR:` gehört **nicht** in die Klammer, sondern in den Satz („Zielgröße bis
+5-7 Mio. EUR ARR"). Ebenso `Bewertung:` und `Deal-Value:` — die stehen im Satz,
+nicht in der Klammer.
 
 **Nur aus der Meldung.** Keine externe Recherche, keine Ergänzung aus
 Vorwissen, keine Schätzung. Fehlt eine Zahl in der Meldung, fehlt sie im
 Eintrag — das ist kein Mangel und wird auch nicht angemerkt.
+
+**Nur Zahlen des Klammer-Trägers.** Die häufigste inhaltliche Fehlerquelle:
+Konzernzahlen suggerieren eine falsche Größenordnung für das Zielobjekt. Nennt
+die Meldung nur Zahlen der Mutter, der Gruppe oder des kombinierten
+Unternehmens, bleibt die Klammer des Zielobjekts schlank. Beziehen sich die
+Zahlen auf die verkauften Assets, gehören sie zu den Assets — nicht zur Gruppe.
+
+**Fallback-Hierarchie:** Umsatz/EBITDA → sonst Marktkapitalisierung → sonst
+`Mitarbeiter:` als Anker. Prognose- und Run-Rate-Zahlen gelten nicht als
+belastbar.
+
+**Unbelastbare Zahlen weglassen:**
+- Vom Eigentümer bestrittene Zahlen („inaccurate") → weg
+- Veraltete Website-Zahlen → weg
+- Unspezifisches Label → neutral übernehmen (`Gewinn:` statt EBITDA zu
+  unterstellen)
+- Unpräzise Angaben sinngemäß übernehmen statt eine Zahl zu erfinden
+  (`Umsatz: mittlerer zweistelliger Mio.-EUR-Bereich`)
+- Die Zielgröße eines Suchprofils ist **nicht** der eigene Umsatz des Akteurs
 
 **Währung:** Originalwährung der Meldung, keine Umrechnung (CHF bleibt CHF, USD
 bleibt USD).
@@ -167,11 +218,35 @@ bleibt USD).
 Hersteller`, `40 bis 100 Mitarbeitern`, `sechs bis zwölf Monaten`). `~` für
 circa, `>` und `<` für Schwellen. Deutsches Dezimalkomma (`1,53 Mrd. EUR`).
 
+### 6.2a Prozent- und Beteiligungsangaben
+
+Feste Muster:
+- `steht vor Erwerb einer 5%-Beteiligung an **FC Bayern München AG** (…) für 250 Mio. EUR, Bewertung: 5 Mrd. EUR`
+- `meldet Erwerb von 65% an **Quabus** (…) zur Kartellprüfung an`
+- `startet Verkauf seiner 50,05%-Beteiligung an **Klinikum Idar-Oberstein** (…)`
+- `erwägt Rückkauf der knapp 24%-Minderheitsbeteiligung von **Sparkassen** und **Landesbanken** an der **NordLB** (…)`
+
+Bestehende Beteiligungsquoten können in der Klammer stehen (`…, **Burda** hält
+~88%`) oder im Satz (`hält nach Spin-off 51%`).
+
 ### 6.3 Berater
 
-Am Satzende, mit Label: `Sell-side Berater:` bei Verkäufen,
-`Global Coordinators:` bei IPOs. **Nur nennen, wenn der Artikel einen nennt —
-nie ergänzen.** Nebenberater weglassen. Berater werden **nie fett**.
+Am Satzende, mit Label:
+- `Sell-side Berater:` bei Verkäufen
+- `Buy-side Berater:` wenn die Bank einen Bieter berät
+- `Global Coordinators:` bei IPOs, `Sole Global Coordinator:` im Einzelfall
+- `Global-Coordinator-Kandidaten:` wenn Banken genannt, aber noch nicht
+  mandatiert sind
+
+**Nur nennen, wenn der Artikel einen nennt — nie ergänzen.** Nebenberater
+weglassen. Berater werden **nie fett**.
+
+**Gegenfall:** Sagt der Artikel ausdrücklich, dass kein Berater mandatiert ist,
+kommt das in den Eintrag: `… prüft Verkauf ab Juli, ohne externen Berater`.
+
+**Beratername:** die operative Advisory-Einheit, nie die Dachgesellschaft —
+`Macquarie Capital`, nicht `Macquarie Group`; `Goldman Sachs`, nicht
+`Goldman Sachs Group`. Zur Kurzform siehe Abschnitt 7.
 
 ### 6.4 Fettschrift
 
@@ -180,6 +255,14 @@ Eigentümer, Sponsoren, Bieter, Konsortialpartner.
 
 **Nicht fett:** Berater, Branchenbezeichnungen, Financials, Ländercodes,
 Fließtext.
+
+**Konsortien:** Partner mit Schrägstrich plus `-Konsortium`, komplett fett —
+`**Astatine/USS-Konsortium**`.
+
+**Exakter Akteursname:** Bei Holdings mit ähnlichem Markennamen wie eine
+bekannte Tochter den genauen Bidder-Namen aus der
+Mergermarket-Relationship-Angabe übernehmen, nicht den naheliegenderen
+Markennamen — `Viessmann Generations Group`, nicht `Viessmann`.
 
 ```
 08.09.26: **AUCTUS Capital Partners** treibt Verkauf von **Robert Bürkle** (DE, Oberflächenbeschichtungsmaschinen, Umsatz: 112,5 Mio. EUR) voran, Sell-side Berater: IMAP
@@ -194,6 +277,13 @@ wiederholen → `mit u.a. X und Y`. Nicht „Finalisten", nicht „Interessenten
 
 **Nicht stapeln:** Wenn Bieternamen genannt sind, fallen Deal-Value und
 Prozessstadium („vor bindenden Geboten") weg.
+
+- **Kein Komma vor `mit u.a.`** — `erreicht zweite Bieterrunde mit u.a. X`
+- **Kein `von`** in der Bieterliste — `u.a. Chequers Capital`, nicht
+  `u.a. von Chequers Capital`
+- Steht ein Bieter als Satzsubjekt, braucht der Satz trotzdem ein Verb mit
+  eigener Handlung. `X und Y zählen zu den Bietern für Z` weicht vom sonstigen
+  Satzbau ab und wurde als Ausreißer beanstandet.
 
 ### 6.6 Kürzungsprinzip
 
@@ -212,6 +302,8 @@ Nur **wer / was / wieviel / wer berät**. Konsequent gestrichen werden:
   Bewertungsfakt
 - Attributionen („laut CEO", „laut Eigentümern"), **außer die Aussage der
   genannten Person ist selbst die Nachricht**
+- **Keine Parenthese in der Parenthese** — `(Mitarbeiter Zielobjekt: 550+)`
+  innerhalb einer Klammer fliegt raus
 
 ---
 
@@ -230,6 +322,8 @@ Nur **wer / was / wieviel / wer berät**. Konsequent gestrichen werden:
 | `bis 20 Mio.` | `<20 Mio.` |
 | Timing als Komma-Nachsatz | Timing als Präpositionalphrase im Hauptsatz |
 | beschreibende Branchenumschreibung | knapper Fachbegriff, großgeschrieben |
+| `avisierte Bewertung` | `Bewertung` |
+| `zwischen zehn bis fünfzig` | `zwischen zehn und fünfzig` **oder** `zehn bis fünfzig` — nie mischen |
 
 ### 7.1 `via` nur instrumental
 
@@ -261,6 +355,25 @@ Rekonstruiert aus 36 ausgewerteten Sichtungsrunden. Details und Belege:
 `research/06_antwortstruktur.md`.
 
 Keine Begrüßung, keine Vorrede, kein Schlusssatz außerhalb der Blöcke.
+
+### 8.0 Mailrahmen (nur beim Zusammenstellen der fertigen Mail)
+
+Gilt **nicht** für die Sichtungsantwort — die hat keinen Vorspann. Wird die
+fertige Mail gebaut, lautet der Rahmen:
+
+```
+Guten Morgen Robert,
+
+anbei das Mergermarket Briefing der letzten Woche.
+
+<Liste>
+
+Viele Grüße
+Nico
+```
+
+Roberts Weiterleitung an den Verteiler beginnt mit `Liebe Kollegen,` —
+daran sind die beiden Fassungen auseinanderzuhalten.
 
 ### Block 1 — Einleitung
 
