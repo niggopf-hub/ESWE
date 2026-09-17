@@ -114,10 +114,12 @@ Meldung (offizielle Mitteilung vor Gerücht).
 ## 6. Grundformat
 
 ```
-• TT.MM.JJ: **Akteur** (Land, Branche, Financials) Kerninhalt, Sell-side Berater: X [Quelle](URL)
+TT.MM.JJ: **Akteur** (Land, Branche, Financials) Kerninhalt, Sell-side Berater: X [Quelle](URL)
 ```
 
-- Aufzählungszeichen: `•`
+- **Kein Aufzählungszeichen in der Antwort** — die Zeile beginnt mit der Ziffer
+  des Tages. Das `•` der Arbeitsanleitung beschreibt das fertige
+  Outlook-Dokument, wo der Nutzer die Aufzählung selbst setzt.
 - Sortierung strikt **chronologisch absteigend**
 - Kein Satzpunkt am Ende
 - **Das Datum stammt immer aus dem Artikel-Timestamp**, nie aus dem Kontext
@@ -253,34 +255,137 @@ Richtung „mehr Text" — ausschließlich Streichungen, Kürzungen, Umstellunge
 
 ---
 
-## 8. Ausgabeformat
+## 8. Ausgabeformat — verbindlicher Antwortvertrag
 
-**Block 1 — einfügefertig:**
+Rekonstruiert aus 36 ausgewerteten Sichtungsrunden. Details und Belege:
+`research/06_antwortstruktur.md`.
 
-```
-• 14.09.26: **Equity House** (CH, Asset Manager, **Pollen Street Capital**) plant erste Zukäufe … [Quelle](URL)
-• 11.09.26: **STOCKMEIER Group** (DE, Chemie) prüft Verkauf … , Sell-side Berater: Goldman Sachs [Quelle](URL)
-```
+Keine Begrüßung, keine Vorrede, kein Schlusssatz außerhalb der Blöcke.
 
-Keine Leerzeile zwischen Einträgen, kein Vorspann, keine Zwischenüberschriften.
+### Block 1 — Einleitung
 
-**Block 2 — ausgeschlossene Artikel, klar abgesetzt:**
+Genau eine Zeile:
 
 ```
---- nicht mitkopieren ---
-
-Ausgeschlossen:
-- Firma X: Insolvenz in Eigenverwaltung
-- Firma Y: Series-B-Finanzierungsrunde
-- Firma Z: kein DACH-Bezug, DE nur einer von fünf Zielmärkten
-- Firma A: Deal bereits vollzogen
-
-Zum Prüfen:
-- Firma B (19.08.): Verkauf einer einzelnen Sparte — aufgenommen, ggf. streichen
+Sichtung:
 ```
 
-Ein Satz pro Ausschluss, mit dem Kriterium aus Abschnitt 2–4. Grenzfälle, die
-aufgenommen wurden, kommen unter „Zum Prüfen".
+Nur bei auffällig großem Batch: `Sichtung – großer Batch:`
+
+### Block 2 — Ausschlussliste (steht VOR der Aufnahmeliste)
+
+```
+**Ausgeschlossen:**
+
+<Name> – <Begründung> → raus
+<Name A>, <Name B>, <Name C> – <gemeinsame Begründung> → raus
+<Name> – <Begründung> → Grenzfall, sag Bescheid
+```
+
+- **Kein Aufzählungszeichen.** Halbgeviertstrich `–` vor der Begründung, `→`
+  vor dem Urteil.
+- **Jeder ausgeschlossene Artikel wird namentlich genannt.** Nie „12
+  Insolvenzfälle". Gleichartige Fälle in **einer** Zeile bündeln, Begründung
+  einmal.
+- Reihenfolge: Insolvenz/Eigenverwaltung → Refinanzierung/Debt/Fundraising →
+  kein DACH-Bezug → zu vage → Grenzfälle zuletzt.
+- Begründungslänge: Standardfälle **2–5 Wörter**. Mehrere Sätze nur, wenn der
+  Fall an einer Regelgrenze liegt, einem Präzedenzfall widerspricht oder
+  aufnahmefähig aussieht.
+- Grenzfälle stehen **hier**, Default ist „draußen", markiert mit
+  `→ Grenzfall, sag Bescheid`. **Ausnahme:** Sparten-, Teil- und
+  Standortverkäufe kommen nach Abschnitt 1 regulär in die Aufnahmeliste und
+  werden nur im Nachlauf erwähnt.
+- Ist nichts auszuschließen, entfällt der Block ersatzlos.
+
+### Block 3 — Aufnahmeliste
+
+```
+**Aufnahmefähig (N), chronologisch sortiert:**
+
+TT.MM.JJ: <Eintrag> [Quelle](<url>)
+
+TT.MM.JJ: <Eintrag> [Quelle](<url>)
+```
+
+- `N` ist **immer** gesetzt. Bei `N = 1`: `**Aufnahmefähig (1):**` ohne
+  Sortierzusatz.
+- **Kein Aufzählungszeichen vor dem Datum.** Kein `-`, kein `•`, kein `*` — die
+  Zeile beginnt mit der Ziffer des Tages. Ausdrücklich so verlangt. Das `•` aus
+  der Arbeitsanleitung beschreibt das fertige Outlook-Dokument, nicht die
+  Antwort hier.
+- **Genau eine Leerzeile** zwischen zwei Einträgen.
+- Absteigend chronologisch, neuestes Datum oben.
+- Alle Akteursnamen fett, Berater nie.
+- **Kein Codeblock.** Die Liste steht als normaler Text, direkt kopierbar.
+
+### Block 4 — Nachlauf (nur bei Bedarf)
+
+Ein Fließtextabsatz, keine Überschrift. Einleitung z.B. `Kurze Anmerkung zu X:`,
+`Zwei Anmerkungen:`.
+
+**Nur diese vier Auslöser:**
+1. Financials weggelassen oder unscharf übernommen → sagen *was* und *warum*,
+   und anbieten, es anders zu machen. Nie stillschweigend weglassen.
+2. Länderkürzel oder Branchenbezeichnung unsicher → Entscheidung offenlegen,
+   Alternative anbieten.
+3. Grenzfall, der eine Nutzerentscheidung braucht (sofern nicht schon in Block 2).
+4. Links ohne zugeordneten Artikeltext.
+
+**Verboten:**
+- Hinweise, dass ein Deal schon früher gelistet war („Update statt Neueintrag").
+  Neue Meldung = neuer eigenständiger Eintrag, ohne Verweis.
+- Ausschlussquoten, Statistikblöcke, Meta-Kommentare zur eigenen Arbeitsweise.
+- Ein zusammenfassender Schlusssatz.
+
+Die Ausschlussliste und der Nachlauf sind **gewollt** — sie wurden nie als zu
+lang kritisiert und dienen dem Nutzer zum Entscheiden von Grenzfällen.
+
+### Zweiter Vertrag — Prüfmodus
+
+Auslöser: „schau nochmal drüber", „alles richtig?"
+
+```
+Durchgesehen – <Anzahl> Punkte:
+
+1. <Kategorie>:
+<Fall> – <was ist falsch> → <Korrektur>
+
+2. <Kategorie>:
+…
+
+<Abschlussabsatz: was geprüft und in Ordnung ist>
+```
+
+Kategorien z.B. `Tippfehler:`, `Konsistenz:`, `Berater-Label inkonsistent:`,
+`Fehlende Fettung:`, `Chronologie`. Bestätigte Punkte mit `✓`.
+Abschlussformel: `Ansonsten: bereit zum Verschicken.`
+
+### Dritter Vertrag — Batch enthält nur schon Gesichtetes
+
+```
+Alles schon gesichtet – keine Änderung an der Liste:
+
+Drin (N): <Namen> – alle mit TT.MM.JJ in der Liste
+
+Ausgeschlossen: <Name> (<Kurzgrund>), <Name> (<Kurzgrund>)
+```
+
+### Vierter Vertrag — „sind alle Artikel abgedeckt?"
+
+Eine Zählaussage, danach die offenen Grenzfälle einzeln:
+
+```
+Ja, alle Artikel aus diesem Briefing-Zeitraum sind abgedeckt. Die Liste umfasst
+N Einträge vom TT.MM. bis TT.MM., und alles aus den Batches, die du geschickt
+hast, ist entweder drin oder mit Begründung ausgeschlossen.
+```
+
+### Batchgröße
+
+Median 5 Aufnahmen pro Runde, Maximum 11. **Nie Teilantworten, nie
+Zwischenstände** — jede Runde ist in sich vollständig. Vollständigkeitssignal
+ist die Pflichtzahl `N` in der Aufnahmeüberschrift.
 
 ---
 
@@ -299,8 +404,10 @@ aufgenommen wurden, kommen unter „Zum Prüfen".
 11. **Alle** Unternehmens- und Akteursnamen fett, sonst nichts?
 12. Bieterliste im richtigen Muster, nicht mit Deal-Value gestapelt?
 13. Motivation, Historie, Zwischentermine, Börsensegmente, Statuswörter gestrichen?
-14. Chronologisch absteigend, `•` als Aufzählungszeichen?
-15. Ausschlussliste vollständig, jeder verworfene Artikel begründet?
+14. Chronologisch absteigend, kein Aufzählungszeichen, eine Leerzeile je Eintrag?
+15. Ausschlussliste vollständig, **vor** der Aufnahmeliste, jeder verworfene
+    Artikel namentlich und begründet?
+16. Pflichtzahl `N` in der Aufnahmeüberschrift gesetzt?
 
 ---
 
@@ -333,6 +440,8 @@ diese Richtung, keine einzige zurück. Nur die Durchsetzung war lückenhaft.
 | `research/02_format_schreibweise.md` | 58 FALSCH→RICHTIG-Paare |
 | `research/03_empfaenger_praeferenzen.md` | Empfängerprofil, markiert nach Belegstärke |
 | `research/04_versionsdiff_112.md` | maschineller Diff über 112 Einträge |
+| `research/05_arbeitsanleitung_original.md` | Arbeitsanleitung des Absenders, verbatim — maßgebliche Quelle |
+| `research/06_antwortstruktur.md` | Antwortvertrag aus 36 ausgewerteten Sichtungsrunden |
 
 **Wöchentliche Selbstkontrolle:** Nach dem Versand die herausgegangene Fassung
 gegen den eigenen Entwurf diffen (`examples/diff_tool.py`). Jede Korrektur, die
