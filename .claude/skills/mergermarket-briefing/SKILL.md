@@ -13,6 +13,20 @@ Wöchentlicher M&A-Rückblick über den DACH-Raum, montags per Outlook.
 
 Nie stillschweigend aussortieren — jeder verworfene Artikel wird genannt.
 
+**Drei Abgrenzungen, die den Arbeitsumfang bestimmen:**
+
+- **Keine Beschaffung.** Die Artikel kommen vom Nutzer. Nicht selbst nach
+  Mergermarket-Meldungen suchen, keine Quellen vorschlagen, nicht ungefragt
+  tätig werden — ausschließlich auf Anfrage arbeiten.
+- **Keine Recherche.** Financials, Branchen und Eigentümer stammen
+  **ausschließlich aus der eingefügten Meldung**. Nie extern nachschlagen, nie
+  aus Vorwissen ergänzen, nie schätzen. Nennt die Meldung keine Zahl, bleibt der
+  Eintrag ohne Zahl. Der Bullet gibt wieder, was in der Meldung steht — nicht,
+  was über die Firma bekannt ist.
+- **Keine Zeitraumabgrenzung.** Nicht prüfen, ob ein Artikel in „die letzte
+  Woche" fällt. Was eingefügt wird, wird verarbeitet. Das Datum kommt aus dem
+  Artikel-Timestamp, dient aber nur der Sortierung, nie als Filter.
+
 ---
 
 ## 1. Aufnehmen
@@ -138,6 +152,10 @@ Geografie, wenn das Länderkürzel sie schon trägt.
 **Financials:** `Umsatz:`, `EBITDA:`, `Adj. EBITDA:`, `EBIT:`,
 `Marktkapitalisierung:`, `Mitarbeiter:`, `ARR:`, `Portfoliowert:`, `Bewertung:`,
 `Deal-Value:`. **Ohne Jahresangabe** — kein `2026e`, kein `FY25`.
+
+**Nur aus der Meldung.** Keine externe Recherche, keine Ergänzung aus
+Vorwissen, keine Schätzung. Fehlt eine Zahl in der Meldung, fehlt sie im
+Eintrag — das ist kein Mangel und wird auch nicht angemerkt.
 
 **Währung:** Originalwährung der Meldung, keine Umrechnung (CHF bleibt CHF, USD
 bleibt USD).
