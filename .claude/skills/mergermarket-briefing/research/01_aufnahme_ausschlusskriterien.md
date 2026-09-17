@@ -501,3 +501,20 @@ Prüfe in dieser Reihenfolge; **ein** Treffer genügt für REIN:
     Formulierung des Endstands: *ablehnender Grundton oder Zeithorizont ≥ 2 Jahre oder
     Zukaufsabsicht als bloße Randnotiz in einem Funding-Artikel → raus; alles andere → rein.*
     Das ist eine Rekonstruktion aus den Einzelfällen, keine im Chat ausgesprochene Regel.
+
+---
+
+## 7. NACHTRAG: Auflösung der offenen Punkte (17.09.26)
+
+Die in Abschnitt 6 dokumentierten Widersprüche sind vom Absender entschieden
+worden. Maßgeblich ist ab jetzt `SKILL.md`, Abschnitt 1.1–1.3:
+
+| Offener Punkt | Entscheidung |
+|---|---|
+| **1. Untergrenze Dealgröße** | Es gibt keine. Kleine Werte sind kein Ausschlussgrund. Quarkwerk wäre aufnahmefähig gewesen. |
+| **2. DACH-Akteur, außer-DACH-Ziel** | **Europa ja, außereuropäisch nein.** Kuehne+Nagel und MET Group bleiben drin, Sonova/Brasilien bleibt raus. Die im Chat vermutete, nie ausgesprochene Trennlinie ist damit bestätigt. |
+| **3. Ausländische Mutter, DACH-Sparte** | **Rein.** Die deutsche Sparte ist Aktivität im DACH-Raum, unabhängig vom Sitz der Mutter. Matthews/Olbrich war damit ein Fehlausschluss; CSN/Stahlwerk Thüringen markiert korrekt den Endstand (G17 schlägt G21). |
+| **4. Asset-/Standortverkäufe** | **Tendenziell immer rein**, dann im Flag-Block unter der Liste kennzeichnen. Lenzing/Heiligenkreuz wäre nach neuer Regel aufzunehmen gewesen. Die Entscheidung liegt beim Absender, nicht beim Skill. |
+| **5. Reverse-Merger / Cash-Shell** | Fällt unter 4 — aufnehmen und flaggen. |
+| **6. ARLANXEO-Typ** (DACH-Bezug nur über potenzielle deutsche Käufer) | Weiterhin ungeklärt. Im Zweifel aufnehmen und flaggen. |
+| **8. Sekundärsortierung innerhalb eines Tages** | Bleibt bewusst offen, keine Konvention. |

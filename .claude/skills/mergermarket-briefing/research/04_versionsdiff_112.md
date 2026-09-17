@@ -126,3 +126,32 @@ widerlegt, indem er die betreffenden Stellen unangetastet ließ:
 `Essenslieferplattform` → `Essenlieferplattform` ist ein Rechtschreibfehler
 (korrekt ist das Fugen-s). Robert schickt gelegentlich Tippfehler heraus. Ein
 Skill darf solche Einzelfälle nicht als Konvention lernen.
+
+---
+
+## 7. NACHTRAG: Entscheidung des Absenders (17.09.26)
+
+Abschnitt 2 stellt fest, dass die Mikroänderungen des Empfängers **deskriptiv**
+keine Regeln sind — er wendet sie in 1 von 4 bis 1 von 10 Fällen an.
+
+Der Absender hat daraufhin entschieden, sie **normativ** trotzdem durchgängig zu
+setzen (`SKILL.md`, Abschnitt 3): `IPO`, `Adj. EBITDA`, `Lincoln`, `via`, `DE`,
+Branche großgeschrieben.
+
+**Das ist kein Widerspruch zum Befund, sondern eine bewusste Setzung.** Die
+Begründung trägt: Von 14 Änderungen ging **keine einzige in die Gegenrichtung** —
+der Empfänger hat nie `IPO` zu `Börsengang`, nie `Lincoln` zu
+`Lincoln International` geändert. Die Richtung ist eindeutig, nur die
+Durchsetzung war lückenhaft. Eine durchgängige Anwendung erzeugt damit eine
+Liste, die konsistenter ist als seine eigene Fassung, ohne seiner Präferenz je
+zuwiderzulaufen.
+
+**Weiterhin ausgenommen** bleiben die beiden Fälle ohne Richtungsbeleg:
+- `Essenslieferplattform` → `Essenlieferplattform` (Tippfehler)
+- `Fokus` → `Fokus:` (1 von 10, steht zusätzlich in Spannung zur früheren
+  „mit Fokus"-Rückmeldung aus Z. 672)
+
+`via` ist der einzige Punkt ohne Beleg aus dieser Stichprobe — der Empfänger hat
+`über` mehrfach unverändert stehen lassen und `via` nie selbst gesetzt. Die Norm
+geht hier auf die eigene Regel des Absenders aus Z. 96 zurück, nicht auf eine
+Korrektur des Empfängers.
