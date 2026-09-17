@@ -157,8 +157,14 @@ des Satzes**, nicht automatisch dem Zielunternehmen.
 - **Unternehmen ist selbst Akteur** → Eigentümer steht als **letzter** Eintrag in
   der Klammer:
   `**KoRo Handels** (DE, Lebensmittel-Direktvertrieb, Umsatz: 252 Mio. EUR, **Kharis Capital**)`
-- **Akteur kauft** → er bekommt die Klammer, das Ziel nur (Land, Branche):
+- **Akteur kauft** → das **Ziel** bekommt die volle Klammer, der Käufer meist
+  gar keine:
+  `**HOCHTIEF** steht vor Übernahme von **autmatec** (DE, Stromleitungsbau, Umsatz: 43 Mio. EUR, EBITDA: 14 Mio. EUR, **Maxburg Capital Partners**)`
   `**Viessmann Generations Group** steht vor Erwerb einer 5%-Beteiligung an **FC Bayern München AG** (DE, Fußballclub)`
+  Eine Klammer beim Käufer nur, wenn er eine operative Firma mit eigenem
+  relevantem Kontext ist — dann schlank, Financials bleiben beim Ziel:
+  `**Aareal Bank** (DE, Immobilienfinanzierung, **Advent**/**Centerbridge Partners**) prüft Übernahme der **Hamburg Commercial Bank** (DE, Geschäftsbank, Eigenkapitalwert: 3,3 Mrd. EUR, **Cerberus Capital Management**)`
+  **Merksatz: Zahlen gehören dem, den sie beschreiben.**
 - `via Plattform X` **nur bei Zukäufen**, nie bei Verkäufen:
   `**Bregal** erwägt via Plattform **MDT Technologies** …`
 - **Akteur und verkaufte Sparte bekommen je eine eigene Klammer:**
@@ -187,8 +193,13 @@ Empfänger eine erwartete Zahl als Ist-Zahl. Nennt die Meldung nur eine
 Halbjahres- oder Quartalszahl, darf das Label mit (`Umsatz H1:`).
 
 `ARR:` gehört **nicht** in die Klammer, sondern in den Satz („Zielgröße bis
-5-7 Mio. EUR ARR"). Ebenso `Bewertung:` und `Deal-Value:` — die stehen im Satz,
-nicht in der Klammer.
+5-7 Mio. EUR ARR").
+
+`Bewertung:` steht normalerweise **in der Klammer** des bewerteten Objekts
+(`… an **Leica Camera** (DE, Kameraherstellung, Bewertung: ~1 Mrd. EUR, **Blackstone**)`).
+In den Satz rückt sie nur, wenn der Satz schon einen Preis trägt
+(`… für 250 Mio. EUR, Bewertung: 5 Mrd. EUR`) oder das Objekt keine eigene
+Klammer hat.
 
 **Nur aus der Meldung.** Keine externe Recherche, keine Ergänzung aus
 Vorwissen, keine Schätzung. Fehlt eine Zahl in der Meldung, fehlt sie im
@@ -475,6 +486,8 @@ Ein Fließtextabsatz, keine Überschrift. Einleitung z.B. `Kurze Anmerkung zu X:
    Alternative anbieten.
 3. Grenzfall, der eine Nutzerentscheidung braucht (sofern nicht schon in Block 2).
 4. Links ohne zugeordneten Artikeltext.
+5. Aufgenommener Sparten-, Teil- oder Standortverkauf — kurz benennen, damit vor
+   dem Absenden entschieden werden kann.
 
 **Verboten:**
 - Hinweise, dass ein Deal schon früher gelistet war („Update statt Neueintrag").

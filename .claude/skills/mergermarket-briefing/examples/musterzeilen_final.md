@@ -4,6 +4,15 @@ Die vom Empfänger final herausgeschickte Fassung, 112 Einträge.
 Als Referenz für Ton, Klammersetzung, Zahlenformat und Beraterfeld.
 Bei Zweifeln: den strukturell ähnlichsten Eintrag suchen und dessen Muster übernehmen.
 
+⚠️ **Die Fettung fehlt in dieser Datei.** Sie ging beim Kopieren aus Outlook
+verloren. Die Zeilen sind inhaltlich und strukturell korrekt, zeigen aber NICHT,
+was fett gesetzt wird. Dafür gilt ausschließlich SKILL.md 6.4: alle Unternehmens-
+und Akteursnamen fett, Berater nie. Diese Datei ist kein Beleg gegen die Fettung.
+
+Ebenso gestrippt: das Aufzählungszeichen am Zeilenanfang steht hier als `*`,
+weil es so gepastet wurde. Für die Antwort gilt SKILL.md Block 3 — gar kein
+Aufzählungszeichen.
+
 * 14.09.26: Equity House (CH, Asset Manager, Pollen Street Capital) plant erste Zukäufe unabhängiger Vermögens- und Asset-Manager, Fokus Schweiz, Deutschland und Luxemburg [Quelle](https://mergermarket.ionanalytics.com/content/1004539102?)
 * 14.09.26: Aareal Bank (DE, Immobilienfinanzierung, Advent/Centerbridge Partners) prüft Übernahme der Hamburg Commercial Bank (DE, Geschäftsbank, Eigenkapitalwert: 3,3 Mrd. EUR, Cerberus Capital Management) [Quelle](https://mergermarket.ionanalytics.com/content/1004539051?)
 * 11.09.26: STOCKMEIER Group (DE, Chemie) prüft Verkauf seiner Chemiedistributionssparte (EBITDA: 115 Mio. EUR), Sell-side Berater: Goldman Sachs [Quelle](https://mergermarket.ionanalytics.com/content/1004538863?)
