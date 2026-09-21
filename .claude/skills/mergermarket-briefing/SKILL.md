@@ -215,6 +215,12 @@ die Meldung nur Zahlen der Mutter, der Gruppe oder des kombinierten
 Unternehmens, bleibt die Klammer des Zielobjekts schlank. Beziehen sich die
 Zahlen auf die verkauften Assets, gehören sie zu den Assets — nicht zur Gruppe.
 
+**Teilzahlen werden im Label benannt.** Gehört eine Zahl nur zu einer Division,
+Region oder Sparte des Klammer-Trägers, muss das am Label stehen, sonst liest
+sie sich als Konzernzahl:
+`**TK Elevator** (DE, Aufzugstechnik, Adj. EBITDA Europa/Afrika: 414 Mio. EUR)`
+— nicht `Adj. EBITDA: 414 Mio. EUR`, denn TKE insgesamt liegt bei 1,6 Mrd. EUR.
+
 **Prognosen kommen rein — ungekennzeichnet und nachrangig.** Erwartete und
 prognostizierte Financials werden aufgenommen, wenn die Meldung keine Ist-Zahlen
 hergibt. Sie bekommen kein eigenes Label und keinen Jahreszusatz.
