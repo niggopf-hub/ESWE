@@ -218,8 +218,16 @@ Zahlen auf die verkauften Assets, gehören sie zu den Assets — nicht zur Grupp
 **Teilzahlen werden im Label benannt.** Gehört eine Zahl nur zu einer Division,
 Region oder Sparte des Klammer-Trägers, muss das am Label stehen, sonst liest
 sie sich als Konzernzahl:
-`**TK Elevator** (DE, Aufzugstechnik, Adj. EBITDA Europa/Afrika: 414 Mio. EUR)`
-— nicht `Adj. EBITDA: 414 Mio. EUR`, denn TKE insgesamt liegt bei 1,6 Mrd. EUR.
+`(DE, Medizintechnik, Umsatz Nordamerika: 120 Mio. EUR)` — nicht blankes
+`Umsatz:`, sonst liest sich die Teilzahl als Konzernzahl.
+
+**Deckt sich die Teilzahl nicht mit dem Verkaufsgegenstand, bleibt sie weg.**
+Dann lieber die Zahlen des Klammer-Trägers nehmen und den Gegenstand im Satz
+beschreiben. Beispiel TK Elevator: Verkauft wurden große Teile des
+*europäischen* Geschäfts, die verfügbare Zahl gehörte zur Division
+*Europa/Afrika* — ein größerer Zuschnitt. Ein Label „Adj. EBITDA Europa/Afrika"
+hätte nahegelegt, Afrika stehe mit zum Verkauf. Richtig ist TKEs eigene Zahl in
+der Klammer, das Perimeter im Satz.
 
 **Prognosen kommen rein — ungekennzeichnet und nachrangig.** Erwartete und
 prognostizierte Financials werden aufgenommen, wenn die Meldung keine Ist-Zahlen
