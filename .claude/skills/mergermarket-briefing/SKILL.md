@@ -215,19 +215,16 @@ die Meldung nur Zahlen der Mutter, der Gruppe oder des kombinierten
 Unternehmens, bleibt die Klammer des Zielobjekts schlank. Beziehen sich die
 Zahlen auf die verkauften Assets, gehören sie zu den Assets — nicht zur Gruppe.
 
-**Teilzahlen werden im Label benannt.** Gehört eine Zahl nur zu einer Division,
-Region oder Sparte des Klammer-Trägers, muss das am Label stehen, sonst liest
-sie sich als Konzernzahl:
-`(DE, Medizintechnik, Umsatz Nordamerika: 120 Mio. EUR)` — nicht blankes
-`Umsatz:`, sonst liest sich die Teilzahl als Konzernzahl.
+**Teilzahlen: im Zweifel weglassen.** Deckt sich eine Zahl eindeutig mit dem
+Objekt, wird ihr Zuschnitt am Label benannt
+(`Umsatz Nordamerika: 120 Mio. EUR`). **Ist unklar, welche Zahl wofür gilt,
+bleibt der Eintrag ohne Financials.** Kein Qualifier-Basteln, keine Näherung,
+kein Ausweichen auf die Konzernzahl — eine fehlende Zahl ist kein Mangel, eine
+irreführende schon.
 
-**Deckt sich die Teilzahl nicht mit dem Verkaufsgegenstand, bleibt sie weg.**
-Dann lieber die Zahlen des Klammer-Trägers nehmen und den Gegenstand im Satz
-beschreiben. Beispiel TK Elevator: Verkauft wurden große Teile des
-*europäischen* Geschäfts, die verfügbare Zahl gehörte zur Division
-*Europa/Afrika* — ein größerer Zuschnitt. Ein Label „Adj. EBITDA Europa/Afrika"
-hätte nahegelegt, Afrika stehe mit zum Verkauf. Richtig ist TKEs eigene Zahl in
-der Klammer, das Perimeter im Satz.
+Beispiel: Verkauft wurden große Teile des *europäischen* Geschäfts von
+TK Elevator, die einzige verfügbare Zahl gehörte zur Division *Europa/Afrika*
+— ein anderer Zuschnitt. Der Eintrag bekam deshalb gar keine Financials.
 
 **Prognosen kommen rein — ungekennzeichnet und nachrangig.** Erwartete und
 prognostizierte Financials werden aufgenommen, wenn die Meldung keine Ist-Zahlen
