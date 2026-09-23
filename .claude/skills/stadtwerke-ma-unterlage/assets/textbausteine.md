@@ -86,7 +86,7 @@ Drei Sätze in fester Rollenverteilung.
 
 ## 4. Quellen- und Fußnotenzeilen
 
-**Quellenzeile** (Platzhalter-Index 14):
+**Quellenzeile** (`rolle:quelle`):
 > Quellen: eigene Recherche, Jahresabschluss ‹Gesellschaft› ‹Jahr›, Jahresabschluss
 > ‹Tochter› ‹Jahr›, Unternehmenswebsite
 
@@ -94,7 +94,7 @@ Bei Zeitreihen:
 > Quellen: eigene Recherche, Jahres- und Tätigkeitsabschlüsse nach EnWG ‹Gesellschaft›
 > ‹J1›–‹J5›, Unternehmenswebsite
 
-**Fußnoten** (Index 15), die regelmäßig gebraucht werden:
+**Fußnoten** (`rolle:fussnote`), die regelmäßig gebraucht werden:
 
 > 1) Net Debt = Finanzverbindlichkeiten + Pensionsrückstellungen + Verbindlichkeiten
 > gegenüber verbundenen/assoziierten Unternehmen − liquide Mittel − Forderungen gegen

@@ -199,8 +199,15 @@ Nach jedem Kapitel anhalten und vorlegen. Die Details je Kapitel:
 
 ### Schritt 6 — In PowerPoint bauen
 
-**Grundregel: Die letzte Unterlage wird kopiert, und der Text wird in die vorhandenen
-Boxen und Tabellenzellen geschrieben. Es werden keine neuen Textfelder eingefügt.**
+**Grundregel: Die grüne Referenzunterlage wird kopiert, und der Text wird in die
+vorhandenen Boxen und Tabellenzellen geschrieben. Es werden keine neuen Textfelder
+eingefügt.**
+
+**Das Template ist seit September 2026 das neue Haus-Design** — Olivgrün `#44501A` statt
+Dunkelblau, Schriften Ninna Book und Cadiz, neues Signatur-Logo, neue Layouts (`Nur Titel`
+statt `Inhalt_0`). Referenzdatei ist `20260907_Metzler_DVV_vf.pptx`. Neue Unterlagen werden
+aus ihr abgeleitet, nie aus einer blauen Altunterlage; Folien aus dem alten Template werden
+nicht hineinkopiert, sondern im neuen neu aufgebaut.
 
 Das Template trägt Master, Schriften, Farben, Fußzeilen und die think-cell-Objekte. Ein neu
 eingefügtes Textfeld erbt nichts davon: andere Schrift, verrutschte Position, und beim
@@ -208,8 +215,10 @@ nächsten Bearbeiten fällt es auf.
 
 Vollständige Mechanik in `references/powerpoint.md`. Das Wichtigste:
 
-- Jede Inhaltsfolie hat feste Platzhalter, die alle befüllt gehören: Aussagentitel,
-  Kapitelkolumne, Bereichsüberschriften, **Quellenzeile**, **Fußnotenzeile**.
+- Jede Inhaltsfolie hat feste Rollen, die alle befüllt gehören: Aussagentitel,
+  Kapitelkolumne, **Quellenzeile**, **Fußnotenzeile**, optional die Subline. **Über Rollen
+  adressieren (`rolle:quelle`), nicht über Indizes:** `ph:14` war im alten Template die
+  Quelle, im neuen ist es die Subline direkt unter dem Titel.
 - Diagramme sind think-cell-Objekte. Nicht programmatisch ersetzen — die Datenreihen aus dem
   Modell in think-cell eintragen. **Ein erhaltenes think-cell-Objekt kann alte Daten zeigen;**
   jedes Diagramm gehört einzeln abgeglichen (Übergabeliste in `references/powerpoint.md`).
@@ -222,8 +231,13 @@ Die Prüfliste am Ende dieser Datei abarbeiten und beide Skriptprüfungen zusamm
 lassen:
 
 ```bash
-python3 scripts/inspect_deck.py neu.pptx --check --vergleich vorlage.pptx
+python3 scripts/inspect_deck.py neu.pptx --check --vergleich vorlage.pptx \
+        --fremdnamen "<Vorgängermandant>,<seine Stadt>,<seine Töchter>"
 ```
+
+Die Fremdnamenliste ist Pflicht, sobald die Vorlage von einem anderen Mandanten stammt —
+in der DVV-v1 stand der Vorgängername sogar in der Agenda, sodass keine andere Prüfung ihn
+als fremd erkannt hätte.
 
 **Was die Skripte nicht prüfen — und was deshalb trotz grüner Meldung offen ist:** ob die
 Zahlen stimmen, ob die Diagramme die aktuellen Daten zeigen, und wie die Folien aussehen.
@@ -282,7 +296,7 @@ Spalte „Folie" unten ist die Regelbesetzung, nicht die einzig zulässige.
 | 19 | Mögliche Ziele des Unternehmens *(i)* | Was das Haus selbst erreichen will, aus Abschlüssen und Presse abgeleitet |
 | 20 | Ansatzpunkte für direkte Vorschläge *(ii)* | Finanzierung, Eigenkapital, Portfolio/Struktur, Operativ |
 | 21 | Mehrwert des Hauses | Warum wir, in sechs Punkten |
-| 22 | Disclaimer | Standardtext aus dem Master |
+| 22 | Rechtliche Hinweise | Standardtext aus dem Layout |
 
 ## Mechanik und Urteil trennen
 
@@ -370,6 +384,14 @@ den alten Mandanten, Felder (Foliennummer, Datum, eingefügte Werte) und weiche 
 stehenbleiben — im Textfeld unsichtbar, in der Datei vorhanden, beim Klick sichtbar.
 `fill_deck.py` entfernt sie und meldet, was es weggeworfen hat; wer von Hand ersetzt, prüft
 es selbst.
+
+**Alte Platzhalter-Zuordnung im neuen Template.** Wer Quellen nach alter Gewohnheit in
+`ph:14` schreibt, setzt sie im grünen Template als Subline unter den Titel — ohne
+Fehlermeldung, weil der Platzhalter existiert. Deshalb `rolle:quelle`.
+
+**Zwei Kolumnen, zwei Mandanten.** In der DVV-v1 standen auf Folien 12–13 „2. Duisburger
+Versorgungs- …" und auf 14–17 „2. evm AG …", in der Agenda „evm AG" und auf dem Trenner
+„DVV … mbh". Drei verschiedene Kapitelnamen in einem Kapitel — jeder für sich unauffällig.
 
 **Tabellen werden übersehen.** One Pager und Financial-Tabelle stehen in Tabellen, nicht in
 Textrahmen. Wer nur Textrahmen kontrolliert, prüft genau die Folien nicht, auf denen die

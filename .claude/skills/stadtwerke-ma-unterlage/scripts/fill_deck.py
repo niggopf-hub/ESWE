@@ -14,6 +14,8 @@ entfernt sie ausdruecklich und meldet, was es dabei weggeworfen hat.
     python3 fill_deck.py deck.pptx --map befuellung.json --dry-run
 
 Zieladressen:
+    "rolle:quelle"         Rolle der Folie - empfohlen, weil template-unabhaengig.
+                           Rollen: titel, kolumne, subline, quelle, fussnote, bereich
     "ph:13"                Platzhalter mit diesem Index
     "name:Text Box 29"     Shape mit exakt diesem Namen (muss eindeutig sein)
     "name:Tab1!r2c1"       Zelle Zeile 2, Spalte 1 der Tabelle 'Tab1' (1-basiert)
@@ -46,6 +48,9 @@ try:
     from pptx.oxml.ns import qn
 except ImportError:
     sys.exit("Fehlt: pip install python-pptx")
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import vorlage  # noqa: E402  gemeinsame Template-Logik
 
 ZELLE = re.compile(r"^(?P<ziel>.+?)!r(?P<r>\d+)c(?P<c>\d+)$")
 # Elemente, die beim Ersetzen sichtbaren oder unsichtbaren Altbestand tragen
@@ -150,30 +155,8 @@ def schreibe(textframe, inhalt):
 
 
 def platzschaetzung(shape, text):
-    """Grobe Warnung, wenn der Text die Box sprengt. Ersetzt keine Sichtpruefung."""
-    try:
-        breite_cm = shape.width / 360000
-        hoehe_cm = shape.height / 360000
-    except (TypeError, AttributeError):
-        return None
-    if not breite_cm or not hoehe_cm:
-        return None
-    groesse_pt = 9.0
-    for para in shape.text_frame.paragraphs:
-        for r in para.runs:
-            if r.font.size:
-                groesse_pt = r.font.size.pt
-                break
-        break
-    zeichen_breite_cm = groesse_pt * 0.0352778 * 0.5
-    zeilen_hoehe_cm = groesse_pt * 0.0352778 * 1.25
-    pro_zeile = max(1, int(breite_cm / zeichen_breite_cm))
-    passt = max(1, int(hoehe_cm / zeilen_hoehe_cm)) * pro_zeile
-    laenge = len(text)
-    if laenge > passt * 1.15:
-        return (f"Text ({laenge} Zeichen) passt rechnerisch nicht in die Box "
-                f"(~{passt} Zeichen bei {groesse_pt:.0f} pt). Sichtpruefung noetig.")
-    return None
+    r = vorlage.ueberlauf(shape, text)
+    return f"Text {r}. Sichtpruefung noetig." if r else None
 
 
 def loese_ziel(slide, adresse):
@@ -183,9 +166,20 @@ def loese_ziel(slide, adresse):
     if m:
         adresse, zelle = m.group("ziel"), (int(m.group("r")), int(m.group("c")))
     art, _, wert = adresse.partition(":")
-    if art not in ("ph", "name"):
-        return None, None, f"'{adresse}': unbekannte Adressart (erlaubt: ph:, name:)"
-    treffer = finde_shapes(slide, art, wert)
+    if art not in ("ph", "name", "rolle"):
+        return None, None, f"'{adresse}': unbekannte Adressart (erlaubt: rolle:, ph:, name:)"
+    if art == "rolle":
+        if wert not in vorlage.ROLLEN_MUSTER and wert != "titel":
+            return None, None, (f"'{adresse}': unbekannte Rolle "
+                                f"(erlaubt: titel, {', '.join(vorlage.ROLLEN_MUSTER)})")
+        treffer = vorlage.finde_rolle(slide, wert)
+        if not treffer:
+            return None, None, (
+                f"'{adresse}': Folie hat keine Box fuer diese Rolle - keine neue angelegt. "
+                "Die Box von einer Nachbarfolie desselben Layouts kopieren (gleiche "
+                "Position, gleiches Format) und dann befuellen.")
+    else:
+        treffer = finde_shapes(slide, art, wert)
     if not treffer:
         return None, None, (f"'{adresse}' nicht gefunden - keine neue Box angelegt. "
                             "Ziel mit inspect_deck.py pruefen.")

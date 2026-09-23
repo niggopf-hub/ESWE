@@ -233,7 +233,7 @@ anderen machen sichtbar, dass es diesen Weg nicht gibt.
 ## 8. KPI-Kachelblock (Variante zum One Pager)
 
 ```
-┌──────────────────┐   Wert:        9 pt, Primärfarbe #003D7C
+┌──────────────────┐   Wert:        9 pt, Primärfarbe #44501A
 │  ‹X› Mio. EUR    │   Bezeichnung: 9 pt, schwarz, mit Jahr
 │  Umsatz ‹J›      │   Vorjahr:     kleinere Zeile darunter
 │  ‹Y› Mio. EUR    │

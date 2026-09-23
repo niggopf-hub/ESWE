@@ -4,8 +4,12 @@ Neutrale Vorlage. Alle unternehmensbezogenen Angaben stehen als Platzhalter in
 ‹spitzen Klammern›. Nichts hier ist Inhalt, den man übernehmen darf — es ist die Form, in
 die der recherchierte Inhalt gegossen wird.
 
-Konventionen: `[Titel]` = Platzhalter-Index 0 · `[Kolumne]` = Index 13 ·
-`[Quellen]` = Index 14 · `[Fußnoten]` = Index 15 · `[Bereich]` = Bereichsüberschrift.
+Konventionen: `[Titel]` = `rolle:titel` · `[Kolumne]` = `rolle:kolumne` ·
+`[Subline]` = `rolle:subline` · `[Quellen]` = `rolle:quelle` · `[Fußnoten]` =
+`rolle:fussnote` · `[Bereich]` = Bereichsüberschrift. Die Rollen statt Indizes, weil sich
+die Indizes mit dem Template-Wechsel 09/2026 geändert haben (siehe `references/powerpoint.md`).
+
+Vorlage ist das grüne Haus-Template, Referenzdatei `20260907_Metzler_DVV_vf.pptx`.
 
 ---
 
@@ -24,20 +28,25 @@ Ort / Datum               ‹Sitz des Adressaten› / ‹Sitz des Hauses›, ‹
 ## 2 — Agenda
 
 ```
+Layout   Agenda 2 — die Agenda ist eine Tabelle
 [Titel]  Agenda
-  1  ‹Haus› Corporate Finance – Übersicht und Referenzen
-  2  ‹Gesellschaft› – Übersicht und Herausforderungen
-  3  Diskussion möglicher Handlungsoptionen
+  01 │ ‹Haus› Corporate Finance – Vorstellung und Referenzen │ ‹Seite›
+  02 │ ‹Gesellschaft› – Übersicht und Herausforderungen      │ ‹Seite›
+  03 │ Diskussion möglicher Handlungsoptionen                │ ‹Seite›
 ```
 
+Die Seitenzahlen in der rechten Spalte zeigen auf die Kapiteltrenner und müssen nach jedem
+Einfügen oder Löschen einer Folie nachgezogen werden.
+
 Die drei Kapitelnamen müssen **wortgleich** auf den Trennerfolien und in jeder
-Kapitelkolumne (Index 13) stehen.
+Kapitelkolumne (`rolle:kolumne`) stehen.
 
 ## 3 / 11 / 18 — Kapiteltrenner
 
 ```
-Kapitelnummer (Index 10)  1 | 2 | 3
-Kapiteltitel  (Index 11)  ‹Kapitelname wie in der Agenda›
+Layout                    Kapitel 2
+Kapitelnummer (ph:10)     01 | 02 | 03
+Kapiteltitel  (ph:0)      ‹Kapitelname wie in der Agenda›
 ```
 
 ---
@@ -310,7 +319,7 @@ Einschätzung inklusive Nachteilen · Investorenlandschaft institutionell gegen 
     keine Interessenkonflikte
 ```
 
-## 22 — Disclaimer
+## 22 — Rechtliche Hinweise
 
-Standardtext aus dem Master-Layout `Disclaimer_deutsch`. Nicht neu schreiben, nur prüfen,
+Standardtext aus dem Layout `Rechtliche Hinweise`. Nicht neu schreiben, nur prüfen,
 dass die Kontaktangaben stimmen.
