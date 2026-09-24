@@ -1,0 +1,54 @@
+{
+  "skill_name": "stadtwerke-ma-unterlage",
+  "evals": [
+    {
+      "id": 0,
+      "name": "storyline-und-tonlage",
+      "prompt": "Für die Stadtwerke Musterstadt GmbH soll eine Unterlage entstehen wie bei DVV. Die Jahresabschlüsse 2021–2024 und der Geschäftsbericht 2025 liegen im Projekt. Fang an.",
+      "expected_output": "Schritt 0 (Einheit, Anlass, Adressat) geklärt oder gefragt; Materialstand mit Dateirollen und Lücken; Financial Model im Hausformat aus den Abschlüssen mit Kontrollen; Research-Dossier; Storyline-Hypothese mit Tonlage A/B/C aus den vier Kennzahlen, Gegenhypothese und den drei Kernsätzen; Zwischenstopp zur Freigabe. Keine fertigen Folien vor der Freigabe.",
+      "files": [],
+      "assertions": [
+        "Fragt oder klärt Einheit (Einzel/Konzern), Anlass und Adressat, bevor Zahlen übernommen werden",
+        "Vergibt jeder Datei im Projekt eine Rolle und nennt Lücken",
+        "Baut oder beschreibt das Financial Model im Format der Vorlage (Mio. EUR, Cover, Overview FS, Input-Blätter, Quellen & Hinweise) mit Kontrollzeilen",
+        "Legt EBIT/EBITDA nach Einheit und die Net-Debt-Stufe nach Datenlage fest und begründet sie",
+        "Leitet eine Tonlage (A Engpass, B Stark aber, C Wachstum) aus den vier Größen ab und nennt die Gegenhypothese",
+        "Formuliert die drei Kernsätze (Ausgangslage, Verschuldung, Financials) als Vorschlag",
+        "Endet mit einem Zwischenstopp zur Freigabe statt mit fertigen Folien"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "financials-folie-und-kommentar",
+      "prompt": "Ich brauche die Financials-Folie und die Verschuldungsfolie für die Stadtwerke Musterstadt. Modell liegt im Projekt. Bitte Titel, Kommentar, Kernsätze und die Excel-Blöcke.",
+      "expected_output": "Titel nach dem DVV/ESWE-Muster; Kommentar in der Reihenfolge Umsatz, Material, Ergebnis mit Sondereffekt, Cashflow, im Nominalstil mit absoluten Mio.-EUR-Beträgen; Kernsatz-Kasten nach Tonlage; Verschuldungs-Kernsatz nach dem Muster Faktor als Kompliment, dann jedoch; Net-Debt-Definition in der Fußnote; die think-cell-Blöcke GuV-Chart, Cashflow-Chart, Bilanz-Chart, Verschuldung aus dem Modell; gelbe Kästen TC auf jedem Chart.",
+      "files": [],
+      "assertions": [
+        "Titel der Financials-Folie ist ein Aussagesatz nach dem Muster 'Stabile Ertragsbasis …, jedoch übersteigt der Investitionsbedarf die operative Cash-Generierung' (oder Tonlage C-Variante)",
+        "Kommentar im Nominalstil ohne während/sodass/denn/obwohl, Reihenfolge Umsatz, Materialaufwand, Ergebnis, Cashflow",
+        "Beträge in Mio. EUR, kein Euro-Zeichen, Prozent als Zeichen, 'Cashflow' im Text",
+        "Sondereffekte benannt und beziffert",
+        "Schlussfolgerung steht im Kernsatz-Kasten, nicht im Kommentar; 'scheint' nur ohne Beleg",
+        "Verschuldungs-Kernsatz folgt dem Muster Kompliment, dann 'jedoch' mit Mechanismus",
+        "Net Debt mit Definition in der Fußnote, Stufe wie im Modell",
+        "Nennt die think-cell-Blöcke aus Overview FS und setzt gelbe TC-Kästen auf die Charts"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ppt-boxen-und-tbd",
+      "prompt": "Nimm die DVV-vf aus dem Projekt als Vorlage und bau Kapitel 2 für die Stadtwerke Musterstadt. Texte liegen im Report-Entwurf, Charts mache ich selbst in think-cell.",
+      "expected_output": "Kopie der grünen Vorlage; Text in vorhandene Boxen per rolle:/id:; Investitionstabelle auf die Spaltenzahl des Falls gebracht; Einheitsname Mergers & Acquisitions; gelbe Kästen TC/LOGO/PRUEFEN nummeriert; inspect_deck --check --vergleich --fremdnamen und stil_check ohne Befund; think-cell unangetastet.",
+      "files": [],
+      "assertions": [
+        "Erzeugt eine .pptx als Kopie der grünen DVV-vf, nicht aus einer blauen Vorlage",
+        "Schreibt Text nur in vorhandene Boxen (Vergleich meldet außer TBD-Kästen und Spaltenkopien keine neuen Shapes)",
+        "Reihenfolge Kapitel 2: Ausgangslage, Beteiligung, Kunden und Netz, Financials, Verschuldung",
+        "Kolumnen, Agenda, Trenner tragen den neuen Kapitelnamen; kein 'DVV'/'Duisburg' mehr; Einheitsname 'Mergers & Acquisitions'",
+        "Gelbe Kästen liegen auf allen think-cell-Diagrammen und sind nummeriert; tbd_box.py --list wird in den Report übernommen",
+        "think-cell-Objekte und Diagramme wurden nicht ersetzt oder gelöscht",
+        "stil_check.py meldet keine Befunde (Euro-Zeichen, Prozent-Wort, Cash Flow, Corporate Finance)"
+      ]
+    }
+  ]
+}
